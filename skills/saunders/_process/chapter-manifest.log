@@ -7,7 +7,7 @@
     - type: front
     - title: Front Matter (copyright, table of contents, epigraph)
     - lines: 1-187
-    - status: pending
+    - status: saturated
 
 - Chapter 2
     - type: front

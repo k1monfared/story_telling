@@ -9,6 +9,7 @@ from tools.validate_skills import (
     validate_body,
     validate_book_matches_parent,
     validate_frontmatter,
+    validate_related_references,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -150,3 +151,32 @@ def test_validate_book_matches_parent_allows_cross_book_in_recipes():
     skill.frontmatter["book"] = "cross-book"
     skill.frontmatter["type"] = "composed"
     validate_book_matches_parent(skill)
+
+
+def test_validate_related_references_accepts_existing_targets():
+    skill_path = (
+        FIXTURES
+        / "valid"
+        / "skills"
+        / "example"
+        / "example-skill"
+        / "SKILL.md"
+    )
+    skill = load_skill(skill_path)
+    skill.frontmatter["related"] = [{"extends": "example-skill"}]
+    validate_related_references(skill, all_skill_slugs={"example-skill"})
+
+
+def test_validate_related_references_rejects_missing_target():
+    skill_path = (
+        FIXTURES
+        / "valid"
+        / "skills"
+        / "example"
+        / "example-skill"
+        / "SKILL.md"
+    )
+    skill = load_skill(skill_path)
+    skill.frontmatter["related"] = [{"extends": "nonexistent-skill"}]
+    with pytest.raises(SkillValidationError, match="related 'extends' points to unknown skill 'nonexistent-skill'"):
+        validate_related_references(skill, all_skill_slugs={"example-skill"})

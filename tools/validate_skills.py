@@ -108,3 +108,33 @@ def validate_book_matches_parent(skill: Skill) -> None:
         raise SkillValidationError(
             f"{skill.path}: book '{declared_book}' does not match parent directory '{parent_book}'"
         )
+
+
+RELATED_VERBS = ("extends", "refines", "contrasts", "composed-of")
+
+
+def validate_related_references(skill: Skill, all_skill_slugs: set[str]) -> None:
+    """Every slug referenced in related: must exist in the library."""
+    related = skill.frontmatter.get("related", [])
+    if not related:
+        return
+    if not isinstance(related, list):
+        raise SkillValidationError(
+            f"{skill.path}: 'related' must be a list, got {type(related).__name__}"
+        )
+    for entry in related:
+        if not isinstance(entry, dict):
+            raise SkillValidationError(
+                f"{skill.path}: each 'related' entry must be a mapping"
+            )
+        for verb, target in entry.items():
+            if verb not in RELATED_VERBS:
+                raise SkillValidationError(
+                    f"{skill.path}: related verb '{verb}' is not one of {RELATED_VERBS}"
+                )
+            targets = target if isinstance(target, list) else [target]
+            for slug in targets:
+                if slug not in all_skill_slugs:
+                    raise SkillValidationError(
+                        f"{skill.path}: related '{verb}' points to unknown skill '{slug}'"
+                    )

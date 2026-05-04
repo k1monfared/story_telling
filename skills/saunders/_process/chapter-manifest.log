@@ -1,0 +1,166 @@
+- Saunders chapter manifest
+    - source: /home/k1/books/text/literature/A Swim in a Pond in the Rain.txt
+    - generated: 2026-05-04
+    - total chapters: 27
+
+- Chapter 1
+    - type: front
+    - title: Front Matter (copyright, table of contents, epigraph)
+    - lines: 1-187
+    - status: pending
+
+- Chapter 2
+    - type: front
+    - title: We Begin
+    - lines: 188-278
+    - status: pending
+
+- Chapter 3
+    - type: essay
+    - title: A Page at a Time: Thoughts on "In the Cart" (interlaced with the Chekhov story "In the Cart")
+    - lines: 279-1349
+    - status: pending
+
+- Chapter 4
+    - type: essay
+    - title: Afterthought #1
+    - lines: 1350-1406
+    - status: pending
+
+- Chapter 5
+    - type: story
+    - title: The Singers (Ivan Turgenev)
+    - lines: 1407-1635
+    - status: pending
+
+- Chapter 6
+    - type: essay
+    - title: The Heart of the Story: Thoughts on "The Singers"
+    - lines: 1636-2159
+    - status: pending
+
+- Chapter 7
+    - type: essay
+    - title: Afterthought #2
+    - lines: 2160-2350
+    - status: pending
+
+- Chapter 8
+    - type: story
+    - title: The Darling (Anton Chekhov)
+    - lines: 2351-2542
+    - status: pending
+
+- Chapter 9
+    - type: essay
+    - title: A Pattern Story: Thoughts on "The Darling"
+    - lines: 2543-3185
+    - status: pending
+
+- Chapter 10
+    - type: essay
+    - title: Afterthought #3
+    - lines: 3186-3250
+    - status: pending
+
+- Chapter 11
+    - type: story
+    - title: Master and Man (Leo Tolstoy)
+    - lines: 3251-4172
+    - status: pending
+
+- Chapter 12
+    - type: essay
+    - title: And Yet They Drove On: Thoughts on "Master and Man"
+    - lines: 4173-4748
+    - status: pending
+
+- Chapter 13
+    - type: essay
+    - title: Afterthought #4
+    - lines: 4749-4832
+    - status: pending
+
+- Chapter 14
+    - type: story
+    - title: The Nose (Nikolai Gogol)
+    - lines: 4833-5167
+    - status: pending
+
+- Chapter 15
+    - type: essay
+    - title: The Door to the Truth Might Be Strangeness: Thoughts on "The Nose"
+    - lines: 5168-5694
+    - status: pending
+
+- Chapter 16
+    - type: essay
+    - title: Afterthought #5
+    - lines: 5695-5811
+    - status: pending
+
+- Chapter 17
+    - type: story
+    - title: Gooseberries (Anton Chekhov)
+    - lines: 5812-5938
+    - status: pending
+
+- Chapter 18
+    - type: essay
+    - title: A Swim in a Pond in the Rain: Thoughts on "Gooseberries"
+    - lines: 5939-6403
+    - status: pending
+
+- Chapter 19
+    - type: essay
+    - title: Afterthought #6
+    - lines: 6404-6524
+    - status: pending
+
+- Chapter 20
+    - type: story
+    - title: Alyosha the Pot (Leo Tolstoy)
+    - lines: 6525-6648
+    - status: pending
+
+- Chapter 21
+    - type: essay
+    - title: The Wisdom of Omission: Thoughts on "Alyosha the Pot"
+    - lines: 6649-7237
+    - status: pending
+
+- Chapter 22
+    - type: essay
+    - title: Afterthought #7
+    - lines: 7238-7291
+    - status: pending
+
+- Chapter 23
+    - type: back
+    - title: We End
+    - lines: 7292-7471
+    - status: pending
+
+- Chapter 24
+    - type: back
+    - title: Appendix A: A Cutting Exercise
+    - lines: 7472-7574
+    - status: pending
+
+- Chapter 25
+    - type: back
+    - title: Appendix B: An Escalation Exercise
+    - lines: 7575-7649
+    - status: pending
+
+- Chapter 26
+    - type: back
+    - title: Appendix C: A Translation Exercise
+    - lines: 7650-7742
+    - status: pending
+
+- Chapter 27
+    - type: back
+    - title: Back Matter (Dedication, Acknowledgments, Texts, Other Sources Consulted, Additional Resources, Credits, By George Saunders, About the Author)
+    - lines: 7743-7962
+    - status: pending

@@ -1,0 +1,7 @@
+- Saunders saturation calls
+    - format: one entry per chapter when first-pass extraction completes
+    - entry shape:
+        - what came out of this chapter
+        - what kinds of moves the chapter is about that did NOT make the gate
+        - why those did not make it
+        - decision: saturated | re-sweep needed

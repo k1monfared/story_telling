@@ -12,14 +12,12 @@ Seven Russian short stories, each followed by an essay-length response from Saun
 
 ## The lens
 
-Saunders reads from the reader's experience, not from theme or symbol. His central question: "What did we feel and where did we feel it?" He treats a story as "a linear-temporal phenomenon," made meaning "at speed, a small structural pulse at a time." Each line creates expectations the next must respond to. He is explicitly anti-academic, calling himself "more vaudevillian than scholar," and prefers strategic questions ("Why do we even need that second return to the village?") over interpretive ones.
+Saunders reads from the reader's experience, not from theme or symbol. His central question: "What did we feel and where did we feel it?" He attends to a story as it unfolds in time, line by line, with each moment shaping what the next must do. He is explicitly anti-academic, calling himself "more vaudevillian than scholar," and prefers strategic questions about how a story works to interpretive questions about what it means.
 
 ## Vocabulary (named concepts to inherit)
 
-- **The basic drill**: read the story, then turn your mind to the experience you just had. Any honest reaction is valid; no literary jargon required.
+- **The basic drill**: read the story, then turn your mind to the experience you just had. Any honest reaction is valid, no literary jargon required.
 - **Iconic space**: the place from which a writer writes the stories only they could write, using their own strengths, weaknesses, obsessions.
-- **Expectation/resolution**: a story is a series of these pulses. Each line raises expectations; subsequent lines satisfy or complicate them.
-- **Specification / meaningful action**: characterization is increasing specification ("Which particular person is this?"); Saunders prefers "meaningful action" to "plot."
 - **Rhetorical trial balloons**: his proposed models are not doctrine. He invokes the Buddhist image of "a finger pointing at the moon," judging any model by "Is it helping?"
 - **Resistance literature**: he frames these stories as quiet political resistance, grounded in the radical idea that every human being is worthy of attention.
 

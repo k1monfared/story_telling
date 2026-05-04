@@ -1,3 +1,33 @@
 - Saunders extraction candidates
     - format: per candidate, list chapter, location, paraphrase, situation, outcome
     - outcomes: → promoted to <slug>, → folded into <slug>, → dropped because <reason>
+
+- Chapter 2: We Begin
+    - location: lines 243, 247
+    - paraphrase: after finishing a story, collect honest felt reactions and locate each one at a specific spot on the page, refusing literary jargon
+    - situation: you have just finished reading a story and want to learn from it (as reader or writer) without skipping the diagnostic data your own reactions provide
+    - outcome: → promoted to the-basic-drill
+
+- Chapter 2: We Begin
+    - location: line 241
+    - paraphrase: when discussing or evaluating a story, shift the question from interpretive (what does X mean, what is X a metaphor for) to strategic (what is X doing for the reader, why do we need X)
+    - situation: you are critiquing, teaching, revising, or workshopping a story and risk producing an interpretation that says nothing about how the story actually works
+    - outcome: → promoted to ask-strategic-not-interpretive
+
+- Chapter 2: We Begin
+    - location: line 271
+    - paraphrase: judge a craft model, theory, or slogan by whether it is helping you reach the desired state of mind, not by whether it is correct (finger pointing at the moon, criterion: is it helping)
+    - situation: you encounter a piece of writing advice, theory, or model and have to decide whether to adopt it, debate it, or discard it
+    - outcome: → promoted to is-it-helping
+
+- Chapter 2: We Begin
+    - location: lines 193, 197
+    - paraphrase: keep a small set of touchstone stories as your high bar against which to measure your own work
+    - situation: a writer wants an external standard for their own work
+    - outcome: → dropped because the chapter mentions this in passing as autobiographical practice, with no concrete action, no observable signal, and no failure mode that distinguishes it from generic advice
+
+- Chapter 2: We Begin
+    - location: line 251
+    - paraphrase: treat reading as workbook work, with intent to go deeper than a first read allows
+    - situation: a reader wants more than a casual encounter with a story
+    - outcome: → folded into the-basic-drill (the drill itself is the "deeper than first read" mechanism Saunders is naming)

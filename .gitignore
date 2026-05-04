@@ -6,3 +6,8 @@ node_modules/
 .claude/cache/
 .mcp/logs/
 *.claude-session
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -36,3 +36,29 @@ def load_skill(path: Path) -> Skill:
     if not isinstance(frontmatter, dict):
         raise SkillValidationError(f"{path}: frontmatter is not a mapping")
     return Skill(path=path, frontmatter=frontmatter, body=body)
+
+
+REQUIRED_FRONTMATTER_FIELDS = ("name", "description", "type", "book", "sources", "tags")
+VALID_TYPES = ("atomic", "composed")
+
+
+def validate_frontmatter(skill: Skill) -> None:
+    """Validate required frontmatter fields are present and have valid values."""
+    fm = skill.frontmatter
+    for field in REQUIRED_FRONTMATTER_FIELDS:
+        if field not in fm:
+            raise SkillValidationError(
+                f"{skill.path}: missing required field '{field}' in frontmatter"
+            )
+    if fm["type"] not in VALID_TYPES:
+        raise SkillValidationError(
+            f"{skill.path}: type '{fm['type']}' is not one of {VALID_TYPES}"
+        )
+    if not isinstance(fm["sources"], list):
+        raise SkillValidationError(
+            f"{skill.path}: 'sources' must be a list, got {type(fm['sources']).__name__}"
+        )
+    if not isinstance(fm["tags"], list):
+        raise SkillValidationError(
+            f"{skill.path}: 'tags' must be a list, got {type(fm['tags']).__name__}"
+        )

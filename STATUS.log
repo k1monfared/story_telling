@@ -1,69 +1,75 @@
 - Project Status
-    - Last Updated: YYYY-MM-DD
-    - Development Mode: [Claude Code | Manual | Hybrid]
-    - Stage: Initial Setup
-    - Next Milestone: [Description of next goal]
+    - Last Updated: 2026-05-04
+    - Development Mode: Claude Code
+    - Stage: POC
+    - Next Milestone: First book extraction (Saunders) — produces first SKILL.md files
 
 - Development Stages
     - [x] Initial Setup
-        - Created: YYYY-MM-DD
+        - Created: 2026-05-03
         - Repository initialized
         - Basic structure in place
         - Template copied from claude_code_project_template
-    - [] Proof of Concept (POC)
-        - Target: YYYY-MM-DD
-        - Goal: Validate core concept and technology choices
+    - [x] Proof of Concept (POC) — foundation
+        - Completed: 2026-05-04
+        - Goal: Validate the library design with scaffolding, methodology, and validator
         - Success criteria:
-            - [] Key feature X works
-            - [] Technology stack validated
-            - [] Basic end-to-end flow demonstrated
+            - [x] Skills library directory structure created
+            - [x] Book-agnostic PROCESS.md written
+            - [x] SKILL.md validator with full test coverage
+            - [x] All three initial books converted to plain text
     - [] Minimum Viable Product (MVP)
-        - Goal: First usable version with core features
+        - Goal: Saunders book fully processed end-to-end
         - Core features:
-            - [] Feature A
-            - [] Feature B
-            - [] Feature C
+            - [] _book.md for Saunders written
+            - [] All Saunders chapters extracted, gated, saturated
+            - [] Saunders skills cross-referenced and added to CATALOG.md
         - Known issues:
-            - [List bugs that block demo/production]
+            - None yet
     - [] Beta Release
-        - Goal: Feature-complete but needs polish
+        - Goal: All three initial books processed
         - Missing features:
-            - [] Feature X
-            - [] Feature Y
-            - [] Feature Z
+            - [] Thanks for the Feedback fully processed
+            - [] Difficult Conversations fully processed
+            - [] Cross-book recipes written
         - Active users: N/A
-        - Stability: [Assessment]
+        - Stability: Pre-release
     - [] Production Ready
-        - Goal: Stable, documented, tested
-        - Deployment status: [Not deployed | Staging | Production]
-        - Documentation: [Complete | In Progress | Needed]
-        - Tests: [Coverage percentage or status]
+        - Goal: Library is auditable and contributors can add new books
+        - Deployment status: Not deployed
+        - Documentation: PROCESS.md + skills/README.md complete
+        - Tests: validator tests passing
     - [] Maintenance Mode
         - Core complete and stable
         - Nice-to-haves queued:
-            - Enhancement A
-            - Enhancement B
-            - Enhancement C
+            - Generated CATALOG.md from frontmatter tags
+            - HTML render of skills via loglog
+            - Search across skills
 
 - Technical Details
     - Tech Stack:
-        - [List technologies, languages, frameworks]
+        - Markdown for all documentation and skills
+        - Python 3 + pytest + PyYAML for the validator
+        - pandoc / ebook-convert / pdftotext for source conversion
+        - loglog for status tracking and process logs
     - Key Files:
-        - [Important files and their purposes]
+        - PROCESS.md, the book-agnostic extraction methodology
+        - skills/README.md, how to use the library
+        - skills/CATALOG.md, scenario index
+        - tools/validate_skills.py, SKILL.md validator
+        - docs/superpowers/specs/2026-05-04-storytelling-skills-design.md, design
     - Architecture Notes:
-        - [Key design decisions]
-        - [Patterns used]
-        - [Dependencies]
+        - Skills organized by source book. cross-book/ holds composed recipes that span books
+        - Each book's _process/ folder is the committed extraction trail
+        - Source book text lives alongside the source files in the books folder, not in this repo
 
 - Current Focus
     - Active Tasks:
-        - [] Task 1
-        - [] Task 2
+        - [] Begin Saunders extraction (per separate plan)
     - Blockers:
-        - [Any blocking issues]
+        - None
     - Recent Progress:
-        - YYYY-MM-DD: [What was accomplished]
-        - YYYY-MM-DD: [What was accomplished]
+        - 2026-05-04: Foundation complete. Scaffolding, PROCESS.md, validator, all books converted to text
 
 - Notes
     - Use loglog format for all documentation

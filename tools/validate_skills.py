@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -138,3 +139,56 @@ def validate_related_references(skill: Skill, all_skill_slugs: set[str]) -> None
                     raise SkillValidationError(
                         f"{skill.path}: related '{verb}' points to unknown skill '{slug}'"
                     )
+
+
+def validate_tree(skills_root: Path) -> list[str]:
+    """Validate every SKILL.md under skills_root. Return list of error messages."""
+    errors: list[str] = []
+    skill_files = sorted(skills_root.rglob("SKILL.md"))
+
+    loaded: list[Skill] = []
+    all_slugs: set[str] = set()
+    for skill_path in skill_files:
+        try:
+            skill = load_skill(skill_path)
+        except SkillValidationError as exc:
+            errors.append(str(exc))
+            continue
+        loaded.append(skill)
+        name = skill.frontmatter.get("name")
+        if isinstance(name, str):
+            all_slugs.add(name)
+
+    for skill in loaded:
+        for check in (validate_frontmatter, validate_body, validate_book_matches_parent):
+            try:
+                check(skill)
+            except SkillValidationError as exc:
+                errors.append(str(exc))
+        try:
+            validate_related_references(skill, all_slugs)
+        except SkillValidationError as exc:
+            errors.append(str(exc))
+
+    return errors
+
+
+def main() -> int:
+    project_root = Path(__file__).resolve().parent.parent
+    skills_root = project_root / "skills"
+    if not skills_root.exists():
+        print(f"No skills/ directory at {skills_root}", file=sys.stderr)
+        return 1
+    errors = validate_tree(skills_root)
+    if errors:
+        for err in errors:
+            print(err, file=sys.stderr)
+        print(f"\n{len(errors)} error(s).", file=sys.stderr)
+        return 1
+    skill_count = sum(1 for _ in skills_root.rglob("SKILL.md"))
+    print(f"OK — {skill_count} SKILL.md file(s) validated.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

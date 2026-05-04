@@ -10,6 +10,7 @@ from tools.validate_skills import (
     validate_book_matches_parent,
     validate_frontmatter,
     validate_related_references,
+    validate_tree,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -180,3 +181,18 @@ def test_validate_related_references_rejects_missing_target():
     skill.frontmatter["related"] = [{"extends": "nonexistent-skill"}]
     with pytest.raises(SkillValidationError, match="related 'extends' points to unknown skill 'nonexistent-skill'"):
         validate_related_references(skill, all_skill_slugs={"example-skill"})
+
+
+def test_validate_tree_returns_zero_for_empty_root(tmp_path):
+    (tmp_path / "skills").mkdir()
+    errors = validate_tree(tmp_path / "skills")
+    assert errors == []
+
+
+def test_validate_tree_reports_errors_per_file(tmp_path):
+    skill_dir = tmp_path / "skills" / "example" / "bad-skill"
+    skill_dir.mkdir(parents=True)
+    (skill_dir / "SKILL.md").write_text("# Bad\n\nNo frontmatter.\n")
+    errors = validate_tree(tmp_path / "skills")
+    assert len(errors) == 1
+    assert "no frontmatter" in errors[0]

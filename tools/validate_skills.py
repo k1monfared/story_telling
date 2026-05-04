@@ -1,6 +1,7 @@
 """Validator for SKILL.md files in the storytelling skills library."""
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -62,3 +63,24 @@ def validate_frontmatter(skill: Skill) -> None:
         raise SkillValidationError(
             f"{skill.path}: 'tags' must be a list, got {type(fm['tags']).__name__}"
         )
+
+
+REQUIRED_BODY_SECTIONS = (
+    "When to reach for this",
+    "The move",
+    "Signal it landed",
+    "Probe before & after",
+    "Failure mode this prevents",
+    "Source",
+    "Related skills",
+)
+
+
+def validate_body(skill: Skill) -> None:
+    """Validate the SKILL.md body has all required H2 sections."""
+    headings = set(re.findall(r"^##\s+(.+?)\s*$", skill.body, flags=re.MULTILINE))
+    for section in REQUIRED_BODY_SECTIONS:
+        if section not in headings:
+            raise SkillValidationError(
+                f"{skill.path}: missing required body section '{section}'"
+            )

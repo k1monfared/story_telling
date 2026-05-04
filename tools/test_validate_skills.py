@@ -6,6 +6,7 @@ import pytest
 from tools.validate_skills import (
     SkillValidationError,
     load_skill,
+    validate_body,
     validate_frontmatter,
 )
 
@@ -79,3 +80,29 @@ def test_validate_frontmatter_rejects_invalid_type():
     skill.frontmatter["type"] = "compound"
     with pytest.raises(SkillValidationError, match="type 'compound' is not one of"):
         validate_frontmatter(skill)
+
+
+def test_validate_body_accepts_valid():
+    skill_path = (
+        FIXTURES
+        / "valid"
+        / "skills"
+        / "example"
+        / "example-skill"
+        / "SKILL.md"
+    )
+    validate_body(load_skill(skill_path))
+
+
+def test_validate_body_rejects_missing_section():
+    skill_path = (
+        FIXTURES
+        / "missing_section"
+        / "skills"
+        / "example"
+        / "bad-skill"
+        / "SKILL.md"
+    )
+    skill = load_skill(skill_path)
+    with pytest.raises(SkillValidationError, match="missing required body section 'Signal it landed'"):
+        validate_body(skill)

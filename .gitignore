@@ -6,3 +6,6 @@ node_modules/
 .claude/cache/
 .mcp/logs/
 *.claude-session
+
+# Skill extraction working files (raw text, candidate logs, saturation/refactor notes)
+working/

@@ -7,6 +7,7 @@ from tools.validate_skills import (
     SkillValidationError,
     load_skill,
     validate_body,
+    validate_book_matches_parent,
     validate_frontmatter,
 )
 
@@ -106,3 +107,46 @@ def test_validate_body_rejects_missing_section():
     skill = load_skill(skill_path)
     with pytest.raises(SkillValidationError, match="missing required body section 'Signal it landed'"):
         validate_body(skill)
+
+
+def test_validate_book_matches_parent_accepts_match():
+    skill_path = (
+        FIXTURES
+        / "valid"
+        / "skills"
+        / "example"
+        / "example-skill"
+        / "SKILL.md"
+    )
+    validate_book_matches_parent(load_skill(skill_path))
+
+
+def test_validate_book_matches_parent_rejects_mismatch():
+    skill_path = (
+        FIXTURES
+        / "valid"
+        / "skills"
+        / "example"
+        / "example-skill"
+        / "SKILL.md"
+    )
+    skill = load_skill(skill_path)
+    skill.frontmatter["book"] = "wrong-book"
+    with pytest.raises(SkillValidationError, match="book 'wrong-book' does not match parent directory 'example'"):
+        validate_book_matches_parent(skill)
+
+
+def test_validate_book_matches_parent_allows_cross_book_in_recipes():
+    skill_path = (
+        FIXTURES
+        / "valid"
+        / "skills"
+        / "example"
+        / "example-skill"
+        / "SKILL.md"
+    )
+    skill = load_skill(skill_path)
+    skill.path = Path("skills/cross-book/some-recipe/SKILL.md")
+    skill.frontmatter["book"] = "cross-book"
+    skill.frontmatter["type"] = "composed"
+    validate_book_matches_parent(skill)

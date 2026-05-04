@@ -84,3 +84,27 @@ def validate_body(skill: Skill) -> None:
             raise SkillValidationError(
                 f"{skill.path}: missing required body section '{section}'"
             )
+
+
+def validate_book_matches_parent(skill: Skill) -> None:
+    """Frontmatter 'book' must match the directory under skills/.
+
+    For skills under skills/<book>/<slug>/SKILL.md, book == <book>.
+    For skills under skills/<book>/recipes/<slug>/SKILL.md, book == <book>.
+    For skills under skills/cross-book/<slug>/SKILL.md, book == 'cross-book'.
+    """
+    parts = skill.path.parts
+    try:
+        skills_idx = parts.index("skills")
+    except ValueError as exc:
+        raise SkillValidationError(
+            f"{skill.path}: not under a 'skills/' directory"
+        ) from exc
+    if skills_idx + 1 >= len(parts):
+        raise SkillValidationError(f"{skill.path}: cannot determine book from path")
+    parent_book = parts[skills_idx + 1]
+    declared_book = skill.frontmatter["book"]
+    if declared_book != parent_book:
+        raise SkillValidationError(
+            f"{skill.path}: book '{declared_book}' does not match parent directory '{parent_book}'"
+        )

@@ -1,3 +1,48 @@
 - Feedback extraction candidates
     - format: per candidate, list chapter, location, paraphrase, situation, outcome
     - outcomes: → promoted to <slug>, → folded into <slug>, → dropped because <reason>
+
+- Chapter 2: Introduction (From Push to Pull), lines 290-470
+
+    - candidate: pull-not-push reroute
+        - location: lines 367-386, "Pull Beats Push" section
+        - paraphrase: when you notice yourself cataloguing the giver's incompetence, reroute attention to what the receiver can pull from the exchange. The receiver controls intake, sense-making, and change, so leverage lives there.
+        - situation: you are receiving feedback you find poorly delivered, off base, or from someone you do not respect, and your mind is composing a list of their inadequacies (Tom's drive home, line 399).
+        - outcome: → promoted to pull-not-push-reroute
+
+    - candidate: receiving-well-is-not-accepting
+        - location: lines 423-428, "The Benefits of Receiving Well" opening
+        - paraphrase: receiving well means engaging the conversation skillfully and making thoughtful choices about whether and how to use the feedback. It is not the same as taking the feedback. Sorting the two prevents the false binary of swallow-or-shut-out.
+        - situation: you are about to dismiss feedback because it is wrong, or about to swallow it whole because refusing would mean you are defensive. You feel forced to pick.
+        - outcome: → promoted to engaging-is-not-accepting
+
+    - candidate: hold-both-needs (learn AND be accepted)
+        - location: lines 392-417, "The Tension Between Learning and Being Accepted"
+        - paraphrase: the discomfort of feedback comes from the collision of two real, simultaneous needs — to learn/improve and to be accepted as you are. Naming both reduces the pressure to collapse one into the other.
+        - situation: you feel an outsized reaction to mild feedback ("why can't you just accept me?") or you intellectualize the feedback and then bristle later. The self-acceptance need is hidden under the learning conversation, or vice versa.
+        - outcome: → promoted to name-both-needs
+
+    - candidate: "feedback is any information about yourself" (broad definition)
+        - location: lines 343-351, "What Counts As Feedback?"
+        - paraphrase: feedback includes formal evaluations and the implicit signals (the friend slipping off the gift sweater, the renewal of services, the bum knee). Widen the aperture.
+        - outcome: → dropped because the broadened-definition observation does not yield a distinct receiver-side action with its own signal and failure mode. It is a frame the rest of the book operates inside, parent-context material.
+
+    - candidate: brief history of feedback
+        - location: lines 356-369
+        - paraphrase: the term comes from mechanical/electronic systems and got transplanted to people; the model that produces "tighten up here, dial back there" is the inheritance.
+        - outcome: → dropped because historical/contextual; no actionable move on the receiver side.
+
+    - candidate: feedback-seeking behavior research note
+        - location: lines 430-432
+        - paraphrase: actively seeking feedback (especially negative) correlates with higher satisfaction, faster adaptation, lower turnover, higher performance ratings.
+        - outcome: → dropped because it is empirical motivation, not a procedure. The seeking-out skill itself will live in chapter 12 (Get Going) where the book describes how.
+
+    - candidate: modeling for kids and colleagues
+        - location: lines 442-444
+        - paraphrase: how you handle feedback teaches the people around you (children, direct reports, peers) how to handle feedback. Modeling is part of the stakes.
+        - outcome: → dropped because it is a stakes-raising frame, not an actionable receiver move with its own signal.
+
+    - candidate: digging for ponies
+        - location: lines 450-459
+        - paraphrase: receiving feedback is not always pleasant, but there might be a pony in there somewhere. Disposition.
+        - outcome: → dropped because it is a disposition aphorism, not a procedure. The actual technique for finding the pony is "First Understand" (chapter 5, dedicated whole-chapter skills).

@@ -13,7 +13,7 @@
     - type: intro
     - title: Introduction (From Push to Pull)
     - lines: 290-470
-    - status: pending
+    - status: saturated
 
 - Chapter 3
     - type: chapter

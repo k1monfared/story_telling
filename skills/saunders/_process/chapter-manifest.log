@@ -151,7 +151,7 @@
     - type: back
     - title: Appendix B: An Escalation Exercise
     - lines: 7575-7649
-    - status: pending
+    - status: saturated
 
 - Chapter 26
     - type: back

@@ -85,7 +85,7 @@
     - type: story
     - title: The Nose (Nikolai Gogol)
     - lines: 4833-5167
-    - status: pending
+    - status: saturated
 
 - Chapter 15
     - type: essay

@@ -103,7 +103,7 @@
     - type: story
     - title: Gooseberries (Anton Chekhov)
     - lines: 5812-5938
-    - status: pending
+    - status: saturated
 
 - Chapter 18
     - type: essay

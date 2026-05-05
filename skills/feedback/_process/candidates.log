@@ -46,3 +46,56 @@
         - location: lines 450-459
         - paraphrase: receiving feedback is not always pleasant, but there might be a pony in there somewhere. Disposition.
         - outcome: → dropped because it is a disposition aphorism, not a procedure. The actual technique for finding the pony is "First Understand" (chapter 5, dedicated whole-chapter skills).
+
+- Chapter 3: 1. Three Triggers That Block Feedback, lines 471-738
+
+    - candidate: identify-which-trigger-is-firing
+        - location: lines 503-527, "Three Feedback Triggers" section, with the smoke-alarm framing at lines 493-497
+        - paraphrase: when feedback derails you, there are only three categories of trigger (truth, relationship, identity), each with a different remedy. Before responding, name which one (or which mix) is firing. The triggered reaction itself is the map that locates the source of trouble; do not suppress it without first reading it.
+        - situation: you are in the grip of a triggered reaction to feedback (heart pounding, thoughts racing, defending/attacking/withdrawing) and you are about to either push the reaction aside and "stay professional" or act on it without diagnosis.
+        - outcome: → promoted to identify-which-trigger-is-firing
+
+    - candidate: triggers-as-map-not-obstacle
+        - location: lines 493-497, the smoke-alarm metaphor
+        - paraphrase: a triggered reaction is not just an obstacle to push past; it is information about what set it off. Suppressing it is like disconnecting the smoke alarm.
+        - outcome: → folded into identify-which-trigger-is-firing. The disposition (read the alarm) and the procedure (categorize among the three) are one move; the disposition without the categorization yields no action, and the categorization presumes the disposition. Worked into the failure-mode and signal sections of that skill.
+
+    - candidate: separate appreciation, coaching, evaluation (truth-trigger remedy 1)
+        - location: lines 552-563
+        - paraphrase: identify whether the feedback you want and the feedback you are getting are appreciation, coaching, or evaluation; the mismatch is its own source of failure.
+        - outcome: → deferred to chapter 4 ("Separate Appreciation, Coaching, and Evaluation"), where the move gets its full treatment. This chapter only previews it.
+
+    - candidate: first understand (truth-trigger remedy 2)
+        - location: lines 569-584
+        - paraphrase: before deciding what to do with feedback, work to understand what the giver actually means; pursue clarification of the specific behavior, situation, and recommendation.
+        - outcome: → deferred to chapter 5 ("First Understand"), where the move is the chapter's spine. Previewed only here.
+
+    - candidate: see-your-blind-spots (truth-trigger remedy 3)
+        - location: lines 590-603
+        - paraphrase: feedback that feels wrong may be wrong, or it may be in your blind spot; assume both possibilities and work to surface what others see that you cannot.
+        - outcome: → deferred to chapter 6 ("See Your Blind Spots").
+
+    - candidate: don't-switchtrack (relationship-trigger remedy 1)
+        - location: lines 618-629
+        - paraphrase: when relationship triggers fire, the receiver tends to drop the original feedback and substitute their own grievance about the giver, producing two parallel topics neither party hears. Disentangle and discuss separately.
+        - outcome: → deferred to chapter 7 ("Don't Switchtrack: Disentangle What from Who").
+
+    - candidate: identify-the-relationship-system (relationship-trigger remedy 2)
+        - location: lines 635-647
+        - paraphrase: feedback in a relationship is rarely the story of you or me; it is the story of the dynamic between us. Ask "what's the dynamic and what are we each contributing?" instead of trading blame.
+        - outcome: → deferred to chapter 8 ("Identify the Relationship System").
+
+    - candidate: learn-your-wiring (identity-trigger remedy 1)
+        - location: lines 661-664
+        - paraphrase: people are wired differently in baseline mood, swing, and recovery from feedback; knowing your own wiring explains your reactions and others' non-reactions.
+        - outcome: → deferred to chapter 9 ("Learn How Wiring and Temperament Affect Your Story").
+
+    - candidate: dismantle-distortions (identity-trigger remedy 2)
+        - location: lines 670-677
+        - paraphrase: identify the patterns by which your mind distorts and magnifies feedback; once aware, dismantle the distortion to engage with the actual content rather than your magnified perception.
+        - outcome: → deferred to chapter 10 ("Dismantle Distortions").
+
+    - candidate: cultivate-growth-identity (identity-trigger remedy 3)
+        - location: lines 683-693
+        - paraphrase: shift from a fixed identity story (feedback is a verdict on what I am) to a growth identity (feedback is information about where I stand now and what to work on).
+        - outcome: → deferred to chapter 11 ("Cultivate a Growth Identity").

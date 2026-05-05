@@ -145,7 +145,7 @@
     - type: back
     - title: Appendix A: A Cutting Exercise
     - lines: 7472-7574
-    - status: pending
+    - status: saturated
 
 - Chapter 25
     - type: back

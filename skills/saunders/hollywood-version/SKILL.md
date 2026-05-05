@@ -7,6 +7,9 @@ sources:
   - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
     lines: "569-595"
     note: "Saunders names this 'the Hollywood version' and demonstrates the artillery-fire sequence of refinements on the in-progress reading of 'In the Cart.'"
+  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
+    lines: "1690"
+    note: "A second worked instance of the move: the Hollywood version of 'The Singers' is 'Two men have a singing contest in a Russian pub. One wins, one loses.' Saunders uses it here to set up a related but distinct question — the heart of the story — clarifying that the Hollywood version is the one-sentence shape, not the central event the rest of the story serves."
 tags:
   - workshop
   - critique

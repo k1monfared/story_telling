@@ -7,6 +7,9 @@ sources:
   - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
     lines: "279-1349"
     note: "Saunders walks the entire Chekhov story page by page, pausing at each break to apply the same three-question protocol. He restates the protocol explicitly at lines 329-368 and again at lines 735-748."
+  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
+    lines: "1730-1736"
+    note: "Restates the same beat-tracking in different vocabulary: reading fiction as 'a series of establishings, stabilizations, and alterations' (the dog is sleeping; he is really sleeping; uh-oh, he woke up). The vocabulary names what the three-question protocol surfaces between pauses."
 tags:
   - reading
   - revision

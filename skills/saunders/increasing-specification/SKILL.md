@@ -7,6 +7,9 @@ sources:
   - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
     lines: "415-434, 627-633, 914-924"
     note: "Saunders names this 'increased specification,' performs it on Marya in the opening pages, demonstrates the cross-painting variant on Hanov, and tracks Marya's continued specification at the teahouse."
+  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
+    lines: "1704-1712, 1748"
+    note: "Sharpens the trigger for contest-shaped stories: A and B must each stand for something distinct so the outcome can carry meaning. Saunders gives 'specificity makes character' as the principle and shows the contractor becoming a particular person ('a shredder, in guitar terms') only once the singing is rendered specifically."
 tags:
   - drafting
   - characterization

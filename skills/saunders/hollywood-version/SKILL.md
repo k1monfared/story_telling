@@ -10,6 +10,9 @@ sources:
   - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
     lines: "1690"
     note: "A second worked instance of the move: the Hollywood version of 'The Singers' is 'Two men have a singing contest in a Russian pub. One wins, one loses.' Saunders uses it here to set up a related but distinct question — the heart of the story — clarifying that the Hollywood version is the one-sentence shape, not the central event the rest of the story serves."
+  - chapter: "And Yet They Drove On: Thoughts on 'Master and Man'"
+    lines: "4309-4346"
+    note: "Saunders extends the move from the writer's planning to the reader's experience: the Hollywood version of 'Master and Man' is 'We're driving out to buy that land,' and Tolstoy announces this organizing principle inside the story so digressions are read against an established through-line. Saunders gives the mansion-tour analogy — a tour announced as 'we're going to start in the attic and work our way down' lets the visitor enjoy a side detour into a secret room without losing orientation. The skill operationalizes for the writer's planning what this passage shows operating on the reader: a one-sentence shape stated up front buys digression-tolerance later."
 tags:
   - workshop
   - critique

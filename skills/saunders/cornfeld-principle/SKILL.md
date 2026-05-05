@@ -7,6 +7,9 @@ sources:
   - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
     lines: "964-1008"
     note: "Saunders attributes the principle to producer Stuart Cornfeld, names it explicitly, and tests Chekhov's teahouse scene against both criteria."
+  - chapter: "And Yet They Drove On: Thoughts on 'Master and Man'"
+    lines: "4495-4525"
+    note: "Sharpens the second criterion (advance the story in a non-trivial way) by giving it a procedural shape. A structural unit that advances the story tends to do so partly by enacting its own miniature arc — its own exposition, rising action, and climactic moment. Saunders frames this as Freytag's-triangle-per-unit: 'a structural unit, like a story, wants to look something like Freytag's triangle... if a structural unit in a story we're writing isn't shaped like that, we might wonder if it wants to be; if it is shaped like that, we might want to make that shape sharper.' Worked on the second Grishkino stop, where the 'young people getting out of hand' conversation is identified as the unit's climactic moment; the cozy-warmth, Nikita-not-drinking, and Paulson-quoting-grandson material is identified as exposition that needs the conversation to convert it into rising action. The fold sharpens the test: when the second Cornfeld criterion stalls on a unit, ask whether the unit has its own miniature arc, and if not, ask whether it should."
 tags:
   - revision
   - structure

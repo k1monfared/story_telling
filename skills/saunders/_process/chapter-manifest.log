@@ -67,7 +67,7 @@
     - type: story
     - title: Master and Man (Leo Tolstoy)
     - lines: 3251-4172
-    - status: pending
+    - status: saturated
 
 - Chapter 12
     - type: essay

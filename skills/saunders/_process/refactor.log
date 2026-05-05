@@ -76,3 +76,11 @@
         - all other 28 skills: no obvious well-known external complement passes the gate — most are Saunders's specific operationalization of moves that don't have a single canonical formal home, or have famous treatments that would not sharpen the procedure.
     - validator: OK — 41 SKILL.md file(s) validated.
 
+- Book closed
+    - date: 2026-05-05
+    - skill count: 38 atomic + 3 composed = 41 total
+    - chapters processed: 27 of 27 (all saturated; 6 source-story chapters and 2 boilerplate chapters yielded zero skills as expected)
+    - finalization complete: cross-references set, recipes written, catalog updated, external sources added where they sharpen
+    - re-open conditions: a future book may surface a sharper version of one of these skills; if so, refactor here. Cross-book recipes drawing from this book and another will live under skills/cross-book/ when written.
+    - validator at close: OK — 41 SKILL.md file(s) validated.
+

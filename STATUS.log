@@ -1,8 +1,8 @@
 - Project Status
-    - Last Updated: 2026-05-04
+    - Last Updated: 2026-05-05
     - Development Mode: Claude Code
-    - Stage: POC
-    - Next Milestone: First book extraction (Saunders) — produces first SKILL.md files
+    - Stage: MVP
+    - Next Milestone: Begin Thanks for the Feedback extraction
 
 - Development Stages
     - [x] Initial Setup
@@ -18,14 +18,17 @@
             - [x] Book-agnostic PROCESS.md written
             - [x] SKILL.md validator with full test coverage
             - [x] All three initial books converted to plain text
-    - [] Minimum Viable Product (MVP)
+    - [x] Minimum Viable Product (MVP)
+        - Completed: 2026-05-05
         - Goal: Saunders book fully processed end-to-end
         - Core features:
-            - [] _book.md for Saunders written
-            - [] All Saunders chapters extracted, gated, saturated
-            - [] Saunders skills cross-referenced and added to CATALOG.md
+            - [x] _book.md for Saunders written
+            - [x] All 27 Saunders chapters extracted, gated, saturated
+            - [x] Saunders skills cross-referenced and added to CATALOG.md
+            - [x] 38 atomic + 3 composed skills validated
+            - [x] External complements added where they sharpen (Forster on causality-not-sequence, James Wood on mind-to-mind-vantage-shifts)
         - Known issues:
-            - None yet
+            - None
     - [] Beta Release
         - Goal: All three initial books processed
         - Missing features:
@@ -65,11 +68,12 @@
 
 - Current Focus
     - Active Tasks:
-        - [] Begin Saunders extraction (per separate plan)
+        - [] Begin Thanks for the Feedback extraction (next plan)
     - Blockers:
         - None
     - Recent Progress:
         - 2026-05-04: Foundation complete. Scaffolding, PROCESS.md, validator, all books converted to text
+        - 2026-05-05: Saunders book closed. 38 atomic + 3 composed = 41 skills. 27 chapters all saturated. Catalog populated with 9 scenarios under "Telling a story / writing fiction" plus 2 cross-cutting
 
 - Notes
     - Use loglog format for all documentation

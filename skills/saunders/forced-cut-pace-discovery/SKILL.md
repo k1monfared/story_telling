@@ -16,6 +16,8 @@ tags:
   - pace
   - voice
   - exercise
+related:
+  - contrasts: escalation-by-vocabulary-constraint
 ---
 
 ## When to reach for this
@@ -77,4 +79,5 @@ Chapter "Appendix C: A Translation Exercise," lines 7664-7714. Saunders supplies
 
 ## Related skills
 
-(none yet)
+- Contrasts `escalation-by-vocabulary-constraint`. Both are constraint exercises that bypass the writer-self-image, but they apply pressure in opposite directions and address different deficits. Use forced-cut-pace-discovery when the writer has slack prose already on the page and needs to surface what their editing basis cuts for and what their natural pace is; the constraint is subtractive (cut twenty words at a time). Use escalation-by-vocabulary-constraint when the writer cannot generate rising action in the first place; the constraint is generative (200 words, only 50 unique). The first surfaces what to remove; the second surfaces what to put on the page in the first place.
+- See also `respect-the-reader-cut` (the audit-shaped revision skill the cut mode of this exercise calibrates) and `iterative-preference-revision` (the per-decision reaction loop that this exercise builds the editing basis for).

@@ -52,4 +52,5 @@ Chapter "The Wisdom of Omission," lines 6781-6799 (the roof-fall as compression 
 
 ## Related skills
 
-(none yet)
+- See also `withhold-the-resolving-interior` and `transformation-by-redirected-energy` (the two climactic-resolution skills the compression operates with: the foreshortener creates the time pressure under which either the omitted interior or the redirected action discharges).
+- See also `skip-the-meaningless-interval` (the related pacing move: that skill leaps over time the story has no work to do in, while this skill introduces an event that limits the time available for the discharge of a charged question).

@@ -12,6 +12,8 @@ tags:
   - revision
   - close-reading
   - diagnostic
+related:
+  - contrasts: confess-the-oddness
 ---
 
 ## When to reach for this
@@ -52,4 +54,5 @@ Chapter "The Heart of the Story," lines 1656-1666. Saunders names the TICHN cart
 
 ## Related skills
 
-(none yet)
+- Contrasts `confess-the-oddness`. Use track-non-normative-excesses while drafting or critiquing, when the question is "is this excess being redeemed?"; the procedure is to log items and watch the rest of the work pay them off. Use confess-the-oddness at the ending of a draft whose middle has accumulated unredeemable excesses, when the question is "how do I close without explaining them away?"; the procedure is to acknowledge them without resolving them. The two share the cart-emptying language Saunders uses across the chapters: TICHN tracks; confession empties the cart by being seen.
+- See also `truncation-test` (the pop-out variant explicitly logs cut units to the TICHN cart for deferred redemption) and `holding-up-against-the-heart` (the cart's items are commonly the suspect elements held against the heart).

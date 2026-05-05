@@ -60,4 +60,5 @@ Chapter "A Page at a Time," lines 415-434 (the question "which particular person
 
 ## Related skills
 
-(none yet)
+- See also `matrix-of-facts` (both produce belief through factual specificity, but at different scopes: increasing-specification specifies the character or situation until plot becomes available, while matrix-of-facts specifies the prose register that any individual sentence sits in). When a draft has under-specified characters, both skills usually fire together.
+- See also `causality-not-sequence` (specification supplies the why-this-not-that for each beat; once a character is specified, causality between beats becomes available).

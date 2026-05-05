@@ -50,4 +50,5 @@ Chapter "And Yet They Drove On," lines 4181-4213. Saunders catalogues Tolstoy's 
 
 ## Related skills
 
-(none yet)
+- See also `increasing-specification` (both produce belief through factual specificity: matrix-of-facts is the sentence-register, increasing-specification is the character/situation render). The two often fire together when a draft drifts into authorial assertion.
+- See also `mind-to-mind-vantage-shifts` (when interior states must be reported, render them in the same factual idiom as exteriors) and `transformation-by-redirected-energy` (the climactic action is rendered as concrete factual sentences without interior commentary).

@@ -52,4 +52,5 @@ Chapter "A Pattern Story," lines 2691-2698 (the question "What now?" after Kukin
 
 ## Related skills
 
-(none yet)
+- See also `refuse-to-repeat-beats`. Both are pacing diagnostics for prose that is occupying space without earning it, but they fire on different conditions. Skip-the-meaningless-interval fires when the stretch is bridging filler between two events (real elapsed time the story has no work to do in); refuse-to-repeat-beats fires when the prose is elaborating a state-change that has already happened (no elapsed time, but the same beat). The first is a leap; the second is the next escalation.
+- See also `respect-the-reader-cut` (the sentence-level form of the same trust: the reader will register the elapsed time from a single time-stamped sentence without needing the days rendered).

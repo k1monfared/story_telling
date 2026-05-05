@@ -54,4 +54,5 @@ Chapter "A Page at a Time," lines 822-855. Saunders names "ritual banality avoid
 
 ## Related skills
 
-(none yet)
+- See also `refuse-to-repeat-beats` (the recurrence-and-pacing form: do not dwell after a real change has happened; here, do not deliver the change the reader has already pre-imagined). The two together implement Saunders's escalation discipline at different scopes: ritual-banality-avoidance is structural (refuse the easy resolution), refuse-to-repeat-beats is page-level (refuse to elaborate the new state).
+- See also `withhold-the-resolving-interior` (when the obvious move at the climax is to enter the head and announce the realization; this skill's structural cousin at the level of the single climactic moment).

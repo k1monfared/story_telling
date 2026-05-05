@@ -14,6 +14,8 @@ tags:
   - drafting
   - close-reading
   - composition
+related:
+  - extends: cornfeld-principle
 ---
 
 ## When to reach for this
@@ -53,4 +55,5 @@ Chapter "Afterthought #1," lines 1387-1401. Saunders applies the page-at-a-time 
 
 ## Related skills
 
-(none yet)
+- Extends `cornfeld-principle`. The Cornfeld test runs at unit scope (does this scene advance the story); this skill runs at element scope inside a unit (does this detail in the scene have a stated function). When a unit passes Cornfeld but feels almost-good, the element-by-element audit is what locates the dilution.
+- See also `respect-the-reader-cut` (the sentence- and clause-level audit, which removes elements the reader would supply for themselves) and `holding-up-against-the-heart` (when the suspect element is structurally loaded rather than decorative).

@@ -22,6 +22,8 @@ tags:
   - description
   - structure
   - learning
+related:
+  - contrasts: truncation-test
 ---
 
 ## When to reach for this
@@ -67,4 +69,5 @@ Chapter "Afterthought #6," lines 6409-6443 (the whole-work-scale variant: the ma
 
 ## Related skills
 
-(none yet)
+- Contrasts `truncation-test`. Use two-version comparison when the comparator is composed by you (write the inverted version side by side and read what the actual version supplies). Use the truncation test when the comparator is created by deletion (cut the unit out and read what the surviving prose lacks or what was un-disturbed). Both surface what a unit is doing, but composition lets you isolate one craft choice while truncation lets you test whether any work was being done at all.
+- See also `cornfeld-principle` (a comparator method that names the unit's contribution) and `holding-up-against-the-heart` (the imagery-level juxtaposition in which the comparator is the heart of the story rather than a counterfactual).

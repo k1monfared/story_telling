@@ -55,4 +55,5 @@ Chapter "And Yet They Drove On," lines 4253-4293. Saunders walks the Vasili-Niki
 
 ## Related skills
 
-(none yet)
+- See also `matrix-of-facts` (interior thought is rendered in the same factual idiom as exteriors, so the rotation does not feel like a shift in register). The two together produce the felt belief in moral architecture without the writer asserting it.
+- See also `convert-moral-critique-to-technical` (a moral critique of point-of-view often surfaces as inequitable narration: one character was granted a vantage another was denied; the parallel-moments audit is the corrective).

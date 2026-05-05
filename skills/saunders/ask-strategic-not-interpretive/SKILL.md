@@ -11,6 +11,8 @@ tags:
   - revision
   - workshop
   - teaching
+related:
+  - extends: the-basic-drill
 ---
 
 ## When to reach for this
@@ -49,4 +51,5 @@ Chapter "We Begin," lines 188-278 (especially 241). Saunders names his approach 
 
 ## Related skills
 
-(none yet)
+- Extends `the-basic-drill`. Once the basic drill has produced a list of located reactions, re-pose any interpretive question those reactions raise as a strategic one ("what is this element doing for the reader") so the conversation can produce decisions a writer could act on.
+- See also `convert-moral-critique-to-technical`, which is the same shape applied to moral accusations: convert "this is X-ist" into a technical observation about narrative resources at parallel moments.

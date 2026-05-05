@@ -58,4 +58,5 @@ Chapter "A Swim in a Pond in the Rain: Thoughts on 'Gooseberries'," lines 6256-6
 
 ## Related skills
 
-(none yet)
+- See also `belief-by-character-attribution`. The two are complementary and commonly fire together. Belief-by-character-attribution renders one earnest position with full conviction and destabilizes it by a small concrete fact about the speaker; persistent-self-contradiction is the macro-structural method that builds the counterweighting positions across the rest of the story so the destabilization is felt as part of a thinking machine rather than as a single hedge. The first is the move at one position; the second is the architecture that holds many.
+- See also `withhold-the-resolving-interior` (the single-moment technical decision at the climax that preserves the un-rankability this macro-method builds; the two together produce the Rubin's-vase outcome).

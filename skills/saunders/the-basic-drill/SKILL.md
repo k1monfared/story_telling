@@ -17,6 +17,8 @@ tags:
   - reaction
   - diagnostic
   - workshop
+related:
+  - contrasts: page-break-diagnostic
 ---
 
 ## When to reach for this
@@ -56,4 +58,5 @@ Chapter "We Begin," lines 188-278 (especially 243, 247, 251). Saunders introduce
 
 ## Related skills
 
-(none yet)
+- Contrasts `page-break-diagnostic`. Use the basic drill after a complete reading, when the goal is to register felt reactions across the whole. Use the page-break diagnostic mid-read at chosen pauses, when the goal is to surface the reader's evolving expectations beat by beat. Both anchor reactions to specific places on the page, but the basic drill operates on the finished experience while the page-break diagnostic operates on the experience as it unfolds.
+- See also `ask-strategic-not-interpretive` — once the basic drill has produced located reactions, the strategic re-posing converts those reactions into questions a writer can act on.

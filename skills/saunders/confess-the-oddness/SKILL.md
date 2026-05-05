@@ -12,6 +12,8 @@ tags:
   - endings
   - structure
   - voice
+related:
+  - contrasts: track-non-normative-excesses
 ---
 
 ## When to reach for this
@@ -51,4 +53,5 @@ George Saunders, *A Swim in a Pond in the Rain*, "The Door to the Truth Might Be
 
 ## Related skills
 
-(none yet)
+- Contrasts `track-non-normative-excesses`. Use confess-the-oddness at the ending of a draft whose middle has accumulated unredeemable excesses, when the question is "how do I close without explaining them away?"; the procedure is to acknowledge them without resolving them. Use track-non-normative-excesses while drafting or critiquing, when the question is "is this excess being redeemed?"; the procedure is to log items and watch the rest of the work pay them off. The cart that the first skill empties is built by the second.
+- See also `skaz-narrator` (the confession is often delivered in skaz, in voice with the narrator who has been misplacing emphasis throughout) and `psychological-physics-of-strangeness` (the strange-premise stories that most need this ending move are the ones whose physics this skill governs).

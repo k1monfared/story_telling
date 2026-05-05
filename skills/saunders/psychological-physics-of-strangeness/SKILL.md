@@ -54,4 +54,5 @@ George Saunders, *A Swim in a Pond in the Rain*, "The Door to the Truth Might Be
 
 ## Related skills
 
-(none yet)
+- See also `multiple-superimposed-weirdness` (once the world's psychological physics are established by the immediate reactions, layering further tiers — the plan formed, the world's resistance, the narrator's voice — is what compounds the meaning instead of restating the strangeness).
+- See also `improper-narrative-emphasis` (the deflection technique that lets the impossible thing be on the page without being inspected) and `confess-the-oddness` (the ending move that closes a strange-premise story without explaining away the irregularities the physics produced).

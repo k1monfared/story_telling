@@ -13,6 +13,9 @@ tags:
   - escalation
   - constraint
   - voice
+related:
+  - extends: energy-not-aspiration
+  - contrasts: forced-cut-pace-discovery
 ---
 
 ## When to reach for this
@@ -55,4 +58,6 @@ Chapter "Appendix B: An Escalation Exercise," lines 7575-7649. Saunders gives th
 
 ## Related skills
 
-(none yet)
+- Extends `energy-not-aspiration`. The energy probe identifies that the writer-self-image is producing inert work; this exercise is the procedural form that bypasses that self-image in a single 45-minute session and surfaces the off-license writer who can produce escalation. The constraint shuts down the conscious mode that energy-not-aspiration diagnoses as the source of inanimacy.
+- Contrasts `forced-cut-pace-discovery`. Both are constraint exercises that bypass the writer-self-image, but they apply pressure in opposite directions. Use escalation-by-vocabulary-constraint when the writer cannot generate rising action; the constraint is generative (50 unique words). Use forced-cut-pace-discovery when slack prose is already on the page and needs the editing basis surfaced; the constraint is subtractive (cut twenty words at a time). The first generates; the second cuts.
+- See also `refuse-to-repeat-beats` and `parameter-table-for-recurrence` (audit-shaped escalation skills that assume the writer can produce rising action when prompted; this exercise produces the felt knowledge those skills then shape).

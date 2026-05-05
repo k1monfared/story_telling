@@ -16,6 +16,9 @@ tags:
   - structure
   - close-reading
   - diagnosis
+related:
+  - extends: cornfeld-principle
+  - contrasts: two-version-comparison
 ---
 
 ## When to reach for this
@@ -59,4 +62,6 @@ Chapter "A Swim in a Pond in the Rain: Thoughts on 'Gooseberries'," lines 6023-6
 
 ## Related skills
 
-(none yet)
+- Extends `cornfeld-principle`. The cut-and-observe procedure is a specific diagnostic for the second Cornfeld criterion ("advances the story in a non-trivial way") at scope: cut the ending to surface what it supplies; cut an internal unit to surface what it enables. The pop-out variant explicitly hands logged units to the TICHN cart (`track-non-normative-excesses`) for deferred redemption.
+- Contrasts `two-version-comparison`. Use the truncation test when the comparator is created by deletion (cut the unit out and read what the surviving prose lacks). Use two-version comparison when the comparator is composed by you (write the inverted version side by side and read what the actual version supplies). Composition isolates one craft choice; truncation tests whether any work was being done.
+- See also `heart-of-the-story` (the heart is the destination the truncation test reads back to).

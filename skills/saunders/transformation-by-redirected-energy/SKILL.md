@@ -16,6 +16,8 @@ tags:
   - characterization
   - climax
   - revision
+related:
+  - contrasts: withhold-the-resolving-interior
 ---
 
 ## When to reach for this
@@ -55,4 +57,5 @@ Chapter "And Yet They Drove On," lines 4663-4709 (Tolstoy's transformation of Va
 
 ## Related skills
 
-(none yet)
+- Contrasts `withhold-the-resolving-interior`. Both refuse the soliloquy of realization at the climax, but they fire under opposite conditions and produce opposite climaxes. Use transformation-by-redirected-energy when the character is the kind who would change and the prior pages have built toward redirection; the procedure renders external action in their familiar idiom, lets the character react to their own action with surprise, and preserves their old register post-transformation. Use withhold-the-resolving-interior when the prior pages have built two readings of the central question with equal force and the climactic interior would collapse them into a verdict; the procedure is to step out of the head and render only externals, leaving the resolution un-answered. The first ends in changed action; the second ends in irradiated question.
+- See also `matrix-of-facts` (the climactic action is rendered in concrete factual sentences without interior commentary) and `compress-to-force-resolution` (the structural decision that creates the time-pressure under which redirected-energy or withheld-interior must operate).

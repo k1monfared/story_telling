@@ -55,4 +55,5 @@ Chapter "A Pattern Story," lines 3046-3050 ("Always be escalating. That's all a 
 
 ## Related skills
 
-(none yet)
+- See also `parameter-table-for-recurrence`. The parameter table is the diagnostic that surfaces which rows vary and which hold flat; this skill is the rule that says when holding flat is failure (the prose is dwelling in a state that has already changed) and when it is decision (a deliberate held-constant trait that breaks at the climactic recurrence).
+- See also `skip-the-meaningless-interval` (when the reason the prose is sitting in the beat is that real elapsed time is being rendered for its own sake, the leap is the cure rather than the next escalation) and `ritual-banality-avoidance` (the structural cousin: refuse to deliver the obvious resolution).

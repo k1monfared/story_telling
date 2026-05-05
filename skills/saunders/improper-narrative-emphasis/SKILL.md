@@ -12,6 +12,8 @@ tags:
   - prose
   - register
   - strangeness
+related:
+  - extends: skaz-narrator
 ---
 
 ## When to reach for this
@@ -52,4 +54,5 @@ George Saunders, *A Swim in a Pond in the Rain*, "The Door to the Truth Might Be
 
 ## Related skills
 
-(none yet)
+- Extends `skaz-narrator`. The deflection-via-replacement-attribute is one of the skaz narrator's signature techniques, but it is documented separately because it operates as a sentence-level mechanic and can fire even when the broader narrator-character is not skaz. The skaz voice supplies the social-rank vocabulary the deflection latches onto; the deflection is the specific composition technique at the moment the impossible thing must be on the page.
+- See also `psychological-physics-of-strangeness` (the deflection works because the replacement attribute — rank, costume, social bearing — is load-bearing in the world's psychological physics; meaning lands in the reactions, not in the impossible event's literal form) and `multiple-superimposed-weirdness` (the narrator-tier is where this technique is most useful, since deflection from a transparent narrator reads as evasion).

@@ -52,4 +52,5 @@ Chapter "And Yet They Drove On," lines 4395-4426 (the "lesser writer" contrast, 
 
 ## Related skills
 
-(none yet)
+- See also `increasing-specification` (causation often becomes available only once characters are specified enough that "because of who he is, the next beat had to follow"). Specification supplies the why-this-not-that for each beat.
+- See also `mind-to-mind-vantage-shifts` (the rotation among public/private/objective makes causal links visible; one character's withdrawal becomes the cause of another's misjudgment) and `transformation-by-redirected-energy` (the climactic transformation is rendered as the next causal beat after the prior pages, not as a soliloquy).

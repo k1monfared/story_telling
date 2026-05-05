@@ -53,4 +53,5 @@ George Saunders, *A Swim in a Pond in the Rain*, "The Door to the Truth Might Be
 
 ## Related skills
 
-(none yet)
+- See also `improper-narrative-emphasis` (one of the skaz narrator's signature techniques is deflecting literal questions onto rank, costume, or social bearing; that sentence-level mechanic builds on the skaz voice and is documented separately because it can fire even when the broader narrator-character is not skaz).
+- See also `multiple-superimposed-weirdness` (the narrator-tier — the highest-leverage tier in a strange-premise story — is what skaz fills; building the narrator as a person is the procedure for ratcheting that tier) and `confess-the-oddness` (the closing acknowledgment is delivered in the skaz voice, so the confession sits inside the same character the rest of the story has been built around) and `belief-by-character-attribution` (kept separate because attribution renders sincere belief whereas skaz renders graceless misfire; conflating them collapses both moves).

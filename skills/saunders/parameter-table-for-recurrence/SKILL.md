@@ -59,4 +59,5 @@ Chapter "A Pattern Story," lines 2587 (Table 2 introduced after the Olenka-Kukin
 
 ## Related skills
 
-(none yet)
+- See also `refuse-to-repeat-beats`. The parameter table surfaces which rows vary and which hold flat across recurrences; the refuse-to-repeat-beats rule is then how each held-flat row gets diagnosed (deliberate constant or missed escalation) and acted on. The two together implement Saunders's escalation discipline at recurrence-scope: tabulate, then decide.
+- See also `causality-not-sequence` (when parameter variation is not just chosen but earned, the across-row reading is also a causal chain) and `escalation-by-vocabulary-constraint` (when the writer-self-image cannot generate variation, the constraint exercise produces a rising-action draft that the parameter table can then critique).

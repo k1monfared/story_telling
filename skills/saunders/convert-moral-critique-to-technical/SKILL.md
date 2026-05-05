@@ -16,6 +16,8 @@ tags:
   - close-reading
   - point-of-view
   - workshop
+related:
+  - extends: ask-strategic-not-interpretive
 ---
 
 ## When to reach for this
@@ -58,4 +60,5 @@ Chapter "Afterthought #4," lines 4796-4805 (the "Nevsky Prospect" classroom epis
 
 ## Related skills
 
-(none yet)
+- Extends `ask-strategic-not-interpretive`. The strategic re-posing converts interpretive questions into questions a writer can act on; this skill is the same shape applied to moral accusations, with the specific procedure being a parallel-moments audit that surfaces inequitable narration.
+- See also `mind-to-mind-vantage-shifts` (the most common technical inequity surfaces here: one character was granted a vantage another, at a parallel moment, was denied) and `two-version-comparison` (the corrected version is composed and held against the original to verify that the rebalanced narration is in fact an improvement).

@@ -18,6 +18,8 @@ tags:
   - structure
   - critique
   - cutting
+related:
+  - extends: heart-of-the-story
 ---
 
 ## When to reach for this
@@ -56,4 +58,5 @@ Chapter "A Page at a Time," lines 964-1008. Saunders names the principle, attrib
 
 ## Related skills
 
-(none yet)
+- Extends `heart-of-the-story`. The two-criterion test for any structural unit (entertaining + advances the story) presupposes a destination for "advances the story." The heart of the story names that destination; the Cornfeld principle is the unit-by-unit test against it.
+- See also `truncation-test` (a specific diagnostic procedure for surfacing what an ending or internal unit supplies that the surrounding prose does not), `take-responsibility-for-every-element` (the element-by-element audit at finer scope), and `two-version-comparison` (the comparator method for naming what the unit's contribution actually is).

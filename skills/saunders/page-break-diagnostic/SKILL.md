@@ -15,6 +15,8 @@ tags:
   - revision
   - workshop
   - close-reading
+related:
+  - contrasts: the-basic-drill
 ---
 
 ## When to reach for this
@@ -55,4 +57,5 @@ Chapter "A Page at a Time," lines 279-1349 (especially 329-368, 735-748, 1148-11
 
 ## Related skills
 
-(none yet)
+- Contrasts `the-basic-drill`. Use the page-break diagnostic mid-read at chosen pauses when the goal is to surface evolving expectations as the story unfolds. Use the basic drill after a complete reading, when the goal is to register the felt reactions of the finished experience. Both anchor reactions to places on the page, but operate at different stages of the reading.
+- See also `truncation-test`, which uses a related cut-and-observe procedure but on a fixed cut near the end (or on an internal unit) rather than at every break.

@@ -12,6 +12,8 @@ tags:
   - revision
   - imagery
   - structure
+related:
+  - extends: heart-of-the-story
 ---
 
 ## When to reach for this
@@ -53,4 +55,5 @@ Chapter "The Heart of the Story," lines 2002-2038. Saunders names the move, give
 
 ## Related skills
 
-(none yet)
+- Extends `heart-of-the-story`. The juxtaposition move presupposes the heart already named: the suspect element is held against it, and the felt relation (or its absence) is read out. Once the heart is identified, this is the audit move for static or apparently decorative elements that the unit-level Cornfeld test would miss.
+- See also `two-version-comparison` (the comparator-method shape; here the comparator is the heart rather than a counterfactual) and `track-non-normative-excesses` (the TICHN cart often supplies the suspect elements held up against the heart).

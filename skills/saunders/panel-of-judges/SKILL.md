@@ -53,4 +53,5 @@ Chapter "The Heart of the Story," lines 1924-1938. Saunders identifies the funct
 
 ## Related skills
 
-(none yet)
+- See also `heart-of-the-story` (when the heart is an unwitnessable event — singing, a sermon, a kiss — the panel is the device that adjudicates it for the reader, and the pre-event descriptions of side characters are the infrastructure that lets the panel grade).
+- See also `increasing-specification` (each panelist must be specified enough on at least two dimensions, susceptibility and authority, for the reader to weight their reactions) and `mind-to-mind-vantage-shifts` (the panel's verdict is delivered by rotating among bystanders' reactions during the event).

@@ -86,4 +86,5 @@ Chapter "Appendix C: A Translation Exercise," lines 7686-7704 (Saunders walks hi
 
 ## Related skills
 
-(none yet)
+- See also `follow-the-voice`. The two skills are sequential: follow-the-voice generates the draft from a seed, with no top-down conception; iterative-preference-revision then revises that draft per-decision by P/N reaction. Both refuse the engineer-with-destination stance Saunders flags as the freeze-up failure mode; the first applies it to drafting, the second to revision.
+- See also `forced-cut-pace-discovery` and `escalation-by-vocabulary-constraint` (constraint exercises that surface the writer's editing basis and a felt sense of escalation, which the iterative method then has something to act on) and `respect-the-reader-cut` (one of the reactions that drops the P/N needle is "the reader could supply this," and the cut is the corresponding fix).

@@ -15,6 +15,8 @@ tags:
   - critique
   - structure
   - editing
+related:
+  - contrasts: hollywood-version
 ---
 
 ## When to reach for this
@@ -58,4 +60,5 @@ Chapter "A Swim in a Pond in the Rain: Thoughts on 'Gooseberries'," lines 6047-6
 
 ## Related skills
 
-(none yet)
+- Contrasts `hollywood-version`. Use the heart of the story when auditing parts against a center, when the question is "what is this scene for"; the output is a specific moment on a specific page that the rest must serve. Use the Hollywood version up front, when the working description of "what story this wants to be" needs to be agreed before changes are proposed; the output is a one-sentence shape used as the standard for suggestions. The heart gives "advances the story" a destination; the Hollywood version gives "this is the story of ___" a shape.
+- See also `cornfeld-principle` (the unit-level test runs against the heart as its destination), `holding-up-against-the-heart` (the imagery-level audit uses the heart as the comparator), `truncation-test` (cut the ending to surface what it supplies; cut an internal unit to surface what it does for the heart), and `panel-of-judges` (when the heart is an unwitnessable event, the panel is the device that adjudicates it for the reader).

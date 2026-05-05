@@ -56,4 +56,5 @@ Chapter "The Heart of the Story," lines 2064-2130. Saunders sets up the energy c
 
 ## Related skills
 
-(none yet)
+- See also `follow-the-voice` (the voice the energy probe identifies is the seed the writer then follows; energy-not-aspiration tells you which voice to follow, follow-the-voice tells you how to write from it).
+- See also `escalation-by-vocabulary-constraint` and `forced-cut-pace-discovery` (constraint exercises that bypass the writer-self-image and surface the off-license modes the energy probe is meant to identify).

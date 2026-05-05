@@ -12,6 +12,8 @@ tags:
   - cutting
   - prose
   - reader
+related:
+  - extends: take-responsibility-for-every-element
 ---
 
 ## When to reach for this
@@ -55,4 +57,5 @@ Chapter "Afterthought #2," lines 2291-2303 (the Jane reduction; the question "wh
 
 ## Related skills
 
-(none yet)
+- Extends `take-responsibility-for-every-element`. The element-level audit asks whether each detail has a stated function; this skill applies that test at sentence and clause scope, with three named categories of removable material (stated reaction, restated context, default detail) that surface the cuts the reader would happily supply.
+- See also `forced-cut-pace-discovery` (the constraint exercise that builds the felt knowledge of what tighter feels like, so this audit has a calibration to cut toward) and `iterative-preference-revision` (the per-decision reaction loop that this audit feeds into).

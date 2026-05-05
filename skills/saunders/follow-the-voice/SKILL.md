@@ -66,4 +66,5 @@ Chapter "Appendix C: A Translation Exercise," lines 7706-7714 (the fourth seed-s
 
 ## Related skills
 
-(none yet)
+- See also `iterative-preference-revision`. The two are sequential: follow-the-voice generates the draft from a seed; iterative-preference-revision then revises that draft per-decision by P/N reaction. Both refuse the engineer-with-destination stance and rely on the same disposition (acting on the felt impulse, not on theory).
+- See also `energy-not-aspiration` (the energy criterion that tells you which voice to follow when more than one is available) and `belief-by-character-attribution` (the move applied to a sincere belief: render it in voice, attribute it to a character, let the story react).

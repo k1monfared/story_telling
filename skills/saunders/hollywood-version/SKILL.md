@@ -18,6 +18,8 @@ tags:
   - critique
   - revision
   - editing
+related:
+  - contrasts: heart-of-the-story
 ---
 
 ## When to reach for this
@@ -56,4 +58,4 @@ Chapter "A Page at a Time," lines 569-595. Saunders names this exercise as how h
 
 ## Related skills
 
-(none yet)
+- Contrasts `heart-of-the-story`. Use the Hollywood version up front, when the working description of "what story this wants to be" needs to be agreed before changes are proposed; the output is a one-sentence shape used as the standard for suggestions. Use the heart of the story when auditing parts against a center, when the question is "what is this scene for"; the output is a specific moment on a specific page that the rest must serve. Both name the story's center but at different stages and for different decisions.

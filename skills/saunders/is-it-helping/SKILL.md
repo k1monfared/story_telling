@@ -53,4 +53,4 @@ Chapter "We Begin," lines 188-278 (especially 271). Saunders sets up the disposi
 
 ## Related skills
 
-(none yet)
+(none) — this skill names the disposition with which to receive every other craft model in the library, including the rest of Saunders. It does not extend, refine, or contrast with any of them; it sits above them as the test each is held to.

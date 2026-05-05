@@ -1,3 +1,37 @@
 - Saunders refactor decisions
     - format: per refactor entry, list affected skill(s), what changed, why
     - entries appear after a chapter is saturated, when re-reads surface clearer phrasing or merger opportunities
+- Cross-reference pass
+    - date: 2026-05-05
+    - changed: 38 skills updated; 20 skills now have at least one frontmatter `related:` link; the other 18 link only via body-section "see also" prose
+    - structure that emerged
+        - 6 bidirectional contrasts, each with stated conditions on both sides
+            - the-basic-drill ↔ page-break-diagnostic (after-finished vs mid-read)
+            - hollywood-version ↔ heart-of-the-story (working description up front vs auditing parts against center)
+            - truncation-test ↔ two-version-comparison (comparator-by-deletion vs comparator-by-composition)
+            - track-non-normative-excesses ↔ confess-the-oddness (track during draft vs admit at ending)
+            - forced-cut-pace-discovery ↔ escalation-by-vocabulary-constraint (subtractive vs generative pressure)
+            - transformation-by-redirected-energy ↔ withhold-the-resolving-interior (changed action vs irradiated question)
+        - 11 extends links forming clear lineages
+            - reading/critique: ask-strategic-not-interpretive extends the-basic-drill; convert-moral-critique-to-technical extends ask-strategic-not-interpretive
+            - heart cluster: cornfeld-principle extends heart-of-the-story; truncation-test extends cornfeld-principle; holding-up-against-the-heart extends heart-of-the-story; take-responsibility-for-every-element extends cornfeld-principle; respect-the-reader-cut extends take-responsibility-for-every-element
+            - voice/exercise: escalation-by-vocabulary-constraint extends energy-not-aspiration
+            - strangeness: multiple-superimposed-weirdness extends psychological-physics-of-strangeness; improper-narrative-emphasis extends skaz-narrator
+            - climax: withhold-the-resolving-interior extends persistent-self-contradiction
+        - 0 refines links (the gate's distinction between refines and extends rarely fired cleanly; in cases where refines might apply, the relationship was either narrower-on-action-but-not-narrower-on-situation or already captured by an extends with a body-text condition note)
+        - 18 skills connected only via body "see also" sections (sequential pairs, complementary pairs, and adjacent skills that did not warrant a frontmatter verb)
+    - guideline-driven decisions worth flagging
+        - heart-of-the-story ↔ hollywood-version: set as `contrasts` with stated conditions; both name the story's center but at different stages and for different decisions, not duplicates
+        - heart-of-the-story ↔ cornfeld-principle: cornfeld extends heart (the heart gives "advances the story" a destination)
+        - track-non-normative-excesses ↔ confess-the-oddness: set as `contrasts` (the cart-emptying language Saunders cross-references); the cart that confess empties is built by track
+        - improper-narrative-emphasis ↔ skaz-narrator: set as `extends` (deflection is one of skaz's tools, kept separate because it can fire even when the broader narrator-character is not skaz)
+        - persistent-self-contradiction ↔ belief-by-character-attribution: complementary; commonly fire together; documented as body "see also" on both, with explicit note that conflating belief-attribution with skaz-narrator is the failure mode
+        - transformation-by-redirected-energy ↔ withhold-the-resolving-interior: set as `contrasts` (interior monologue / no interior monologue, opposite climaxes), with conditions in both When-to-reach sections
+        - iterative-preference-revision ↔ follow-the-voice: documented as body "see also" on both (sequential — drafting then revising); not promoted to a frontmatter verb because they are complementary in a way neither extends nor contrasts cleanly captures
+        - escalation-by-vocabulary-constraint ↔ forced-cut-pace-discovery: set as `contrasts` (different direction of pressure: generative vs subtractive)
+        - escalation-by-vocabulary-constraint ↔ energy-not-aspiration: set as `extends` (the constraint exercise is the procedural form that bypasses the writer-self-image energy-not-aspiration diagnoses)
+    - merge candidates flagged for follow-up consideration (no merges performed in this pass)
+        - heart-of-the-story ↔ hollywood-version: borderline novelty per prior subagent; left as separate skills with explicit `contrasts` and stated conditions because they fire on different decisions (working description for proposed changes vs central event for part-by-part audit). If a future user finds the conditions blur in practice, consider merging into a single "name the center" skill with two procedures.
+        - cornfeld-principle ↔ heart-of-the-story: not flagged as merge candidate because cornfeld is unit-level and heart is global; the extends relationship captures the dependency without redundancy.
+        - parameter-table-for-recurrence ↔ refuse-to-repeat-beats: kept separate; the table is the diagnostic, the rule is the procedural action; together they implement Saunders's escalation discipline at recurrence-scope. Not flagged for merge.
+    - validator: OK — 38 SKILL.md file(s) validated.

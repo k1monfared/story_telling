@@ -55,4 +55,5 @@ Chapter "A Swim in a Pond in the Rain: Thoughts on 'Gooseberries'," lines 6073-6
 
 ## Related skills
 
-(none yet)
+- See also `persistent-self-contradiction`. The two are complementary and commonly fire together. Belief-by-character-attribution renders one earnest position with full conviction and destabilizes it by a small concrete fact about the speaker; persistent-self-contradiction is the macro-structural method that builds counterweights across the rest of the story so the destabilization fits a thinking machine rather than a single hedge. The first is the move at one position; the second is the architecture that holds many.
+- See also `skaz-narrator` (kept separate from this skill: skaz renders graceless misfire whose voice the reader sees past, while attribution renders sincere belief whose truth-content the reader is meant to feel; conflating them collapses both moves) and `follow-the-voice` (the same disposition applied to drafting: write in the voice of a character who is not you, let the prose generate, and trust the story to react).

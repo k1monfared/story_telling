@@ -13,6 +13,9 @@ tags:
   - climax
   - interiority
   - omission
+related:
+  - extends: persistent-self-contradiction
+  - contrasts: transformation-by-redirected-energy
 ---
 
 ## When to reach for this
@@ -55,4 +58,6 @@ Chapter "The Wisdom of Omission," lines 6837-6897 (the death-scene paragraph; th
 
 ## Related skills
 
-(none yet)
+- Extends `persistent-self-contradiction`. The macro-structural method builds two readings of the central question across the prior pages with equal force; this skill is the single-moment technical decision at the resolution point that preserves the un-rankability the macro-method has set up. They commonly fire together: persistent-self-contradiction across the body, withhold-the-resolving-interior at the climax. The Rubin's-vase outcome the macro-method aims at is what this skill protects.
+- Contrasts `transformation-by-redirected-energy`. Both refuse the soliloquy of realization, but under opposite conditions. Use withhold-the-resolving-interior when the prior pages have built two readings with equal force and entering the head would collapse them into a verdict; the procedure renders only externals and leaves the resolution un-answered. Use transformation-by-redirected-energy when the prior pages have built toward a real change and the character is the kind who would take the hint; the procedure renders the changed action in the character's familiar idiom and lets the character react to their own action with surprise. The first ends in irradiated question; the second ends in changed action.
+- See also `compress-to-force-resolution` (the structural device that creates the time-pressure under which the omission or the redirected action discharges).

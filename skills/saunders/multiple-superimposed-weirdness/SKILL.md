@@ -13,6 +13,8 @@ tags:
   - structure
   - escalation
   - register
+related:
+  - extends: psychological-physics-of-strangeness
 ---
 
 ## When to reach for this
@@ -52,4 +54,5 @@ George Saunders, *A Swim in a Pond in the Rain*, "The Door to the Truth Might Be
 
 ## Related skills
 
-(none yet)
+- Extends `psychological-physics-of-strangeness`. The physics skill establishes the rule of the world via immediate character reactions to the impossible event; this skill builds on that base by layering additional tiers (plan, world's resistance, narrator) so the strangeness compounds rather than re-decorating already-taken ground.
+- See also `skaz-narrator` (the narrator-tier, named here as the highest-leverage tier, is what skaz-narrator fills) and `improper-narrative-emphasis` (the sentence-level deflection that lets later tiers stay strange without exposing literal mechanics).

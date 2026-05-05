@@ -7,6 +7,9 @@ sources:
   - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
     lines: "822-855"
     note: "Saunders names the move 'ritual banality avoidance,' demonstrates it via Chekhov's removal of Hanov, and gives the love-beads metaphor 'push the new bead to the knot' for surrendering reveals early."
+  - chapter: "A Pattern Story: Thoughts on 'The Darling'"
+    lines: "3000-3022"
+    note: "Saunders sharpens the trigger and supplies the optometrist's framing. At the moment the story expects the obvious next thing (Olenka loves the cat, Trot, who has just been introduced as a possible candidate), Chekhov pauses on what Saunders calls an inflection point and asks 'Will it be more meaningful (richer) for Olenka to love the cat or reject the cat? (As the optometrists say: \"Is this better? Or this?\")' The cat is rejected, and Sasha, a richer second-order option, becomes the next love. Saunders explicitly cross-references the move: 'as in In the Cart, the removal of the first-order option forces the story to supply something better.' The new trigger framing names the moment where the writer has to (gets to) make an authorial decision: the inflection point between the obvious continuation and the higher-ground alternative."
 tags:
   - revision
   - drafting

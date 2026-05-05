@@ -10,6 +10,9 @@ sources:
   - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
     lines: "1704-1712, 1748"
     note: "Sharpens the trigger for contest-shaped stories: A and B must each stand for something distinct so the outcome can carry meaning. Saunders gives 'specificity makes character' as the principle and shows the contractor becoming a particular person ('a shredder, in guitar terms') only once the singing is rendered specifically."
+  - chapter: "Afterthought #2"
+    lines: "2269-2281"
+    note: "Sharpens the trigger to the sentence level: a sentence that states a verdict on a character ('Bob was an asshole') instead of rendering the moment that produced the verdict. Saunders walks through successive rounds of asking 'why' until 'Bob was an asshole' becomes 'Bob snapped impatiently at the young barista, who reminded him of his dead wife, Marie, who he missed so much, especially now, at Christmas, which had always been her favorite time of year,' and notes the side effect: the revised writer becomes 'more alert to Bob,' a moral-ethical deepening produced as a byproduct of asking the procedural question 'which particular person, doing which particular thing, why?' The trigger generalizes the skill from character introduction to any sentence that names a verdict instead of rendering the situation that earns it."
 tags:
   - drafting
   - characterization

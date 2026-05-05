@@ -43,7 +43,7 @@
     - type: essay
     - title: Afterthought #2
     - lines: 2160-2350
-    - status: pending
+    - status: saturated
 
 - Chapter 8
     - type: story

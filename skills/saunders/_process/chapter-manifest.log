@@ -121,7 +121,7 @@
     - type: story
     - title: Alyosha the Pot (Leo Tolstoy)
     - lines: 6525-6648
-    - status: pending
+    - status: saturated
 
 - Chapter 21
     - type: essay

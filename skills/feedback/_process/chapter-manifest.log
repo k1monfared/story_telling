@@ -1,0 +1,100 @@
+- Feedback chapter manifest
+    - source: /home/k1/books/text/communication/Thanks for the Feedback.txt
+    - generated: 2026-05-03
+    - total chapters: 16
+
+- Chapter 1
+    - type: front
+    - title: Front Matter (praise, title page, copyright, dedication, contents)
+    - lines: 1-289
+    - status: pending
+
+- Chapter 2
+    - type: intro
+    - title: Introduction (From Push to Pull)
+    - lines: 290-470
+    - status: pending
+
+- Chapter 3
+    - type: chapter
+    - title: 1. Three Triggers That Block Feedback
+    - lines: 471-738
+    - status: pending
+
+- Chapter 4
+    - type: chapter
+    - title: 2. Separate Appreciation, Coaching, and Evaluation
+    - lines: 739-1099
+    - status: pending
+
+- Chapter 5
+    - type: chapter
+    - title: 3. First Understand (Shift from "That's Wrong" to "Tell Me More")
+    - lines: 1100-1730
+    - status: pending
+
+- Chapter 6
+    - type: chapter
+    - title: 4. See Your Blind Spots (Discover How You Come Across)
+    - lines: 1731-2244
+    - status: pending
+
+- Chapter 7
+    - type: chapter
+    - title: 5. Don't Switchtrack (Disentangle What from Who)
+    - lines: 2245-2757
+    - status: pending
+
+- Chapter 8
+    - type: chapter
+    - title: 6. Identify the Relationship System (Take Three Steps Back)
+    - lines: 2758-3252
+    - status: pending
+
+- Chapter 9
+    - type: chapter
+    - title: 7. Learn How Wiring and Temperament Affect Your Story
+    - lines: 3253-3590
+    - status: pending
+
+- Chapter 10
+    - type: chapter
+    - title: 8. Dismantle Distortions (See Feedback at "Actual Size")
+    - lines: 3591-4009
+    - status: pending
+
+- Chapter 11
+    - type: chapter
+    - title: 9. Cultivate a Growth Identity (Sort Toward Coaching)
+    - lines: 4010-4486
+    - status: pending
+
+- Chapter 12
+    - type: chapter
+    - title: 10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)
+    - lines: 4487-4973
+    - status: pending
+
+- Chapter 13
+    - type: chapter
+    - title: 11. Navigate the Conversation
+    - lines: 4974-5645
+    - status: pending
+
+- Chapter 14
+    - type: chapter
+    - title: 12. Get Going (Five Ways to Take Action)
+    - lines: 5646-6335
+    - status: pending
+
+- Chapter 15
+    - type: chapter
+    - title: 13. Pull Together (Feedback in Organizations)
+    - lines: 6336-6693
+    - status: pending
+
+- Chapter 16
+    - type: back
+    - title: Back Matter (Acknowledgments, Notes on Some Relevant Organizations, About the Authors, Notes, Road Map)
+    - lines: 6694-7787
+    - status: pending

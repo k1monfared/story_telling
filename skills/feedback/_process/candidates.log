@@ -1,0 +1,3 @@
+- Feedback extraction candidates
+    - format: per candidate, list chapter, location, paraphrase, situation, outcome
+    - outcomes: → promoted to <slug>, → folded into <slug>, → dropped because <reason>

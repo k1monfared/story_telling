@@ -99,3 +99,54 @@
         - location: lines 683-693
         - paraphrase: shift from a fixed identity story (feedback is a verdict on what I am) to a growth identity (feedback is information about where I stand now and what to work on).
         - outcome: → deferred to chapter 11 ("Cultivate a Growth Identity").
+
+- Chapter 4: 2. Separate Appreciation, Coaching, and Evaluation, lines 739-1099
+
+    - candidate: sort-the-kind (appreciation / coaching / evaluation)
+        - location: lines 780-799 (the three kinds named in the bar scenario), lines 805-846 (each kind defined), lines 874-905 (the "we need all three" table)
+        - paraphrase: when feedback is on the table (incoming or sought), identify which of the three kinds it is — appreciation (I see you, you matter), coaching (here is how to grow, or here is something missing in our relationship), evaluation (here is where you stand against a standard). Each serves a different need; treating them as one category is the source of much receiver-side trouble.
+        - situation: feedback is being given or asked for and you are about to react to it as one undifferentiated thing called "feedback" without naming which of the three is actually in play.
+        - outcome: → promoted to sort-the-kind
+
+    - candidate: diagnose-the-cross-transaction (kind-mismatch)
+        - location: lines 970-994 (the "Beware Cross-Transactions" section, with April/Cody/Evelyn 0-for-3), and lines 999-1016 (the "always evaluation in coaching" structural mismatch with Elsie)
+        - paraphrase: when feedback lands wrong despite both parties acting in good faith, the diagnosis is often that the kind you wanted and the kind you got are different — or the giver intended one kind and you heard another. Name the mismatch explicitly (giver gave X, you wanted/heard Y) before debating the content.
+        - situation: a feedback exchange has just happened and you are dismayed, deflated, or more anxious than before. The content is not obviously wrong but it does not address what you came for, and you are about to either argue the content or suppress the dismay.
+        - outcome: → promoted to diagnose-the-cross-transaction
+
+    - candidate: negotiate-which-kind-you-need
+        - location: lines 1031-1052, "Get Aligned: Know the Purpose and Discuss It," with the three alignment questions (1036-1042) and the receiver scripts at 1050 ("You're offering coaching, but it would help to get a quick evaluation," "You're saying this is coaching, but I'm hearing it as evaluation, too"). Closes with Elsie's case at 1052 (she actually wanted appreciation for a week of practice).
+        - paraphrase: before or during a feedback conversation, surface which kind you want (and which kind the giver thinks they are giving) and negotiate explicitly when they differ. "Explicit disagreement is better than implicit misunderstanding." The receiver may need to take the bull by the horns and name the kind they actually need.
+        - situation: you are about to enter (or are inside) a feedback conversation and you sense you and the giver are on different tracks about what kind of feedback this is, and you are about to leave the misalignment unspoken and walk out frustrated.
+        - outcome: → promoted to negotiate-which-kind-you-need
+
+    - candidate: evaluation-first sequencing
+        - location: lines 1058-1069, "Separate Evaluation from Coaching and Appreciation," with the bugle-blast metaphor (1061), the performance-review scenario (1063), and the graded-paper analogy (1067, "the student will first turn to the last page to check their grade. Only then can they take in the instructor's margin notes").
+        - paraphrase: evaluation is loud enough to drown out coaching and appreciation. Until the where-do-I-stand question is answered, coaching cannot land. As receiver: settle the evaluation question first (ask for it, separate it in time, or get the floor) before trying to absorb coaching layered on top.
+        - situation: you are receiving (or about to receive) coaching while an unresolved evaluation question is live (am I on track? do I still have a future here?), and you are about to try to absorb the coaching on top of an unanswered evaluation, or attribute the coaching's failure to land to its content.
+        - outcome: → promoted to settle-evaluation-first
+
+    - candidate: appreciation has three qualities (specific, in receivable form, authentic)
+        - location: lines 941-951
+        - paraphrase: for appreciation to actually count for the receiver, three qualities are needed: it must be specific (not "good work!"), it must come in a form the receiver values (some hear it in words, some in trusted-adviser status, some in promotion), and it must be authentic (not performed to check a box).
+        - outcome: → dropped because the chapter casts these as criteria for givers, and the receiver-side analog (notice when received appreciation lacks one of the three; ask for it in your own form) is too thin a procedure on its own. The receiver-side move is already covered by sort-the-kind (recognize that the appreciation you are getting is not landing) and negotiate-which-kind-you-need (ask for it in a form that lands). No distinct action/signal/failure that those two skills do not already supply.
+
+    - candidate: evaluation shortfalls / "evaluative floor"
+        - location: lines 907-918
+        - paraphrase: removing evaluation altogether leaves a hole that receivers fill by reading coaching and appreciation as veiled evaluation. Receivers need an evaluative floor before they can take in the other two.
+        - outcome: → folded into settle-evaluation-first. The "evaluative floor" insight is the same chapter argument that drives the evaluation-first sequencing skill: the absence of evaluation produces the same stuck state as a loud unfavorable evaluation. Captured in that skill's "When to reach for this" and "Failure mode."
+
+    - candidate: there is always evaluation in coaching (structural)
+        - location: lines 999-1016
+        - paraphrase: every "here is how to improve" carries an implicit "so far you are not doing it as well as you might." The giver has only partial control over the evaluative echo; the receiver may funnel coaching into the evaluation slot regardless of intent.
+        - outcome: → folded into diagnose-the-cross-transaction. The structural evaluative-echo is one of the two cross-transaction patterns the section names (the other being "I wanted X, got Y"). Captured in that skill as the second pattern of mismatch (giver intended coaching, receiver heard evaluation).
+
+    - candidate: appreciation deficits / MADD
+        - location: lines 944-945
+        - paraphrase: over time, two-way appreciation deficits set in: each side feels unappreciated by the other.
+        - outcome: → dropped because it is a relational diagnosis at the dyad level, not a moment-of-receipt receiver action with its own signal and failure. The corresponding receiver move (ask for appreciation in a form you can hear) is folded into negotiate-which-kind-you-need.
+
+    - candidate: Luke and the gallery (entertainment is not feedback)
+        - location: lines 850-868, the America's Got Talent sidebar
+        - paraphrase: some feedback is performed for an audience other than you; recognizing the gallery (TV viewers, online commenters, talk-radio listeners) reframes the feedback as evaluation-as-spectacle, only loosely about you.
+        - outcome: → dropped because the gate fails on action: the actual receiver-side action this implies (decide whether the feedback's primary audience is you or a gallery, and discount accordingly) is too situation-specific (public, mediated feedback) to generalize beyond the scenario. The structural insight is already covered by sort-the-kind (this is evaluation, performed for a third party) plus engaging-is-not-accepting (you can hear it without using it).

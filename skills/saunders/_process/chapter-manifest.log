@@ -31,7 +31,7 @@
     - type: story
     - title: The Singers (Ivan Turgenev)
     - lines: 1407-1635
-    - status: pending
+    - status: saturated
 
 - Chapter 6
     - type: essay

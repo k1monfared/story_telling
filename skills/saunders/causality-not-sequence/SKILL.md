@@ -7,6 +7,8 @@ sources:
   - chapter: "And Yet They Drove On: Thoughts on 'Master and Man'"
     lines: "4395-4426, 4435-4451"
     note: "Saunders contrasts a 'lesser writer' version of the lost-on-the-road sequence (random crossroads choice, Nikita falls asleep 'just because,' they get lost) with Tolstoy's version (Vasili pokes at Nikita about his wife and the horse purchase; Nikita is irritated; at the crossroads Vasili asks Nikita's wise opinion and ignores it; Nikita, taunted and dismissed, falls asleep as withdrawal; Vasili, unmonitored, gets them lost). The difference is named: 'increased causality.' Saunders identifies causality as one of the two things separating writers who publish from those who don't, gives Forster's queen-and-king formulation, says causality is to the writer what melody is to the songwriter, and offers the painted-kite-and-wind metaphor. The skill is then exercised on the sled-of-drunken-peasants race: the race fires Vasili up; his elation causes him to drive on more boldly without examining the way-marks; that boldness causes them to get lost again. Each beat causes the next, and the next is felt as essential."
+  - external: "E. M. Forster, Aspects of the Novel (1927), Chapter V ('The Plot')"
+    note: "The canonical home of the queen-and-king formulation Saunders cites in passing. Forster's chapter draws the operative distinction at length: a story is 'a narrative of events arranged in their time-sequence,' a plot is 'a narrative of events, the emphasis falling on causality.' His extended treatment supplies the broader claim Saunders compresses into one paragraph, including the mystery-as-suspended-causality elaboration that helps a reader recognize causal weight in their own drafts."
 tags:
   - drafting
   - revision
@@ -49,6 +51,8 @@ Saunders contrasts two versions of the lost-on-the-road sequence. The lesser wri
 ## Source
 
 Chapter "And Yet They Drove On," lines 4395-4426 (the "lesser writer" contrast, the queen-and-king formulation, the "causality is to the writer what melody is to the songwriter" claim, the painted-kite-and-wind metaphor) and lines 4435-4451 (the sled race exercised through the explicit causal chain: race causes elation causes bold driving causes getting lost).
+
+E. M. Forster, *Aspects of the Novel* (1927), Chapter V ("The Plot"). The queen-and-king formulation Saunders quotes lives here, embedded in Forster's full distinction between story ("a narrative of events arranged in their time-sequence") and plot ("a narrative of events, the emphasis falling on causality"). Useful when a reader wants the canonical formal treatment of the and-then vs and-so contrast, including Forster's mystery-as-suspended-causality elaboration that further sharpens the test.
 
 ## Related skills
 

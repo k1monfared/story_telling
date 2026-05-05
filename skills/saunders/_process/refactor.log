@@ -59,4 +59,20 @@
         - drafting-from-voice-or-energy-seed via is-it-helping (is-it-helping → energy-not-aspiration → follow-the-voice): rejected because is-it-helping is a meta-disposition for receiving any craft model, not a step in a drafting chain. The chain reduces to the second and third steps, which are already documented as see-also-sequential in the atomic skills. The promoted draft-by-energy-bypass recipe captures the more disciplined version of this scenario via the four-step chain that includes the constraint-bypass and revision steps.
     - .gitkeep cleanup: removed skills/saunders/recipes/.gitkeep
     - validator: OK — 41 SKILL.md file(s) validated.
+- External sources pass
+    - date: 2026-05-05
+    - added: 2 skills got external sources
+        - causality-not-sequence: E. M. Forster, Aspects of the Novel (1927), Chapter V ("The Plot"). Saunders names Forster's queen-and-king formulation in passing; Forster's chapter is the canonical home of the story-vs-plot distinction with the and-then vs and-so contrast and a mystery-as-suspended-causality elaboration that further sharpens the test. Sharpens because a reader of this skill specifically benefits from knowing where Forster's compressed slogan unfolds at length.
+        - mind-to-mind-vantage-shifts: James Wood, How Fiction Works (2008), sections on "Narrating" and "Free Indirect Style." The interior-rendering half of Saunders's rotation (entering Vasili's mind in third person while keeping his idiom) is free indirect style, with a famous tradition (Flaubert, Austen, Joyce) Saunders performs but does not name. Wood's treatment gives the reader formal vocabulary and lineage for the in-the-mind register independently of the rotation pattern.
+    - considered and rejected
+        - the-basic-drill: reader-response criticism (Iser, Rosenblatt) — academic depth without sharper procedure than Saunders already supplies.
+        - ask-strategic-not-interpretive: same family as the-basic-drill — same rejection.
+        - respect-the-reader-cut: Strunk & White ("omit needless words") — folkloric and below the bar; Klinkenborg's Several Short Sentences About Writing — closer in spirit but Saunders's three-category cut taxonomy (stated reaction, restated context, default detail) is its own contribution and the addition would dilute rather than sharpen.
+        - page-break-diagnostic: Forster's "what next?" / Barthes's hermeneutic code — neither has a tighter procedural treatment than Saunders's three-question protocol.
+        - is-it-helping: the Lankavatara Sutra finger-pointing image — Saunders already names the source, no external addition would add anything.
+        - hollywood-version: Blake Snyder, Save the Cat ("logline") — Snyder is below Saunders's level of craft thinking and the parallel risks cheapening rather than sharpening.
+        - heart-of-the-story: no obvious external complement — Saunders's candy-factory + Club-Story-bouncer procedure is the named treatment.
+        - skaz-narrator: Vinogradov, Maguire, Vinokur — Saunders already cites them in the body; no external addition needed beyond what's there.
+        - all other 28 skills: no obvious well-known external complement passes the gate — most are Saunders's specific operationalization of moves that don't have a single canonical formal home, or have famous treatments that would not sharpen the procedure.
+    - validator: OK — 41 SKILL.md file(s) validated.
 

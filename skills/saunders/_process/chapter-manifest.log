@@ -109,13 +109,13 @@
     - type: essay
     - title: A Swim in a Pond in the Rain: Thoughts on "Gooseberries"
     - lines: 5939-6403
-    - status: pending
+    - status: saturated
 
 - Chapter 19
     - type: essay
     - title: Afterthought #6
     - lines: 6404-6524
-    - status: pending
+    - status: saturated
 
 - Chapter 20
     - type: story
@@ -157,10 +157,10 @@
     - type: back
     - title: Appendix C: A Translation Exercise
     - lines: 7650-7742
-    - status: pending
+    - status: saturated
 
 - Chapter 27
     - type: back
     - title: Back Matter (Dedication, Acknowledgments, Texts, Other Sources Consulted, Additional Resources, Credits, By George Saunders, About the Author)
     - lines: 7743-7962
-    - status: pending
+    - status: saturated

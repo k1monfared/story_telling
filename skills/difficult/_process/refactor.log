@@ -1,0 +1,51 @@
+- Difficult Conversations refactor decisions
+    - format: per refactor entry, list affected skill(s), what changed, why
+    - entries appear after a chapter is saturated, when re-reads surface clearer phrasing or merger opportunities
+
+- Cross-reference pass
+    - date: 2026-05-05
+    - changed: 5 skills updated with frontmatter `related:` links; the remaining 10 skills link only via body-section "Related skills" prose
+    - structure that emerged
+        - 4 extends chains
+            - listen-from-the-inside-out extends shift-from-certainty-to-curiosity (the listening skill translates the internal curiosity stance into concrete conversational technique)
+            - adopt-the-and-stance extends shift-from-certainty-to-curiosity (the And Stance is how you hold both stories once curiosity has opened the other's story)
+            - begin-from-the-third-story extends shift-from-certainty-to-curiosity (the Third Story is curiosity externalized into an opening line)
+            - regain-balance-during-the-conversation extends ground-your-identity-before-the-conversation (preparation then mid-conversation rescue)
+            - name-the-dynamic extends reframe-their-statements (name-dynamic is the escalation when reframing fails)
+        - 0 contrasts links (no clear same-situation-opposite-procedure pairs emerged)
+    - validator: OK — 112 SKILL.md file(s) validated.
+
+- Recipe pass
+    - date: 2026-05-05
+    - promoted: 2 recipes
+        - prepare-for-a-difficult-conversation
+            - chain: identify-which-conversation-is-running → ground-your-identity-before-the-conversation → clarify-your-purpose-before-raising
+            - scenario: a difficult conversation is coming and you are anxious about it; need to go in open, grounded, and with clear purposes
+            - intrinsic ordering: step 1 targets the preparation; step 2 stabilizes the identity so the decision in step 3 is clear-headed; step 3 decides whether and with what purposes (which depends on steps 1 and 2 having run). The book's chapter 12 checklist explicitly runs these three steps in this order.
+            - worked example: the chapter 12 checklist applies all three steps to Jack's preparation for the follow-up with Michael.
+        - navigate-the-what-happened-conversation
+            - chain: shift-from-certainty-to-curiosity → adopt-the-and-stance → disentangle-impact-from-intent → map-the-contribution-system
+            - scenario: the "What Happened?" conversation is the primary source of difficulty; both parties insisting they are right, arguing about intentions, or stuck in blame
+            - intrinsic ordering: step 1 (curiosity) is the substrate for all subsequent moves; step 2 (And Stance) gives the posture for holding both stories; step 3 (intent/impact) addresses the most specific error; step 4 (contribution) replaces blame. The four are the remedies for the book's three named errors in the "What Happened?" Conversation, run in the order of conceptual dependency.
+            - worked example: Jack's preparation notes in chapter 12 walk through all four steps on the Michael/brochure situation.
+    - candidates considered and rejected
+        - full learning conversation recipe (begin-from-third-story → listen → express → problem-solve): rejected because the middle two steps (listen, express) do not have a fixed intrinsic order in practice; real conversations require constant interleaving of listening and expressing. A recipe implying a fixed order would mislead.
+    - validator: OK — 112 SKILL.md file(s) validated.
+
+- External sources pass
+    - date: 2026-05-05
+    - added: 0 skills got external sources
+    - considered and rejected
+        - Getting to Yes (Fisher/Ury/Patton) for map-the-contribution-system: the book cites Getting to Yes explicitly in the problem-solving section (chapter 11), but the connection to map-the-contribution-system is indirect — the positions/interests distinction from Getting to Yes appears in the feedback library's dig-for-interests-then-generate-options, which is the primary treatment. Adding Getting to Yes here would duplicate rather than sharpen.
+        - Carl Rogers on empathic listening for listen-from-the-inside-out: the book does not cite Rogers directly in this context, and the "help me understand" stance is the book's own formulation. No canonical external source would sharpen it.
+        - All other 13 skills: no well-known external complement passes the gate.
+    - validator: OK — 112 SKILL.md file(s) validated.
+
+- Book closed
+    - date: 2026-05-05
+    - skill count: 15 atomic + 2 composed recipes = 17 total (plus 95 prior = 112 total library-wide)
+    - chapters processed: 16 of 16 (all saturated; chapters 1, 14, 15, 16 yielded zero skills as front matter, synthesis, Q&A, and back matter)
+    - productive chapters: 12 (chapters 3-13 each yielded between 1 and 4 skills)
+    - finalization complete: cross-references set, recipes written, catalog updated with 5 difficult-conversation scenarios and 2 updated cross-cutting scenarios, no external sources added
+    - re-open conditions: future processing may surface sharper treatments of some of these skills; if so, refactor here. Cross-book recipes drawing from this book and the others will live under skills/cross-book/ when written.
+    - validator at close: OK — 112 SKILL.md file(s) validated.

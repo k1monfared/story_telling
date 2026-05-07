@@ -1,3 +1,75 @@
 - Feedback refactor decisions
     - format: per refactor entry, list affected skill(s), what changed, why
     - entries appear after a chapter is saturated, when re-reads surface clearer phrasing or merger opportunities
+
+- Cross-reference pass
+    - date: 2026-05-05
+    - changed: 9 skills updated; 9 skills now have at least one frontmatter `related:` link; the remaining 42 atomic skills link only via body-section "Related skills" prose
+    - structure that emerged
+        - 5 extends chains
+            - notice-the-distortion-type extends understand-your-wiring-profile (wiring profile explains why reaction is strong; distortion type names the specific pattern that wiring is producing)
+            - separate-feeling-story-feedback extends notice-the-distortion-type (naming the type precedes separating the strands)
+            - contain-the-story extends separate-feeling-story-feedback (containment takes the separated actual feedback as its input)
+            - sort-toward-coaching extends adopt-growth-mindset-for-feedback (the growth mindset is the conceptual frame; sort-toward-coaching is its behavioral implementation in the conversation moment)
+            - give-yourself-a-second-score extends adopt-growth-mindset-for-feedback (same parent; second-score is the post-evaluation implementation)
+        - 3 extends chains in the system/accountability cluster
+            - spot-the-shifter-or-absorber-pattern extends take-three-steps-back (the system view is the remedy the pattern-diagnostic prescribes)
+            - take-responsibility-first-then-introduce-the-system extends take-three-steps-back (sequencing rule for introducing the system view from step 1)
+            - ask-what-would-help-you-change extends take-responsibility-first-then-introduce-the-system (downstream fallback when even the sequenced version doesn't open the giver)
+        - 1 extends chain in the action cluster
+            - precommit-to-riding-the-j-curve extends try-small-experiments (experiments start changes; j-curve skill handles the dip phase)
+        - 1 extends chain in the boundary cluster
+            - set-the-boundary-clearly extends diagnose-and-name-the-boundary (diagnosis precedes the conversation)
+        - 1 extends for the conversation cluster
+            - align-on-conversation-purpose extends make-a-process-move (align is the opening-specific instantiation of the general process-move pattern)
+    - guideline-driven decisions worth flagging
+        - change-your-vantage-point ↔ contain-the-story: both address distortion but via different mechanisms (scope vs. perspective). Left as body "see also" rather than promoted to frontmatter because they are complementary alternatives rather than a directional extends or true contrasts pair.
+        - know-your-feedback-footprint ↔ understand-your-wiring-profile: both profile the receiver's reaction tendencies, one behavioral and one physiological. Left as body "see also" because neither extends the other in a clean direction.
+        - negotiate-your-internal-voice ↔ know-your-feedback-footprint: know-your-footprint is preparation; negotiate-your-internal-voice is the in-conversation application. Left as body "see also" because the footprint skill is not the parent concept of the internal-voice skill; they address the same zone but via different mechanisms.
+        - sort-the-kind / diagnose-the-cross-transaction / negotiate-which-kind-you-need / settle-evaluation-first: this cluster (from ch 4) forms a natural lineage but the directional extends relationships are already documented in their original body sections from the previous context; not re-opened in this pass.
+    - 0 refines links (same finding as Saunders pass: the refines verb rarely fires cleanly when the relationship is either narrower-on-action-but-not-narrower-on-situation, or already captured by an extends with a body-text condition note)
+    - validator: OK — 95 SKILL.md file(s) validated.
+
+- Recipe pass
+    - date: 2026-05-05
+    - promoted: 3 recipes
+        - dismantle-a-distorted-story
+            - chain: understand-your-wiring-profile → notice-the-distortion-type → separate-feeling-story-feedback → contain-the-story
+            - scenario: received feedback and the emotional reaction is larger than the content warrants; need to restore accurate perception before deciding what to do
+            - intrinsic ordering: step 1 attributes the reaction to wiring rather than content (without this, steps 2-4 proceed from inside an unacknowledged distorted state); step 2 names the distortion type (without this, you cannot separate what has been fused); step 3 separates the strands (without this, containment takes the wrong input); step 4 restores the scope limits (without this, the actual feedback is visible but still at distorted size)
+            - worked example: Seth's case (one boss comment → nausea → shame → despair → nearly cancels trip to father's birthday) walks through all four steps sequentially
+        - respond-to-feedback-in-a-relationship-system
+            - chain: take-three-steps-back → take-responsibility-first-then-introduce-the-system → ask-what-would-help-you-change
+            - scenario: feedback conversation stuck in a blame loop; each party points at the other's contribution; need to break the loop while maintaining honesty about both sides
+            - intrinsic ordering: step 1 must come before step 2 (you cannot introduce the system until you have genuinely seen your own contribution in it); step 2 must come before step 3 (message one settled is the prerequisite for message two; step 3 applies only when even the sequenced version does not open the giver)
+            - worked example: Sandy and Gil's financial-stress dynamic provides the worked case for step 1 (the intersecting coping cycles) and step 3 (Gil's script naming his reaction and asking for a specific change)
+        - navigate-a-feedback-conversation
+            - chain: align-on-conversation-purpose → negotiate-your-internal-voice → assert-as-left-out → (rescue: make-a-process-move or dig-for-interests-then-generate-options) → close-with-commitment
+            - scenario: feedback conversation about to happen or underway; want to learn something real from it, say what needs to be said, and end with clarity
+            - intrinsic ordering: step 1 frames the conversation (without this, content arguments happen before the parties know what kind of conversation they're in); step 2 manages the internal voice (without this, the body collapses into bodyguard defense); step 3 adds the missing puzzle pieces (without this, only one side's perspective enters the room); rescue moves apply to specific stuck states; step 4 closes the loop (without this, both parties leave unclear on what was agreed)
+            - worked example: the performance-rating version-four conversation from chapter 11 walks through all four steps with a slow-to-understand boss
+    - candidates considered and rejected
+        - receiving-feedback-in-an-evaluation-cycle (sort-the-kind → settle-evaluation-first → sort-toward-coaching → unpack-judgment-from-evaluation → give-yourself-a-second-score): rejected as too disjunctive. Steps 3 and 4 are alternatives (sort-toward-coaching applies when evaluation contains coaching; unpack-judgment applies when it doesn't). The chain has an "or" that makes it a family of responses rather than a single recipe.
+        - growth-identity-practice-set (embrace-identity-nuance → adopt-growth-mindset-for-feedback → sort-toward-coaching → give-yourself-a-second-score): rejected because the ordering is soft (the two shifts are parallel, not sequential) and the three practices are best used situationally rather than in a fixed order. The atomic skills' related-sections already encode the conceptual dependencies.
+    - validator: OK — 95 SKILL.md file(s) validated.
+
+- External sources pass
+    - date: 2026-05-05
+    - added: 2 skills got external sources
+        - adopt-growth-mindset-for-feedback: Carol Dweck, Mindset: The New Psychology of Success (2006). Stone and Heen draw heavily on Dweck's research throughout chapter 9 but compress the full framework into a few paragraphs. Dweck's book is the canonical home of the fixed/growth distinction with the full procedural depth for recognizing and shifting mindsets. Sharpens because a reader who wants to cultivate the growth identity rather than just understand it will find the methods there.
+        - dig-for-interests-then-generate-options: Roger Fisher, William Ury, and Bruce Patton, Getting to Yes (1981, 2nd ed. 1991). Stone and Heen explicitly cite the positions/interests distinction as Fisher and Ury's. Getting to Yes is the canonical home with the full four-principle negotiation framework, BATNA, objective criteria, and case studies. Sharpens because the skill covers only the feedback-conversation application; Getting to Yes develops the framework as its entire subject.
+    - considered and rejected
+        - understand-your-wiring-profile: Richard Davidson, The Emotional Life of Your Brain (2012) — the book already integrates Davidson's key findings; the skill is a practical application framework, not a neuroscience introduction.
+        - separate-feeling-story-feedback: Argyris's "ladder of inference" — acknowledged in the book's acknowledgments but not a clean external complement to the three-strand model, which is Stone/Heen's own contribution.
+        - embrace-identity-nuance: no obvious external source that both predates the book and provides a sharper version of the all-or-nothing identity label problem specifically.
+        - all other 49 skills: no well-known external complement passes the sharpening gate; most are Stone/Heen's specific operationalizations of moves that don't have a single canonical formal home.
+    - validator: OK — 95 SKILL.md file(s) validated.
+
+- Book closed
+    - date: 2026-05-05
+    - skill count: 51 atomic + 3 composed recipes = 54 total (plus 41 Saunders = 95 total)
+    - chapters processed: 16 of 16 (all saturated; chapters 15-16 yielded zero skills as organizational/back-matter content)
+    - productive chapters: 14 (chapters 2-14 each yielded between 1 and 6 skills)
+    - finalization complete: cross-references set, recipes written, catalog updated with 9 receiving-feedback scenarios and 3 expanded difficult-conversation scenarios, external sources added where they sharpen
+    - re-open conditions: Difficult Conversations (the next book) may surface receiver-side skills that provide sharper or more specific versions of some of these skills, particularly in the truth-trigger and relationship-trigger clusters. If so, refactor here. Cross-book recipes drawing from this book and the next will live under skills/cross-book/ when written.
+    - validator at close: OK — 95 SKILL.md file(s) validated.

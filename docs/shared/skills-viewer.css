@@ -1,0 +1,483 @@
+/* skills-viewer.css — styles for the skills viewer component */
+/* Uses the same CSS variables as loglog-viewer.css */
+
+/* ── Variable aliases (mirror loglog-viewer.css) ── */
+.sv-root {
+  --bg2: var(--header-bg);
+  --bg3: var(--border);
+  --bd:  var(--border);
+  --txt: var(--text);
+  --txt2: var(--text-muted);
+  --acc: var(--link);
+  --blue: var(--link);
+}
+
+/* ── Scrollbar ── */
+.sv-root ::-webkit-scrollbar { width: 6px; height: 6px; }
+.sv-root ::-webkit-scrollbar-track { background: transparent; }
+.sv-root ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.sv-root ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+.sv-root * { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }
+
+/* ── Root container ── */
+.sv-root {
+  display: block;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ── Outer wrap: sidebar + main side by side ── */
+.sv-wrap {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 56px); /* leave room for the page header */
+  align-items: flex-start;
+}
+
+/* ── Sidebar ── */
+.sv-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 56px; /* matches page header height */
+  height: calc(100vh - 56px);
+  overflow-y: auto;
+  border-right: 1px solid var(--border);
+  background: var(--header-bg);
+  padding: 12px 0 20px;
+}
+
+.sv-sidebar-section {
+  margin-bottom: 16px;
+}
+
+.sv-sidebar-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  padding: 0 14px 6px;
+}
+
+/* Type filter buttons */
+.sv-type-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 10px;
+}
+
+.sv-type-btn {
+  background: transparent;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.12s;
+}
+
+.sv-type-btn:hover {
+  background: var(--border);
+}
+
+.sv-type-btn.active {
+  background: var(--link);
+  color: var(--bg);
+  font-weight: 600;
+}
+
+/* Tag list */
+.sv-tag-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 0 10px;
+}
+
+.sv-sidebar-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  text-align: left;
+  transition: background 0.12s;
+  width: 100%;
+}
+
+.sv-sidebar-tag:hover {
+  background: var(--border);
+}
+
+.sv-sidebar-tag.active {
+  background: var(--link);
+  color: var(--bg);
+}
+
+.sv-sidebar-tag.active .sv-tag-count {
+  color: inherit;
+  opacity: 0.8;
+}
+
+.sv-tag-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sv-tag-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-left: 6px;
+  flex-shrink: 0;
+}
+
+/* ── Main content area ── */
+.sv-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Sticky viewer header ── */
+.sv-hdr {
+  position: sticky;
+  top: 56px; /* page header height */
+  z-index: 50;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 14px 8px;
+}
+
+.sv-hdr-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.sv-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--link);
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sv-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.sv-filter-btn {
+  display: none; /* shown on mobile */
+  background: var(--header-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.sv-search-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.sv-search {
+  flex: 1;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
+
+.sv-search:focus {
+  outline: none;
+  border-color: var(--link);
+}
+
+/* ── Card list ── */
+.sv-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* ── Individual skill card ── */
+.sv-card {
+  border-bottom: 1px solid var(--border);
+}
+
+.sv-card-hdr {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sv-card-hdr:hover {
+  background: var(--header-bg);
+}
+
+.sv-card-hdr-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.sv-card-name-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 3px;
+}
+
+.sv-card-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.sv-card-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.sv-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+/* Arrow */
+.sv-card-arrow {
+  color: var(--text-muted);
+  font-size: 11px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  transition: transform 0.18s;
+}
+
+.sv-card.open .sv-card-arrow {
+  transform: rotate(90deg);
+}
+
+/* Card body (hidden by default) */
+.sv-body {
+  display: none;
+  padding: 0 16px 16px 16px;
+  background: var(--header-bg);
+  border-top: 1px solid var(--border);
+}
+
+.sv-card.open .sv-body {
+  display: block;
+}
+
+/* ── Section inside card body ── */
+.sv-section {
+  margin-top: 14px;
+}
+
+.sv-section:first-child {
+  margin-top: 12px;
+}
+
+.sv-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.sv-section-content {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.sv-section-content p {
+  margin: 0 0 8px;
+}
+
+.sv-section-content p:last-child {
+  margin-bottom: 0;
+}
+
+.sv-section-content ul,
+.sv-section-content ol {
+  margin: 0 0 8px 20px;
+  padding: 0;
+}
+
+.sv-section-content li {
+  margin-bottom: 3px;
+}
+
+.sv-section-content h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 10px 0 4px;
+  color: var(--text);
+}
+
+.sv-section-content strong {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.sv-section-content em {
+  font-style: italic;
+}
+
+.sv-section-content code {
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  background: var(--border);
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: var(--link);
+}
+
+/* ── Tags and badges ── */
+.sv-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.sv-badge-atomic {
+  background: rgba(88, 166, 255, 0.18);
+  color: #58a6ff;
+}
+
+.sv-badge-composed {
+  background: rgba(166, 88, 255, 0.18);
+  color: #a658ff;
+}
+
+.sv-badge-recipe {
+  background: rgba(255, 166, 88, 0.18);
+  color: #ff9800;
+}
+
+.sv-tag {
+  display: inline-block;
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: var(--border);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+  border: none;
+  line-height: 1.4;
+}
+
+.sv-tag:hover {
+  background: var(--link);
+  color: var(--bg);
+}
+
+.sv-tag.active {
+  background: var(--link);
+  color: var(--bg);
+}
+
+/* ── Empty state ── */
+.sv-empty {
+  text-align: center;
+  padding: 50px 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* ── Loading ── */
+.sv-loading {
+  text-align: center;
+  padding: 50px 20px;
+  color: var(--text-muted);
+}
+
+/* ── Mobile: sidebar overlay ── */
+@media (max-width: 700px) {
+  .sv-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .sv-sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sv-sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 199;
+  }
+
+  .sv-sidebar-overlay.open {
+    display: block;
+  }
+
+  .sv-filter-btn {
+    display: inline-block;
+  }
+
+  .sv-hdr {
+    top: 56px;
+  }
+
+  .sv-card-hdr {
+    padding: 10px 12px;
+  }
+
+  .sv-body {
+    padding: 0 12px 14px;
+  }
+}

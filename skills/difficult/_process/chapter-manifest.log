@@ -1,0 +1,100 @@
+- Difficult Conversations chapter manifest
+    - source: /home/k1/books/text/communication/Difficult Conversations.txt
+    - generated: 2026-05-05
+    - total chapters: 16
+
+- Chapter 1
+    - type: front
+    - title: Front Matter (praise, title page, copyright, dedication, preface, foreword, acknowledgments)
+    - lines: 1-467
+    - status: saturated
+
+- Chapter 2
+    - type: intro
+    - title: Introduction
+    - lines: 468-619
+    - status: saturated
+
+- Chapter 3
+    - type: chapter
+    - title: 1. Sort Out the Three Conversations
+    - lines: 620-912
+    - status: saturated
+
+- Chapter 4
+    - type: chapter
+    - title: 2. Stop Arguing About Who's Right: Explore Each Other's Stories
+    - lines: 913-1264
+    - status: saturated
+
+- Chapter 5
+    - type: chapter
+    - title: 3. Don't Assume They Meant It: Disentangle Intent from Impact
+    - lines: 1265-1564
+    - status: saturated
+
+- Chapter 6
+    - type: chapter
+    - title: 4. Abandon Blame: Map the Contribution System
+    - lines: 1565-2055
+    - status: saturated
+
+- Chapter 7
+    - type: chapter
+    - title: 5. Have Your Feelings (Or They Will Have You)
+    - lines: 2056-2503
+    - status: saturated
+
+- Chapter 8
+    - type: chapter
+    - title: 6. Ground Your Identity: Ask Yourself What's at Stake
+    - lines: 2504-2831
+    - status: saturated
+
+- Chapter 9
+    - type: chapter
+    - title: 7. What's Your Purpose? When to Raise It and When to Let Go
+    - lines: 2832-3135
+    - status: saturated
+
+- Chapter 10
+    - type: chapter
+    - title: 8. Getting Started: Begin from the Third Story
+    - lines: 3136-3484
+    - status: saturated
+
+- Chapter 11
+    - type: chapter
+    - title: 9. Learning: Listen from the Inside Out
+    - lines: 3485-4032
+    - status: saturated
+
+- Chapter 12
+    - type: chapter
+    - title: 10. Expression: Speak for Yourself with Clarity and Power
+    - lines: 4033-4345
+    - status: saturated
+
+- Chapter 13
+    - type: chapter
+    - title: 11. Problem-Solving: Take the Lead
+    - lines: 4346-4687
+    - status: saturated
+
+- Chapter 14
+    - type: chapter
+    - title: 12. Putting It All Together
+    - lines: 4688-5086
+    - status: saturated
+
+- Chapter 15
+    - type: chapter
+    - title: Ten Questions People Ask About Difficult Conversations
+    - lines: 5087-6022
+    - status: saturated
+
+- Chapter 16
+    - type: back
+    - title: Back Matter (Notes on Some Relevant Organizations)
+    - lines: 6023-6135
+    - status: saturated

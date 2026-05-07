@@ -1,8 +1,8 @@
 - Project Status
     - Last Updated: 2026-05-05
     - Development Mode: Claude Code
-    - Stage: MVP
-    - Next Milestone: Begin Thanks for the Feedback extraction
+    - Stage: Beta
+    - Next Milestone: Write cross-book recipes; then convert books to loglog format
 
 - Development Stages
     - [x] Initial Setup
@@ -29,11 +29,19 @@
             - [x] External complements added where they sharpen (Forster on causality-not-sequence, James Wood on mind-to-mind-vantage-shifts)
         - Known issues:
             - None
-    - [] Beta Release
+    - [x] Beta Release (partial)
+        - Completed: 2026-05-05 (Thanks for the Feedback and Difficult Conversations closed; cross-book recipes pending)
         - Goal: All three initial books processed
+        - Completed features:
+            - [x] Thanks for the Feedback fully processed
+                - 51 atomic + 3 composed = 54 skills
+                - 16 chapters all saturated
+                - Cross-references set, recipes written, catalog updated (9 receiving-feedback scenarios), external sources added
+            - [x] Difficult Conversations fully processed
+                - 15 atomic + 2 composed = 17 skills
+                - 16 chapters all saturated
+                - Cross-references set, recipes written, catalog updated (5 difficult-conversation scenarios)
         - Missing features:
-            - [] Thanks for the Feedback fully processed
-            - [] Difficult Conversations fully processed
             - [] Cross-book recipes written
         - Active users: N/A
         - Stability: Pre-release
@@ -68,12 +76,15 @@
 
 - Current Focus
     - Active Tasks:
-        - [] Begin Thanks for the Feedback extraction (next plan)
+        - [] Write cross-book recipes
+        - [] Convert each book to loglog tree format
     - Blockers:
         - None
     - Recent Progress:
         - 2026-05-04: Foundation complete. Scaffolding, PROCESS.md, validator, all books converted to text
         - 2026-05-05: Saunders book closed. 38 atomic + 3 composed = 41 skills. 27 chapters all saturated. Catalog populated with 9 scenarios under "Telling a story / writing fiction" plus 2 cross-cutting
+        - 2026-05-05: Thanks for the Feedback closed. 51 atomic + 3 composed = 54 skills (95 total). 16 chapters all saturated. Catalog expanded with 9 receiving-feedback scenarios and 3 difficult-conversation scenarios.
+        - 2026-05-05: Difficult Conversations closed. 15 atomic + 2 composed = 17 skills (112 total). 16 chapters all saturated. Catalog expanded with 5 difficult-conversation scenarios and 2 expanded cross-cutting scenarios.
 
 - Notes
     - Use loglog format for all documentation

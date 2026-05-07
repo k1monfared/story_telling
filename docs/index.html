@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storytelling Skills</title>
+  <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/base.css">
+  <script src="https://k1monfared.github.io/site_kit/js/theme.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Header ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--header-bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 0;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .site-title {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.05rem;
+    }
+
+    .theme-toggle {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 5px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 13px;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--link);
+      color: var(--link);
+    }
+
+    .theme-toggle svg {
+      display: block;
+    }
+
+    /* ── Main content ── */
+    main {
+      padding: 2rem 0;
+    }
+
+    h1 {
+      margin: 0 0 0.4rem;
+      font-size: 1.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      margin: 0 0 2rem;
+      font-size: 0.95rem;
+    }
+
+    /* ── Book cards ── */
+    .cards {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .book-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: var(--header-bg);
+      transition: border-color 0.15s;
+    }
+
+    .book-card:hover {
+      border-color: var(--link);
+    }
+
+    .book-card-body {
+      padding: 1.25rem 1.5rem 1rem;
+    }
+
+    .book-title {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+      margin: 0 0 0.1rem;
+    }
+
+    .book-authors {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin: 0 0 0.5rem;
+    }
+
+    .book-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .book-card-links {
+      display: flex;
+      border-top: 1px solid var(--border);
+    }
+
+    .book-card-links a {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: background 0.12s, color 0.12s;
+    }
+
+    .book-card-links a:first-child {
+      border-right: 1px solid var(--border);
+    }
+
+    .book-card-links a:hover {
+      background: var(--border);
+      color: var(--link);
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a class="site-title" href="./">Storytelling Skills</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="moon-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="sun-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Storytelling Skills</h1>
+      <p class="subtitle">Craft and communication skills extracted from close readings of three books.</p>
+
+      <div class="cards">
+
+        <div class="book-card">
+          <div class="book-card-body">
+            <div class="book-title">A Swim in a Pond in the Rain</div>
+            <div class="book-authors">George Saunders</div>
+            <div class="book-desc">Craft skills for fiction writing, drawn from Saunders's close readings of Tolstoy, Chekhov, Turgenev, and Gogol.</div>
+          </div>
+          <div class="book-card-links">
+            <a href="saunders/log/">Reading Log</a>
+            <a href="saunders/">Skills</a>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <div class="book-card-body">
+            <div class="book-title">Thanks for the Feedback</div>
+            <div class="book-authors">Douglas Stone &amp; Sheila Heen</div>
+            <div class="book-desc">Skills for receiving feedback skillfully — separating triggers, understanding the three conversation types, and growing from difficult input.</div>
+          </div>
+          <div class="book-card-links">
+            <a href="feedback/log/">Reading Log</a>
+            <a href="feedback/">Skills</a>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <div class="book-card-body">
+            <div class="book-title">Difficult Conversations</div>
+            <div class="book-authors">Douglas Stone, Bruce Patton &amp; Sheila Heen</div>
+            <div class="book-desc">Skills for discussing what matters most — navigating the what-happened, feelings, and identity conversations with clarity and care.</div>
+          </div>
+          <div class="book-card-links">
+            <a href="difficult/log/">Reading Log</a>
+            <a href="difficult/">Skills</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Theme toggle wiring
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      const moonIcon = btn.querySelector('.moon-icon');
+      const sunIcon = btn.querySelector('.sun-icon');
+
+      function updateIcons() {
+        const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+        moonIcon.style.display = isDark ? 'block' : 'none';
+        sunIcon.style.display = isDark ? 'none' : 'block';
+      }
+
+      btn.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        if (current === 'light') {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+        }
+        updateIcons();
+      });
+
+      updateIcons();
+    })();
+  </script>
+</body>
+</html>

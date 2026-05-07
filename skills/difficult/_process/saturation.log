@@ -1,0 +1,147 @@
+- Difficult Conversations saturation calls
+    - format: one entry per chapter when first-pass extraction completes
+    - entry shape:
+        - what came out of this chapter
+        - what kinds of moves the chapter is about that did NOT make the gate
+        - why those did not make it
+        - decision: saturated | re-sweep needed
+
+- Chapter 1: Front Matter (praise, title page, copyright, dedication, preface, foreword, acknowledgments)
+    - what came out: nothing
+    - what didn't make the gate: not applicable. Bibliographic metadata, praise, and attribution. No authorial argument or demonstration.
+    - why: structural front matter.
+    - decision: saturated (vacuously, with zero skills)
+
+- Chapter 2: Introduction
+    - what came out: nothing
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - the avoid-or-confront dilemma: establishing the problem, not a skill
+        - the hand grenade analogy (there's no diplomatic way to throw a hard message): a reframing that motivates the shift to learning stance; not a standalone action
+        - the shift from message delivery to learning conversations: the book's core reframe; lives in _book.md as parent context rather than as a distinct first-step action
+    - why those did not make it: the Introduction establishes the lens and vocabulary that already live in _book.md. Each potentially extractable move either duplicates parent context or signposts later chapters where the actual procedures are developed.
+    - decision: saturated (0 skills)
+
+- Chapter 3: 1. Sort Out the Three Conversations
+    - what came out: one skill
+        - identify-which-conversation-is-running: the chapter's framework-level meta-diagnostic. When a conversation feels difficult, name which of the three conversations (What Happened, Feelings, Identity) is generating the most heat or anxiety, and recognize all three as simultaneously present. Folds in the three errors previewed (truth assumption, intention invention, blame frame; feelings suppression; identity destabilization) as the characteristic signals of each conversation. Parallel in structure to identify-which-trigger-is-firing in the feedback library.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - the three errors in the What Happened conversation (truth assumption, intention invention, blame frame): previewed here but each is the spine of its own chapter (2, 3, 4). Extracting skills here would pre-empt chapters where the actual techniques are taught.
+        - feelings suppression and the "opera without music" observation: previewed here; the skills live in Chapter 5.
+        - identity anxiety and losing balance: previewed here; the skills live in Chapter 6.
+        - the learning conversation as the goal (three purposes: understand, express, problem-solve): the book's destination frame; the mechanics live in Chapters 7-12.
+    - why those did not make it: Chapter 1 is a synopsis chapter that walks through all three conversations at a high level and defers each remedy to its dedicated chapter. The only move born in this chapter that is not deferred is the framework-level diagnostic itself — naming which conversation is running hardest, which is the prerequisite for selecting which subsequent tool to apply.
+    - decision: saturated (1 skill)
+
+- Chapter 7: 5. Have Your Feelings (Or They Will Have You)
+    - what came out: two skills
+        - express-feelings-without-evaluating: three-stage process for getting feelings into the conversation. (1) Find your feelings: know your emotional footprint; find the full bundle rather than just the dominant emotion; locate feelings hiding under attributions and judgments ("you are thoughtless" → "I feel hurt, confused, embarrassed"); use the urge to blame as a clue to unexpressed feelings. (2) Negotiate with them: feelings follow thoughts; check your story (what are you missing?), your intent assumptions, and the contribution system before expressing. (3) Describe carefully: frame feelings back into the problem; express the full spectrum; express without judging/attributing/blaming ("I feel hurt" not "you are thoughtless"); don't monopolize.
+        - acknowledge-feelings-before-problem-solving: before moving to solutions or your own perspective, acknowledge the other person's feelings. Acknowledgment = letting them know their feelings made an impression and matter. Not agreement. Not "fixing" the feelings. Not "you're right" as a way to close the topic. Direct the conversation back to understanding if it tries to short-circuit to defense or solutions. The step cannot be skipped.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - feelings leak (unexpressed feelings contaminate communication): motivational framing for why to express feelings; no distinct action.
+        - negotiate with your feelings as a standalone skill: applying shift-from-certainty-to-curiosity, disentangle-impact-from-intent, and map-the-contribution-system to your emotional state; no new techniques, just application of existing tools. Folded into express-feelings-without-evaluating.
+        - the emotional footprint concept: folded into express-feelings-without-evaluating as a diagnostic tool for finding blocked feelings.
+    - why those did not make it: the chapter has one primary prescription (get feelings into the conversation skillfully) and one complementary prescription (acknowledge when you hear the other person's feelings). These organize naturally into two skills. The "negotiate with your feelings" section applies prior skills rather than introducing new ones. The emotional footprint is a finding-tool within the larger expression skill.
+    - decision: saturated (2 skills)
+
+- Chapter 6: 4. Abandon Blame: Map the Contribution System
+    - what came out: one skill
+        - map-the-contribution-system: the chapter's central contribution. Blame asks backward-looking judgment questions (who caused it, was it wrong, how should they be punished); contribution asks forward-looking understanding questions (how did each party contribute, what can each do differently). Map: what are they contributing, what am I contributing (four hard-to-spot types: avoiding until now, being unapproachable, intersections, problematic role assumptions), who else is contributing. Then: take responsibility for your contribution early in the conversation (before naming theirs); help them understand their contribution by making observations explicit and stating what you would have them do differently. Folds in three misconceptions (contribution does not mean ignoring their role, putting aside feelings, or blaming the victim) and two diagnostic tools (role reversal and observer perspective).
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - the costs of blame (hinders problem-solving, can leave a bad system undiscovered, etc.): motivational framing for the shift; no separate actions.
+        - distinction between blame and contribution as a conceptual matter: folded into map-the-contribution-system as its foundational premise.
+        - addressing the persistent urge to blame as a proxy for unexpressed feelings: folded into the skill as a note under the "ongoing conversations" section.
+    - why those did not make it: the chapter has one primary contribution. The conceptual distinction (blame vs. contribution) and the practical procedure (map the system, acknowledge your contribution, help them understand theirs) are inseparable and belong in one skill.
+    - decision: saturated (1 skill)
+
+- Chapter 4: 2. Stop Arguing About Who's Right: Explore Each Other's Stories
+    - what came out: two skills
+        - shift-from-certainty-to-curiosity: the chapter's central orientation shift. When stuck in certainty (the other person is the problem; you are right and they are wrong), stop arguing conclusions and instead ask what information or interpretation they have that you don't. Three sources of story differences provide the diagnostic frame: different information (what they notice + what they know about themselves), different interpretations (past experience + implicit rules), and self-interest (confirmation bias in both directions). Also folds in the "get curious about your own story" complement: ask what implicit rules and past experiences are shaping your own interpretation before assuming they represent truths.
+        - adopt-the-and-stance: the posture that breaks the false binary between "accept their story / abandon yours" and "reject their story / assert yours." Hold both stories simultaneously with "and" rather than "but." Used both in exploration (you can understand their story without giving up yours) and in delivering bad news (you can be clear about your decision AND acknowledge their pain AND not change your mind — all simultaneously). The And Stance gives you the strongest position from which to assert your own view without needing to diminish the other person's.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - the three specific sources of different stories (different information, different interpretations, self-interest) as a standalone skill: folded into shift-from-certainty-to-curiosity as the diagnostic frame for where to look when exploring the other person's story.
+        - understanding your own story before the conversation: folded into shift-from-certainty-to-curiosity as the "also get curious about yourself" component.
+        - "arguing doesn't persuade" observation: motivational framing for the curiosity shift; not a separate action.
+        - "understanding doesn't mean agreeing" observation: folded into adopt-the-and-stance as its foundational premise.
+    - why those did not make it: the chapter has two structural contributions — the internal shift (certainty to curiosity) and the relational posture (embracing both stories). Both earn skills. The three-sources diagnostic and the self-interest insight are tools within the curiosity skill, not separate actions. The "arguing doesn't persuade" and "understanding doesn't mean agreeing" observations are motivational context.
+    - decision: saturated (2 skills)
+
+- Chapter 5: 3. Don't Assume They Meant It: Disentangle Intent from Impact
+    - what came out: one skill
+        - disentangle-impact-from-intent: covers both roles in the intent/impact cycle. For the hurt party: recognize the automatic leap from "I was hurt" to "they intended to hurt me"; use three questions to separate the action, the impact, and the intention-assumption; hold the assumption as a hypothesis; share the impact and inquire about the intent. For the accused party: listen past the accusation for the feelings (the accusation always contains two messages: intention claim AND hurt); acknowledge the feeling before addressing the intention; be open to reflecting on the complexity of your own intentions. Folds in "good intentions don't sanitize bad impact" as the second mistake.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - the five reasons guessing wrong on intent is costly (assumes bad character, creates defensiveness, can become self-fulfilling, etc.): motivational framing for the disentanglement; no separate actions.
+        - group conflict dynamics (newspaper example): illustrative of the second mistake in a group setting; the move is the same as the individual second mistake.
+    - why those did not make it: the chapter has one structural contribution: the two-mistake framework and the moves for each. Both mistakes are mirror images of the same underlying problem (conflating impact with intent) and the chapter treats them as a pair. One skill covers both roles.
+    - decision: saturated (1 skill)
+
+- Chapter 7: 5. Have Your Feelings (Or They Will Have You)
+    - what came out: two skills
+        - express-feelings-without-evaluating: three-stage process. (1) Find your feelings: emotional footprint; full bundle not just dominant emotion; feelings hiding under attributions and judgments; urge-to-blame as a clue. (2) Negotiate with them: feelings follow thoughts; check your story, intent assumptions, and contribution. (3) Describe carefully: frame back into the problem; express full spectrum; no judging/attributing/blaming; "I feel..." formulation.
+        - acknowledge-feelings-before-problem-solving: before moving to solutions, acknowledge the other person's feelings. Acknowledgment = their feelings made an impression and matter. Not agreement, not "fixing." Don't short-circuit with "you're right." Cannot be skipped.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - feelings leak (unexpressed feelings contaminate communication): motivational framing; no action.
+        - negotiate with your feelings: applies prior skills (shift-from-certainty-to-curiosity, disentangle-impact-from-intent, map-the-contribution-system) to emotional state; folded into express-feelings-without-evaluating.
+        - emotional footprint: diagnostic tool within the expression skill.
+    - why: two prescriptions (express your feelings well; acknowledge theirs). The negotiate-with-feelings section applies existing skills without introducing new ones.
+    - decision: saturated (2 skills)
+
+- Chapter 9: 7. What's Your Purpose? When to Raise It and When to Let Go
+    - what came out: one skill
+        - clarify-your-purpose-before-raising: check three conditions that suggest the conversation won't help (real conflict is internal; better approach than talking; off-base purposes: trying to change them, venting, hit-and-run). If raising, use three learning-stance purposes: learn their story, express your views and feelings, problem-solve together. If not raising, four liberating assumptions for letting go.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - "work through the Three Conversations before deciding": applies existing skills; no new move.
+        - letting go as its own skill: the chapter's four assumptions are brief and do not introduce a new procedure; folded into the skill as the not-raising case.
+    - why: the chapter's contribution is the decision framework + the right purposes. Both belong in one skill since they are sequential parts of the same pre-conversation deliberation.
+    - decision: saturated (1 skill)
+
+- Chapter 8: 6. Ground Your Identity: Ask Yourself What's at Stake
+    - what came out: two skills
+        - ground-your-identity-before-the-conversation: name which identity question is at stake; build complex identity by accepting: you will make mistakes, your intentions are complex, you have contributed. All-or-nothing binary is the vulnerability; complexity is the antidote.
+        - regain-balance-during-the-conversation: four moves when knocked off balance: let go of controlling their reaction, prepare for their response, imagine the future, take a break if flooded.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - all-or-nothing thinking framing: parent context for the grounding work.
+        - "find the courage to ask for help": clinical section, not conversation-skill content.
+    - why: two structural contributions (before and during). Clinical section not in scope.
+    - decision: saturated (2 skills)
+
+- Chapter 10: 8. Getting Started: Begin from the Third Story
+    - what came out: one skill
+        - begin-from-the-third-story: describe the problem as a difference between perspectives in a way both parties can accept (the Third Story), then invite joint exploration. Test: can both parties sign on to this description? Folds in: extending an invitation (describe purposes, invite don't impose, offer an appealing role); if they start the conversation (treat their opening as their half); and three special-case techniques (delivering bad news: put it up front; making requests: frame as exploration not demand; revisiting conversations gone wrong: talk about how to talk about it first).
+    - why: one primary contribution with several application scenarios. All cohere as one skill.
+    - decision: saturated (1 skill)
+
+- Chapter 13: 11. Problem-Solving: Take the Lead
+    - what came out: two skills
+        - reframe-their-statements: translate unhelpful claims (blame, truth assertions, character attacks, intent attributions) into Three Conversations concepts in real time. Acknowledge the kernel; redirect the framing. Persist through multiple reframes.
+        - name-the-dynamic: when reframing has not worked, step outside the conversation to name the pattern explicitly (interrupting, deflecting/acting fine while not fine, intimidating, repeatedly sidetracking). Name the behavior, name its impact, invite engagement. Use only when reframing and listening have failed.
+    - what kinds of moves the chapter is about that did NOT make the gate
+        - problem-solving (gathering information, creating options, equitable standards, alternatives): partially covered by prior skills (map-the-contribution-system, shift-from-certainty-to-curiosity, adopt-the-and-stance); the brief treatment here does not add new procedural content beyond what exists.
+    - why: two distinct rescue moves for mid-conversation difficulties. The problem-solving section is too thin and overlapping to earn a new skill.
+    - decision: saturated (2 skills)
+
+- Chapter 14: 12. Putting It All Together
+    - what came out: nothing
+    - why: synthesis/demonstration chapter showing all previous skills applied to Jack and Michael's follow-up conversation. No new procedures introduced.
+    - decision: saturated (0 skills, vacuously)
+
+- Chapter 15: Ten Questions People Ask About Difficult Conversations
+    - what came out: nothing
+    - why: Q&A that restates, clarifies, and extends concepts from Chapters 1-12 but introduces no new atomic procedures. Key content (what to do when someone has genuinely bad intentions, the line between responsibility and pushover, sharing feelings at work, how long these conversations take) provides context and nuance but maps entirely onto existing skills.
+    - decision: saturated (0 skills, vacuously)
+
+- Chapter 16: Back Matter (Notes on Some Relevant Organizations)
+    - what came out: nothing
+    - why: bibliographic back matter.
+    - decision: saturated (0 skills, vacuously)
+
+- Chapter 12: 10. Expression: Speak for Yourself with Clarity and Power
+    - what came out: one skill
+        - speak-for-yourself-with-clarity: entitlement to speak; start with heart of matter; don't rely on subtext; avoid easing-in; Me-Me And for complex feelings; three clarity guidelines (conclusions vs. truth, share where they come from, avoid always/never); help them understand by asking how they see it differently.
+    - why: one arc from entitlement → what to say → how to say it. All cohere as one skill.
+    - decision: saturated (1 skill)
+
+- Chapter 11: 9. Learning: Listen from the Inside Out
+    - what came out: one skill
+        - listen-from-the-inside-out: the core shift from "I understand" to "help me understand." Three techniques: inquiry (ask only to learn), paraphrasing (restate to verify and show understanding), acknowledgment (show their view made an impression, without agreeing). Managing the internal voice and the when-you-can't-listen technique are folded in.
+    - why: one stance + three implementation techniques. All cohere as one skill.
+    - decision: saturated (1 skill)

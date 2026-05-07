@@ -101,31 +101,121 @@ This catalog is updated during per-book finalization. New scenarios are added wh
 
 ### Someone is giving me feedback I don't agree with
 
-(no skills yet)
+- `feedback/recipes/navigate-a-feedback-conversation` — the four-step workflow (align, negotiate your internal voice, assert what's left out, close with commitment) with process-move and interest-digging rescue moves.
+- `feedback/identify-which-trigger-is-firing` — when the feedback is landing wrong, name which of the three triggers (truth, relationship, identity) is blocking it before applying any remedy.
+- `feedback/catch-the-wrong-spotting` — notice when you are listening with "what is wrong with this feedback" rather than "what might be right" and make the upstream switch.
+- `feedback/difference-spot-not-wrong-spot` — when you have understood the feedback and still disagree, ask what is different about your data and interpretations rather than concluding one of you is wrong.
+- `feedback/sort-toward-coaching` — hear the feedback as coaching (what is there to learn?) rather than evaluation (what verdict does this assign me?) to reduce the identity trigger and recover access to the content.
+- `feedback/unpack-judgment-from-evaluation` — when the feedback is genuinely evaluative, break it into assessment, consequences, and judgment; locate which of the three is triggering you; handle each on its own terms.
+- `feedback/separate-data-from-interpretation` — pull apart the giver's observed data from the interpretation they made of it.
+- `feedback/spot-the-label` — notice when feedback arrives as an evaluative label with high-definition meaning in the giver's head and almost no content in transit, and resist auto-filling with your own meaning.
+- `feedback/engaging-is-not-accepting` — separate the engage-skillfully decision from the take-the-feedback decision to dissolve the swallow-or-shut-out binary.
 
 ### Feedback I received earlier is still bothering me
 
-(no skills yet)
+- `feedback/recipes/dismantle-a-distorted-story` — the four-step chain (wiring profile, distortion type, strand separation, containment) that restores accurate perception of feedback that landed in distorted form.
+- `feedback/understand-your-wiring-profile` — name your baseline, swing, and sustain/recovery pattern to attribute your reaction correctly; some fraction belongs to the feedback's content and some to your nervous system.
+- `feedback/notice-the-distortion-type` — name which of the three patterns is running: Google bias (past flooding), flooding (one thing to everything), or forever bias and snowballing (future catastrophizing).
+- `feedback/separate-feeling-story-feedback` — pull apart what you feel, what story you are telling, and what the feedback actually said into three separate strands.
+- `feedback/contain-the-story` — restore the scope limits the distortion violated using the containment chart, balancing picture, or right-sizing of consequences.
+- `feedback/change-your-vantage-point` — shift perspective by imagining how an observer would see it, looking back from ten years ahead, or finding what is faintly funny about the situation.
+- `feedback/accept-feedback-as-input-not-imprint` — stop investing energy in making the giver see you differently; receive their view as input (examinable, decidable) not imprint (permanent verdict).
 
 ### I want feedback but no one is giving it to me
 
-(no skills yet)
+- `feedback/ask-for-one-thing-and-find-the-theme` — ask "what's one thing you see me doing that gets in my own way?", go to several people and look for what recurs, and ask "what's one thing I could change that would make a difference to you?"
+- `feedback/ask-how-am-i-getting-in-my-own-way` — replace noncommittal eliciting questions with the specific phrasing that names the desired honesty and narrows to behavior with observable impact.
+- `feedback/coach-your-coach` — tell the person giving you feedback how to work with you more effectively: your footprint, current growth areas, and learning preferences.
+- `feedback/shift-to-honest-mirror` — when you have been venting to a supportive friend, explicitly request the shift to honest-mirror mode and use the two-column technique (what's wrong / what might be right).
+
+### I'm in a feedback conversation and need to navigate it
+
+- `feedback/recipes/navigate-a-feedback-conversation` — the full conversation arc: align on purpose, negotiate your internal voice, assert what's left out, with process-move rescue and interest-digging rescue, close with commitment.
+- `feedback/align-on-conversation-purpose` — before engaging with content, clarify what kind of feedback this is, who decides, and whether the outcome is open to influence.
+- `feedback/negotiate-your-internal-voice` — work with your internal voice rather than against it: give it attention, identify its trigger pattern, negotiate it toward curiosity, watch for hot inquiry.
+- `feedback/assert-as-left-out` — frame your assertions as "here's what's left out" rather than "I'm right"; add your data, interpretation, and feelings as missing puzzle pieces.
+- `feedback/make-a-process-move` — when the conversation is stuck, step outside the content, diagnose what is stuck, describe it, and propose a next step.
+- `feedback/dig-for-interests-then-generate-options` — when stuck on what to do, move from positions to the interests behind them and generate options that address those interests.
+- `feedback/close-with-commitment` — before parting, name what was agreed and what each party will do next.
+
+### The feedback seems unfair because the problem is bigger than just me
+
+- `feedback/recipes/respond-to-feedback-in-a-relationship-system` — the three-step chain: see the system, take responsibility first then introduce the system, ask what would help you change.
+- `feedback/take-three-steps-back` — step back through three views of the relationship system (you+me intersections, role clashes, big picture) to see what is producing the problem beyond any single person's contribution.
+- `feedback/spot-the-shifter-or-absorber-pattern` — name whether you or the conversation is running a shifter (nothing is my fault) or absorber (everything is my fault) pattern and interrupt it.
+- `feedback/take-responsibility-first-then-introduce-the-system` — settle your own accountability before raising the system observation; if message one is not settled, message two reads as deflection.
+- `feedback/ask-what-would-help-you-change` — when the giver cannot acknowledge their contribution, describe what they could do differently that would help you change, framed as serving your growth.
+
+### I feel reactive when receiving feedback
+
+- `feedback/identify-which-trigger-is-firing` — name which of truth, relationship, or identity is firing (or which combination) before applying any remedy.
+- `feedback/know-your-feedback-footprint` — name your reactive behavioral patterns before a conversation, inoculate against the worst by pre-experiencing it, and notice the footprint activating in the moment.
+- `feedback/understand-your-wiring-profile` — attribute your emotional intensity correctly to wiring rather than treating it as an accurate thermometer of the feedback's content.
+- `feedback/embrace-identity-nuance` — replace the all-or-nothing identity label with a complex self-description; stop choosing between "I am fundamentally good" and "I am fundamentally bad."
+- `feedback/adopt-growth-mindset-for-feedback` — hold traits as growable (information about a learning curve) rather than fixed (a rating of what you fundamentally are).
+- `feedback/name-both-needs` — name the simultaneous drives to learn and to be accepted as the diagnostic for outsized or delayed reactions.
+
+### I feel like I can never do anything right (repeated or chronic feedback)
+
+- `feedback/diagnose-and-name-the-boundary` — run the six diagnostic questions to determine whether a boundary is genuinely needed and name the type: I may not take it / not right now / stop or I'll leave.
+- `feedback/set-the-boundary-clearly` — have the boundary conversation: be transparent, be firm and appreciative, use "and" not "but," be specific about request/time frame/assent, describe consequences as warnings.
+- `feedback/mitigate-when-not-changing` — when you have decided not to change, ask about the impact on others, coach them to work with the unchanged you, and problem-solve together.
+- `feedback/look-for-pattern-not-counterexample` — invert the contradictory-evidence reflex: look for consistency across time and source; Me+Everybody patterns are among the most tractable.
+
+### I want to act on feedback but can't follow through
+
+- `feedback/ask-for-one-thing-and-find-the-theme` — focus on one change at a time; willpower for change is a limited resource.
+- `feedback/try-small-experiments` — treat uncertain feedback as an experiment rather than a decision; reframe from all-and-always to some-and-sometimes; try it on (mental) or try it out (real-world test).
+- `feedback/precommit-to-riding-the-j-curve` — name the J curve (worse before better), design precommitment strategies before the change starts, and commit to a specific duration that reaches past the dip.
+- `feedback/give-yourself-a-second-score` — earn a second score for how you handle the first score; make the second score part of your identity so evaluation is never the end of the story.
 
 ---
 
 ## Difficult conversations
 
+### I'm about to have a difficult conversation and am anxious
+
+- `difficult/recipes/prepare-for-a-difficult-conversation` — three-step preparation: name which conversations are live, ground your identity, then clarify your purpose.
+- `difficult/identify-which-conversation-is-running` — name which of the three conversations (What Happened?, Feelings, Identity) is generating the most heat so preparation can be targeted.
+- `difficult/ground-your-identity-before-the-conversation` — stabilize your identity in advance: accept that you make mistakes, have complex intentions, and have contributed; build the grounded complexity that can hear hard things without losing balance.
+- `difficult/clarify-your-purpose-before-raising` — decide whether to raise the conversation (three conditions that suggest no) and, if yes, what learning-stance purposes you are bringing.
+
 ### A conversation is going sideways and I don't know why
 
-(no skills yet)
+- `feedback/spot-the-switchtrack` — diagnose whether the conversation has quietly split into two topics (the giver's original feedback and a relationship-trigger second topic) using the six trigger families.
+- `feedback/signpost-and-track-each-topic` — step outside the conversation, name both topics out loud, and propose a sequence using the two-factor decision rule.
+- `feedback/listen-for-the-issue-beneath-the-coaching` — check whether the giver has packaged a relationship concern as coaching and the real topic is not the surface one.
+- `feedback/make-a-process-move` — step outside the content, diagnose what is stuck, describe it explicitly, and propose a correction.
+- `difficult/reframe-their-statements` — translate unhelpful statements (blame, truth assertions, character attacks) into Three Conversations framework concepts in real time to redirect toward understanding.
+- `difficult/name-the-dynamic` — when reframing has not worked, step outside to name the conversation's stuck pattern explicitly (interrupting, acting fine while not fine, intimidating).
 
 ### I need to raise something that will land badly
 
-(no skills yet)
+- `difficult/begin-from-the-third-story` — open with a description of the problem both parties can accept (the Third Story) rather than from inside your own story; invite exploration rather than argument.
+- `difficult/speak-for-yourself-with-clarity` — say the heart of the matter, directly, without relying on subtext or easing in; express conclusions as views not truths; share where they come from.
+- `feedback/set-the-boundary-clearly` — the And Stance and specific request/time frame/assent structure apply to any conversation where you need to turn down or redirect someone else's behavior.
+- `feedback/take-responsibility-first-then-introduce-the-system` — when you want to raise a broader observation, settle your own accountability first so the observation is heard as honest rather than as blame-shifting.
 
 ### The other person and I see what happened completely differently
 
-(no skills yet)
+- `difficult/recipes/navigate-the-what-happened-conversation` — the four-step chain (curiosity, And Stance, intent/impact disentanglement, contribution mapping) that addresses all three "What Happened?" errors in sequence.
+- `difficult/shift-from-certainty-to-curiosity` — stop insisting on your version of events; get genuinely curious about what information or interpretation leads the other person to see it as they do.
+- `difficult/adopt-the-and-stance` — hold both stories simultaneously rather than choosing between them; you can understand their story without abandoning yours.
+- `difficult/disentangle-impact-from-intent` — separate what they did from your guess about why; share the impact and hold the intent as a hypothesis; listen past their accusation to the hurt inside it.
+- `difficult/map-the-contribution-system` — replace blame with contribution; name what each party did or failed to do that brought about the current situation; take responsibility for your part first.
+- `feedback/take-three-steps-back` — see the relationship system producing the difference: you+me intersections, role clashes, big picture factors.
+- `feedback/difference-spot-not-wrong-spot` — ask what is different about each party's data and interpretations rather than concluding one of you is wrong.
+- `feedback/separate-data-from-interpretation` — pull apart the observed facts from the interpretations each party made of them.
+
+### I need to express or hear difficult feelings
+
+- `difficult/express-feelings-without-evaluating` — find your full bundle of feelings, negotiate with them, then share using "I feel..." without attributions or judgments.
+- `difficult/acknowledge-feelings-before-problem-solving` — before moving to solutions, let the other person know their feelings made an impression on you; acknowledgment cannot be skipped.
+
+### I keep losing my footing during difficult conversations
+
+- `difficult/regain-balance-during-the-conversation` — when identity anxiety knocks you off balance: let go of controlling their reaction, prepare for their response, imagine the future, take a break if flooded.
+- `difficult/listen-from-the-inside-out` — shift from "I understand" to "Help me understand"; inquire only to learn; paraphrase to verify; acknowledge what they said made an impression.
 
 ---
 
@@ -135,8 +225,17 @@ This catalog is updated during per-book finalization. New scenarios are added wh
 
 - `saunders/the-basic-drill` — before interpreting or rendering a verdict, locate your honest reactions to what you actually heard, in plain language, anchored to specific moments.
 - `saunders/ask-strategic-not-interpretive` — re-pose interpretive questions about meaning as strategic questions about what each element of the account is doing, so the conversation can produce something actionable.
+- `feedback/catch-the-wrong-spotting` — notice when you are scanning the account for what is wrong with it, and make the upstream switch to listening for what might be right.
+- `feedback/separate-data-from-interpretation` — pull apart what was observed from the interpretation placed on it.
+- `difficult/shift-from-certainty-to-curiosity` — stop insisting on your interpretation and ask what information or experience leads the other person to see things differently.
+- `difficult/listen-from-the-inside-out` — shift to "help me understand"; inquire to learn, paraphrase to verify, acknowledge what you heard.
 
 ### My emotional reaction is in the way
 
 - `saunders/the-basic-drill` — treat every honest reaction (including boredom, irritation, confusion) as valid data rather than as a failure to be hidden, and refuse the urge to skip past the felt response to a more sophisticated interpretation.
 - `saunders/is-it-helping` — for any rule, model, or theory pulling you toward a verdict, apply the trial-balloon test: ask whether holding it is helping you reach what you actually want, not whether it is correct.
+- `feedback/understand-your-wiring-profile` — name your wiring profile so that the intensity of your reaction is attributed correctly to the nervous system rather than treated as evidence about the situation's severity.
+- `feedback/notice-the-distortion-type` — name which distortion pattern is running (Google bias, flooding, forever bias) before trying to correct it.
+- `feedback/negotiate-your-internal-voice` — when the internal voice is running a defense, give it attention so it quiets, identify its trigger pattern, and negotiate it toward curiosity rather than suppressing it.
+- `difficult/express-feelings-without-evaluating` — find the full bundle of feelings hiding under the dominant emotion and the attributions, negotiate with them, then share without evaluating the other person.
+- `difficult/ground-your-identity-before-the-conversation` — accept that you make mistakes, have complex intentions, and have contributed; the grounded identity can feel a strong reaction without being destabilized by it.

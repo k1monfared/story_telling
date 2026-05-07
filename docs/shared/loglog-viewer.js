@@ -48,10 +48,12 @@ function isPropertyLine(raw) {
 // Can this tree node be treated as a property/text of its parent item?
 // Only used to determine if parent is item vs section.
 function canBeProperty(node) {
+  // A node with children is never a simple property — it is a sub-section.
+  if (node.children.length > 0) return false;
   // Property with value or key-only with colon
   if (isPropertyLine(node.raw)) return true;
   // Simple text leaf (no children, no checkbox)
-  if (node.children.length === 0 && !node.raw.match(/^\[/)) return true;
+  if (!node.raw.match(/^\[/)) return true;
   return false;
 }
 
@@ -124,7 +126,16 @@ function classifyNode(node, tierSet, config, depth) {
     return { type: 'section', name, depth, lineIdx: node.lineIdx, indent: node.indent, children };
   }
 
-  // If all children can be properties/text → item
+  // If 3+ leaf children (even with colon-containing prose) → section.
+  // This handles loglog book summaries where bullet points use "concept: description"
+  // format, preventing them from collapsing into a flat property grid.
+  const allLeaves = node.children.every(c => c.children.length === 0);
+  if (allLeaves && node.children.length >= 3) {
+    const children = classifyChildren(node.children, tierSet, config, depth + 1);
+    return { type: 'section', name, depth, lineIdx: node.lineIdx, indent: node.indent, children };
+  }
+
+  // If few children that are all property-like → item with property grid
   const allProp = node.children.every(c => canBeProperty(c));
   if (allProp) {
     const item = { type: 'item', name, depth, lineIdx: node.lineIdx, indent: node.indent, properties: {}, childTexts: [] };

@@ -495,12 +495,12 @@ function renderItem(container, node, config) {
 
   item.innerHTML = `
     <div class="item-hdr${hasDetail ? ' item-hdr-expandable' : ''}">
+      <span class="item-arr${hasDetail ? '' : ' item-arr-empty'}">▶</span>
       ${siHtml}
       <div class="item-info">
         <div class="item-name">${escHtml(node.name)}</div>
         ${subtitleHtml}
       </div>
-      ${hasDetail ? '<span class="item-arr">▶</span>' : ''}
     </div>`;
 
   if (hasDetail) {

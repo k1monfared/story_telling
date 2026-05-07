@@ -88,9 +88,10 @@ body {
 .item-hdr.item-hdr-expandable:hover { background: var(--bg2); }
 .item-arr {
   color: var(--txt2); font-size: 11px; flex-shrink: 0;
-  margin-top: 4px; margin-left: auto; padding-left: 6px;
+  width: 12px; text-align: center; margin-right: 6px;
   transition: transform .2s;
 }
+.item-arr.item-arr-empty { visibility: hidden; }
 .item.open > .item-hdr .item-arr { transform: rotate(90deg); }
 .si { flex-shrink: 0; font-size: 14px; margin-top: 3px; }
 .si.checked    { color: var(--green); }

@@ -295,8 +295,10 @@ function createLoglogViewer(container, config) {
         </div>
       </div>
       <div class="search-row">
-        <input id="search" type="text" placeholder="Search… (use key:value for field search)" autocomplete="off">
+        <input id="search" type="text" placeholder="Search…" autocomplete="off">
         <span id="search-count"></span>
+        <button id="search-prev" class="search-nav-btn" title="Previous match" style="display:none">↑</button>
+        <button id="search-next" class="search-nav-btn" title="Next match" style="display:none">↓</button>
       </div>
     </div>
     <div id="stats"></div>
@@ -395,13 +397,20 @@ function createLoglogViewer(container, config) {
     return allItemNodes;
   }
 
+  const prevBtn = container.querySelector('#search-prev');
+  const nextBtn = container.querySelector('#search-next');
+
   fetch(dataFile)
     .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
     .then(text => {
-      const allItemNodes = renderFromText(text);
+      renderFromText(text);
       searchEl.addEventListener('input', () => {
-        const q = searchEl.value.trim();
-        filterNodes(contentEl, q, countEl, container.__loglogState.items);
+        highlightSearch(contentEl, searchEl.value.trim(), countEl, prevBtn, nextBtn);
+      });
+      prevBtn.addEventListener('click', () => navigateMatch(-1, countEl));
+      nextBtn.addEventListener('click', () => navigateMatch(+1, countEl));
+      searchEl.addEventListener('keydown', e => {
+        if (e.key === 'Enter') navigateMatch(e.shiftKey ? -1 : +1, countEl);
       });
     })
     .catch(err => {
@@ -578,126 +587,99 @@ function renderItemDetail(detail, node, config) {
   }
 }
 
-/* ── Advanced Search ── */
+/* ── Highlight Search with prev/next navigation ── */
 
-function parseSearchQuery(query) {
-  // Parse "key:value key2:value2 freetext" into structured query
-  const filters = [];
-  let freeText = '';
-  // Match field:value patterns (value can be quoted or unquoted)
-  const fieldRe = /(\w+):"([^"]+)"|(\w+):(\S+)/g;
-  let lastEnd = 0;
-  let match;
+let _searchMatches = [];
+let _searchIdx = -1;
 
-  while ((match = fieldRe.exec(query)) !== null) {
-    // Collect any free text before this match
-    const before = query.slice(lastEnd, match.index).trim();
-    if (before) freeText += (freeText ? ' ' : '') + before;
-    lastEnd = match.index + match[0].length;
-
-    const field = (match[1] || match[3]).toLowerCase();
-    const value = (match[2] || match[4]).toLowerCase();
-    filters.push({ field, value });
-  }
-
-  // Remaining text after last match
-  const remaining = query.slice(lastEnd).trim();
-  if (remaining) freeText += (freeText ? ' ' : '') + remaining;
-
-  return { filters, freeText: freeText.toLowerCase() };
-}
-
-function itemMatchesQuery(node, parsed) {
-  const props = node.properties || {};
-
-  // Check field filters
-  for (const { field, value } of parsed.filters) {
-    let fieldContent = '';
-    if (field === 'title' || field === 'name') {
-      fieldContent = (node.name || '').toLowerCase();
-    } else if (props[field]) {
-      fieldContent = props[field].toLowerCase();
-    } else {
-      // Field not found on this item → no match
-      return false;
-    }
-    if (!fieldContent.includes(value)) return false;
-  }
-
-  // Check free text against everything
-  if (parsed.freeText) {
-    const allText = [
-      node.name || '',
-      ...Object.values(props),
-      ...(node.childTexts || [])
-    ].join(' ').toLowerCase();
-    if (!allText.includes(parsed.freeText)) return false;
-  }
-
-  return true;
-}
-
-function filterNodes(container, query, countEl, allItemNodes) {
-  const items = container.querySelectorAll('.item');
-  const sections = container.querySelectorAll('.sec');
-  let visible = 0;
+function highlightSearch(container, query, countEl, prevBtn, nextBtn) {
+  // Restore previously highlighted elements
+  container.querySelectorAll('[data-hl-orig]').forEach(el => {
+    el.innerHTML = el.dataset.hlOrig;
+    delete el.dataset.hlOrig;
+  });
+  _searchMatches = [];
+  _searchIdx = -1;
 
   if (!query) {
-    items.forEach(el => { el.style.display = ''; el.classList.remove('open'); });
-    sections.forEach(el => { el.style.display = ''; });
     countEl.textContent = '';
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
     return;
   }
 
-  const parsed = parseSearchQuery(query);
-  const isAdvanced = parsed.filters.length > 0;
+  const lq = query.toLowerCase();
 
-  // Mark items
-  let itemIdx = 0;
-  items.forEach(el => {
-    let matches;
-    if (isAdvanced) {
-      // Find the matching node for this DOM element
-      const name = el.dataset.name || '';
-      // Match by walking allItemNodes in order (DOM order = tree order)
-      const node = allItemNodes[itemIdx++];
-      matches = node ? itemMatchesQuery(node, parsed) : false;
-    } else {
-      matches = el.textContent.toLowerCase().includes(parsed.freeText);
-    }
+  // Highlight matches in all section titles and item names
+  container.querySelectorAll('.sec-title, .item-name').forEach(el => {
+    const text = el.textContent;
+    if (!text.toLowerCase().includes(lq)) return;
 
-    if (matches) {
-      el.style.display = '';
-      el.classList.add('open');
-      visible++;
-    } else {
-      el.style.display = 'none';
-      el.classList.remove('open');
+    el.dataset.hlOrig = el.innerHTML;
+
+    // Wrap each occurrence in a <mark>
+    let result = '';
+    let pos = 0;
+    const lower = text.toLowerCase();
+    while (pos < text.length) {
+      const idx = lower.indexOf(lq, pos);
+      if (idx === -1) { result += escHtml(text.slice(pos)); break; }
+      result += escHtml(text.slice(pos, idx));
+      result += `<mark class="hl">${escHtml(text.slice(idx, idx + query.length))}</mark>`;
+      pos = idx + query.length;
     }
+    el.innerHTML = result;
+
+    // Record the clickable header row as the match target
+    const row = el.closest('.sec-hdr, .item-hdr');
+    if (row && !_searchMatches.includes(row)) _searchMatches.push(row);
   });
 
-  // Show/hide sections (deepest first)
-  const secArr = Array.from(sections).reverse();
-  for (const sec of secArr) {
-    const hasVisible = sec.querySelector('.item:not([style*="display: none"])') ||
-                       sec.querySelector('.sec:not([style*="display: none"])');
-    if (hasVisible) {
-      sec.style.display = '';
-      sec.classList.add('open');
-    } else {
-      const title = sec.querySelector('.sec-title');
-      if (parsed.freeText && title && title.textContent.toLowerCase().includes(parsed.freeText)) {
-        sec.style.display = '';
-        sec.classList.add('open');
-        sec.querySelectorAll('.item').forEach(i => { i.style.display = ''; visible++; });
-        sec.querySelectorAll('.sec').forEach(s => s.style.display = '');
-      } else {
-        sec.style.display = 'none';
-      }
-    }
+  const n = _searchMatches.length;
+  if (n === 0) {
+    countEl.textContent = 'no matches';
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+    return;
   }
 
-  countEl.textContent = `${visible} match${visible !== 1 ? 'es' : ''}`;
+  prevBtn.style.display = '';
+  nextBtn.style.display = '';
+  _searchIdx = 0;
+  _scrollToMatch(container, countEl);
+}
+
+function navigateMatch(dir, countEl) {
+  if (_searchMatches.length === 0) return;
+  _searchIdx = (_searchIdx + dir + _searchMatches.length) % _searchMatches.length;
+  const container = _searchMatches[0].closest('#content');
+  _scrollToMatch(container, countEl);
+}
+
+function _scrollToMatch(container, countEl) {
+  if (_searchMatches.length === 0) return;
+
+  // Remove previous current-match emphasis
+  if (container) {
+    container.querySelectorAll('.hl.hl-current').forEach(m => m.classList.remove('hl-current'));
+  }
+
+  const row = _searchMatches[_searchIdx];
+
+  // Ensure all ancestor sections are open
+  let el = row.parentElement;
+  while (el) {
+    if (el.classList && el.classList.contains('sec') && !el.classList.contains('open')) {
+      el.classList.add('open');
+    }
+    el = el.parentElement;
+  }
+
+  // Emphasise the current match
+  row.querySelectorAll('.hl').forEach(m => m.classList.add('hl-current'));
+  row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  countEl.textContent = `${_searchIdx + 1} / ${_searchMatches.length}`;
 }
 
 /* ── Helpers ── */

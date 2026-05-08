@@ -452,6 +452,15 @@
         const card = cardHdr.closest('.sv-card');
         if (card) {
           toggleWithScrollAnchor(cardHdr, () => card.classList.toggle('open'));
+          // Reflect the open card in the URL so the page is shareable.
+          if (history.replaceState) {
+            const slug = card.dataset.slug;
+            if (card.classList.contains('open')) {
+              history.replaceState(null, '', `#skill-${slug}`);
+            } else if (location.hash === `#skill-${slug}`) {
+              history.replaceState(null, '', location.pathname + location.search);
+            }
+          }
         }
       }
     });

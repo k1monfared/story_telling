@@ -486,16 +486,17 @@
     }
 
     function removeTagFromQuery(text, tag) {
-      // Strip occurrences of the tag along with their surrounding operator.
-      // Handles `AND tag`, `OR tag`, `AND NOT tag`, `NOT tag`, leading `tag`.
-      const escTag = tag.replace(/[-]/g, '\\-');
-      const re = new RegExp(
-        `\\s+(?:AND\\s+NOT|AND|OR|NOT)\\s+${escTag}\\b` +
-        `|^(?:NOT\\s+)?${escTag}\\b\\s*` +
-        `|\\b${escTag}\\b`,
-        'gi'
-      );
-      return text.replace(re, ' ').replace(/\s+/g, ' ').trim();
+      // Remove the tag along with its adjacent operator so the remaining
+      // query stays well-formed. Order of patterns matters.
+      const t = tag.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&');
+      let r = text;
+      // 1. Tag preceded by an operator: ` AND tag`, ` OR tag`, ` AND NOT tag`, ` NOT tag`
+      r = r.replace(new RegExp(`\\s+(?:AND\\s+NOT|AND|OR|NOT)\\s+${t}\\b`, 'gi'), '');
+      // 2. Tag at start of group followed by an operator: `tag AND `, `(NOT tag) OR `
+      r = r.replace(new RegExp(`(^|\\()\\s*(?:NOT\\s+)?${t}\\s+(?:AND|OR)\\s+`, 'gi'), '$1');
+      // 3. Bare tag at start of group with no following operator (with optional NOT)
+      r = r.replace(new RegExp(`(^|\\()\\s*(?:NOT\\s+)?${t}\\b`, 'gi'), '$1');
+      return r.replace(/\s+/g, ' ').trim();
     }
 
     function getFilteredSkills(compiled) {

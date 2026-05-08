@@ -4,14 +4,16 @@ description: You are about to start a difficult conversation and you know that t
 type: atomic
 book: difficult
 sources:
-  - chapter: "8. Getting Started: Begin from the Third Story"
-    lines: "3150-3480"
+- chapter: '8. Getting Started: Begin from the Third Story'
+  lines: 3150-3480
 tags:
-  - all-three-conversations
-  - conversation
-  - preparation
+- emotion
+- identity
+- exchange
+- preparation
+- curiosity
 related:
-  - extends: shift-from-certainty-to-curiosity
+- extends: shift-from-certainty-to-curiosity
 ---
 
 ## When to reach for this

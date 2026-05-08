@@ -4,14 +4,16 @@ description: You have received feedback about how you came across, and it does n
 type: atomic
 book: feedback
 sources:
-  - chapter: "4. See Your Blind Spots"
-    lines: "1814-1880, 1919-1970, 2149-2162"
+- chapter: 4. See Your Blind Spots
+  lines: 1814-1880, 1919-1970, 2149-2162
 tags:
-  - receiving
-  - diagnostic
-  - identity
-  - truth-trigger
-  - blind-spot
+- exchange
+- diagnose
+- identity
+- triggers
+- intent-impact
+- blind-spot
+- separate
 ---
 
 ## When to reach for this

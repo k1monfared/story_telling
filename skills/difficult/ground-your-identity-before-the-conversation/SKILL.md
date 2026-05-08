@@ -4,11 +4,12 @@ description: You are about to have a conversation that feels threatening, and pa
 type: atomic
 book: difficult
 sources:
-  - chapter: "6. Ground Your Identity: Ask Yourself What's at Stake"
-    lines: "2525-2713"
+- chapter: '6. Ground Your Identity: Ask Yourself What''s at Stake'
+  lines: 2525-2713
 tags:
-  - identity-conversation
-  - preparation
+- identity
+- exchange
+- preparation
 ---
 
 ## When to reach for this

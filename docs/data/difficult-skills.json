@@ -5,9 +5,10 @@
     "type": "atomic",
     "description": "The other person has expressed strong feelings and you want to respond helpfully, but you find yourself either dismissing the feelings, jumping to solutions, or defending yourself before they feel heard. The chapter says acknowledgment is a required step that cannot be skipped, and describes what it means and what it is not.",
     "tags": [
-      "feelings-conversation",
-      "listening",
-      "conversation"
+      "emotion",
+      "exchange",
+      "listen",
+      "assert"
     ],
     "related": [],
     "sources": [
@@ -34,9 +35,11 @@
     "type": "atomic",
     "description": "You have understood the other person's story and it makes sense, but you still disagree with it, and you feel pressured to choose between accepting their story (and abandoning yours) or rejecting their story (and holding your own). The chapter says this is a false choice, and offers the \"And Stance\" as the way to hold both without abandoning either.",
     "tags": [
-      "what-happened-conversation",
-      "orientation",
-      "conversation"
+      "diagnose",
+      "exchange",
+      "intent-impact",
+      "preparation",
+      "curiosity"
     ],
     "related": [
       {
@@ -67,9 +70,11 @@
     "type": "atomic",
     "description": "You are about to start a difficult conversation and you know that the way you open it will determine whether the other person defends themselves or joins you in exploration. The chapter teaches a specific opening technique that both parties can accept.",
     "tags": [
-      "all-three-conversations",
-      "conversation",
-      "preparation"
+      "emotion",
+      "identity",
+      "exchange",
+      "preparation",
+      "curiosity"
     ],
     "related": [
       {
@@ -100,9 +105,12 @@
     "type": "atomic",
     "description": "You are deciding whether to raise a difficult issue and what you want to accomplish if you do. The chapter identifies three conditions where raising the conversation makes things worse rather than better, and three purposes that make it worthwhile.",
     "tags": [
-      "all-three-conversations",
+      "emotion",
+      "identity",
+      "exchange",
       "preparation",
-      "decision"
+      "closing",
+      "purpose"
     ],
     "related": [],
     "sources": [
@@ -129,9 +137,10 @@
     "type": "atomic",
     "description": "A conversation is stuck in a cycle of accusation and defense about intentions. One person is hurt and assumes the other meant to hurt them; the other person insists they had good intentions and expects that to resolve the matter. The chapter names both as mistakes and prescribes how to handle each.",
     "tags": [
-      "what-happened-conversation",
-      "diagnostic",
-      "conversation"
+      "diagnose",
+      "exchange",
+      "intent-impact",
+      "separate"
     ],
     "related": [],
     "sources": [
@@ -158,9 +167,11 @@
     "type": "atomic",
     "description": "You have strong feelings about a difficult situation and need to express them, but every time you try, you end up in an argument, the other person gets defensive, or nothing changes. The chapter identifies the problem — you are expressing judgments and attributions rather than feelings — and prescribes a specific approach to finding your actual feelings and sharing them clearly.",
     "tags": [
-      "feelings-conversation",
-      "conversation",
-      "diagnostic"
+      "emotion",
+      "exchange",
+      "diagnose",
+      "evaluation",
+      "assert"
     ],
     "related": [],
     "sources": [
@@ -187,7 +198,8 @@
     "type": "atomic",
     "description": "You are about to have a conversation that feels threatening, and part of the reason it feels threatening is that your sense of who you are feels at risk. The chapter prescribes specific preparation work to stabilize your identity before the conversation begins, so that identity anxiety does not destabilize the conversation itself.",
     "tags": [
-      "identity-conversation",
+      "identity",
+      "exchange",
       "preparation"
     ],
     "related": [],
@@ -215,8 +227,10 @@
     "type": "atomic",
     "description": "A conversation feels difficult and you are not sure why, or you are in the middle of one and things are going sideways. The chapter says that every difficult conversation contains three simultaneous conversations, each producing its own set of errors and its own heat. The first step is to name which one is running hardest.",
     "tags": [
-      "all-three-conversations",
-      "diagnostic",
+      "emotion",
+      "identity",
+      "exchange",
+      "diagnose",
       "preparation"
     ],
     "related": [],
@@ -244,9 +258,10 @@
     "type": "atomic",
     "description": "You are in a difficult conversation and need to understand the other person's perspective, but listening is hard because your internal voice is running, you already think you know what they will say, or you find yourself asking questions designed to persuade rather than learn. The chapter prescribes listening from the inside out, starting with an internal stance of genuine curiosity.",
     "tags": [
-      "all-three-conversations",
-      "listening",
-      "conversation"
+      "emotion",
+      "identity",
+      "exchange",
+      "listen"
     ],
     "related": [
       {
@@ -277,10 +292,11 @@
     "type": "atomic",
     "description": "A difficult situation has given rise to a conversation, and the instinct is to focus on who is to blame. The chapter argues that blame prevents the learning and change that is actually needed, and prescribes replacing it with a contribution-mapping approach that serves both understanding and forward-looking change.",
     "tags": [
-      "what-happened-conversation",
-      "diagnostic",
+      "diagnose",
+      "exchange",
+      "intent-impact",
       "preparation",
-      "conversation"
+      "contribution"
     ],
     "related": [],
     "sources": [
@@ -307,9 +323,9 @@
     "type": "atomic",
     "description": "You have tried reframing and listening, but the conversation is stuck in a pattern — the other person keeps interrupting, dominating, attacking, dismissing, or acting hurt while denying it. The chapter teaches a move that steps outside the conversation's content to address the conversation's process explicitly.",
     "tags": [
-      "all-three-conversations",
-      "conversation",
-      "process"
+      "emotion",
+      "identity",
+      "exchange"
     ],
     "related": [
       {
@@ -339,9 +355,9 @@
     "type": "composed",
     "description": "A conversation is stuck in the \"What Happened?\" dynamic — both parties insisting they are right, arguing about intentions, or stuck in a blame loop. The four-step chain addresses each of the three errors the book names for the \"What Happened?\" Conversation in sequence.",
     "tags": [
-      "what-happened-conversation",
-      "diagnostic",
-      "conversation"
+      "diagnose",
+      "exchange",
+      "intent-impact"
     ],
     "related": [
       {
@@ -388,7 +404,9 @@
     "type": "composed",
     "description": "A difficult conversation is coming and you are anxious about it. You want to go in open to learning, with your identity stable enough to hear challenging things, and with clarity about whether and why to raise it. This three-step preparation chain runs those tasks in the order they must happen.",
     "tags": [
-      "all-three-conversations",
+      "emotion",
+      "identity",
+      "exchange",
       "preparation"
     ],
     "related": [
@@ -434,10 +452,12 @@
     "type": "atomic",
     "description": "The other person in a difficult conversation is making statements that push the conversation toward blame, arguments about who is right, or accusations about your character. Rather than accepting their framing or rejecting it, the chapter teaches a real-time translation technique that shifts the conversation back toward learning.",
     "tags": [
-      "what-happened-conversation",
-      "feelings-conversation",
-      "identity-conversation",
-      "conversation"
+      "diagnose",
+      "exchange",
+      "intent-impact",
+      "emotion",
+      "identity",
+      "reframe"
     ],
     "related": [],
     "sources": [
@@ -464,9 +484,10 @@
     "type": "atomic",
     "description": "You are in a difficult conversation and something the other person said has knocked you off balance. Your anxiety has spiked, your concentration has dropped, you are about to say something you will regret, or you feel the urge to flee. The chapter prescribes four specific moves for regaining footing.",
     "tags": [
-      "identity-conversation",
-      "conversation",
-      "emotional-regulation"
+      "identity",
+      "exchange",
+      "emotion",
+      "self"
     ],
     "related": [
       {
@@ -497,10 +518,13 @@
     "type": "atomic",
     "description": "A disagreement has turned into an argument. You are trading conclusions, neither is persuading the other, and the conversation is going nowhere. The chapter locates the problem in the stance you are bringing, not the content you are arguing about, and prescribes a specific internal shift.",
     "tags": [
-      "what-happened-conversation",
-      "diagnostic",
+      "diagnose",
+      "exchange",
+      "intent-impact",
       "preparation",
-      "listening"
+      "listen",
+      "curiosity",
+      "reframe"
     ],
     "related": [],
     "sources": [
@@ -527,9 +551,10 @@
     "type": "atomic",
     "description": "You need to share your views and feelings in a difficult conversation and keep getting it wrong — either burying the real issue in indirect hints, presenting your opinions as facts, oversimplifying your complex feelings, or using \"always/never\" language that produces defensiveness. The chapter prescribes a specific set of expression principles.",
     "tags": [
-      "all-three-conversations",
-      "conversation",
-      "expression"
+      "emotion",
+      "identity",
+      "exchange",
+      "assert"
     ],
     "related": [],
     "sources": [

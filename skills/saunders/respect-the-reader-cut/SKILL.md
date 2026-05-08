@@ -4,16 +4,16 @@ description: You are revising prose and a passage feels belabored even though no
 type: atomic
 book: saunders
 sources:
-  - chapter: "Afterthought #2"
-    lines: "2291-2345"
-    note: "Saunders gives two worked cuts (the Jane sentence reduced to 'Jane'; the Jim/Sara passage with thirty-seven words removed because the action of dropping the keys already contains them) and frames the underlying principle as 'a story is a frank, intimate conversation between equals' in which the writer continually demonstrates respect for the reader's intelligence."
+- chapter: 'Afterthought #2'
+  lines: 2291-2345
+  note: Saunders gives two worked cuts (the Jane sentence reduced to 'Jane'; the Jim/Sara passage with thirty-seven words removed because the action of dropping the keys already contains them) and frames the underlying principle as 'a story is a frank, intimate conversation between equals' in which the writer continually demonstrates respect for the reader's intelligence.
 tags:
-  - revision
-  - cutting
-  - prose
-  - reader
+- revision
+- cut
+- voice
+- text
 related:
-  - extends: take-responsibility-for-every-element
+- extends: take-responsibility-for-every-element
 ---
 
 ## When to reach for this

@@ -4,14 +4,14 @@ description: You are working on a story whose mid-section has produced a real ch
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Wisdom of Omission: Thoughts on 'Alyosha the Pot'"
-    lines: "6781-6799"
-    note: "Saunders names the move on the roof-fall: 'But then Tolstoy does something smart: he knocks Alyosha off that roof. This has the effect of forcing all of the psychic consequences of the broken engagement to play out within a compressed time frame. If Alyosha is going to act on that disappointed energy, he's only got the remainder of this last page in which to do it.' He surveys the variants the natural pace would have produced (outwardly-same-but-bitter, eventually confronts father, never causes anything and dissipates) and observes 'this seems the variant Alyosha is fated to live.' Then names the function: 'the fall speeds up the time frame in which our question (What is Alyosha going to do about that injustice?) will be answered.' The principle stated: 'Alyosha dies not because he falls off a roof but because Tolstoy, at this late point in his art, knows what it is that we want to know and aims to give it to us as quickly as possible.' The Akakii Akakievich / 'The Overcoat' parallel sharpens the contrast: Akakii's death is a natural continuation of a lifetime of petty abuse; Alyosha's fall is 'not caused by anything, really' and is instrumental, the writer's tool to foreshorten the answer."
+- chapter: 'The Wisdom of Omission: Thoughts on ''Alyosha the Pot'''
+  lines: 6781-6799
+  note: 'Saunders names the move on the roof-fall: ''But then Tolstoy does something smart: he knocks Alyosha off that roof. This has the effect of forcing all of the psychic consequences of the broken engagement to play out within a compressed time frame. If Alyosha is going to act on that disappointed energy, he''s only got the remainder of this last page in which to do it.'' He surveys the variants the natural pace would have produced (outwardly-same-but-bitter, eventually confronts father, never causes anything and dissipates) and observes ''this seems the variant Alyosha is fated to live.'' Then names the function: ''the fall speeds up the time frame in which our question (What is Alyosha going to do about that injustice?) will be answered.'' The principle stated: ''Alyosha dies not because he falls off a roof but because Tolstoy, at this late point in his art, knows what it is that we want to know and aims to give it to us as quickly as possible.'' The Akakii Akakievich / ''The Overcoat'' parallel sharpens the contrast: Akakii''s death is a natural continuation of a lifetime of petty abuse; Alyosha''s fall is ''not caused by anything, really'' and is instrumental, the writer''s tool to foreshorten the answer.'
 tags:
-  - drafting
-  - structure
-  - pacing
-  - climax
+- text
+- structure
+- pacing
+- climax
 ---
 
 ## When to reach for this

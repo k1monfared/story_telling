@@ -4,12 +4,11 @@ description: You are in a feedback conversation and you have something to say, b
 type: atomic
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "5302-5388"
+- chapter: 11. Navigate the Conversation
+  lines: 5302-5388
 tags:
-  - receiving
-  - conversation
-  - asserting
+- exchange
+- assert
 ---
 
 ## When to reach for this

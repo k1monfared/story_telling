@@ -4,19 +4,20 @@ description: You are evaluating, revising, or critiquing a story and you sense i
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "1676-1694, 1782-1854"
-    note: "Saunders names the question 'What is the heart of you, dear story?' and proposes the candy-factory and Club-Story-bouncer images as the procedure for auditing every part against that heart. He demonstrates the procedure on Turgenev by tabulating the eleven pre-contest pages and asking what work each does for the contest."
-  - chapter: "A Swim in a Pond in the Rain: Thoughts on 'Gooseberries'"
-    lines: "6047-6055"
-    note: "Saunders runs the heart-finding question on Chekhov's 'Gooseberries' and discovers a recursive structure. The heart of the story is Ivan's anecdote about his brother (the answer to the Seussian question 'Why are you bothering telling me this?'). Within that anecdote, Saunders identifies a further heart: Ivan's impassioned speech about happiness. He names the recursion: 'At the heart of that anecdote (i.e., the heart of the heart of the story) is Ivan's impassioned speech about the nature of happiness.' The retroactive effect: 'because that speech (the heart of the heart of the story) is about the question of whether our urge to be happy is to be indulged or resisted, we feel the story to be a sort of meditation on that question. Ivan's conclusion that there is no happiness and there should be none hangs, retroactively, over the whole story.' The fold adds the recursion to the audit: when the heart is itself a multi-element scene (a speech delivered inside a tale told inside a frame; a contest with a climactic note; a ceremony with a vow inside it), the audit recurses — identify the heart-of-the-heart and run the same procedure for the inner layer. The Seussian formulation 'Why are you bothering telling me this?' is a fresh restatement of the heart-finding question, useful when the candy-factory or Club-Story-bouncer images are not firing."
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 1676-1694, 1782-1854
+  note: Saunders names the question 'What is the heart of you, dear story?' and proposes the candy-factory and Club-Story-bouncer images as the procedure for auditing every part against that heart. He demonstrates the procedure on Turgenev by tabulating the eleven pre-contest pages and asking what work each does for the contest.
+- chapter: 'A Swim in a Pond in the Rain: Thoughts on ''Gooseberries'''
+  lines: 6047-6055
+  note: 'Saunders runs the heart-finding question on Chekhov''s ''Gooseberries'' and discovers a recursive structure. The heart of the story is Ivan''s anecdote about his brother (the answer to the Seussian question ''Why are you bothering telling me this?''). Within that anecdote, Saunders identifies a further heart: Ivan''s impassioned speech about happiness. He names the recursion: ''At the heart of that anecdote (i.e., the heart of the heart of the story) is Ivan''s impassioned speech about the nature of happiness.'' The retroactive effect: ''because that speech (the heart of the heart of the story) is about the question of whether our urge to be happy is to be indulged or resisted, we feel the story to be a sort of meditation on that question. Ivan''s conclusion that there is no happiness and there should be none hangs, retroactively, over the whole story.'' The fold adds the recursion to the audit: when the heart is itself a multi-element scene (a speech delivered inside a tale told inside a frame; a contest with a climactic note; a ceremony with a vow inside it), the audit recurses — identify the heart-of-the-heart and run the same procedure for the inner layer. The Seussian formulation ''Why are you bothering telling me this?'' is a fresh restatement of the heart-finding question, useful when the candy-factory or Club-Story-bouncer images are not firing.'
 tags:
-  - revision
-  - critique
-  - structure
-  - editing
+- revision
+- diagnose
+- text
+- structure
+- cut
 related:
-  - contrasts: hollywood-version
+- contrasts: hollywood-version
 ---
 
 ## When to reach for this

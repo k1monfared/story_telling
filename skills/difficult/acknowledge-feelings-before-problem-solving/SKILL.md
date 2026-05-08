@@ -4,12 +4,13 @@ description: The other person has expressed strong feelings and you want to resp
 type: atomic
 book: difficult
 sources:
-  - chapter: "5. Have Your Feelings (Or They Will Have You)"
-    lines: "2470-2492"
+- chapter: 5. Have Your Feelings (Or They Will Have You)
+  lines: 2470-2492
 tags:
-  - feelings-conversation
-  - listening
-  - conversation
+- emotion
+- exchange
+- listen
+- assert
 ---
 
 ## When to reach for this

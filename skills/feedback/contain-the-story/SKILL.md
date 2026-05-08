@@ -4,15 +4,16 @@ description: The story about the feedback has spread beyond the domain of the fe
 type: atomic
 book: feedback
 sources:
-  - chapter: "8. Dismantle Distortions (See Feedback at 'Actual Size')"
-    lines: "3747-3852"
+- chapter: 8. Dismantle Distortions (See Feedback at 'Actual Size')
+  lines: 3747-3852
 tags:
-  - receiving
-  - identity-trigger
-  - distortion
-  - containment
+- exchange
+- identity
+- triggers
+- distortion
+- contain
 related:
-  - extends: separate-feeling-story-feedback
+- extends: separate-feeling-story-feedback
 ---
 
 ## When to reach for this

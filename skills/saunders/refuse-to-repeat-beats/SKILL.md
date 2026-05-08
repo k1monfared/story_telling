@@ -4,17 +4,17 @@ description: You are revising a section of a draft and the prose feels like it i
 type: atomic
 book: saunders
 sources:
-  - chapter: "A Pattern Story: Thoughts on 'The Darling'"
-    lines: "3046-3072"
-    note: "Saunders names the law 'always be escalating' and immediately adds a procedural rule under it: 'refuse to repeat beats. Once a story has moved forward, through some fundamental change in the character's condition, we don't get to enact that change again. And we don't get to stay there elaborating on that state.' He demonstrates the diagnosis on the Sasha section, identifying the current beat ('Olenka has found a new love and taken on his opinions and is finally happy again') and reading ahead to find the next nudge that pushes the story out of it (Sasha's first 'Please leave me alone!'). He repeats the diagnosis at each subsequent stretch ('half a page left,' 'five lines left'), each time finding a new escalation."
-  - chapter: "The Wisdom of Omission: Thoughts on 'Alyosha the Pot'"
-    lines: "6755-6783"
-    note: "Saunders applies the same diagnosis to a held-constant trait at its climactic recurrence rather than to a state-change being elaborated. Alyosha's defining trait (cheerful obedience, smile, get back to work) has held across teasing, beating, scolding, and the marriage refusal. At the moment the merchant's wife checks in after the broken engagement, the obvious response would be the same trait-recurrence: 'Looks like I have to,' Alyosha said with a smile, then bounded out of the room. Saunders names this counterfactual explicitly as 'a repeated beat, a failure of escalation: Alyosha continuing to be what he's always been.' What Tolstoy writes instead is the deviation: Alyosha smiles, then bursts into tears. Saunders names the structural function: 'this bursting into tears narrows the path of the story.' The fold extends the skill to held-constant traits at high-stakes recurrences: the diagnosis is the same (the obvious next move would be the trait recurring; the failure mode is repeating the beat), only the beat is the trait's habitual response rather than the elaboration of a recently-changed state. The same procedural test applies: would the obvious next move be the beat we have been in? If yes, deviate; the deviation is what makes the moment land as escalation rather than as repetition."
+- chapter: 'A Pattern Story: Thoughts on ''The Darling'''
+  lines: 3046-3072
+  note: 'Saunders names the law ''always be escalating'' and immediately adds a procedural rule under it: ''refuse to repeat beats. Once a story has moved forward, through some fundamental change in the character''s condition, we don''t get to enact that change again. And we don''t get to stay there elaborating on that state.'' He demonstrates the diagnosis on the Sasha section, identifying the current beat (''Olenka has found a new love and taken on his opinions and is finally happy again'') and reading ahead to find the next nudge that pushes the story out of it (Sasha''s first ''Please leave me alone!''). He repeats the diagnosis at each subsequent stretch (''half a page left,'' ''five lines left''), each time finding a new escalation.'
+- chapter: 'The Wisdom of Omission: Thoughts on ''Alyosha the Pot'''
+  lines: 6755-6783
+  note: 'Saunders applies the same diagnosis to a held-constant trait at its climactic recurrence rather than to a state-change being elaborated. Alyosha''s defining trait (cheerful obedience, smile, get back to work) has held across teasing, beating, scolding, and the marriage refusal. At the moment the merchant''s wife checks in after the broken engagement, the obvious response would be the same trait-recurrence: ''Looks like I have to,'' Alyosha said with a smile, then bounded out of the room. Saunders names this counterfactual explicitly as ''a repeated beat, a failure of escalation: Alyosha continuing to be what he''s always been.'' What Tolstoy writes instead is the deviation: Alyosha smiles, then bursts into tears. Saunders names the structural function: ''this bursting into tears narrows the path of the story.'' The fold extends the skill to held-constant traits at high-stakes recurrences: the diagnosis is the same (the obvious next move would be the trait recurring; the failure mode is repeating the beat), only the beat is the trait''s habitual response rather than the elaboration of a recently-changed state. The same procedural test applies: would the obvious next move be the beat we have been in? If yes, deviate; the deviation is what makes the moment land as escalation rather than as repetition.'
 tags:
-  - revision
-  - drafting
-  - structure
-  - pacing
+- revision
+- text
+- structure
+- pacing
 ---
 
 ## When to reach for this

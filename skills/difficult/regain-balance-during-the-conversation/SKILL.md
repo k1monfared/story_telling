@@ -4,14 +4,15 @@ description: You are in a difficult conversation and something the other person 
 type: atomic
 book: difficult
 sources:
-  - chapter: "6. Ground Your Identity: Ask Yourself What's at Stake"
-    lines: "2713-2825"
+- chapter: '6. Ground Your Identity: Ask Yourself What''s at Stake'
+  lines: 2713-2825
 tags:
-  - identity-conversation
-  - conversation
-  - emotional-regulation
+- identity
+- exchange
+- emotion
+- self
 related:
-  - extends: ground-your-identity-before-the-conversation
+- extends: ground-your-identity-before-the-conversation
 ---
 
 ## When to reach for this

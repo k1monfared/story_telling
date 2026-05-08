@@ -4,12 +4,13 @@ description: A conversation is stuck in a cycle of accusation and defense about 
 type: atomic
 book: difficult
 sources:
-  - chapter: "3. Don't Assume They Meant It: Disentangle Intent from Impact"
-    lines: "1300-1555"
+- chapter: '3. Don''t Assume They Meant It: Disentangle Intent from Impact'
+  lines: 1300-1555
 tags:
-  - what-happened-conversation
-  - diagnostic
-  - conversation
+- diagnose
+- exchange
+- intent-impact
+- separate
 ---
 
 ## When to reach for this

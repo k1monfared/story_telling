@@ -4,12 +4,11 @@ description: You want feedback but the question "any feedback for me?" produces 
 type: atomic
 book: feedback
 sources:
-  - chapter: "12. Get Going (Five Ways to Take Action)"
-    lines: "5666-5742"
+- chapter: 12. Get Going (Five Ways to Take Action)
+  lines: 5666-5742
 tags:
-  - receiving
-  - seeking
-  - soliciting
+- exchange
+- inquire
 ---
 
 ## When to reach for this

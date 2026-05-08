@@ -4,15 +4,16 @@ description: A feedback conversation about accountability is stuck, or the recei
 type: atomic
 book: feedback
 sources:
-  - chapter: "6. Identify the Relationship System (Take Three Steps Back)"
-    lines: "3063-3099"
+- chapter: 6. Identify the Relationship System (Take Three Steps Back)
+  lines: 3063-3099
 tags:
-  - receiving
-  - diagnostic
-  - identity-trigger
-  - accountability
+- exchange
+- diagnose
+- identity
+- triggers
+- accountability
 related:
-  - extends: take-three-steps-back
+- extends: take-three-steps-back
 ---
 
 ## When to reach for this

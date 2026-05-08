@@ -4,14 +4,14 @@ description: You have tried reframing and listening, but the conversation is stu
 type: atomic
 book: difficult
 sources:
-  - chapter: "11. Problem-Solving: Take the Lead"
-    lines: "4540-4557"
+- chapter: '11. Problem-Solving: Take the Lead'
+  lines: 4540-4557
 tags:
-  - all-three-conversations
-  - conversation
-  - process
+- emotion
+- identity
+- exchange
 related:
-  - extends: reframe-their-statements
+- extends: reframe-their-statements
 ---
 
 ## When to reach for this

@@ -4,14 +4,16 @@ description: You have understood the other person's story and it makes sense, bu
 type: atomic
 book: difficult
 sources:
-  - chapter: "2. Stop Arguing About Who's Right: Explore Each Other's Stories"
-    lines: "1186-1244"
+- chapter: '2. Stop Arguing About Who''s Right: Explore Each Other''s Stories'
+  lines: 1186-1244
 tags:
-  - what-happened-conversation
-  - orientation
-  - conversation
+- diagnose
+- exchange
+- intent-impact
+- preparation
+- curiosity
 related:
-  - extends: shift-from-certainty-to-curiosity
+- extends: shift-from-certainty-to-curiosity
 ---
 
 ## When to reach for this

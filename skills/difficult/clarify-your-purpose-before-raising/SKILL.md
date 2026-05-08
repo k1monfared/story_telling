@@ -4,12 +4,15 @@ description: You are deciding whether to raise a difficult issue and what you wa
 type: atomic
 book: difficult
 sources:
-  - chapter: "7. What's Your Purpose? When to Raise It and When to Let Go"
-    lines: "2844-3131"
+- chapter: 7. What's Your Purpose? When to Raise It and When to Let Go
+  lines: 2844-3131
 tags:
-  - all-three-conversations
-  - preparation
-  - decision
+- emotion
+- identity
+- exchange
+- preparation
+- closing
+- purpose
 ---
 
 ## When to reach for this

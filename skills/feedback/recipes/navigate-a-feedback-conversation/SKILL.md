@@ -4,15 +4,19 @@ description: A feedback conversation is about to happen or is already underway, 
 type: composed
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "4992-5527"
-    note: "Chapter 11 presents the conversation as an open-body-close arc and names four body skills (listening, asserting, process moves, problem solving). The recipe follows that structure directly, with make-a-process-move and dig-for-interests-then-generate-options folded in as the rescue moves for two different stuck states."
+- chapter: 11. Navigate the Conversation
+  lines: 4992-5527
+  note: Chapter 11 presents the conversation as an open-body-close arc and names four body skills (listening, asserting, process moves, problem solving). The recipe follows that structure directly, with make-a-process-move and dig-for-interests-then-generate-options folded in as the rescue moves for two different stuck states.
 tags:
-  - receiving
-  - conversation
-  - action
+- exchange
 related:
-  - composed-of: [align-on-conversation-purpose, negotiate-your-internal-voice, assert-as-left-out, make-a-process-move, dig-for-interests-then-generate-options, close-with-commitment]
+- composed-of:
+  - align-on-conversation-purpose
+  - negotiate-your-internal-voice
+  - assert-as-left-out
+  - make-a-process-move
+  - dig-for-interests-then-generate-options
+  - close-with-commitment
 ---
 
 ## When to reach for this

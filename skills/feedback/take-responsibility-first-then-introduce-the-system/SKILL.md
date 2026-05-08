@@ -1,18 +1,18 @@
 ---
 name: take-responsibility-first-then-introduce-the-system
-description: "The receiver wants to name the larger system contributing to the problem but every time they try, the giver hears it as excuse-making. The chapter prescribes a sequencing rule: settle your own accountability first, then raise your observations about the broader system."
+description: 'The receiver wants to name the larger system contributing to the problem but every time they try, the giver hears it as excuse-making. The chapter prescribes a sequencing rule: settle your own accountability first, then raise your observations about the broader system.'
 type: atomic
 book: feedback
 sources:
-  - chapter: "6. Identify the Relationship System (Take Three Steps Back)"
-    lines: "3125-3149"
+- chapter: 6. Identify the Relationship System (Take Three Steps Back)
+  lines: 3125-3149
 tags:
-  - receiving
-  - conversation
-  - accountability
-  - relationship-trigger
+- exchange
+- accountability
+- relationship
+- triggers
 related:
-  - extends: take-three-steps-back
+- extends: take-three-steps-back
 ---
 
 ## When to reach for this

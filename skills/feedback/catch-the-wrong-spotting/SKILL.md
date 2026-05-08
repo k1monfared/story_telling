@@ -4,13 +4,15 @@ description: Feedback has just arrived and you can feel yourself building a list
 type: atomic
 book: feedback
 sources:
-  - chapter: "3. First Understand"
-    lines: "1118-1147, 1153-1158, 1420-1429"
+- chapter: 3. First Understand
+  lines: 1118-1147, 1153-1158, 1420-1429
 tags:
-  - receiving
-  - diagnostic
-  - mindset
-  - truth-trigger
+- exchange
+- diagnose
+- growth
+- triggers
+- intent-impact
+- distortion
 ---
 
 ## When to reach for this

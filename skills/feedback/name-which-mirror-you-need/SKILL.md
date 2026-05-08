@@ -4,13 +4,13 @@ description: You have received unwelcome feedback and you are about to take it t
 type: atomic
 book: feedback
 sources:
-  - chapter: "4. See Your Blind Spots"
-    lines: "2100-2124"
+- chapter: 4. See Your Blind Spots
+  lines: 2100-2124
 tags:
-  - receiving
-  - inquiry
-  - relationships
-  - blind-spot
+- exchange
+- inquire
+- relationship
+- blind-spot
 ---
 
 ## When to reach for this

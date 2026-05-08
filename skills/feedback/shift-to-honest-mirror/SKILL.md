@@ -4,12 +4,12 @@ description: You have vented to a friend or colleague about feedback you receive
 type: atomic
 book: feedback
 sources:
-  - chapter: "12. Get Going (Five Ways to Take Action)"
-    lines: "6274-6325"
+- chapter: 12. Get Going (Five Ways to Take Action)
+  lines: 6274-6325
 tags:
-  - receiving
-  - seeking
-  - diagnostic
+- exchange
+- inquire
+- diagnose
 ---
 
 ## When to reach for this

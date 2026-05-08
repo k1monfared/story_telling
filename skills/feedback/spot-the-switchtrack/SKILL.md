@@ -4,13 +4,13 @@ description: A feedback exchange is escalating rather than resolving, you and th
 type: atomic
 book: feedback
 sources:
-  - chapter: "5. Don't Switchtrack (Disentangle What from Who)"
-    lines: "2293-2330, 2336-2509, 2587-2616"
+- chapter: 5. Don't Switchtrack (Disentangle What from Who)
+  lines: 2293-2330, 2336-2509, 2587-2616
 tags:
-  - receiving
-  - diagnostic
-  - relationship-trigger
-  - conversation
+- exchange
+- diagnose
+- relationship
+- triggers
 ---
 
 ## When to reach for this

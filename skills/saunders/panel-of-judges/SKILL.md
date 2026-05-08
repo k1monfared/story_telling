@@ -4,14 +4,14 @@ description: You are drafting or revising a scene whose central event is somethi
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "1924-1938"
-    note: "Saunders names the function: the side characters in 'The Singers' serve as 'a sort of ascending ladder of credibility,' a graded panel of judges whose differing personalities and authorities let the reader weight their reactions to the unhearable singing."
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 1924-1938
+  note: 'Saunders names the function: the side characters in ''The Singers'' serve as ''a sort of ascending ladder of credibility,'' a graded panel of judges whose differing personalities and authorities let the reader weight their reactions to the unhearable singing.'
 tags:
-  - drafting
-  - revision
-  - structure
-  - characterization
+- text
+- revision
+- structure
+- characterization
 ---
 
 ## When to reach for this

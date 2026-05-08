@@ -4,13 +4,12 @@ description: You are about to enter (or are inside) a feedback conversation wher
 type: atomic
 book: feedback
 sources:
-  - chapter: "2. Separate Appreciation, Coaching, and Evaluation"
-    lines: "1031-1052"
+- chapter: 2. Separate Appreciation, Coaching, and Evaluation
+  lines: 1031-1052
 tags:
-  - receiving
-  - asking
-  - alignment
-  - script
+- exchange
+- inquire
+- preparation
 ---
 
 ## When to reach for this

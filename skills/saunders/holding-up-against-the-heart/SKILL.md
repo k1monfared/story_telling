@@ -4,16 +4,17 @@ description: You have noticed an apparently static element in a story (a descrip
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "2002-2038"
-    note: "Saunders names the move 'holding up against the heart,' demonstrates it on the ravine and on the rooks/crows/sparrows, and uses the two-trees painting analogy to explain why juxtaposition produces meaning by inference rather than by assertion."
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 2002-2038
+  note: Saunders names the move 'holding up against the heart,' demonstrates it on the ravine and on the rooks/crows/sparrows, and uses the two-trees painting analogy to explain why juxtaposition produces meaning by inference rather than by assertion.
 tags:
-  - close-reading
-  - revision
-  - imagery
-  - structure
+- diagnose
+- text
+- revision
+- voice
+- structure
 related:
-  - extends: heart-of-the-story
+- extends: heart-of-the-story
 ---
 
 ## When to reach for this

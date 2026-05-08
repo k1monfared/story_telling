@@ -4,13 +4,16 @@ description: A disagreement has turned into an argument. You are trading conclus
 type: atomic
 book: difficult
 sources:
-  - chapter: "2. Stop Arguing About Who's Right: Explore Each Other's Stories"
-    lines: "929-1165, 1171-1185"
+- chapter: '2. Stop Arguing About Who''s Right: Explore Each Other''s Stories'
+  lines: 929-1165, 1171-1185
 tags:
-  - what-happened-conversation
-  - diagnostic
-  - preparation
-  - listening
+- diagnose
+- exchange
+- intent-impact
+- preparation
+- listen
+- curiosity
+- reframe
 ---
 
 ## When to reach for this

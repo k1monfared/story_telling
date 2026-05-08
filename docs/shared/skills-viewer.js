@@ -7,6 +7,14 @@
  *     dataFile: '../data/saunders-skills.json',
  *     bookSlug: 'saunders',
  *   });
+ *
+ * Query syntax (typed into the query box, or built up by clicking pills):
+ *   tag                — skills with this tag (or type: atomic/composed/recipe)
+ *   tag1 tag2          — implicit AND
+ *   tag1 AND tag2      — explicit AND
+ *   tag1 OR tag2       — either
+ *   NOT tag            — exclude
+ *   (a OR b) AND NOT c — grouping
  */
 
 (function () {
@@ -23,6 +31,17 @@
     source: 'Source',
     related_skills: 'Related skills',
   };
+
+  const FACETS = [
+    { name: 'Phase',  tags: ['preparation', 'in-the-moment', 'revision', 'closing'] },
+    { name: 'Action', tags: ['diagnose', 'inquire', 'listen', 'reframe', 'assert', 'separate', 'sort', 'contain', 'experiment', 'cut', 'iterate'] },
+    { name: 'Focus',  tags: ['self', 'text', 'other', 'exchange', 'relationship'] },
+    { name: 'Topic',  tags: ['emotion', 'identity', 'intent-impact', 'contribution', 'triggers', 'purpose', 'distortion', 'coaching', 'evaluation', 'blind-spot', 'boundaries', 'accountability'] },
+    { name: 'Craft',  tags: ['structure', 'voice', 'pacing', 'point-of-view', 'characterization', 'climax', 'endings'] },
+    { name: 'Stance', tags: ['curiosity', 'growth'] },
+  ];
+
+  // ── HTML helpers ─────────────────────────────────────────────────────────
 
   function esc(s) {
     if (!s) return '';
@@ -45,6 +64,155 @@
     return '<span class="sv-badge sv-badge-recipe">Recipe</span>';
   }
 
+  // ── Query language ────────────────────────────────────────────────────────
+
+  function tokenize(s) {
+    const tokens = [];
+    let i = 0;
+    while (i < s.length) {
+      const c = s[i];
+      if (/\s/.test(c)) { i++; continue; }
+      if (c === '(') { tokens.push({ type: 'LP' }); i++; continue; }
+      if (c === ')') { tokens.push({ type: 'RP' }); i++; continue; }
+      const m = s.slice(i).match(/^[A-Za-z0-9_-]+/);
+      if (!m) { throw new Error(`Unexpected character: ${c}`); }
+      const w = m[0];
+      i += w.length;
+      const upper = w.toUpperCase();
+      if (upper === 'AND' || upper === 'OR' || upper === 'NOT') {
+        tokens.push({ type: upper });
+      } else {
+        tokens.push({ type: 'WORD', value: w.toLowerCase() });
+      }
+    }
+    return tokens;
+  }
+
+  // Recursive descent parser.
+  // Precedence: NOT binds tightest (to its next term).
+  // AND and OR have equal precedence and are left-associative, so
+  // `a OR b AND c` parses as `(a OR b) AND c`, matching reading order.
+  function parse(tokens) {
+    let pos = 0;
+    const peek = () => tokens[pos];
+    const eat = (type) => (peek() && peek().type === type) ? tokens[pos++] : null;
+
+    function parseBinary() {
+      let left = parseNot();
+      if (!left) return null;
+      while (peek()) {
+        const t = peek().type;
+        if (t === 'RP') break;
+        let op;
+        if (t === 'AND') { eat('AND'); op = 'and'; }
+        else if (t === 'OR') { eat('OR'); op = 'or'; }
+        else if (t === 'WORD' || t === 'LP' || t === 'NOT') { op = 'and'; } // implicit AND
+        else break;
+        const right = parseNot();
+        if (!right) {
+          if (op === 'and' && t !== 'AND' && t !== 'OR') break; // trailing junk handled below
+          throw new Error(`Expected expression after ${op.toUpperCase()}`);
+        }
+        left = { type: op, a: left, b: right };
+      }
+      return left;
+    }
+
+    function parseNot() {
+      if (eat('NOT')) {
+        const inner = parsePrimary();
+        if (!inner) throw new Error('Expected expression after NOT');
+        return { type: 'not', a: inner };
+      }
+      return parsePrimary();
+    }
+
+    function parsePrimary() {
+      if (eat('LP')) {
+        const inner = parseBinary();
+        if (!eat('RP')) throw new Error('Missing closing parenthesis');
+        return inner;
+      }
+      const w = eat('WORD');
+      if (w) return { type: 'word', value: w.value };
+      return null;
+    }
+
+    if (tokens.length === 0) return null;
+    const expr = parseBinary();
+    if (pos < tokens.length) {
+      const t = tokens[pos];
+      throw new Error(`Unexpected token: ${t.type === 'WORD' ? t.value : t.type}`);
+    }
+    return expr;
+  }
+
+  function evaluate(expr, skill) {
+    if (!expr) return true;
+    switch (expr.type) {
+      case 'word': {
+        const w = expr.value;
+        if ((skill.tags || []).includes(w)) return true;
+        const typeLabel = skill.is_recipe ? 'recipe' : skill.type;
+        if (typeLabel === w) return true;
+        if (skill.book === w) return true;
+        return false;
+      }
+      case 'and': return evaluate(expr.a, skill) && evaluate(expr.b, skill);
+      case 'or':  return evaluate(expr.a, skill) || evaluate(expr.b, skill);
+      case 'not': return !evaluate(expr.a, skill);
+    }
+    return false;
+  }
+
+  // Returns the set of bare-word tokens used in the expression.
+  function collectWords(expr, set = new Set()) {
+    if (!expr) return set;
+    if (expr.type === 'word') set.add(expr.value);
+    else if (expr.type === 'and' || expr.type === 'or') {
+      collectWords(expr.a, set);
+      collectWords(expr.b, set);
+    } else if (expr.type === 'not') {
+      collectWords(expr.a, set);
+    }
+    return set;
+  }
+
+  // Pretty-print the parsed expression so users see how AND/OR grouped.
+  function formatExpr(expr) {
+    if (!expr) return '';
+    switch (expr.type) {
+      case 'word': return expr.value;
+      case 'not':  return `NOT ${formatExpr(expr.a)}`;
+      case 'and':  return `(${formatExpr(expr.a)} AND ${formatExpr(expr.b)})`;
+      case 'or':   return `(${formatExpr(expr.a)} OR ${formatExpr(expr.b)})`;
+    }
+    return '';
+  }
+
+  function countBinaryOps(expr) {
+    if (!expr) return 0;
+    if (expr.type === 'and' || expr.type === 'or') {
+      return 1 + countBinaryOps(expr.a) + countBinaryOps(expr.b);
+    }
+    if (expr.type === 'not') return countBinaryOps(expr.a);
+    return 0;
+  }
+
+  function compileQuery(text) {
+    const trimmed = (text || '').trim();
+    if (!trimmed) return { ok: true, expr: null, words: new Set() };
+    try {
+      const tokens = tokenize(trimmed);
+      const expr = parse(tokens);
+      return { ok: true, expr, words: collectWords(expr) };
+    } catch (err) {
+      return { ok: false, error: err.message };
+    }
+  }
+
+  // ── Card rendering ────────────────────────────────────────────────────────
+
   function renderCard(skill) {
     const name = prettifyName(skill.slug);
     const typeLabel = skill.is_recipe ? 'recipe' : skill.type;
@@ -52,7 +220,8 @@
       `<button class="sv-tag" data-tag="${esc(t)}">${esc(t)}</button>`
     ).join('');
 
-    const sectionsHtml = SECTION_ORDER.filter(k => skill.sections_html && skill.sections_html[k])
+    const sectionsHtml = SECTION_ORDER
+      .filter(k => skill.sections_html && skill.sections_html[k])
       .map(k => `
         <div class="sv-section">
           <div class="sv-section-label">${esc(SECTION_LABELS[k])}</div>
@@ -63,6 +232,7 @@
     return `
       <div class="sv-card" data-slug="${esc(skill.slug)}" data-type="${esc(typeLabel)}">
         <div class="sv-card-hdr">
+          <span class="sv-card-arrow">&#9654;</span>
           <div class="sv-card-hdr-left">
             <div class="sv-card-name-row">
               ${badgeHtml(typeLabel)}
@@ -71,11 +241,12 @@
             <div class="sv-card-desc">${esc(skill.description)}</div>
             <div class="sv-card-tags">${tagsHtml}</div>
           </div>
-          <span class="sv-card-arrow">▶</span>
         </div>
         <div class="sv-body">${sectionsHtml}</div>
       </div>`;
   }
+
+  // ── Tag bookkeeping ───────────────────────────────────────────────────────
 
   function buildTagFrequency(skills) {
     const freq = {};
@@ -95,39 +266,36 @@
     ];
     if (skill.sections_html) {
       for (const v of Object.values(skill.sections_html)) {
-        // Strip HTML tags for text search
         parts.push(v.replace(/<[^>]+>/g, ' '));
       }
     }
     return parts.join(' ').toLowerCase();
   }
 
+  // ── Public API ────────────────────────────────────────────────────────────
+
   window.createSkillsViewer = function (container, config) {
     const { title = 'Skills', dataFile, bookSlug = '' } = config;
-
-    // Inject root wrapper
     container.innerHTML = `<div class="sv-root"><div class="sv-loading">Loading…</div></div>`;
     const root = container.querySelector('.sv-root');
 
     fetch(dataFile)
       .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(skills => init(root, skills, title))
+      .then(skills => init(root, skills, title, bookSlug))
       .catch(err => {
         root.innerHTML = `<div class="sv-empty">Failed to load skills: ${esc(String(err))}</div>`;
       });
   };
 
-  function init(root, allSkills, title) {
-    let activeTag = null;
-    let activeType = 'all';
+  function init(root, allSkills, title, bookSlug) {
+    let queryText = '';
     let searchQuery = '';
 
-    // Build tag frequency map from all skills
     const tagFreq = buildTagFrequency(allSkills);
-    const sortedTags = Object.keys(tagFreq).sort((a, b) => tagFreq[b] - tagFreq[a]);
-
-    // Precompute search text for each skill
     const skillTexts = allSkills.map(getSkillText);
+
+    // Stamp the book on every skill so `book` queries work uniformly.
+    allSkills.forEach(s => { if (!s.book && bookSlug) s.book = bookSlug; });
 
     root.innerHTML = `
       <div class="sv-sidebar-overlay" id="sv-overlay"></div>
@@ -135,17 +303,13 @@
         <aside class="sv-sidebar" id="sv-sidebar">
           <div class="sv-sidebar-section">
             <div class="sv-sidebar-label">Type</div>
-            <div class="sv-type-btns">
-              <button class="sv-type-btn active" data-type="all">All</button>
-              <button class="sv-type-btn" data-type="atomic">Atomic</button>
-              <button class="sv-type-btn" data-type="composed">Composed</button>
-              <button class="sv-type-btn" data-type="recipe">Recipe</button>
-            </div>
+            <div class="sv-pill-list" id="sv-type-pills"></div>
           </div>
-          <div class="sv-sidebar-section">
-            <div class="sv-sidebar-label">Tags</div>
-            <div class="sv-tag-list" id="sv-tag-list"></div>
-          </div>
+          ${FACETS.map(f => `
+            <div class="sv-sidebar-section" data-facet="${esc(f.name)}">
+              <div class="sv-sidebar-label">${esc(f.name)}</div>
+              <div class="sv-pill-list" data-facet-pills="${esc(f.name)}"></div>
+            </div>`).join('')}
         </aside>
 
         <div class="sv-main">
@@ -155,31 +319,77 @@
               <span class="sv-count" id="sv-count"></span>
               <button class="sv-filter-btn" id="sv-filter-btn">Filter</button>
             </div>
+            <div class="sv-query-row">
+              <input class="sv-query" id="sv-query" type="text"
+                     placeholder='Query: e.g. emotion AND (identity OR triggers) NOT cut'
+                     autocomplete="off" spellcheck="false">
+              <button class="sv-query-clear" id="sv-query-clear" title="Clear query">&#10005;</button>
+            </div>
+            <div class="sv-query-status" id="sv-query-status"></div>
             <div class="sv-search-row">
-              <input class="sv-search" id="sv-search" type="text" placeholder="Search skills…" autocomplete="off">
+              <input class="sv-search" id="sv-search" type="text"
+                     placeholder="Free-text search inside skills…" autocomplete="off">
             </div>
           </div>
           <div class="sv-list" id="sv-list"></div>
         </div>
       </div>`;
 
-    const sidebar = root.querySelector('#sv-sidebar');
-    const overlay = root.querySelector('#sv-overlay');
-    const filterBtn = root.querySelector('#sv-filter-btn');
-    const searchEl = root.querySelector('#sv-search');
-    const countEl = root.querySelector('#sv-count');
-    const listEl = root.querySelector('#sv-list');
-    const tagListEl = root.querySelector('#sv-tag-list');
-    const typeBtns = root.querySelectorAll('.sv-type-btn');
+    const sidebar     = root.querySelector('#sv-sidebar');
+    const overlay     = root.querySelector('#sv-overlay');
+    const filterBtn   = root.querySelector('#sv-filter-btn');
+    const queryEl     = root.querySelector('#sv-query');
+    const queryClear  = root.querySelector('#sv-query-clear');
+    const queryStatus = root.querySelector('#sv-query-status');
+    const searchEl    = root.querySelector('#sv-search');
+    const countEl     = root.querySelector('#sv-count');
+    const listEl      = root.querySelector('#sv-list');
+    const typePillEl  = root.querySelector('#sv-type-pills');
 
-    // Build tag sidebar
-    for (const tag of sortedTags) {
-      const btn = document.createElement('button');
-      btn.className = 'sv-sidebar-tag';
-      btn.dataset.tag = tag;
-      btn.innerHTML = `<span class="sv-tag-name">${esc(tag)}</span><span class="sv-tag-count">${tagFreq[tag]}</span>`;
-      tagListEl.appendChild(btn);
+    // Build type pills.
+    const typeCounts = { atomic: 0, composed: 0, recipe: 0 };
+    for (const s of allSkills) {
+      const t = s.is_recipe ? 'recipe' : s.type;
+      if (typeCounts[t] !== undefined) typeCounts[t]++;
     }
+    for (const t of ['atomic', 'composed', 'recipe']) {
+      if (!typeCounts[t]) continue;
+      const btn = document.createElement('button');
+      btn.className = 'sv-sidebar-pill';
+      btn.dataset.tag = t;
+      btn.innerHTML = `<span class="sv-pill-name">${t}</span><span class="sv-pill-count">${typeCounts[t]}</span>`;
+      typePillEl.appendChild(btn);
+    }
+
+    // Build facet pills.
+    for (const facet of FACETS) {
+      const container = root.querySelector(`[data-facet-pills="${facet.name}"]`);
+      const section   = root.querySelector(`[data-facet="${facet.name}"]`);
+      let any = false;
+      for (const tag of facet.tags) {
+        const count = tagFreq[tag] || 0;
+        if (!count) continue;
+        any = true;
+        const btn = document.createElement('button');
+        btn.className = 'sv-sidebar-pill';
+        btn.dataset.tag = tag;
+        btn.innerHTML = `<span class="sv-pill-name">${esc(tag)}</span><span class="sv-pill-count">${count}</span>`;
+        container.appendChild(btn);
+      }
+      if (!any) section.style.display = 'none';
+    }
+
+    // Pill click → mutate the query string.
+    sidebar.addEventListener('click', e => {
+      const pill = e.target.closest('.sv-sidebar-pill');
+      if (!pill) return;
+      const tag = pill.dataset.tag;
+      const op =
+        e.shiftKey ? 'or' :
+        (e.altKey || e.ctrlKey || e.metaKey) ? 'not' :
+        'and';
+      modifyQuery(tag, op);
+    });
 
     // Mobile sidebar toggle
     filterBtn.addEventListener('click', () => {
@@ -191,62 +401,32 @@
       overlay.classList.remove('open');
     });
 
-    // Type filter
-    typeBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        typeBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeType = btn.dataset.type;
-        render();
-      });
+    // Query box typing.
+    queryEl.addEventListener('input', () => {
+      queryText = queryEl.value;
+      render();
     });
-
-    // Tag filter (sidebar)
-    tagListEl.addEventListener('click', e => {
-      const btn = e.target.closest('.sv-sidebar-tag');
-      if (!btn) return;
-      const tag = btn.dataset.tag;
-      if (activeTag === tag) {
-        activeTag = null;
-      } else {
-        activeTag = tag;
-      }
-      // Update active state in sidebar
-      tagListEl.querySelectorAll('.sv-sidebar-tag').forEach(b => {
-        b.classList.toggle('active', b.dataset.tag === activeTag);
-      });
-      // Close sidebar on mobile
-      sidebar.classList.remove('open');
-      overlay.classList.remove('open');
+    queryClear.addEventListener('click', () => {
+      queryEl.value = '';
+      queryText = '';
+      queryEl.focus();
       render();
     });
 
-    // Search
+    // Free-text search.
     searchEl.addEventListener('input', () => {
       searchQuery = searchEl.value.trim().toLowerCase();
       render();
     });
 
-    // Card expand/collapse and tag clicks
+    // Click on a tag inside a card → toggle into query (AND).
     listEl.addEventListener('click', e => {
-      // Tag pill click inside a card
       const tagBtn = e.target.closest('.sv-tag');
       if (tagBtn) {
         e.stopPropagation();
-        const tag = tagBtn.dataset.tag;
-        if (activeTag === tag) {
-          activeTag = null;
-        } else {
-          activeTag = tag;
-        }
-        tagListEl.querySelectorAll('.sv-sidebar-tag').forEach(b => {
-          b.classList.toggle('active', b.dataset.tag === activeTag);
-        });
-        render();
+        modifyQuery(tagBtn.dataset.tag, 'and');
         return;
       }
-
-      // Card header click
       const hdr = e.target.closest('.sv-card-hdr');
       if (hdr) {
         const card = hdr.closest('.sv-card');
@@ -254,43 +434,98 @@
       }
     });
 
-    function getFilteredSkills() {
+    // ── Helpers used by event handlers ──────────────────────────────────────
+
+    function modifyQuery(tag, op) {
+      const compiled = compileQuery(queryText);
+      // If the tag is already a bare token in the query, remove it instead.
+      if (compiled.ok && compiled.words.has(tag)) {
+        queryText = removeTagFromQuery(queryText, tag);
+      } else {
+        const trimmed = queryText.trim();
+        if (!trimmed) {
+          queryText = (op === 'not') ? `NOT ${tag}` : tag;
+        } else {
+          const joiner =
+            op === 'or'  ? ' OR ' :
+            op === 'not' ? ' AND NOT ' :
+                           ' AND ';
+          queryText = trimmed + joiner + tag;
+        }
+      }
+      queryEl.value = queryText;
+      render();
+    }
+
+    function removeTagFromQuery(text, tag) {
+      // Strip occurrences of the tag along with their surrounding operator.
+      // Handles `AND tag`, `OR tag`, `AND NOT tag`, `NOT tag`, leading `tag`.
+      const escTag = tag.replace(/[-]/g, '\\-');
+      const re = new RegExp(
+        `\\s+(?:AND\\s+NOT|AND|OR|NOT)\\s+${escTag}\\b` +
+        `|^(?:NOT\\s+)?${escTag}\\b\\s*` +
+        `|\\b${escTag}\\b`,
+        'gi'
+      );
+      return text.replace(re, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function getFilteredSkills(compiled) {
+      if (!compiled.ok) return [];
       return allSkills.filter((skill, idx) => {
-        // Type filter
-        const typeLabel = skill.is_recipe ? 'recipe' : skill.type;
-        if (activeType !== 'all' && typeLabel !== activeType) return false;
-
-        // Tag filter
-        if (activeTag && !(skill.tags || []).includes(activeTag)) return false;
-
-        // Search filter
+        if (!evaluate(compiled.expr, skill)) return false;
         if (searchQuery && !skillTexts[idx].includes(searchQuery)) return false;
-
         return true;
       });
     }
 
-    function render() {
-      const filtered = getFilteredSkills();
-      const total = allSkills.length;
+    function updatePillStates(activeWords) {
+      const pills = sidebar.querySelectorAll('.sv-sidebar-pill');
+      pills.forEach(p => {
+        p.classList.toggle('active', activeWords.has(p.dataset.tag));
+      });
+    }
 
-      if (filtered.length === total) {
-        countEl.textContent = `${total} skill${total !== 1 ? 's' : ''}`;
-      } else {
-        countEl.textContent = `${filtered.length} of ${total} skills`;
+    function render() {
+      const compiled = compileQuery(queryText);
+
+      if (!compiled.ok) {
+        queryStatus.textContent = `Parse error: ${compiled.error}`;
+        queryStatus.classList.add('sv-query-error');
+        countEl.textContent = '';
+        listEl.innerHTML = '';
+        updatePillStates(new Set());
+        return;
       }
 
+      queryStatus.classList.remove('sv-query-error');
+      // Show "parsed as ..." once there are 2+ binary ops so the user sees
+      // how left-to-right grouping landed.
+      if (compiled.expr && countBinaryOps(compiled.expr) >= 2) {
+        queryStatus.textContent = `Parsed as: ${formatExpr(compiled.expr)}`;
+      } else {
+        queryStatus.textContent = '';
+      }
+      updatePillStates(compiled.words);
+
+      const filtered = getFilteredSkills(compiled);
+      const total = allSkills.length;
+      countEl.textContent =
+        filtered.length === total
+          ? `${total} skill${total !== 1 ? 's' : ''}`
+          : `${filtered.length} of ${total}`;
+
       if (filtered.length === 0) {
-        listEl.innerHTML = '<div class="sv-empty">No skills match the current filters.</div>';
+        listEl.innerHTML = '<div class="sv-empty">No skills match the current query.</div>';
         return;
       }
 
       listEl.innerHTML = filtered.map(s => renderCard(s)).join('');
 
-      // Highlight active tags in rendered cards
-      if (activeTag) {
-        listEl.querySelectorAll(`.sv-tag[data-tag="${CSS.escape(activeTag)}"]`).forEach(t => {
-          t.classList.add('active');
+      // Highlight tag pills inside cards that are part of the active query.
+      if (compiled.words.size) {
+        listEl.querySelectorAll('.sv-tag').forEach(t => {
+          if (compiled.words.has(t.dataset.tag)) t.classList.add('active');
         });
       }
     }

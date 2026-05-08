@@ -4,15 +4,18 @@ description: You received feedback and your reaction to it is larger than the fe
 type: atomic
 book: feedback
 sources:
-  - chapter: "8. Dismantle Distortions (See Feedback at 'Actual Size')"
-    lines: "3695-3741"
+- chapter: 8. Dismantle Distortions (See Feedback at 'Actual Size')
+  lines: 3695-3741
 tags:
-  - receiving
-  - identity-trigger
-  - distortion
-  - diagnostic
+- exchange
+- identity
+- triggers
+- distortion
+- diagnose
+- separate
+- emotion
 related:
-  - extends: notice-the-distortion-type
+- extends: notice-the-distortion-type
 ---
 
 ## When to reach for this

@@ -4,16 +4,14 @@ description: You are drafting a scene with an impossible or unrenderable element
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Door to the Truth Might Be Strangeness: Thoughts on 'The Nose'"
-    lines: "5346-5367"
-    note: "Saunders names the technique 'improper narrative emphasis' (citing Vinokur) and demonstrates it on the moment Kovalyov first sees his runaway nose. The translations Saunders gives both deflect the literal question: 'Imagine the horror and at the same time the amazement of Kovalyov when he recognized that it was his own nose!' Saunders walks through the question the prose sidesteps: 'What's the it? Who's the him? What, exactly, does Kovalyov see? Does the Nose have... a nose? Does the Nose have a face?' He names the mechanic: 'the confident statement that he recognized that it was his own nose causes our mind to insert, here, a Nose, a Platonic Nose, one that we couldn't, if pressed, draw.' On the second sighting, the deflection is to costume and rank: 'we learn only that he is wearing a gold-embroidered uniform with a big stand-up collar and doeskin breeches and that from his plumed hat one could infer that he held the rank of a state councillor. The focus is on the nose's change in status, not its new form or size.' Saunders frames the principle: 'improper narrative emphasis being used to sidestep a question that, had these events really happened, and had we been there, we would have been able to answer.' He generalizes to language itself: 'language can appear to say more than it has a right to say; we can form it into sentences that are not in relationship with what actually is or even what could be.' The desk-with-fate-muffins example demonstrates the mechanic on a sentence with no truth-claim — the words still produce something 'sort of' in the reader's mind."
+- chapter: 'The Door to the Truth Might Be Strangeness: Thoughts on ''The Nose'''
+  lines: 5346-5367
+  note: 'Saunders names the technique ''improper narrative emphasis'' (citing Vinokur) and demonstrates it on the moment Kovalyov first sees his runaway nose. The translations Saunders gives both deflect the literal question: ''Imagine the horror and at the same time the amazement of Kovalyov when he recognized that it was his own nose!'' Saunders walks through the question the prose sidesteps: ''What''s the it? Who''s the him? What, exactly, does Kovalyov see? Does the Nose have... a nose? Does the Nose have a face?'' He names the mechanic: ''the confident statement that he recognized that it was his own nose causes our mind to insert, here, a Nose, a Platonic Nose, one that we couldn''t, if pressed, draw.'' On the second sighting, the deflection is to costume and rank: ''we learn only that he is wearing a gold-embroidered uniform with a big stand-up collar and doeskin breeches and that from his plumed hat one could infer that he held the rank of a state councillor. The focus is on the nose''s change in status, not its new form or size.'' Saunders frames the principle: ''improper narrative emphasis being used to sidestep a question that, had these events really happened, and had we been there, we would have been able to answer.'' He generalizes to language itself: ''language can appear to say more than it has a right to say; we can form it into sentences that are not in relationship with what actually is or even what could be.'' The desk-with-fate-muffins example demonstrates the mechanic on a sentence with no truth-claim — the words still produce something ''sort of'' in the reader''s mind.'
 tags:
-  - drafting
-  - prose
-  - register
-  - strangeness
+- text
+- voice
 related:
-  - extends: skaz-narrator
+- extends: skaz-narrator
 ---
 
 ## When to reach for this

@@ -4,14 +4,15 @@ description: You have just received feedback that does not match how you see you
 type: atomic
 book: feedback
 sources:
-  - chapter: "4. See Your Blind Spots"
-    lines: "2003-2012"
+- chapter: 4. See Your Blind Spots
+  lines: 2003-2012
 tags:
-  - receiving
-  - diagnostic
-  - identity
-  - truth-trigger
-  - blind-spot
+- exchange
+- diagnose
+- identity
+- triggers
+- intent-impact
+- blind-spot
 ---
 
 ## When to reach for this

@@ -4,13 +4,13 @@ description: Feedback feels unfair or only partly accurate, and the receiver's i
 type: atomic
 book: feedback
 sources:
-  - chapter: "6. Identify the Relationship System (Take Three Steps Back)"
-    lines: "2801-2866, 2872-2966, 2976-3011, 3017-3057, 3167-3188"
+- chapter: 6. Identify the Relationship System (Take Three Steps Back)
+  lines: 2801-2866, 2872-2966, 2976-3011, 3017-3057, 3167-3188
 tags:
-  - receiving
-  - diagnostic
-  - relationship-trigger
-  - system
+- exchange
+- diagnose
+- relationship
+- triggers
 ---
 
 ## When to reach for this

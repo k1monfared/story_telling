@@ -4,12 +4,14 @@ description: You have strong feelings about a difficult situation and need to ex
 type: atomic
 book: difficult
 sources:
-  - chapter: "5. Have Your Feelings (Or They Will Have You)"
-    lines: "2165-2468"
+- chapter: 5. Have Your Feelings (Or They Will Have You)
+  lines: 2165-2468
 tags:
-  - feelings-conversation
-  - conversation
-  - diagnostic
+- emotion
+- exchange
+- diagnose
+- evaluation
+- assert
 ---
 
 ## When to reach for this

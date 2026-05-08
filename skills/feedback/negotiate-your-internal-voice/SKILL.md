@@ -4,13 +4,14 @@ description: You are about to receive difficult feedback, or you are in the midd
 type: atomic
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "5110-5296"
+- chapter: 11. Navigate the Conversation
+  lines: 5110-5296
 tags:
-  - receiving
-  - conversation
-  - listening
-  - identity-trigger
+- exchange
+- listen
+- identity
+- triggers
+- voice
 ---
 
 ## When to reach for this

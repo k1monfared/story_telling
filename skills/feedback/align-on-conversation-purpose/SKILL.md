@@ -4,14 +4,14 @@ description: A feedback conversation is about to begin (or has already started w
 type: atomic
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "5006-5087"
+- chapter: 11. Navigate the Conversation
+  lines: 5006-5087
 tags:
-  - receiving
-  - conversation
-  - preparation
+- exchange
+- preparation
+- purpose
 related:
-  - extends: make-a-process-move
+- extends: make-a-process-move
 ---
 
 ## When to reach for this

@@ -4,14 +4,15 @@ description: You are in a difficult conversation and need to understand the othe
 type: atomic
 book: difficult
 sources:
-  - chapter: "9. Learning: Listen from the Inside Out"
-    lines: "3487-4032"
+- chapter: '9. Learning: Listen from the Inside Out'
+  lines: 3487-4032
 tags:
-  - all-three-conversations
-  - listening
-  - conversation
+- emotion
+- identity
+- exchange
+- listen
 related:
-  - extends: shift-from-certainty-to-curiosity
+- extends: shift-from-certainty-to-curiosity
 ---
 
 ## When to reach for this

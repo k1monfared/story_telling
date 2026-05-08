@@ -4,12 +4,14 @@ description: A conversation feels difficult and you are not sure why, or you are
 type: atomic
 book: difficult
 sources:
-  - chapter: "1. Sort Out the Three Conversations"
-    lines: "698-870"
+- chapter: 1. Sort Out the Three Conversations
+  lines: 698-870
 tags:
-  - all-three-conversations
-  - diagnostic
-  - preparation
+- emotion
+- identity
+- exchange
+- diagnose
+- preparation
 ---
 
 ## When to reach for this

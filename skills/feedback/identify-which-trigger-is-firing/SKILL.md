@@ -4,13 +4,13 @@ description: You are reacting strongly to feedback (defending, attacking, withdr
 type: atomic
 book: feedback
 sources:
-  - chapter: "1. Three Triggers That Block Feedback"
-    lines: "493-527"
+- chapter: 1. Three Triggers That Block Feedback
+  lines: 493-527
 tags:
-  - receiving
-  - diagnostic
-  - emotion
-  - framework
+- exchange
+- diagnose
+- emotion
+- triggers
 ---
 
 ## When to reach for this

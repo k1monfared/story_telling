@@ -4,15 +4,14 @@ description: You are drafting or revising a story whose narrative voice currentl
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Door to the Truth Might Be Strangeness: Thoughts on 'The Nose'"
-    lines: "5256-5289"
-    note: "Saunders names the technique skaz, citing Vinogradov ('sharply characterized by his substandard speech'), Maguire (the narrator 'has little formal education and little idea of how to develop an argument, let alone talk in an eloquent and persuasive way about his feelings, although he wishes to be considered informed and observant; he tends to ramble and digress and cannot distinguish the trivial from the important'), and Vinokur ('improper narrative emphasis,' 'misplaced assumption'). He demonstrates the technique on Gogol's botched digression about Ivan's 'respectability' (a digression executed with a straight face and a semblance of authority but unable to do what it sets out to do; we come out of it having learned nothing much about Ivan as a person, and what we have learned undercuts the narrator's claim) and frames the principle: 'this isn't graceless writing; this is a great writer writing a graceless writer writing.' The skaz narrator is 'decidedly not Gogol but a creation of Gogol's, another character in the story, a functionary who, through his prose style, unconsciously reveals that he's not as important or smart as he thinks he is.' Saunders also gives the falling-away-of-skaz observation (5398-5402): 'in places, the clumsiness of Gogol's skaz narration suddenly falls away and the prose becomes beautifully articulate,' which means the form has range and is not a uniform voice but a deliberate one the writer can drop into and out of."
+- chapter: 'The Door to the Truth Might Be Strangeness: Thoughts on ''The Nose'''
+  lines: 5256-5289
+  note: 'Saunders names the technique skaz, citing Vinogradov (''sharply characterized by his substandard speech''), Maguire (the narrator ''has little formal education and little idea of how to develop an argument, let alone talk in an eloquent and persuasive way about his feelings, although he wishes to be considered informed and observant; he tends to ramble and digress and cannot distinguish the trivial from the important''), and Vinokur (''improper narrative emphasis,'' ''misplaced assumption''). He demonstrates the technique on Gogol''s botched digression about Ivan''s ''respectability'' (a digression executed with a straight face and a semblance of authority but unable to do what it sets out to do; we come out of it having learned nothing much about Ivan as a person, and what we have learned undercuts the narrator''s claim) and frames the principle: ''this isn''t graceless writing; this is a great writer writing a graceless writer writing.'' The skaz narrator is ''decidedly not Gogol but a creation of Gogol''s, another character in the story, a functionary who, through his prose style, unconsciously reveals that he''s not as important or smart as he thinks he is.'' Saunders also gives the falling-away-of-skaz observation (5398-5402): ''in places, the clumsiness of Gogol''s skaz narration suddenly falls away and the prose becomes beautifully articulate,'' which means the form has range and is not a uniform voice but a deliberate one the writer can drop into and out of.'
 tags:
-  - drafting
-  - revision
-  - voice
-  - point-of-view
-  - register
+- text
+- revision
+- voice
+- point-of-view
 ---
 
 ## When to reach for this

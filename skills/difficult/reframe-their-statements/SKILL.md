@@ -4,13 +4,15 @@ description: The other person in a difficult conversation is making statements t
 type: atomic
 book: difficult
 sources:
-  - chapter: "11. Problem-Solving: Take the Lead"
-    lines: "4360-4440"
+- chapter: '11. Problem-Solving: Take the Lead'
+  lines: 4360-4440
 tags:
-  - what-happened-conversation
-  - feelings-conversation
-  - identity-conversation
-  - conversation
+- diagnose
+- exchange
+- intent-impact
+- emotion
+- identity
+- reframe
 ---
 
 ## When to reach for this

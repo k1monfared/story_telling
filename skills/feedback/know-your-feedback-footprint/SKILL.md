@@ -4,13 +4,14 @@ description: You are about to receive difficult feedback, or you have just recei
 type: atomic
 book: feedback
 sources:
-  - chapter: "8. Dismantle Distortions (See Feedback at 'Actual Size')"
-    lines: "3645-3693"
+- chapter: 8. Dismantle Distortions (See Feedback at 'Actual Size')
+  lines: 3645-3693
 tags:
-  - receiving
-  - identity-trigger
-  - preparation
-  - mindfulness
+- exchange
+- identity
+- triggers
+- preparation
+- self
 ---
 
 ## When to reach for this

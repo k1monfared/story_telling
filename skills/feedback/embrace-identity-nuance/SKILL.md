@@ -4,13 +4,13 @@ description: Feedback has contradicted a core identity label and you find yourse
 type: atomic
 book: feedback
 sources:
-  - chapter: "9. Cultivate a Growth Identity (Sort Toward Coaching)"
-    lines: "4064-4181"
+- chapter: 9. Cultivate a Growth Identity (Sort Toward Coaching)
+  lines: 4064-4181
 tags:
-  - receiving
-  - identity-trigger
-  - identity
-  - acceptance
+- exchange
+- identity
+- triggers
+- growth
 ---
 
 ## When to reach for this

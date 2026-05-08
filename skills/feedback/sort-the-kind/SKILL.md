@@ -4,13 +4,13 @@ description: You are about to receive, ask for, or react to "feedback" as one un
 type: atomic
 book: feedback
 sources:
-  - chapter: "2. Separate Appreciation, Coaching, and Evaluation"
-    lines: "780-905"
+- chapter: 2. Separate Appreciation, Coaching, and Evaluation
+  lines: 780-905
 tags:
-  - receiving
-  - diagnostic
-  - framework
-  - vocabulary
+- exchange
+- diagnose
+- voice
+- sort
 ---
 
 ## When to reach for this

@@ -4,20 +4,25 @@ description: A difficult conversation is coming and you are anxious about it. Yo
 type: composed
 book: difficult
 sources:
-  - chapter: "1. Sort Out the Three Conversations"
-    lines: "698-870"
-    note: "Chapter 1 provides the diagnostic framework for step 1."
-  - chapter: "6. Ground Your Identity: Ask Yourself What's at Stake"
-    lines: "2525-2713"
-    note: "Chapter 6 provides the identity preparation for step 2."
-  - chapter: "7. What's Your Purpose? When to Raise It and When to Let Go"
-    lines: "2866-3131"
-    note: "Chapter 7 provides the purpose-clarification framework for step 3."
+- chapter: 1. Sort Out the Three Conversations
+  lines: 698-870
+  note: Chapter 1 provides the diagnostic framework for step 1.
+- chapter: '6. Ground Your Identity: Ask Yourself What''s at Stake'
+  lines: 2525-2713
+  note: Chapter 6 provides the identity preparation for step 2.
+- chapter: 7. What's Your Purpose? When to Raise It and When to Let Go
+  lines: 2866-3131
+  note: Chapter 7 provides the purpose-clarification framework for step 3.
 tags:
-  - all-three-conversations
-  - preparation
+- emotion
+- identity
+- exchange
+- preparation
 related:
-  - composed-of: [identify-which-conversation-is-running, ground-your-identity-before-the-conversation, clarify-your-purpose-before-raising]
+- composed-of:
+  - identify-which-conversation-is-running
+  - ground-your-identity-before-the-conversation
+  - clarify-your-purpose-before-raising
 ---
 
 ## When to reach for this

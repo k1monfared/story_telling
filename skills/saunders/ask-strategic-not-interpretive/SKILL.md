@@ -4,15 +4,15 @@ description: You are critiquing, teaching, workshopping, or revising a story and
 type: atomic
 book: saunders
 sources:
-  - chapter: "We Begin"
-    lines: "188-278"
+- chapter: We Begin
+  lines: 188-278
 tags:
-  - critique
-  - revision
-  - workshop
-  - teaching
+- diagnose
+- text
+- revision
+- inquire
 related:
-  - extends: the-basic-drill
+- extends: the-basic-drill
 ---
 
 ## When to reach for this

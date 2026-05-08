@@ -4,12 +4,11 @@ description: A feedback conversation is winding down and you are about to part w
 type: atomic
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "5509-5527"
+- chapter: 11. Navigate the Conversation
+  lines: 5509-5527
 tags:
-  - receiving
-  - conversation
-  - commitment
+- exchange
+- closing
 ---
 
 ## When to reach for this

@@ -4,13 +4,15 @@ description: Someone close has just given you advice ("you should be more respon
 type: atomic
 book: feedback
 sources:
-  - chapter: "5. Don't Switchtrack (Disentangle What from Who)"
-    lines: "2654-2711"
+- chapter: 5. Don't Switchtrack (Disentangle What from Who)
+  lines: 2654-2711
 tags:
-  - receiving
-  - diagnostic
-  - relationship-trigger
-  - coaching
+- exchange
+- diagnose
+- relationship
+- triggers
+- coaching
+- listen
 ---
 
 ## When to reach for this

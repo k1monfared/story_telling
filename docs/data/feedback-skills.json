@@ -5,10 +5,11 @@
     "type": "atomic",
     "description": "You received feedback that feels unfair, incomplete, or based on a fundamental misreading of you, and you find yourself investing energy in changing how the other person sees you, rehearsing arguments, or feeling that the verdict is final. The chapter prescribes accepting what you cannot control and framing others' views as input rather than imprint.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
+      "identity",
+      "triggers",
       "distortion",
-      "acceptance"
+      "growth"
     ],
     "related": [],
     "sources": [
@@ -35,10 +36,11 @@
     "type": "atomic",
     "description": "Feedback feels like a verdict on a fixed trait rather than information about where you are on a learning curve. The chapter draws on Dweck's research to show how holding traits as growable versus fixed changes how you hear feedback and what you do with it.",
     "tags": [
-      "receiving",
-      "identity-trigger",
-      "growth-mindset",
-      "orientation"
+      "exchange",
+      "identity",
+      "triggers",
+      "growth",
+      "preparation"
     ],
     "related": [],
     "sources": [
@@ -69,9 +71,9 @@
     "type": "atomic",
     "description": "A feedback conversation is about to begin (or has already started without any framing), and you are not certain what kind of feedback is being offered, who makes the final call, or whether the outcome is still open to influence. The chapter prescribes getting aligned on these three questions before engaging with content.",
     "tags": [
-      "receiving",
-      "conversation",
-      "preparation"
+      "exchange",
+      "preparation",
+      "purpose"
     ],
     "related": [
       {
@@ -102,9 +104,8 @@
     "type": "atomic",
     "description": "You want feedback but the question \"any feedback for me?\" produces nothing useful, or you are overwhelmed by too many things at once. The chapter offers three techniques for soliciting focused, actionable feedback rather than a general assessment.",
     "tags": [
-      "receiving",
-      "seeking",
-      "soliciting"
+      "exchange",
+      "inquire"
     ],
     "related": [],
     "sources": [
@@ -130,9 +131,8 @@
     "type": "atomic",
     "description": "You want to learn how you come across, ahead of an event or in an ongoing relationship, and you are about to ask \"how am I doing?\" or \"any feedback for me?\" The chapter says these questions return either nothing useful or appreciation, because they do not name what you actually want and they do not narrow the topic to anything answerable.",
     "tags": [
-      "receiving",
-      "inquiry",
-      "eliciting",
+      "exchange",
+      "inquire",
       "blind-spot"
     ],
     "related": [],
@@ -160,10 +160,11 @@
     "type": "atomic",
     "description": "The giver of feedback will not or cannot acknowledge their contribution to the dynamic, and raising the systems view directly reads as deflection. The chapter offers a move that names what the giver could do differently while framing it as being in service of the receiver's own change.",
     "tags": [
-      "receiving",
-      "conversation",
+      "exchange",
       "accountability",
-      "relationship-trigger"
+      "relationship",
+      "triggers",
+      "inquire"
     ],
     "related": [
       {
@@ -194,9 +195,8 @@
     "type": "atomic",
     "description": "You are in a feedback conversation and you have something to say, but every version you try either comes out as an attack or as passive acceptance. The chapter prescribes a reframe from \"I'm right\" to \"here's what's left out\" that lets you advocate strongly without making the conversation a truth-fight.",
     "tags": [
-      "receiving",
-      "conversation",
-      "asserting"
+      "exchange",
+      "assert"
     ],
     "related": [],
     "sources": [
@@ -223,10 +223,12 @@
     "type": "atomic",
     "description": "Feedback has just arrived and you can feel yourself building a list of objections, exceptions, or factual errors as you listen. Your goal in the conversation has quietly become to win the dismissal, not to understand what is actually being said. You are about to nod, file the mental refutation, and move on.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "mindset",
-      "truth-trigger"
+      "exchange",
+      "diagnose",
+      "growth",
+      "triggers",
+      "intent-impact",
+      "distortion"
     ],
     "related": [],
     "sources": [
@@ -253,10 +255,12 @@
     "type": "atomic",
     "description": "You are in the grip of a distorted story about feedback and you cannot think your way out of it from your current vantage point. The chapter offers three moves that change the perspective you are seeing the situation from rather than trying to fix the story by arguing with it directly.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
+      "identity",
+      "triggers",
       "distortion",
-      "perspective"
+      "reframe",
+      "point-of-view"
     ],
     "related": [],
     "sources": [
@@ -283,8 +287,8 @@
     "type": "atomic",
     "description": "Someone has just given you forward-looking feedback (advice, a rating, a verdict, a piece of news) and you are about to walk away with the headline (the label, the score) without having asked what to do with it. You will replay the conversation later and find a list of questions you wish you had asked.",
     "tags": [
-      "receiving",
-      "inquiry",
+      "exchange",
+      "inquire",
       "coaching",
       "evaluation"
     ],
@@ -313,9 +317,8 @@
     "type": "atomic",
     "description": "A feedback conversation is winding down and you are about to part ways. The chapter prescribes making one final explicit move before the conversation ends to ensure both parties know what was agreed and what comes next.",
     "tags": [
-      "receiving",
-      "conversation",
-      "commitment"
+      "exchange",
+      "closing"
     ],
     "related": [],
     "sources": [
@@ -341,10 +344,11 @@
     "type": "atomic",
     "description": "You are getting feedback from someone, and either the feedback isn't getting through or the way it is being delivered is creating interference. The chapter prescribes talking explicitly to the feedback giver about how they can work with you more effectively.",
     "tags": [
-      "receiving",
-      "seeking",
-      "conversation",
-      "relationship-trigger"
+      "exchange",
+      "inquire",
+      "relationship",
+      "triggers",
+      "coaching"
     ],
     "related": [],
     "sources": [
@@ -370,10 +374,11 @@
     "type": "atomic",
     "description": "The story about the feedback has spread beyond the domain of the feedback itself, and you can see the distortion. The chapter prescribes restoring the containment boundaries that strong feelings caused you to forget, and offers three tools for doing so.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
+      "identity",
+      "triggers",
       "distortion",
-      "containment"
+      "contain"
     ],
     "related": [
       {
@@ -404,10 +409,11 @@
     "type": "atomic",
     "description": "You are feeling agitated, overwhelmed, or like you can never do anything right in a relationship, and you wonder whether the feedback dynamic is unhealthy enough to warrant an explicit limit. The chapter offers six diagnostic questions for telling the difference between difficult-but-legitimate feedback and a genuinely problematic pattern, and a three-type taxonomy for naming the boundary that is needed.",
     "tags": [
-      "receiving",
+      "exchange",
       "boundaries",
-      "diagnostic",
-      "relationship-trigger"
+      "diagnose",
+      "relationship",
+      "triggers"
     ],
     "related": [],
     "sources": [
@@ -434,10 +440,9 @@
     "type": "atomic",
     "description": "A feedback exchange has just gone wrong despite everyone meaning well, and you are dismayed, deflated, or more anxious than before. The content is not obviously bad, yet it did not address what you came for. You are about to argue the content or suppress the dismay, when the actual diagnosis is that the kind of feedback you wanted and the kind you got were different.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "mismatch",
-      "relational"
+      "exchange",
+      "diagnose",
+      "relationship"
     ],
     "related": [],
     "sources": [
@@ -464,10 +469,11 @@
     "type": "atomic",
     "description": "You have understood the feedback well enough (you spotted the label, separated data from interpretation, asked where it is going), and you and the giver still see the situation differently. You are about to conclude they are wrong, or to swallow the difference and pretend you agree, when the actual move is to surface what is different about your data and your interpretations.",
     "tags": [
-      "receiving",
-      "inquiry",
-      "perspective",
-      "truth-trigger"
+      "exchange",
+      "inquire",
+      "reframe",
+      "triggers",
+      "intent-impact"
     ],
     "related": [],
     "sources": [
@@ -494,9 +500,7 @@
     "type": "atomic",
     "description": "A feedback conversation has reached an impasse over what should change. The chapter prescribes moving from position-fighting to interests-and-options, a problem-solving move drawn from Fisher and Ury's Getting to Yes applied specifically to feedback conversations.",
     "tags": [
-      "receiving",
-      "conversation",
-      "problem-solving"
+      "exchange"
     ],
     "related": [],
     "sources": [
@@ -527,10 +531,10 @@
     "type": "atomic",
     "description": "Feedback has contradicted a core identity label and you find yourself either exaggerating the feedback (it means I am fundamentally bad) or deflecting it (it cannot be true because I am good). The chapter locates the problem in the all-or-nothing structure of the label and prescribes replacing it with a complex, realistic self-description.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
       "identity",
-      "acceptance"
+      "triggers",
+      "growth"
     ],
     "related": [],
     "sources": [
@@ -557,9 +561,8 @@
     "type": "atomic",
     "description": "You are receiving feedback you suspect is wrong or unfair, and you feel forced to choose between taking it (to avoid being defensive) or rejecting it (to protect your judgment). The binary is making you either swallow feedback you do not believe or shut out a conversation you have not actually had.",
     "tags": [
-      "receiving",
-      "decision",
-      "disposition",
+      "exchange",
+      "closing",
       "boundaries"
     ],
     "related": [],
@@ -587,10 +590,10 @@
     "type": "atomic",
     "description": "You received a negative evaluation. The first score is in and it is not what you wanted. The chapter's third growth-identity practice is to earn a second score, for how you handle the first, and to make the second score part of your identity.",
     "tags": [
-      "receiving",
-      "identity-trigger",
-      "growth-mindset",
-      "identity"
+      "exchange",
+      "identity",
+      "triggers",
+      "growth"
     ],
     "related": [
       {
@@ -621,10 +624,10 @@
     "type": "atomic",
     "description": "You are reacting strongly to feedback (defending, attacking, withdrawing, or quietly going numb) and you are about to either suppress the reaction and \"stay professional\" or act on it without diagnosis. The reaction itself contains information you have not yet read.",
     "tags": [
-      "receiving",
-      "diagnostic",
+      "exchange",
+      "diagnose",
       "emotion",
-      "framework"
+      "triggers"
     ],
     "related": [],
     "sources": [
@@ -651,10 +654,11 @@
     "type": "atomic",
     "description": "You are about to receive difficult feedback, or you have just received it and found yourself reacting in a way that felt automatic and hard to stop. The chapter names your predictable reactive pattern as your feedback footprint and prescribes three moves for working with it before, during, and after the conversation.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
+      "identity",
+      "triggers",
       "preparation",
-      "mindfulness"
+      "self"
     ],
     "related": [],
     "sources": [
@@ -681,10 +685,12 @@
     "type": "atomic",
     "description": "Someone close has just given you advice (\"you should be more responsive,\" \"you'd be happier if you didn't think about work so much,\" \"you're drinking too much, it's not good for you\"). The advice has emotional weight on their side that does not match the surface request. The chapter says the surface coaching may be a relationship concern in disguise, and you are about to address the wrong topic.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "relationship-trigger",
-      "coaching"
+      "exchange",
+      "diagnose",
+      "relationship",
+      "triggers",
+      "coaching",
+      "listen"
     ],
     "related": [],
     "sources": [
@@ -711,9 +717,8 @@
     "type": "atomic",
     "description": "Feedback has just stung, and you can feel yourself reaching for contradictory evidence to file it as an outlier (\"but X said the opposite,\" \"but I won that award,\" \"but I'm not like that with Z\"). Reach for this before the contradiction lands. The chapter inverts the reflex, asking you to look for consistent feedback rather than contradictory.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "pattern",
+      "exchange",
+      "diagnose",
       "blind-spot"
     ],
     "related": [],
@@ -741,9 +746,7 @@
     "type": "atomic",
     "description": "A feedback conversation has gotten stuck, is escalating, or is cycling without progress. The chapter prescribes stepping outside the content of the conversation to diagnose what is stuck, describe it explicitly, and propose a correction.",
     "tags": [
-      "receiving",
-      "conversation",
-      "process"
+      "exchange"
     ],
     "related": [],
     "sources": [
@@ -770,10 +773,10 @@
     "type": "atomic",
     "description": "You have decided not to change in response to feedback. The chapter argues that you still have a duty to reduce the cost of your decision on others, and offers three moves for doing so.",
     "tags": [
-      "receiving",
+      "exchange",
       "boundaries",
       "accountability",
-      "relationships"
+      "relationship"
     ],
     "related": [],
     "sources": [
@@ -800,10 +803,10 @@
     "type": "atomic",
     "description": "You are reacting more strongly to a piece of feedback than the content seems to warrant, or you are suppressing a reaction that you suspect will surface later. The disproportion is a sign that two different needs are colliding under one conversation, and the conversation cannot resolve until both are named.",
     "tags": [
-      "receiving",
+      "exchange",
       "identity",
       "emotion",
-      "diagnostic"
+      "diagnose"
     ],
     "related": [],
     "sources": [
@@ -830,9 +833,9 @@
     "type": "atomic",
     "description": "You have received unwelcome feedback and you are about to take it to a friend, partner, or trusted colleague for a second opinion. Your phrasing is forming as \"this can't be true, can it?\" or \"he's overreacting, right?\" The chapter says this is the implicit ask of a supportive mirror, and you may not actually want what you are about to ask for.",
     "tags": [
-      "receiving",
-      "inquiry",
-      "relationships",
+      "exchange",
+      "inquire",
+      "relationship",
       "blind-spot"
     ],
     "related": [],
@@ -860,10 +863,9 @@
     "type": "atomic",
     "description": "You are about to enter (or are inside) a feedback conversation where you suspect you and the giver are on different tracks about what kind of feedback this is, and you are about to leave the misalignment unspoken and walk out frustrated. The fix is to name the kind you need explicitly and negotiate when the giver has another in mind.",
     "tags": [
-      "receiving",
-      "asking",
-      "alignment",
-      "script"
+      "exchange",
+      "inquire",
+      "preparation"
     ],
     "related": [],
     "sources": [
@@ -890,10 +892,11 @@
     "type": "atomic",
     "description": "You are about to receive difficult feedback, or you are in the middle of a feedback conversation and you cannot listen because your internal voice is running a defense. The chapter prescribes a specific move for working with your internal voice rather than against it, turning it from a bodyguard into a source of curiosity.",
     "tags": [
-      "receiving",
-      "conversation",
-      "listening",
-      "identity-trigger"
+      "exchange",
+      "listen",
+      "identity",
+      "triggers",
+      "voice"
     ],
     "related": [],
     "sources": [
@@ -920,9 +923,10 @@
     "type": "atomic",
     "description": "You received feedback and your story about what it means feels outsized or catastrophic. The chapter names three predictable patterns by which strong emotion distorts the stories we tell about feedback, and the diagnostic step is to name which one is running before attempting to correct it.",
     "tags": [
-      "receiving",
-      "identity-trigger",
-      "diagnostic",
+      "exchange",
+      "identity",
+      "triggers",
+      "diagnose",
       "distortion"
     ],
     "related": [
@@ -954,10 +958,8 @@
     "type": "atomic",
     "description": "You have started to implement feedback-driven change and things are getting worse, not better. The chapter names this the J curve pattern and prescribes two categories of precommitment strategies to prevent your future self from abandoning the change before you have given it a fair test.",
     "tags": [
-      "receiving",
-      "action",
-      "change",
-      "commitment"
+      "exchange",
+      "closing"
     ],
     "related": [
       {
@@ -987,10 +989,9 @@
     "type": "atomic",
     "description": "You are receiving feedback that is poorly delivered, ill-timed, or from someone whose qualifications you doubt, and you find your attention drifting into a private catalogue of the giver's inadequacies. The internal drift feels justified but is leaving you with nothing usable.",
     "tags": [
-      "receiving",
+      "exchange",
       "reframe",
-      "attention",
-      "disposition"
+      "self"
     ],
     "related": [],
     "sources": [
@@ -1017,10 +1018,10 @@
     "type": "composed",
     "description": "You received feedback and your emotional reaction is larger than the feedback's content warrants, or your story about what the feedback means has expanded far beyond what was said. You cannot assess the feedback fairly while the distortion is running. The four-step chain restores accurate perception before you decide what to do with the feedback.",
     "tags": [
-      "receiving",
-      "identity-trigger",
-      "distortion",
-      "action"
+      "exchange",
+      "identity",
+      "triggers",
+      "distortion"
     ],
     "related": [
       {
@@ -1061,9 +1062,7 @@
     "type": "composed",
     "description": "A feedback conversation is about to happen or is already underway, and you want to maximize what you learn from it without either shutting down or capitulating to everything the giver says. The four-step chain runs the conversation's arc (open, listen, assert, close) with an emergency rescue move for when it gets stuck.",
     "tags": [
-      "receiving",
-      "conversation",
-      "action"
+      "exchange"
     ],
     "related": [
       {
@@ -1101,10 +1100,10 @@
     "type": "composed",
     "description": "You received feedback and both you and the giver are pointing at each other as the cause of the problem. The blame loop is stuck. The three-step chain breaks the loop by first seeing the larger system producing the problem, then introducing your own accountability in a sequence the giver can hear, then describing what the giver could do differently in terms that serve your change.",
     "tags": [
-      "receiving",
-      "relationship-trigger",
-      "accountability",
-      "conversation"
+      "exchange",
+      "relationship",
+      "triggers",
+      "accountability"
     ],
     "related": [
       {
@@ -1139,10 +1138,12 @@
     "type": "atomic",
     "description": "Feedback has been delivered as a judgment (\"you are not a team player,\" \"your report was confusing,\" \"you barked at the kids\"), and you are about to either argue the judgment on its terms or accept it on its terms. You have not asked what the giver actually saw or heard underneath their conclusion.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "inquiry",
-      "truth-trigger"
+      "exchange",
+      "diagnose",
+      "inquire",
+      "triggers",
+      "intent-impact",
+      "separate"
     ],
     "related": [],
     "sources": [
@@ -1169,10 +1170,13 @@
     "type": "atomic",
     "description": "You received feedback and your reaction to it is larger than the feedback seems to warrant, or you find yourself unable to assess what the feedback actually says because your emotions and your story about the feedback are running together. The chapter prescribes a three-question move to pull apart feeling, story, and feedback into separate strands.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
+      "identity",
+      "triggers",
       "distortion",
-      "diagnostic"
+      "diagnose",
+      "separate",
+      "emotion"
     ],
     "related": [
       {
@@ -1203,11 +1207,13 @@
     "type": "atomic",
     "description": "You have received feedback about how you came across, and it does not match what you were trying to do. You are about to either reject the feedback (\"but I had good intentions, the impact must not have been real or must not be my fault\") or accept it and abandon your sense of your own intentions (\"I guess I really am that bad\"). The chapter says hold the layers separately.",
     "tags": [
-      "receiving",
-      "diagnostic",
+      "exchange",
+      "diagnose",
       "identity",
-      "truth-trigger",
-      "blind-spot"
+      "triggers",
+      "intent-impact",
+      "blind-spot",
+      "separate"
     ],
     "related": [],
     "sources": [
@@ -1234,10 +1240,10 @@
     "type": "atomic",
     "description": "You have decided that a boundary is needed and you know which type. Now you need to have the conversation. The chapter prescribes a sequence of moves for turning away feedback gracefully while keeping the relationship intact.",
     "tags": [
-      "receiving",
+      "exchange",
       "boundaries",
-      "conversation",
-      "relationship-trigger"
+      "relationship",
+      "triggers"
     ],
     "related": [
       {
@@ -1268,8 +1274,8 @@
     "type": "atomic",
     "description": "You are trying to take in coaching or appreciation while a where-do-I-stand question is unanswered, and the coaching is not landing because the loud unresolved evaluation is drowning it out. You are about to attribute the failure to the coaching's content (or to your own inability to absorb it) when the actual issue is sequencing.",
     "tags": [
-      "receiving",
-      "sequencing",
+      "exchange",
+      "structure",
       "evaluation",
       "emotion"
     ],
@@ -1298,9 +1304,9 @@
     "type": "atomic",
     "description": "You have vented to a friend or colleague about feedback you received, and they have been supportive. Now you want to see if there is something to learn, but you are not sure how to make that shift or how to structure the conversation so that you hear both the valid and invalid parts of the feedback.",
     "tags": [
-      "receiving",
-      "seeking",
-      "diagnostic"
+      "exchange",
+      "inquire",
+      "diagnose"
     ],
     "related": [],
     "sources": [
@@ -1326,10 +1332,9 @@
     "type": "atomic",
     "description": "You have realized a feedback conversation contains two tangled topics (the original feedback and a relationship concern that hooked you). You are about to either keep going while tangled, hoping it sorts itself out, or pull onto your own topic without saying so. The chapter says make the split explicit, propose a sequence, and put both of you on the same topic at the same time.",
     "tags": [
-      "receiving",
-      "script",
-      "relationship-trigger",
-      "conversation"
+      "exchange",
+      "relationship",
+      "triggers"
     ],
     "related": [],
     "sources": [
@@ -1356,10 +1361,10 @@
     "type": "atomic",
     "description": "You are about to receive, ask for, or react to \"feedback\" as one undifferentiated category, when in fact what is on the table is one of three distinct kinds (appreciation, coaching, or evaluation), each with a different purpose and a different receiver-side need.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "framework",
-      "vocabulary"
+      "exchange",
+      "diagnose",
+      "voice",
+      "sort"
     ],
     "related": [],
     "sources": [
@@ -1386,10 +1391,12 @@
     "type": "atomic",
     "description": "Feedback has arrived and your identity has been triggered. The chapter's first practice for cultivating a growth identity is to sort the feedback into the coaching bin rather than the evaluation bin, which reduces the identity reaction and makes the feedback learnable.",
     "tags": [
-      "receiving",
-      "identity-trigger",
-      "growth-mindset",
-      "conversation"
+      "exchange",
+      "identity",
+      "triggers",
+      "growth",
+      "sort",
+      "coaching"
     ],
     "related": [
       {
@@ -1420,10 +1427,11 @@
     "type": "atomic",
     "description": "Someone has just told you to \"be more X\" or \"stop being so Y\" or \"you are too Z,\" and the meaning is already crystallizing in your head before any clarification has happened. The label arrived as a few vague words, but you have automatically attached your own high-definition movie to it and are about to act on or reject your interpretation rather than theirs.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "language",
-      "truth-trigger"
+      "exchange",
+      "diagnose",
+      "voice",
+      "triggers",
+      "intent-impact"
     ],
     "related": [],
     "sources": [
@@ -1450,9 +1458,10 @@
     "type": "atomic",
     "description": "A feedback conversation about accountability is stuck, or the receiver finds themselves consistently either deflecting all blame or accepting all of it. The chapter names two dysfunctional patterns, shifter and absorber, that distort accountability and block learning, and describes what each looks like so it can be spotted from the inside.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "identity-trigger",
+      "exchange",
+      "diagnose",
+      "identity",
+      "triggers",
       "accountability"
     ],
     "related": [
@@ -1484,10 +1493,10 @@
     "type": "atomic",
     "description": "A feedback exchange is escalating rather than resolving, you and the giver appear to be discussing the same subject (the roses, the sales numbers, the bath time, the crosswalk), and you are each using the other's words back at them while heading in opposite directions. The chapter says the conversation has quietly split into two topics and the first move is to see the split.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "relationship-trigger",
-      "conversation"
+      "exchange",
+      "diagnose",
+      "relationship",
+      "triggers"
     ],
     "related": [],
     "sources": [
@@ -1514,10 +1523,10 @@
     "type": "atomic",
     "description": "The receiver wants to name the larger system contributing to the problem but every time they try, the giver hears it as excuse-making. The chapter prescribes a sequencing rule: settle your own accountability first, then raise your observations about the broader system.",
     "tags": [
-      "receiving",
-      "conversation",
+      "exchange",
       "accountability",
-      "relationship-trigger"
+      "relationship",
+      "triggers"
     ],
     "related": [
       {
@@ -1548,10 +1557,10 @@
     "type": "atomic",
     "description": "Feedback feels unfair or only partly accurate, and the receiver's instinct is to argue about who is really at fault. The chapter says the problem is rarely in one person; it lives in the relationship system between them, and seeing that system requires stepping back to three vantage points.",
     "tags": [
-      "receiving",
-      "diagnostic",
-      "relationship-trigger",
-      "system"
+      "exchange",
+      "diagnose",
+      "relationship",
+      "triggers"
     ],
     "related": [],
     "sources": [
@@ -1578,9 +1587,9 @@
     "type": "atomic",
     "description": "You have received feedback that you are unsure about, or you are stuck between the status quo and a change that seems too large and final to risk. The chapter prescribes treating the feedback as an experiment rather than a decision, which breaks the paralysis.",
     "tags": [
-      "receiving",
-      "action",
-      "growth-mindset"
+      "exchange",
+      "growth",
+      "experiment"
     ],
     "related": [],
     "sources": [
@@ -1606,10 +1615,10 @@
     "type": "atomic",
     "description": "You received feedback and your emotional reaction is stronger than the content seems to warrant, or you notice that feedback that would unsettle others bounces off you entirely. The chapter explains that these differences are built in and names three variables that describe your profile.",
     "tags": [
-      "receiving",
-      "identity-trigger",
-      "diagnostic",
-      "wiring"
+      "exchange",
+      "identity",
+      "triggers",
+      "diagnose"
     ],
     "related": [],
     "sources": [
@@ -1636,10 +1645,11 @@
     "type": "atomic",
     "description": "You received evaluation feedback that cannot be sorted as coaching, and your identity has been triggered. The chapter's second practice is to break the evaluation into its three constituent parts (assessment, consequences, judgment) so you can identify which part is actually triggering you and handle each appropriately.",
     "tags": [
-      "receiving",
-      "identity-trigger",
+      "exchange",
+      "identity",
+      "triggers",
       "evaluation",
-      "diagnostic"
+      "diagnose"
     ],
     "related": [],
     "sources": [
@@ -1666,10 +1676,11 @@
     "type": "atomic",
     "description": "You have just received feedback that does not match how you see yourself, and your mind has started building a case against the giver. You are working out their agenda, their hidden motives, their projection, their personality issue, the office politics they must be playing. You are about to use the case-against-the-giver to file the feedback as wrong.",
     "tags": [
-      "receiving",
-      "diagnostic",
+      "exchange",
+      "diagnose",
       "identity",
-      "truth-trigger",
+      "triggers",
+      "intent-impact",
       "blind-spot"
     ],
     "related": [],

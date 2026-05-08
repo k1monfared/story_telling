@@ -4,15 +4,14 @@ description: You are drafting or revising a story whose premise involves somethi
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Door to the Truth Might Be Strangeness: Thoughts on 'The Nose'"
-    lines: "5197-5220, 5470-5474, 5494-5495, 5556-5562, 5582-5588"
-    note: "Saunders names the principle: 'If a writer introduces a strange event, then lets the fictive world respond to that event, what we're really learning about is what we might call the fictive world's psychological physics. What are the rules there? How do things proceed? A story like that will feel truthful and essential to the extent that the psychological physics of the fictive world are felt to be similar to the psychological physics of our own.' The meaning lives not in the impossible event but in the reactions that establish the rules of the world. He demonstrates the move on the nose-in-bread (Praskovya assumes guilt; Ivan accepts it; both are afraid of being blamed not of the impossibility itself), on the polite-mild reactions of the offices Kovalyov visits ('Their reactions are strangely mild, as if Kovalyov has lost not his nose but a suitcase'), and on the limit-stretching procedure ('we're now arguing earnestly for the ad to be run, having accepted not only the reality of a nose's conversion into a person but the idea that a notice in a newspaper might help us find it'). The shards-not-vase image (5560) names the long-form effect: by the time tiers compound, the story reads as coherent on the first pass even though 'the pieces don't fit, because it was never a coherent vase to begin with.' Saunders frames the orientation explicitly as a form of realism, not absurdism: 'Gogol is a supreme realist, looking past the way things seem to how they really are.'"
+- chapter: 'The Door to the Truth Might Be Strangeness: Thoughts on ''The Nose'''
+  lines: 5197-5220, 5470-5474, 5494-5495, 5556-5562, 5582-5588
+  note: 'Saunders names the principle: ''If a writer introduces a strange event, then lets the fictive world respond to that event, what we''re really learning about is what we might call the fictive world''s psychological physics. What are the rules there? How do things proceed? A story like that will feel truthful and essential to the extent that the psychological physics of the fictive world are felt to be similar to the psychological physics of our own.'' The meaning lives not in the impossible event but in the reactions that establish the rules of the world. He demonstrates the move on the nose-in-bread (Praskovya assumes guilt; Ivan accepts it; both are afraid of being blamed not of the impossibility itself), on the polite-mild reactions of the offices Kovalyov visits (''Their reactions are strangely mild, as if Kovalyov has lost not his nose but a suitcase''), and on the limit-stretching procedure (''we''re now arguing earnestly for the ad to be run, having accepted not only the reality of a nose''s conversion into a person but the idea that a notice in a newspaper might help us find it''). The shards-not-vase image (5560) names the long-form effect: by the time tiers compound, the story reads as coherent on the first pass even though ''the pieces don''t fit, because it was never a coherent vase to begin with.'' Saunders frames the orientation explicitly as a form of realism, not absurdism: ''Gogol is a supreme realist, looking past the way things seem to how they really are.'''
 tags:
-  - drafting
-  - revision
-  - structure
-  - premise
-  - register
+- text
+- revision
+- structure
+- voice
 ---
 
 ## When to reach for this

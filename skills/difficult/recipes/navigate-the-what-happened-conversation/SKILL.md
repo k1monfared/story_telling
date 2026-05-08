@@ -4,21 +4,25 @@ description: A conversation is stuck in the "What Happened?" dynamic — both pa
 type: composed
 book: difficult
 sources:
-  - chapter: "2. Stop Arguing About Who's Right: Explore Each Other's Stories"
-    lines: "929-1244"
-    note: "Chapter 2 provides the curiosity shift (step 1) and the And Stance (step 2)."
-  - chapter: "3. Don't Assume They Meant It: Disentangle Intent from Impact"
-    lines: "1300-1555"
-    note: "Chapter 3 provides the intent/impact disentanglement (step 3)."
-  - chapter: "4. Abandon Blame: Map the Contribution System"
-    lines: "1586-2042"
-    note: "Chapter 4 provides the contribution mapping (step 4)."
+- chapter: '2. Stop Arguing About Who''s Right: Explore Each Other''s Stories'
+  lines: 929-1244
+  note: Chapter 2 provides the curiosity shift (step 1) and the And Stance (step 2).
+- chapter: '3. Don''t Assume They Meant It: Disentangle Intent from Impact'
+  lines: 1300-1555
+  note: Chapter 3 provides the intent/impact disentanglement (step 3).
+- chapter: '4. Abandon Blame: Map the Contribution System'
+  lines: 1586-2042
+  note: Chapter 4 provides the contribution mapping (step 4).
 tags:
-  - what-happened-conversation
-  - diagnostic
-  - conversation
+- diagnose
+- exchange
+- intent-impact
 related:
-  - composed-of: [shift-from-certainty-to-curiosity, adopt-the-and-stance, disentangle-impact-from-intent, map-the-contribution-system]
+- composed-of:
+  - shift-from-certainty-to-curiosity
+  - adopt-the-and-stance
+  - disentangle-impact-from-intent
+  - map-the-contribution-system
 ---
 
 ## When to reach for this

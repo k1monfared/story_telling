@@ -4,22 +4,23 @@ description: You are revising or critiquing a draft and you suspect a particular
 type: atomic
 book: saunders
 sources:
-  - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
-    lines: "964-1008"
-    note: "Saunders attributes the principle to producer Stuart Cornfeld, names it explicitly, and tests Chekhov's teahouse scene against both criteria."
-  - chapter: "And Yet They Drove On: Thoughts on 'Master and Man'"
-    lines: "4495-4525"
-    note: "Sharpens the second criterion (advance the story in a non-trivial way) by giving it a procedural shape. A structural unit that advances the story tends to do so partly by enacting its own miniature arc — its own exposition, rising action, and climactic moment. Saunders frames this as Freytag's-triangle-per-unit: 'a structural unit, like a story, wants to look something like Freytag's triangle... if a structural unit in a story we're writing isn't shaped like that, we might wonder if it wants to be; if it is shaped like that, we might want to make that shape sharper.' Worked on the second Grishkino stop, where the 'young people getting out of hand' conversation is identified as the unit's climactic moment; the cozy-warmth, Nikita-not-drinking, and Paulson-quoting-grandson material is identified as exposition that needs the conversation to convert it into rising action. The fold sharpens the test: when the second Cornfeld criterion stalls on a unit, ask whether the unit has its own miniature arc, and if not, ask whether it should."
-  - chapter: "The Door to the Truth Might Be Strangeness: Thoughts on 'The Nose'"
-    lines: "5598-5601"
-    note: "Names a recognized exception to the two criteria: a passage that produces strong reader-side joy or delight and was clearly written from the writer's pleasure rather than from plot necessity is allowed to stay even when it fails both Cornfeld tests. Saunders gives the worked instance: in the newspaper-office scene of 'The Nose,' a group of people waiting to place ads 'get transformed into that for which they are advertising, and suddenly that little office is full of a coachman of sober conduct... a nineteen-year-old serf girl... a sound droshky with one spring missing... a young and fiery dappled-gray horse... a summer residence with all the appurtenances.' Saunders names this 'what makes Gogol great, that he somehow felt inclined to do that, and then did it, with such strange, happy confidence. The inexplicable uptick in fondness for the world I feel, moving through that section, which is not essential to the action of the story but seems to have been done just for the fun of it, is, for me, what Gogol is all about.' The fold adds the exception condition to the audit: before cutting a passage that fails both criteria, run the joy-burst test. Does the passage produce a marked uptick of fondness, delight, or affection in the reader, written from the writer's pleasure rather than from plot necessity? If yes, the joy is itself non-trivial; the passage stays. The diagnosis question: would cutting this prune the writer's best instinct? The contrast condition is narrow — the test is uptick-of-fondness, not 'I like this scene' — but when it fires, it overrides the two main criteria."
+- chapter: 'A Page at a Time: Thoughts on ''In the Cart'''
+  lines: 964-1008
+  note: Saunders attributes the principle to producer Stuart Cornfeld, names it explicitly, and tests Chekhov's teahouse scene against both criteria.
+- chapter: 'And Yet They Drove On: Thoughts on ''Master and Man'''
+  lines: 4495-4525
+  note: 'Sharpens the second criterion (advance the story in a non-trivial way) by giving it a procedural shape. A structural unit that advances the story tends to do so partly by enacting its own miniature arc — its own exposition, rising action, and climactic moment. Saunders frames this as Freytag''s-triangle-per-unit: ''a structural unit, like a story, wants to look something like Freytag''s triangle... if a structural unit in a story we''re writing isn''t shaped like that, we might wonder if it wants to be; if it is shaped like that, we might want to make that shape sharper.'' Worked on the second Grishkino stop, where the ''young people getting out of hand'' conversation is identified as the unit''s climactic moment; the cozy-warmth, Nikita-not-drinking, and Paulson-quoting-grandson material is identified as exposition that needs the conversation to convert it into rising action. The fold sharpens the test: when the second Cornfeld criterion stalls on a unit, ask whether the unit has its own miniature arc, and if not, ask whether it should.'
+- chapter: 'The Door to the Truth Might Be Strangeness: Thoughts on ''The Nose'''
+  lines: 5598-5601
+  note: 'Names a recognized exception to the two criteria: a passage that produces strong reader-side joy or delight and was clearly written from the writer''s pleasure rather than from plot necessity is allowed to stay even when it fails both Cornfeld tests. Saunders gives the worked instance: in the newspaper-office scene of ''The Nose,'' a group of people waiting to place ads ''get transformed into that for which they are advertising, and suddenly that little office is full of a coachman of sober conduct... a nineteen-year-old serf girl... a sound droshky with one spring missing... a young and fiery dappled-gray horse... a summer residence with all the appurtenances.'' Saunders names this ''what makes Gogol great, that he somehow felt inclined to do that, and then did it, with such strange, happy confidence. The inexplicable uptick in fondness for the world I feel, moving through that section, which is not essential to the action of the story but seems to have been done just for the fun of it, is, for me, what Gogol is all about.'' The fold adds the exception condition to the audit: before cutting a passage that fails both criteria, run the joy-burst test. Does the passage produce a marked uptick of fondness, delight, or affection in the reader, written from the writer''s pleasure rather than from plot necessity? If yes, the joy is itself non-trivial; the passage stays. The diagnosis question: would cutting this prune the writer''s best instinct? The contrast condition is narrow — the test is uptick-of-fondness, not ''I like this scene'' — but when it fires, it overrides the two main criteria.'
 tags:
-  - revision
-  - structure
-  - critique
-  - cutting
+- revision
+- structure
+- diagnose
+- text
+- cut
 related:
-  - extends: heart-of-the-story
+- extends: heart-of-the-story
 ---
 
 ## When to reach for this

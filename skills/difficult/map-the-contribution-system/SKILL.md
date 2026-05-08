@@ -4,13 +4,14 @@ description: A difficult situation has given rise to a conversation, and the ins
 type: atomic
 book: difficult
 sources:
-  - chapter: "4. Abandon Blame: Map the Contribution System"
-    lines: "1586-2042"
+- chapter: '4. Abandon Blame: Map the Contribution System'
+  lines: 1586-2042
 tags:
-  - what-happened-conversation
-  - diagnostic
-  - preparation
-  - conversation
+- diagnose
+- exchange
+- intent-impact
+- preparation
+- contribution
 ---
 
 ## When to reach for this

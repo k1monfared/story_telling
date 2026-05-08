@@ -4,18 +4,18 @@ description: You are a writer whose drafts catalogue and explain but never escal
 type: atomic
 book: saunders
 sources:
-  - chapter: "Appendix B: An Escalation Exercise"
-    lines: "7575-7649"
-    note: "Saunders supplies the practice protocol: 45-min timer, write a 200-word story using only 50 unique words, track via a running list (plurals count as the same word), final length must be exactly 200 — not 199, not 201. He frames escalation as 'meaningful action' via the pot-of-water-on-the-stove (exposition) vs boiling-water (rising action) image, names the empirical observation that the exercise almost always produces rising action and sometimes funnier, more dramatic, more entertaining results than the writer's 'real' work, and gives the why: the conscious mind that would usually be thinking about themes, style, politics, or goals is kept busy counting words, which 'allows another part of her mind to step forward, a less conscious, more playful part.' He installs the read-aloud-afterward intensifier ('when I assign this exercise in class, I announce beforehand that everyone will be reading their story aloud afterward. This intensifies things.') with the Johnson hanging-in-a-fortnight quote, and triangulates the same effect with the Doug Unger on-the-spot oral-storytelling anecdote ('compared to the stories we'd been submitting, the stories we told that night were, without exception, livelier and more dramatic and more infused with who we really were, richer with our real charms, the way we actually were witty in the world'). He gives the after-care variants: chain multiple 50-word passes with constant characters for a longer story; or use one pass as a starter piece with rising action and relax the constraints to rewrite with unrestricted vocabulary. He names the deeper diagnosis the exercise interrupts: 'we usually walk around with a certain idea of the writer we are in our head. When we sit down to write, that writer is the one we start channeling. In that instant, our brain function changes. We're less open to what the story wants to do, to what that language generator inside of us wants to do. We're working within the narrow range of how we think we should write. This exercise shuts down that way of thinking by keeping it busy with the practicalities of the exercise, which leaves the rest of the mind asking, Well, what else have we got? That is: What other writers might be in here?' He closes with the drunk-dancing-and-filming-it analogy: 'in playback, we might catch a glimpse of something we don't normally attempt, but that we like. And if we like it, we might want to do it on purpose, later.'"
+- chapter: 'Appendix B: An Escalation Exercise'
+  lines: 7575-7649
+  note: 'Saunders supplies the practice protocol: 45-min timer, write a 200-word story using only 50 unique words, track via a running list (plurals count as the same word), final length must be exactly 200 — not 199, not 201. He frames escalation as ''meaningful action'' via the pot-of-water-on-the-stove (exposition) vs boiling-water (rising action) image, names the empirical observation that the exercise almost always produces rising action and sometimes funnier, more dramatic, more entertaining results than the writer''s ''real'' work, and gives the why: the conscious mind that would usually be thinking about themes, style, politics, or goals is kept busy counting words, which ''allows another part of her mind to step forward, a less conscious, more playful part.'' He installs the read-aloud-afterward intensifier (''when I assign this exercise in class, I announce beforehand that everyone will be reading their story aloud afterward. This intensifies things.'') with the Johnson hanging-in-a-fortnight quote, and triangulates the same effect with the Doug Unger on-the-spot oral-storytelling anecdote (''compared to the stories we''d been submitting, the stories we told that night were, without exception, livelier and more dramatic and more infused with who we really were, richer with our real charms, the way we actually were witty in the world''). He gives the after-care variants: chain multiple 50-word passes with constant characters for a longer story; or use one pass as a starter piece with rising action and relax the constraints to rewrite with unrestricted vocabulary. He names the deeper diagnosis the exercise interrupts: ''we usually walk around with a certain idea of the writer we are in our head. When we sit down to write, that writer is the one we start channeling. In that instant, our brain function changes. We''re less open to what the story wants to do, to what that language generator inside of us wants to do. We''re working within the narrow range of how we think we should write. This exercise shuts down that way of thinking by keeping it busy with the practicalities of the exercise, which leaves the rest of the mind asking, Well, what else have we got? That is: What other writers might be in here?'' He closes with the drunk-dancing-and-filming-it analogy: ''in playback, we might catch a glimpse of something we don''t normally attempt, but that we like. And if we like it, we might want to do it on purpose, later.'''
 tags:
-  - drafting
-  - exercise
-  - escalation
-  - constraint
-  - voice
+- text
+- experiment
+- iterate
+- structure
+- voice
 related:
-  - extends: energy-not-aspiration
-  - contrasts: forced-cut-pace-discovery
+- extends: energy-not-aspiration
+- contrasts: forced-cut-pace-discovery
 ---
 
 ## When to reach for this

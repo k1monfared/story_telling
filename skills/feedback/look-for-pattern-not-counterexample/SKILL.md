@@ -4,13 +4,12 @@ description: Feedback has just stung, and you can feel yourself reaching for con
 type: atomic
 book: feedback
 sources:
-  - chapter: "4. See Your Blind Spots"
-    lines: "2029-2098"
+- chapter: 4. See Your Blind Spots
+  lines: 2029-2098
 tags:
-  - receiving
-  - diagnostic
-  - pattern
-  - blind-spot
+- exchange
+- diagnose
+- blind-spot
 ---
 
 ## When to reach for this

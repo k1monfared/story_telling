@@ -4,13 +4,13 @@ description: You received feedback and your emotional reaction is stronger than 
 type: atomic
 book: feedback
 sources:
-  - chapter: "7. Learn How Wiring and Temperament Affect Your Story"
-    lines: "3283-3418, 3434-3451"
+- chapter: 7. Learn How Wiring and Temperament Affect Your Story
+  lines: 3283-3418, 3434-3451
 tags:
-  - receiving
-  - identity-trigger
-  - diagnostic
-  - wiring
+- exchange
+- identity
+- triggers
+- diagnose
 ---
 
 ## When to reach for this

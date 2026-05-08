@@ -4,23 +4,23 @@ description: You are drafting a story and a character feels generic, or the plot
 type: atomic
 book: saunders
 sources:
-  - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
-    lines: "415-434, 627-633, 914-924"
-    note: "Saunders names this 'increased specification,' performs it on Marya in the opening pages, demonstrates the cross-painting variant on Hanov, and tracks Marya's continued specification at the teahouse."
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "1704-1712, 1748"
-    note: "Sharpens the trigger for contest-shaped stories: A and B must each stand for something distinct so the outcome can carry meaning. Saunders gives 'specificity makes character' as the principle and shows the contractor becoming a particular person ('a shredder, in guitar terms') only once the singing is rendered specifically."
-  - chapter: "Afterthought #2"
-    lines: "2269-2281"
-    note: "Sharpens the trigger to the sentence level: a sentence that states a verdict on a character ('Bob was an asshole') instead of rendering the moment that produced the verdict. Saunders walks through successive rounds of asking 'why' until 'Bob was an asshole' becomes 'Bob snapped impatiently at the young barista, who reminded him of his dead wife, Marie, who he missed so much, especially now, at Christmas, which had always been her favorite time of year,' and notes the side effect: the revised writer becomes 'more alert to Bob,' a moral-ethical deepening produced as a byproduct of asking the procedural question 'which particular person, doing which particular thing, why?' The trigger generalizes the skill from character introduction to any sentence that names a verdict instead of rendering the situation that earns it."
-  - chapter: "A Pattern Story: Thoughts on 'The Darling'"
-    lines: "2747-2767"
-    note: "Names the principle the skill operationalizes: 'in specificity lies nascent plot.' Saunders walks a third worked sentence-level instance, this time on a situation rather than a verdict: 'Some guy is sitting in a random room thinking nothing at all and this other guy walks in' becomes 'An angry racist is sitting in a room, thinking of how unfairly he's been treated all his life, and a person of another race walks in' becomes 'An angry white racist named Mel, who has cancer, is sitting in the examination room, thinking of how unfairly he's been treated all his life, when his doctor, a slightly egotistical Pakistani American, Dr. Bukhari, walks in, bearing bad news for Mel but glowing, in spite of that, with happiness because he's just won a major award.' Saunders's added framing: specificity does not just decorate, it produces the conditions under which meaningful action has to occur. 'I don't know what's going to happen next in that last, more specific, room but I'm pretty sure something will.' The chapter then immediately demonstrates the principle at work in 'The Darling': Olenka's specific trait (when she loves someone, she becomes that person) is what gives the story its plot — once the trait is specified, kill off her first love and present her with a second, and meaningful action follows. The trigger generalizes from character/sentence to whole-story: when your story is not moving, the missing thing is often not plot but specification."
+- chapter: 'A Page at a Time: Thoughts on ''In the Cart'''
+  lines: 415-434, 627-633, 914-924
+  note: Saunders names this 'increased specification,' performs it on Marya in the opening pages, demonstrates the cross-painting variant on Hanov, and tracks Marya's continued specification at the teahouse.
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 1704-1712, 1748
+  note: 'Sharpens the trigger for contest-shaped stories: A and B must each stand for something distinct so the outcome can carry meaning. Saunders gives ''specificity makes character'' as the principle and shows the contractor becoming a particular person (''a shredder, in guitar terms'') only once the singing is rendered specifically.'
+- chapter: 'Afterthought #2'
+  lines: 2269-2281
+  note: 'Sharpens the trigger to the sentence level: a sentence that states a verdict on a character (''Bob was an asshole'') instead of rendering the moment that produced the verdict. Saunders walks through successive rounds of asking ''why'' until ''Bob was an asshole'' becomes ''Bob snapped impatiently at the young barista, who reminded him of his dead wife, Marie, who he missed so much, especially now, at Christmas, which had always been her favorite time of year,'' and notes the side effect: the revised writer becomes ''more alert to Bob,'' a moral-ethical deepening produced as a byproduct of asking the procedural question ''which particular person, doing which particular thing, why?'' The trigger generalizes the skill from character introduction to any sentence that names a verdict instead of rendering the situation that earns it.'
+- chapter: 'A Pattern Story: Thoughts on ''The Darling'''
+  lines: 2747-2767
+  note: 'Names the principle the skill operationalizes: ''in specificity lies nascent plot.'' Saunders walks a third worked sentence-level instance, this time on a situation rather than a verdict: ''Some guy is sitting in a random room thinking nothing at all and this other guy walks in'' becomes ''An angry racist is sitting in a room, thinking of how unfairly he''s been treated all his life, and a person of another race walks in'' becomes ''An angry white racist named Mel, who has cancer, is sitting in the examination room, thinking of how unfairly he''s been treated all his life, when his doctor, a slightly egotistical Pakistani American, Dr. Bukhari, walks in, bearing bad news for Mel but glowing, in spite of that, with happiness because he''s just won a major award.'' Saunders''s added framing: specificity does not just decorate, it produces the conditions under which meaningful action has to occur. ''I don''t know what''s going to happen next in that last, more specific, room but I''m pretty sure something will.'' The chapter then immediately demonstrates the principle at work in ''The Darling'': Olenka''s specific trait (when she loves someone, she becomes that person) is what gives the story its plot — once the trait is specified, kill off her first love and present her with a second, and meaningful action follows. The trigger generalizes from character/sentence to whole-story: when your story is not moving, the missing thing is often not plot but specification.'
 tags:
-  - drafting
-  - characterization
-  - revision
-  - plot
+- text
+- characterization
+- revision
+- structure
 ---
 
 ## When to reach for this

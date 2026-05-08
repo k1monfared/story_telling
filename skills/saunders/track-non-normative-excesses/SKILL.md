@@ -4,16 +4,15 @@ description: You are reading or revising a story whose surface contains conspicu
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "1656-1666"
-    note: "Saunders names this the 'Things I Couldn't Help Noticing' (TICHN) cart, describes the transactional 'waiting to see' state it puts the reader in, and frames a good story as one that creates a pattern of excesses and then converts them into virtues."
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 1656-1666
+  note: Saunders names this the 'Things I Couldn't Help Noticing' (TICHN) cart, describes the transactional 'waiting to see' state it puts the reader in, and frames a good story as one that creates a pattern of excesses and then converts them into virtues.
 tags:
-  - reading
-  - revision
-  - close-reading
-  - diagnostic
+- diagnose
+- text
+- revision
 related:
-  - contrasts: confess-the-oddness
+- contrasts: confess-the-oddness
 ---
 
 ## When to reach for this

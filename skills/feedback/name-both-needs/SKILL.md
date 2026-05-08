@@ -4,13 +4,13 @@ description: You are reacting more strongly to a piece of feedback than the cont
 type: atomic
 book: feedback
 sources:
-  - chapter: "Introduction (From Push to Pull)"
-    lines: "392-417"
+- chapter: Introduction (From Push to Pull)
+  lines: 392-417
 tags:
-  - receiving
-  - identity
-  - emotion
-  - diagnostic
+- exchange
+- identity
+- emotion
+- diagnose
 ---
 
 ## When to reach for this

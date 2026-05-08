@@ -4,15 +4,16 @@ description: You received feedback and your story about what it means feels outs
 type: atomic
 book: feedback
 sources:
-  - chapter: "7. Learn How Wiring and Temperament Affect Your Story"
-    lines: "3460-3563"
+- chapter: 7. Learn How Wiring and Temperament Affect Your Story
+  lines: 3460-3563
 tags:
-  - receiving
-  - identity-trigger
-  - diagnostic
-  - distortion
+- exchange
+- identity
+- triggers
+- diagnose
+- distortion
 related:
-  - extends: understand-your-wiring-profile
+- extends: understand-your-wiring-profile
 ---
 
 ## When to reach for this

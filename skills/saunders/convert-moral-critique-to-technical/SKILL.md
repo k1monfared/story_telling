@@ -4,20 +4,19 @@ description: A story you are reading, revising, or teaching has been flagged for
 type: atomic
 book: saunders
 sources:
-  - chapter: "Afterthought #4"
-    lines: "4796-4805"
-    note: "The Gogol 'Nevsky Prospect' classroom episode. A student calls the story sexist. Saunders asks 'Where?'. The student locates two passages: when a man is insulted, Gogol enters the character's head and we hear his response; when a woman is insulted, the third-person narrator steps in and makes a joke at her expense. The class then imagines the corrected story with internal monologue equally distributed and a 'collective sigh/smile' as they see 'the better story it could have been: just as dark and strange, but funnier and more honest.' Saunders generalizes: 'any story that suffers from what seems like a moral failing... will be seen, with sufficient analytical snooping, to be suffering from a technical failing, and if that failing is addressed, it will (always) become a better story.'"
-  - chapter: "Afterthought #4"
-    lines: "4754-4784, 4794, 4804, 4810-4820"
-    note: "The worked instance on 'Master and Man': the floating accusation 'Tolstoy seems to be exhibiting class bias' is converted to 'In (at least) two places, when Nikita comes home from the hospital and in their respective death scenes, Nikita is denied the interiority that Tolstoy gave Vasili in similar moments.' Saunders walks the diagnosis: Section VII gives Nikita a 'less interesting, less detailed' interior pass than Section VI gives Vasili; Section X gives Nikita's twenty later years and his death without the long inner monologue Tolstoy granted Vasili at the parallel moment of his death in Section IX. The downstream consequence is that Nikita never thinks of Vasili, never reflects on the sacrifice, walks off unchanged: 'If a person gives his life to save another person, and the saved person never thinks about it, doesn't appear grateful, seems unchanged by it, it makes us wonder about the value of the sacrifice. It also makes us wonder about the person saved. It also makes us wonder about the writer.' The corrective exercise: imagine the version of Section X in which Nikita is granted narrative resources equal to Vasili's at parallel moments. 'Rewrite Section X. Write it like Tolstoy. Use, you know, a lot of facts.'"
+- chapter: 'Afterthought #4'
+  lines: 4796-4805
+  note: 'The Gogol ''Nevsky Prospect'' classroom episode. A student calls the story sexist. Saunders asks ''Where?''. The student locates two passages: when a man is insulted, Gogol enters the character''s head and we hear his response; when a woman is insulted, the third-person narrator steps in and makes a joke at her expense. The class then imagines the corrected story with internal monologue equally distributed and a ''collective sigh/smile'' as they see ''the better story it could have been: just as dark and strange, but funnier and more honest.'' Saunders generalizes: ''any story that suffers from what seems like a moral failing... will be seen, with sufficient analytical snooping, to be suffering from a technical failing, and if that failing is addressed, it will (always) become a better story.'''
+- chapter: 'Afterthought #4'
+  lines: 4754-4784, 4794, 4804, 4810-4820
+  note: 'The worked instance on ''Master and Man'': the floating accusation ''Tolstoy seems to be exhibiting class bias'' is converted to ''In (at least) two places, when Nikita comes home from the hospital and in their respective death scenes, Nikita is denied the interiority that Tolstoy gave Vasili in similar moments.'' Saunders walks the diagnosis: Section VII gives Nikita a ''less interesting, less detailed'' interior pass than Section VI gives Vasili; Section X gives Nikita''s twenty later years and his death without the long inner monologue Tolstoy granted Vasili at the parallel moment of his death in Section IX. The downstream consequence is that Nikita never thinks of Vasili, never reflects on the sacrifice, walks off unchanged: ''If a person gives his life to save another person, and the saved person never thinks about it, doesn''t appear grateful, seems unchanged by it, it makes us wonder about the value of the sacrifice. It also makes us wonder about the person saved. It also makes us wonder about the writer.'' The corrective exercise: imagine the version of Section X in which Nikita is granted narrative resources equal to Vasili''s at parallel moments. ''Rewrite Section X. Write it like Tolstoy. Use, you know, a lot of facts.'''
 tags:
-  - critique
-  - revision
-  - close-reading
-  - point-of-view
-  - workshop
+- diagnose
+- text
+- revision
+- point-of-view
 related:
-  - extends: ask-strategic-not-interpretive
+- extends: ask-strategic-not-interpretive
 ---
 
 ## When to reach for this

@@ -4,21 +4,22 @@ description: You are revising your own draft and trying to decide whether the en
 type: atomic
 book: saunders
 sources:
-  - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
-    lines: "1130-1182"
-    note: "Saunders proposes the move explicitly, applies it to 'In the Cart' by ending the story one section early, and uses the resulting feeling to derive what the actual ending must accomplish."
-  - chapter: "A Swim in a Pond in the Rain: Thoughts on 'Gooseberries'"
-    lines: "6023-6037"
-    note: "Saunders extends the same cut-and-observe procedure to internal structural units rather than to the ending. On the rain-caused digression in 'Gooseberries' (an 82-line block representing nearly a fourth of the story's length), Saunders performs the cut: 'Watch — if we cut those pages, the result reads like this: Ivan Ivanych heaved a slow sigh and lit his pipe before beginning his story. [TWO-PAGE CUT HERE.] We are two brothers, he began, I, Ivan Ivanych, and my brother, Nikolay Ivanych, who is two years my junior. (The seam is invisible.)' The pop-out variant of the test: when an internal unit can be cut without leaving a seam, do not infer the unit is unneeded. The seamlessness is the diagnostic question, not the answer. Saunders's stance: 'For now, let's just log that digression as a structural feature of the story (a quirk, a goiter). It's in our TICHN cart, and when we get to the end, we're going to find ourselves looking over at it, asking, Okay, so what were you for?' The fold adds the pop-out variant: same cut-and-observe procedure, applied to any internal structural unit, with the question reshaped from 'is it story yet?' to 'what was this unit for?' The unit is not cut on its own; it is logged on the TICHN cart for deferred redemption, and the rest of the story is read with the cart in mind to surface what the unit was enabling. The framing 'the story form makes a de facto case for efficiency... all of its parts must be there for a purpose' (line 6035) is the warrant: a seamlessly-popable unit in a published, working story is data — its work is structural rather than plot-level, and the procedure for finding the work is to read forward."
+- chapter: 'A Page at a Time: Thoughts on ''In the Cart'''
+  lines: 1130-1182
+  note: Saunders proposes the move explicitly, applies it to 'In the Cart' by ending the story one section early, and uses the resulting feeling to derive what the actual ending must accomplish.
+- chapter: 'A Swim in a Pond in the Rain: Thoughts on ''Gooseberries'''
+  lines: 6023-6037
+  note: 'Saunders extends the same cut-and-observe procedure to internal structural units rather than to the ending. On the rain-caused digression in ''Gooseberries'' (an 82-line block representing nearly a fourth of the story''s length), Saunders performs the cut: ''Watch — if we cut those pages, the result reads like this: Ivan Ivanych heaved a slow sigh and lit his pipe before beginning his story. [TWO-PAGE CUT HERE.] We are two brothers, he began, I, Ivan Ivanych, and my brother, Nikolay Ivanych, who is two years my junior. (The seam is invisible.)'' The pop-out variant of the test: when an internal unit can be cut without leaving a seam, do not infer the unit is unneeded. The seamlessness is the diagnostic question, not the answer. Saunders''s stance: ''For now, let''s just log that digression as a structural feature of the story (a quirk, a goiter). It''s in our TICHN cart, and when we get to the end, we''re going to find ourselves looking over at it, asking, Okay, so what were you for?'' The fold adds the pop-out variant: same cut-and-observe procedure, applied to any internal structural unit, with the question reshaped from ''is it story yet?'' to ''what was this unit for?'' The unit is not cut on its own; it is logged on the TICHN cart for deferred redemption, and the rest of the story is read with the cart in mind to surface what the unit was enabling. The framing ''the story form makes a de facto case for efficiency... all of its parts must be there for a purpose'' (line 6035) is the warrant: a seamlessly-popable unit in a published, working story is data — its work is structural rather than plot-level, and the procedure for finding the work is to read forward.'
 tags:
-  - revision
-  - endings
-  - structure
-  - close-reading
-  - diagnosis
+- revision
+- endings
+- structure
+- diagnose
+- text
+- cut
 related:
-  - extends: cornfeld-principle
-  - contrasts: two-version-comparison
+- extends: cornfeld-principle
+- contrasts: two-version-comparison
 ---
 
 ## When to reach for this

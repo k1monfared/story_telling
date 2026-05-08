@@ -4,13 +4,12 @@ description: A feedback exchange has just gone wrong despite everyone meaning we
 type: atomic
 book: feedback
 sources:
-  - chapter: "2. Separate Appreciation, Coaching, and Evaluation"
-    lines: "970-1016"
+- chapter: 2. Separate Appreciation, Coaching, and Evaluation
+  lines: 970-1016
 tags:
-  - receiving
-  - diagnostic
-  - mismatch
-  - relational
+- exchange
+- diagnose
+- relationship
 ---
 
 ## When to reach for this

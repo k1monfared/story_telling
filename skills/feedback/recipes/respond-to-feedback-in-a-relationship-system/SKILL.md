@@ -4,16 +4,19 @@ description: You received feedback and both you and the giver are pointing at ea
 type: composed
 book: feedback
 sources:
-  - chapter: "6. Identify the Relationship System (Take Three Steps Back)"
-    lines: "2801-3188"
-    note: "Chapter 6 provides all three steps as a sequence. The three-steps-back framework, the two-message sequencing rule, and the ask-what-would-help-you-change move are presented together as the chapter's theory-then-practice structure."
+- chapter: 6. Identify the Relationship System (Take Three Steps Back)
+  lines: 2801-3188
+  note: Chapter 6 provides all three steps as a sequence. The three-steps-back framework, the two-message sequencing rule, and the ask-what-would-help-you-change move are presented together as the chapter's theory-then-practice structure.
 tags:
-  - receiving
-  - relationship-trigger
-  - accountability
-  - conversation
+- exchange
+- relationship
+- triggers
+- accountability
 related:
-  - composed-of: [take-three-steps-back, take-responsibility-first-then-introduce-the-system, ask-what-would-help-you-change]
+- composed-of:
+  - take-three-steps-back
+  - take-responsibility-first-then-introduce-the-system
+  - ask-what-would-help-you-change
 ---
 
 ## When to reach for this

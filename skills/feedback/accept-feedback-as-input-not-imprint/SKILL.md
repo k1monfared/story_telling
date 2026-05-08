@@ -4,13 +4,14 @@ description: You received feedback that feels unfair, incomplete, or based on a 
 type: atomic
 book: feedback
 sources:
-  - chapter: "8. Dismantle Distortions (See Feedback at 'Actual Size')"
-    lines: "3907-3931"
+- chapter: 8. Dismantle Distortions (See Feedback at 'Actual Size')
+  lines: 3907-3931
 tags:
-  - receiving
-  - identity-trigger
-  - distortion
-  - acceptance
+- exchange
+- identity
+- triggers
+- distortion
+- growth
 ---
 
 ## When to reach for this

@@ -4,15 +4,15 @@ description: You are drafting a stretch of narrative time during which the world
 type: atomic
 book: saunders
 sources:
-  - chapter: "A Pattern Story: Thoughts on 'The Darling'"
-    lines: "2693-2698"
-    note: "Saunders pauses at Chekhov's leap from Kukin's funeral to 'Three months later Olenka was returning from Mass,' contrasts it with a counterfactual filler version ('On Wednesday she saw some pretty clouds. On Thursday it was time to do the washing'), and names the criterion: 'Why not? Because those days don't matter. They aren't meaningful. By whose standard? The story's. The story is telling us, by skipping those days, that nothing meaningful happened during them and that it intends to set us down in front of the next thing it judges meaningful, i.e., relevant to its purpose.' He generalizes the lesson: a short story is not a documentary or a fair-minded accounting of time, it is a radically shaped little machine that thrills with the extremity of its decisiveness."
+- chapter: 'A Pattern Story: Thoughts on ''The Darling'''
+  lines: 2693-2698
+  note: 'Saunders pauses at Chekhov''s leap from Kukin''s funeral to ''Three months later Olenka was returning from Mass,'' contrasts it with a counterfactual filler version (''On Wednesday she saw some pretty clouds. On Thursday it was time to do the washing''), and names the criterion: ''Why not? Because those days don''t matter. They aren''t meaningful. By whose standard? The story''s. The story is telling us, by skipping those days, that nothing meaningful happened during them and that it intends to set us down in front of the next thing it judges meaningful, i.e., relevant to its purpose.'' He generalizes the lesson: a short story is not a documentary or a fair-minded accounting of time, it is a radically shaped little machine that thrills with the extremity of its decisiveness.'
 tags:
-  - drafting
-  - revision
-  - structure
-  - pacing
-  - cutting
+- text
+- revision
+- structure
+- pacing
+- cut
 ---
 
 ## When to reach for this

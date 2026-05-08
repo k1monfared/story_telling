@@ -4,13 +4,15 @@ description: Feedback has been delivered as a judgment ("you are not a team play
 type: atomic
 book: feedback
 sources:
-  - chapter: "3. First Understand"
-    lines: "1281-1341"
+- chapter: 3. First Understand
+  lines: 1281-1341
 tags:
-  - receiving
-  - diagnostic
-  - inquiry
-  - truth-trigger
+- exchange
+- diagnose
+- inquire
+- triggers
+- intent-impact
+- separate
 ---
 
 ## When to reach for this

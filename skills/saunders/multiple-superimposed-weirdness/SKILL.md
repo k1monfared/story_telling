@@ -4,17 +4,17 @@ description: You are drafting or revising a story whose initial strange premise 
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Door to the Truth Might Be Strangeness: Thoughts on 'The Nose'"
-    lines: "5252-5263"
-    note: "Saunders names the move 'Multiple Superimposed Weirdness Syndrome' and enumerates the tiers in 'The Nose' explicitly. Initial weirdness: a nose appears in a loaf of bread. Second-level weirdness: the couple reacts irrationally to the nose's presence. Third-level weirdness: because they reacted irrationally, they make an odd plan in response (ditch the nose). Fourth-level weirdness: Ivan executes the plan badly because the world he finds out there is inflected with a slight, ornery hostility toward him (a constant flow of acquaintances, a street thick with policemen). Fifth-level weirdness: how the story is being told (the narrator is off too). Each tier adds weirdness in a different category from the prior tier rather than restating the prior tier in louder form."
+- chapter: 'The Door to the Truth Might Be Strangeness: Thoughts on ''The Nose'''
+  lines: 5252-5263
+  note: 'Saunders names the move ''Multiple Superimposed Weirdness Syndrome'' and enumerates the tiers in ''The Nose'' explicitly. Initial weirdness: a nose appears in a loaf of bread. Second-level weirdness: the couple reacts irrationally to the nose''s presence. Third-level weirdness: because they reacted irrationally, they make an odd plan in response (ditch the nose). Fourth-level weirdness: Ivan executes the plan badly because the world he finds out there is inflected with a slight, ornery hostility toward him (a constant flow of acquaintances, a street thick with policemen). Fifth-level weirdness: how the story is being told (the narrator is off too). Each tier adds weirdness in a different category from the prior tier rather than restating the prior tier in louder form.'
 tags:
-  - drafting
-  - revision
-  - structure
-  - escalation
-  - register
+- text
+- revision
+- structure
+- iterate
+- voice
 related:
-  - extends: psychological-physics-of-strangeness
+- extends: psychological-physics-of-strangeness
 ---
 
 ## When to reach for this

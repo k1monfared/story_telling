@@ -4,19 +4,23 @@ description: You received feedback and your emotional reaction is larger than th
 type: composed
 book: feedback
 sources:
-  - chapter: "7. Learn How Wiring and Temperament Affect Your Story"
-    lines: "3283-3418, 3460-3563"
-    note: "Chapter 7 establishes the two foundations: your wiring profile explains why reactions differ in intensity; the three distortion types (Google bias, flooding, forever bias) name the specific patterns that amplify feedback beyond its actual size."
-  - chapter: "8. Dismantle Distortions (See Feedback at 'Actual Size')"
-    lines: "3695-3852"
-    note: "Chapter 8 supplies the two active steps: separating feeling/story/feedback into three strands, and containing the story within its actual scope using the containment chart, balancing picture, and right-sizing tools."
+- chapter: 7. Learn How Wiring and Temperament Affect Your Story
+  lines: 3283-3418, 3460-3563
+  note: 'Chapter 7 establishes the two foundations: your wiring profile explains why reactions differ in intensity; the three distortion types (Google bias, flooding, forever bias) name the specific patterns that amplify feedback beyond its actual size.'
+- chapter: 8. Dismantle Distortions (See Feedback at 'Actual Size')
+  lines: 3695-3852
+  note: 'Chapter 8 supplies the two active steps: separating feeling/story/feedback into three strands, and containing the story within its actual scope using the containment chart, balancing picture, and right-sizing tools.'
 tags:
-  - receiving
-  - identity-trigger
-  - distortion
-  - action
+- exchange
+- identity
+- triggers
+- distortion
 related:
-  - composed-of: [understand-your-wiring-profile, notice-the-distortion-type, separate-feeling-story-feedback, contain-the-story]
+- composed-of:
+  - understand-your-wiring-profile
+  - notice-the-distortion-type
+  - separate-feeling-story-feedback
+  - contain-the-story
 ---
 
 ## When to reach for this

@@ -4,12 +4,13 @@ description: You need to share your views and feelings in a difficult conversati
 type: atomic
 book: difficult
 sources:
-  - chapter: "10. Expression: Speak for Yourself with Clarity and Power"
-    lines: "4043-4341"
+- chapter: '10. Expression: Speak for Yourself with Clarity and Power'
+  lines: 4043-4341
 tags:
-  - all-three-conversations
-  - conversation
-  - expression
+- emotion
+- identity
+- exchange
+- assert
 ---
 
 ## When to reach for this

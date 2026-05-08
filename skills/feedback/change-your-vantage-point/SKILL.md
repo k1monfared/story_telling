@@ -4,13 +4,15 @@ description: You are in the grip of a distorted story about feedback and you can
 type: atomic
 book: feedback
 sources:
-  - chapter: "8. Dismantle Distortions (See Feedback at 'Actual Size')"
-    lines: "3857-3901"
+- chapter: 8. Dismantle Distortions (See Feedback at 'Actual Size')
+  lines: 3857-3901
 tags:
-  - receiving
-  - identity-trigger
-  - distortion
-  - perspective
+- exchange
+- identity
+- triggers
+- distortion
+- reframe
+- point-of-view
 ---
 
 ## When to reach for this

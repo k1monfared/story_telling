@@ -4,20 +4,24 @@ description: You are drafting a story whose central work is the rendering of a p
 type: composed
 book: saunders
 sources:
-  - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
-    lines: "415-434"
-    note: "Saunders names increasing-specification on Marya: she is unhappy, then unhappy because of monotony rather than grief or scorned love, then a thirteen-year veteran of the trip, then unable to imagine another future. Each fact rules out clichés and increases pressure for meaningful action."
-  - chapter: "And Yet They Drove On: Thoughts on 'Master and Man'"
-    lines: "4181-4213, 4253-4293, 4663-4709, 4731-4737"
-    note: "Saunders walks all three subsequent steps on Tolstoy's 'Master and Man' as a single integrated demonstration. Matrix-of-facts (4181-4213): Tolstoy's prose is 'almost entirely facts'; even subjective judgments and characters' interior thoughts are 'rendered as objectively and precisely as Nikita's crossing of the yard.' Mind-to-mind vantage shifts (4253-4293): the Vasili-Nikita wage exchange across three paragraphs cycles through five vantages — omniscient narrator, Vasili's speech, Vasili's thought, Nikita's speech, Nikita's thought. The Grishkino departure runs five perspectives across four paragraphs. Transformation by redirected energy (4663-4709, 4731-4737): after Nikita begs forgiveness and announces he is dying, Vasili 'just acts (or, actually, goes back into action),' striking the same resolution he used 'when making a good purchase'; tears come after the action, not before; post-transformation Vasili is 'still self-celebratory, still living to feel good about himself.' The four steps are walked on a single character, in order, in the same chapter."
+- chapter: 'A Page at a Time: Thoughts on ''In the Cart'''
+  lines: 415-434
+  note: 'Saunders names increasing-specification on Marya: she is unhappy, then unhappy because of monotony rather than grief or scorned love, then a thirteen-year veteran of the trip, then unable to imagine another future. Each fact rules out clichés and increases pressure for meaningful action.'
+- chapter: 'And Yet They Drove On: Thoughts on ''Master and Man'''
+  lines: 4181-4213, 4253-4293, 4663-4709, 4731-4737
+  note: 'Saunders walks all three subsequent steps on Tolstoy''s ''Master and Man'' as a single integrated demonstration. Matrix-of-facts (4181-4213): Tolstoy''s prose is ''almost entirely facts''; even subjective judgments and characters'' interior thoughts are ''rendered as objectively and precisely as Nikita''s crossing of the yard.'' Mind-to-mind vantage shifts (4253-4293): the Vasili-Nikita wage exchange across three paragraphs cycles through five vantages — omniscient narrator, Vasili''s speech, Vasili''s thought, Nikita''s speech, Nikita''s thought. The Grishkino departure runs five perspectives across four paragraphs. Transformation by redirected energy (4663-4709, 4731-4737): after Nikita begs forgiveness and announces he is dying, Vasili ''just acts (or, actually, goes back into action),'' striking the same resolution he used ''when making a good purchase''; tears come after the action, not before; post-transformation Vasili is ''still self-celebratory, still living to feel good about himself.'' The four steps are walked on a single character, in order, in the same chapter.'
 tags:
-  - drafting
-  - characterization
-  - structure
-  - revision
-  - climax
+- text
+- characterization
+- structure
+- revision
+- climax
 related:
-  - composed-of: [increasing-specification, matrix-of-facts, mind-to-mind-vantage-shifts, transformation-by-redirected-energy]
+- composed-of:
+  - increasing-specification
+  - matrix-of-facts
+  - mind-to-mind-vantage-shifts
+  - transformation-by-redirected-energy
 ---
 
 ## When to reach for this

@@ -4,15 +4,13 @@ description: You have started to implement feedback-driven change and things are
 type: atomic
 book: feedback
 sources:
-  - chapter: "12. Get Going (Five Ways to Take Action)"
-    lines: "5846-5972"
+- chapter: 12. Get Going (Five Ways to Take Action)
+  lines: 5846-5972
 tags:
-  - receiving
-  - action
-  - change
-  - commitment
+- exchange
+- closing
 related:
-  - extends: try-small-experiments
+- extends: try-small-experiments
 ---
 
 ## When to reach for this

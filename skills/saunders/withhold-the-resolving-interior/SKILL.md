@@ -4,18 +4,18 @@ description: You are at the climactic moment of a draft and the obvious move is 
 type: atomic
 book: saunders
 sources:
-  - chapter: "The Wisdom of Omission: Thoughts on 'Alyosha the Pot'"
-    lines: "6837-6897, 7045-7089, 7117-7141, 7149-7167"
-    note: "Saunders names the central technique on the Alyosha death scene. The story raises an unresolved question about whether Alyosha protests the injustice as he dies; the reader is allowed 'one last glance into Alyosha's mind' (the heart-thought, three translations surveyed) and one external view of the dying ('amazed at something,' 'something seemed to startle him'). Saunders observes: 'Whatever happens inside him in those last seconds, we have to deduce by observation.' He composes two didactic alternatives, one for each reading, and strikes through the added interior monologue: 'That cut stuff is all interior monologue I made up. As you can see, unlike me, Tolstoy declined to go into Alyosha's head. Or, actually, he decided to get out of Alyosha's head.' He names the technical decision: the writer leaves the climactic interior un-rendered. The disposition framing (lines 7149-7167): 'in that swerve we feel him resisting his own didacticism. A form of what we might call artistic reserve kicked in. Like Bartleby, Tolstoy preferred not to. So he didn't.' 'He wrote around that moment when he might have specified what Alyosha was feeling... because — well, because he didn't know. Or didn't know yet. Or didn't like the answer he was about to come up with. That swerve represents a sort of interim decision to not, at that moment, decide — to defer deciding.' The principle (line 7165): 'Omission is sometimes a defect and leads to unclearness. But other times it's a virtue and leads to ambiguity and an increase in narrative tension.' The Rubin's-vase outcome (lines 7117-7141): 'the story, in declining to answer (in obscuring the place where it might have answered), feels like it's not avoiding the question but irradiating it with increased intensity.'"
+- chapter: 'The Wisdom of Omission: Thoughts on ''Alyosha the Pot'''
+  lines: 6837-6897, 7045-7089, 7117-7141, 7149-7167
+  note: 'Saunders names the central technique on the Alyosha death scene. The story raises an unresolved question about whether Alyosha protests the injustice as he dies; the reader is allowed ''one last glance into Alyosha''s mind'' (the heart-thought, three translations surveyed) and one external view of the dying (''amazed at something,'' ''something seemed to startle him''). Saunders observes: ''Whatever happens inside him in those last seconds, we have to deduce by observation.'' He composes two didactic alternatives, one for each reading, and strikes through the added interior monologue: ''That cut stuff is all interior monologue I made up. As you can see, unlike me, Tolstoy declined to go into Alyosha''s head. Or, actually, he decided to get out of Alyosha''s head.'' He names the technical decision: the writer leaves the climactic interior un-rendered. The disposition framing (lines 7149-7167): ''in that swerve we feel him resisting his own didacticism. A form of what we might call artistic reserve kicked in. Like Bartleby, Tolstoy preferred not to. So he didn''t.'' ''He wrote around that moment when he might have specified what Alyosha was feeling... because — well, because he didn''t know. Or didn''t know yet. Or didn''t like the answer he was about to come up with. That swerve represents a sort of interim decision to not, at that moment, decide — to defer deciding.'' The principle (line 7165): ''Omission is sometimes a defect and leads to unclearness. But other times it''s a virtue and leads to ambiguity and an increase in narrative tension.'' The Rubin''s-vase outcome (lines 7117-7141): ''the story, in declining to answer (in obscuring the place where it might have answered), feels like it''s not avoiding the question but irradiating it with increased intensity.'''
 tags:
-  - drafting
-  - revision
-  - climax
-  - interiority
-  - omission
+- text
+- revision
+- climax
+- characterization
+- cut
 related:
-  - extends: persistent-self-contradiction
-  - contrasts: transformation-by-redirected-energy
+- extends: persistent-self-contradiction
+- contrasts: transformation-by-redirected-energy
 ---
 
 ## When to reach for this

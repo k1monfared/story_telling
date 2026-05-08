@@ -4,13 +4,14 @@ description: Someone has just told you to "be more X" or "stop being so Y" or "y
 type: atomic
 book: feedback
 sources:
-  - chapter: "3. First Understand"
-    lines: "1164-1218, 1224-1241"
+- chapter: 3. First Understand
+  lines: 1164-1218, 1224-1241
 tags:
-  - receiving
-  - diagnostic
-  - language
-  - truth-trigger
+- exchange
+- diagnose
+- voice
+- triggers
+- intent-impact
 ---
 
 ## When to reach for this

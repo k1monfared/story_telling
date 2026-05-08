@@ -4,12 +4,12 @@ description: You have received feedback that you are unsure about, or you are st
 type: atomic
 book: feedback
 sources:
-  - chapter: "12. Get Going (Five Ways to Take Action)"
-    lines: "5748-5838"
+- chapter: 12. Get Going (Five Ways to Take Action)
+  lines: 5748-5838
 tags:
-  - receiving
-  - action
-  - growth-mindset
+- exchange
+- growth
+- experiment
 ---
 
 ## When to reach for this

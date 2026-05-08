@@ -4,13 +4,12 @@ description: You want to learn how you come across, ahead of an event or in an o
 type: atomic
 book: feedback
 sources:
-  - chapter: "4. See Your Blind Spots"
-    lines: "2018-2023"
+- chapter: 4. See Your Blind Spots
+  lines: 2018-2023
 tags:
-  - receiving
-  - inquiry
-  - eliciting
-  - blind-spot
+- exchange
+- inquire
+- blind-spot
 ---
 
 ## When to reach for this

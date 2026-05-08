@@ -4,25 +4,29 @@ description: You are a writer producing technically careful work that comes back
 type: composed
 book: saunders
 sources:
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "2064-2130"
-    note: "Saunders names the energy probe (wrist-meter / 1000-units image), tells the autobiographical case of abandoning Hemingway-mountain for 'Saunders Mountain,' and frames the trade as a precondition for any subsequent writing practice."
-  - chapter: "Appendix B: An Escalation Exercise"
-    lines: "7575-7649"
-    note: "Saunders supplies the constraint-bypass protocol (45-min timer, 200 words, 50 unique words, read-aloud) and names the writer-self-image diagnosis directly: 'When we sit down to write, that writer is the one we start channeling.' The exercise's stated value is the proof that the writer can produce energy under the right conditions, the catalogue of what those conditions did to the prose, and the named moves that can be carried back into unconstrained work."
-  - chapter: "Afterthought #5"
-    lines: "5700-5754"
-    note: "Saunders names 'follow the voice' on the worked autobiographical case for 'Jon': a line from a student paper becomes the seed; he riffs on the voice and within a page has 'Privacy Tarps' and 'Gender Areas' and a confined-teenagers facility he had not set out to write. Frames the failure mode the method prevents: 'knowing-in-advance has a tendency to deaden a work and turn it into a lecture or a one-sided performance and drive the reader away.'"
-  - chapter: "Afterthought #2"
-    lines: "2183-2267"
-    note: "Saunders names the P/N meter on the forehead and frames revision as 'intuition plus iteration.' The chained-after-drafting position installs iterative-preference-revision as the line-level closing step on whatever the prior steps generated."
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 2064-2130
+  note: Saunders names the energy probe (wrist-meter / 1000-units image), tells the autobiographical case of abandoning Hemingway-mountain for 'Saunders Mountain,' and frames the trade as a precondition for any subsequent writing practice.
+- chapter: 'Appendix B: An Escalation Exercise'
+  lines: 7575-7649
+  note: 'Saunders supplies the constraint-bypass protocol (45-min timer, 200 words, 50 unique words, read-aloud) and names the writer-self-image diagnosis directly: ''When we sit down to write, that writer is the one we start channeling.'' The exercise''s stated value is the proof that the writer can produce energy under the right conditions, the catalogue of what those conditions did to the prose, and the named moves that can be carried back into unconstrained work.'
+- chapter: 'Afterthought #5'
+  lines: 5700-5754
+  note: 'Saunders names ''follow the voice'' on the worked autobiographical case for ''Jon'': a line from a student paper becomes the seed; he riffs on the voice and within a page has ''Privacy Tarps'' and ''Gender Areas'' and a confined-teenagers facility he had not set out to write. Frames the failure mode the method prevents: ''knowing-in-advance has a tendency to deaden a work and turn it into a lecture or a one-sided performance and drive the reader away.'''
+- chapter: 'Afterthought #2'
+  lines: 2183-2267
+  note: Saunders names the P/N meter on the forehead and frames revision as 'intuition plus iteration.' The chained-after-drafting position installs iterative-preference-revision as the line-level closing step on whatever the prior steps generated.
 tags:
-  - drafting
-  - writing-process
-  - voice
-  - exercise
+- text
+- voice
+- experiment
+- in-the-moment
 related:
-  - composed-of: [energy-not-aspiration, escalation-by-vocabulary-constraint, follow-the-voice, iterative-preference-revision]
+- composed-of:
+  - energy-not-aspiration
+  - escalation-by-vocabulary-constraint
+  - follow-the-voice
+  - iterative-preference-revision
 ---
 
 ## When to reach for this

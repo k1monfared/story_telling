@@ -4,15 +4,17 @@ description: Feedback has arrived and your identity has been triggered. The chap
 type: atomic
 book: feedback
 sources:
-  - chapter: "9. Cultivate a Growth Identity (Sort Toward Coaching)"
-    lines: "4332-4395"
+- chapter: 9. Cultivate a Growth Identity (Sort Toward Coaching)
+  lines: 4332-4395
 tags:
-  - receiving
-  - identity-trigger
-  - growth-mindset
-  - conversation
+- exchange
+- identity
+- triggers
+- growth
+- sort
+- coaching
 related:
-  - extends: adopt-growth-mindset-for-feedback
+- extends: adopt-growth-mindset-for-feedback
 ---
 
 ## When to reach for this

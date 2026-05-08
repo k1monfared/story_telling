@@ -4,13 +4,12 @@ description: You are receiving feedback you suspect is wrong or unfair, and you 
 type: atomic
 book: feedback
 sources:
-  - chapter: "Introduction (From Push to Pull)"
-    lines: "423-428"
+- chapter: Introduction (From Push to Pull)
+  lines: 423-428
 tags:
-  - receiving
-  - decision
-  - disposition
-  - boundaries
+- exchange
+- closing
+- boundaries
 ---
 
 ## When to reach for this

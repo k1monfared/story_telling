@@ -4,15 +4,15 @@ description: You have decided that a boundary is needed and you know which type.
 type: atomic
 book: feedback
 sources:
-  - chapter: "10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)"
-    lines: "4755-4881"
+- chapter: 10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)
+  lines: 4755-4881
 tags:
-  - receiving
-  - boundaries
-  - conversation
-  - relationship-trigger
+- exchange
+- boundaries
+- relationship
+- triggers
 related:
-  - extends: diagnose-and-name-the-boundary
+- extends: diagnose-and-name-the-boundary
 ---
 
 ## When to reach for this

@@ -4,14 +4,12 @@ description: A feedback conversation has reached an impasse over what should cha
 type: atomic
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "5432-5503"
-  - external: "Roger Fisher, William Ury, and Bruce Patton, Getting to Yes: Negotiating Agreement Without Giving In (1981, 2nd ed. 1991)"
-    note: "The canonical home of the positions/interests distinction that Stone and Heen explicitly cite. Fisher and Ury's book supplies what the chapter compresses: the full four-principle framework (separate people from problem, focus on interests not positions, invent options for mutual gain, insist on objective criteria), the BATNA concept (best alternative to a negotiated agreement), and detailed case studies of the distinction in complex negotiations. A reader of this skill who wants the deeper treatment of how to identify interests, how to handle resistant parties, and how to use objective criteria when interests genuinely conflict will find it there. Sharpens because Getting to Yes develops the interests-based framework as its entire subject; the skill extracts one specific application (feedback conversations reaching solution impasses) that the book subsumes in a larger negotiation framework."
+- chapter: 11. Navigate the Conversation
+  lines: 5432-5503
+- external: 'Roger Fisher, William Ury, and Bruce Patton, Getting to Yes: Negotiating Agreement Without Giving In (1981, 2nd ed. 1991)'
+  note: 'The canonical home of the positions/interests distinction that Stone and Heen explicitly cite. Fisher and Ury''s book supplies what the chapter compresses: the full four-principle framework (separate people from problem, focus on interests not positions, invent options for mutual gain, insist on objective criteria), the BATNA concept (best alternative to a negotiated agreement), and detailed case studies of the distinction in complex negotiations. A reader of this skill who wants the deeper treatment of how to identify interests, how to handle resistant parties, and how to use objective criteria when interests genuinely conflict will find it there. Sharpens because Getting to Yes develops the interests-based framework as its entire subject; the skill extracts one specific application (feedback conversations reaching solution impasses) that the book subsumes in a larger negotiation framework.'
 tags:
-  - receiving
-  - conversation
-  - problem-solving
+- exchange
 ---
 
 ## When to reach for this

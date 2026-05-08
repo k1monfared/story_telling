@@ -4,13 +4,14 @@ description: You received evaluation feedback that cannot be sorted as coaching,
 type: atomic
 book: feedback
 sources:
-  - chapter: "9. Cultivate a Growth Identity (Sort Toward Coaching)"
-    lines: "4401-4419"
+- chapter: 9. Cultivate a Growth Identity (Sort Toward Coaching)
+  lines: 4401-4419
 tags:
-  - receiving
-  - identity-trigger
-  - evaluation
-  - diagnostic
+- exchange
+- identity
+- triggers
+- evaluation
+- diagnose
 ---
 
 ## When to reach for this

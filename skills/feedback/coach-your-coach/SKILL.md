@@ -4,13 +4,14 @@ description: You are getting feedback from someone, and either the feedback isn'
 type: atomic
 book: feedback
 sources:
-  - chapter: "12. Get Going (Five Ways to Take Action)"
-    lines: "5978-6115"
+- chapter: 12. Get Going (Five Ways to Take Action)
+  lines: 5978-6115
 tags:
-  - receiving
-  - seeking
-  - conversation
-  - relationship-trigger
+- exchange
+- inquire
+- relationship
+- triggers
+- coaching
 ---
 
 ## When to reach for this

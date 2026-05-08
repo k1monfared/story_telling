@@ -4,15 +4,16 @@ description: The giver of feedback will not or cannot acknowledge their contribu
 type: atomic
 book: feedback
 sources:
-  - chapter: "6. Identify the Relationship System (Take Three Steps Back)"
-    lines: "3154-3162"
+- chapter: 6. Identify the Relationship System (Take Three Steps Back)
+  lines: 3154-3162
 tags:
-  - receiving
-  - conversation
-  - accountability
-  - relationship-trigger
+- exchange
+- accountability
+- relationship
+- triggers
+- inquire
 related:
-  - extends: take-responsibility-first-then-introduce-the-system
+- extends: take-responsibility-first-then-introduce-the-system
 ---
 
 ## When to reach for this

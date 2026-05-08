@@ -4,13 +4,13 @@ description: You are trying to take in coaching or appreciation while a where-do
 type: atomic
 book: feedback
 sources:
-  - chapter: "2. Separate Appreciation, Coaching, and Evaluation"
-    lines: "907-918, 1058-1069"
+- chapter: 2. Separate Appreciation, Coaching, and Evaluation
+  lines: 907-918, 1058-1069
 tags:
-  - receiving
-  - sequencing
-  - evaluation
-  - emotion
+- exchange
+- structure
+- evaluation
+- emotion
 ---
 
 ## When to reach for this

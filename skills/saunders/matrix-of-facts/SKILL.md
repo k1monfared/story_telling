@@ -4,14 +4,13 @@ description: You are drafting prose and want the reader to accept characterizati
 type: atomic
 book: saunders
 sources:
-  - chapter: "And Yet They Drove On: Thoughts on 'Master and Man'"
-    lines: "4181-4213"
-    note: "Saunders observes that Tolstoy's prose is 'almost entirely facts' and that even subjective judgments and characters' interior thoughts are 'rendered as objectively and precisely as Nikita's crossing of the yard.' The Nikita-bridle and samovar-flick passages are paraphrased to show how a basic action ('woman carries samovar to table') is embroidered with concrete factual details (apron flick, carried with effort, set down with a thud, raised before set down). Saunders names the criterion 'a fact draws us in' and proposes the color-coding exercise: mark facts in one color, authorial opinions in another, and notice the page is nearly all the first. The dented-red-car parking-lot example surfaces the underlying mechanic: factual statements produce involuntary buy-in. Subjective claims that arrive 'in a matrix of facts' get accepted in the same spirit as 'the bridle is leather and tasseled.'"
+- chapter: 'And Yet They Drove On: Thoughts on ''Master and Man'''
+  lines: 4181-4213
+  note: 'Saunders observes that Tolstoy''s prose is ''almost entirely facts'' and that even subjective judgments and characters'' interior thoughts are ''rendered as objectively and precisely as Nikita''s crossing of the yard.'' The Nikita-bridle and samovar-flick passages are paraphrased to show how a basic action (''woman carries samovar to table'') is embroidered with concrete factual details (apron flick, carried with effort, set down with a thud, raised before set down). Saunders names the criterion ''a fact draws us in'' and proposes the color-coding exercise: mark facts in one color, authorial opinions in another, and notice the page is nearly all the first. The dented-red-car parking-lot example surfaces the underlying mechanic: factual statements produce involuntary buy-in. Subjective claims that arrive ''in a matrix of facts'' get accepted in the same spirit as ''the bridle is leather and tasseled.'''
 tags:
-  - drafting
-  - prose
-  - register
-  - belief
+- text
+- voice
+- identity
 ---
 
 ## When to reach for this

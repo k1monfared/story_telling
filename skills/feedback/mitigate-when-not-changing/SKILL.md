@@ -4,13 +4,13 @@ description: You have decided not to change in response to feedback. The chapter
 type: atomic
 book: feedback
 sources:
-  - chapter: "10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)"
-    lines: "4886-4930"
+- chapter: 10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)
+  lines: 4886-4930
 tags:
-  - receiving
-  - boundaries
-  - accountability
-  - relationships
+- exchange
+- boundaries
+- accountability
+- relationship
 ---
 
 ## When to reach for this

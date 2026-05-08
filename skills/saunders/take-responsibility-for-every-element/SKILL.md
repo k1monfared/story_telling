@@ -4,18 +4,18 @@ description: You are revising a paragraph, a scene, a shot, or any composed unit
 type: atomic
 book: saunders
 sources:
-  - chapter: "Afterthought #1"
-    lines: "1387-1401"
-  - chapter: "The Heart of the Story: Thoughts on 'The Singers'"
-    lines: "2140-2146"
-    note: "Names the terminal condition for the audit: the artist's final approval comes by letting the work stand. The doorway image — pausing on the way out, seeing nothing to change, and by not darting back in to adjust 'one more thing,' pronouncing the room finished — gives the stopping rule the audit needs."
+- chapter: 'Afterthought #1'
+  lines: 1387-1401
+- chapter: 'The Heart of the Story: Thoughts on ''The Singers'''
+  lines: 2140-2146
+  note: 'Names the terminal condition for the audit: the artist''s final approval comes by letting the work stand. The doorway image — pausing on the way out, seeing nothing to change, and by not darting back in to adjust ''one more thing,'' pronouncing the room finished — gives the stopping rule the audit needs.'
 tags:
-  - revision
-  - drafting
-  - close-reading
-  - composition
+- revision
+- text
+- diagnose
+- structure
 related:
-  - extends: cornfeld-principle
+- extends: cornfeld-principle
 ---
 
 ## When to reach for this

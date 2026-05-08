@@ -4,22 +4,27 @@ description: You are about to critique a draft (in a workshop, an editorial pass
 type: composed
 book: saunders
 sources:
-  - chapter: "We Begin"
-    lines: "188-278"
-    note: "Saunders names the strategic-vs-interpretive shift as the disposition his workshop opens with."
-  - chapter: "A Page at a Time: Thoughts on 'In the Cart'"
-    lines: "569-595, 964-1008"
-    note: "Saunders walks the Hollywood-version artillery sequence on 'In the Cart' and tests Chekhov's teahouse scene against both Cornfeld criteria. The two procedures live in the same chapter as a teaching pair: name the working description of the story, then audit a unit against it."
-  - chapter: "Afterthought #1"
-    lines: "1387-1401"
-    note: "Saunders demonstrates the element-level audit on De Sica's *Bicycle Thieves* sequence as the finer-scope audit that runs after a unit has been judged worth keeping at the unit level."
+- chapter: We Begin
+  lines: 188-278
+  note: Saunders names the strategic-vs-interpretive shift as the disposition his workshop opens with.
+- chapter: 'A Page at a Time: Thoughts on ''In the Cart'''
+  lines: 569-595, 964-1008
+  note: 'Saunders walks the Hollywood-version artillery sequence on ''In the Cart'' and tests Chekhov''s teahouse scene against both Cornfeld criteria. The two procedures live in the same chapter as a teaching pair: name the working description of the story, then audit a unit against it.'
+- chapter: 'Afterthought #1'
+  lines: 1387-1401
+  note: Saunders demonstrates the element-level audit on De Sica's *Bicycle Thieves* sequence as the finer-scope audit that runs after a unit has been judged worth keeping at the unit level.
 tags:
-  - workshop
-  - critique
-  - revision
-  - editing
+- text
+- diagnose
+- revision
+- cut
+- in-the-moment
 related:
-  - composed-of: [ask-strategic-not-interpretive, hollywood-version, cornfeld-principle, take-responsibility-for-every-element]
+- composed-of:
+  - ask-strategic-not-interpretive
+  - hollywood-version
+  - cornfeld-principle
+  - take-responsibility-for-every-element
 ---
 
 ## When to reach for this

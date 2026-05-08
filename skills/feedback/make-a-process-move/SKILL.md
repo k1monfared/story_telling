@@ -4,12 +4,10 @@ description: A feedback conversation has gotten stuck, is escalating, or is cycl
 type: atomic
 book: feedback
 sources:
-  - chapter: "11. Navigate the Conversation"
-    lines: "5394-5427"
+- chapter: 11. Navigate the Conversation
+  lines: 5394-5427
 tags:
-  - receiving
-  - conversation
-  - process
+- exchange
 ---
 
 ## When to reach for this

@@ -4,13 +4,12 @@ description: You are receiving feedback that is poorly delivered, ill-timed, or 
 type: atomic
 book: feedback
 sources:
-  - chapter: "Introduction (From Push to Pull)"
-    lines: "367-386"
+- chapter: Introduction (From Push to Pull)
+  lines: 367-386
 tags:
-  - receiving
-  - reframe
-  - attention
-  - disposition
+- exchange
+- reframe
+- self
 ---
 
 ## When to reach for this

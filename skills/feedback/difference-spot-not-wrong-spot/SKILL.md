@@ -4,13 +4,14 @@ description: You have understood the feedback well enough (you spotted the label
 type: atomic
 book: feedback
 sources:
-  - chapter: "3. First Understand"
-    lines: "1420-1545"
+- chapter: 3. First Understand
+  lines: 1420-1545
 tags:
-  - receiving
-  - inquiry
-  - perspective
-  - truth-trigger
+- exchange
+- inquire
+- reframe
+- triggers
+- intent-impact
 ---
 
 ## When to reach for this

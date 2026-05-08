@@ -4,15 +4,15 @@ description: You received a negative evaluation. The first score is in and it is
 type: atomic
 book: feedback
 sources:
-  - chapter: "9. Cultivate a Growth Identity (Sort Toward Coaching)"
-    lines: "4424-4453"
+- chapter: 9. Cultivate a Growth Identity (Sort Toward Coaching)
+  lines: 4424-4453
 tags:
-  - receiving
-  - identity-trigger
-  - growth-mindset
-  - identity
+- exchange
+- identity
+- triggers
+- growth
 related:
-  - extends: adopt-growth-mindset-for-feedback
+- extends: adopt-growth-mindset-for-feedback
 ---
 
 ## When to reach for this

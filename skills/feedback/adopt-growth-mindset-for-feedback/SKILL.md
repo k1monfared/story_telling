@@ -4,15 +4,16 @@ description: Feedback feels like a verdict on a fixed trait rather than informat
 type: atomic
 book: feedback
 sources:
-  - chapter: "9. Cultivate a Growth Identity (Sort Toward Coaching)"
-    lines: "4195-4321"
-  - external: "Carol S. Dweck, Mindset: The New Psychology of Success (2006)"
-    note: "The canonical home of the fixed/growth distinction Stone and Heen draw on throughout the chapter. Dweck's book supplies what the chapter compresses: specific case studies across domains (sports, business, relationships, education), detailed strategies for recognizing and shifting out of fixed-identity patterns in the moment, the neuroplasticity evidence for growth, and the developmental origins of the two mindsets (how praise for intelligence vs. effort installs them). A reader of this skill who wants the full procedural depth of how to shift from fixed to growth mindset in practice will find it in Dweck's chapters on 'The Growth Mindset in Action' and 'Developing a Growth Mindset.' The book also develops implications Heen and Stone do not: how fixed mindsets affect leadership and relationships, and how the mindset can be recognized in others. Sharpens because the skill covers the feedback-specific application; Dweck's book covers the broader framework and its cultivation."
+- chapter: 9. Cultivate a Growth Identity (Sort Toward Coaching)
+  lines: 4195-4321
+- external: 'Carol S. Dweck, Mindset: The New Psychology of Success (2006)'
+  note: 'The canonical home of the fixed/growth distinction Stone and Heen draw on throughout the chapter. Dweck''s book supplies what the chapter compresses: specific case studies across domains (sports, business, relationships, education), detailed strategies for recognizing and shifting out of fixed-identity patterns in the moment, the neuroplasticity evidence for growth, and the developmental origins of the two mindsets (how praise for intelligence vs. effort installs them). A reader of this skill who wants the full procedural depth of how to shift from fixed to growth mindset in practice will find it in Dweck''s chapters on ''The Growth Mindset in Action'' and ''Developing a Growth Mindset.'' The book also develops implications Heen and Stone do not: how fixed mindsets affect leadership and relationships, and how the mindset can be recognized in others. Sharpens because the skill covers the feedback-specific application; Dweck''s book covers the broader framework and its cultivation.'
 tags:
-  - receiving
-  - identity-trigger
-  - growth-mindset
-  - orientation
+- exchange
+- identity
+- triggers
+- growth
+- preparation
 ---
 
 ## When to reach for this

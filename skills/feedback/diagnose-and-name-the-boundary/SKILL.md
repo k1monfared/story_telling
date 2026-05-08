@@ -4,13 +4,14 @@ description: You are feeling agitated, overwhelmed, or like you can never do any
 type: atomic
 book: feedback
 sources:
-  - chapter: "10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)"
-    lines: "4530-4666"
+- chapter: 10. How Good Do I Have to Be? (Draw Boundaries When Enough Is Enough)
+  lines: 4530-4666
 tags:
-  - receiving
-  - boundaries
-  - diagnostic
-  - relationship-trigger
+- exchange
+- boundaries
+- diagnose
+- relationship
+- triggers
 ---
 
 ## When to reach for this

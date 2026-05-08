@@ -4,13 +4,12 @@ description: You have realized a feedback conversation contains two tangled topi
 type: atomic
 book: feedback
 sources:
-  - chapter: "5. Don't Switchtrack (Disentangle What from Who)"
-    lines: "2622-2648"
+- chapter: 5. Don't Switchtrack (Disentangle What from Who)
+  lines: 2622-2648
 tags:
-  - receiving
-  - script
-  - relationship-trigger
-  - conversation
+- exchange
+- relationship
+- triggers
 ---
 
 ## When to reach for this

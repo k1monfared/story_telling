@@ -4,13 +4,13 @@ description: Someone has just given you forward-looking feedback (advice, a rati
 type: atomic
 book: feedback
 sources:
-  - chapter: "3. First Understand"
-    lines: "1347-1414"
+- chapter: 3. First Understand
+  lines: 1347-1414
 tags:
-  - receiving
-  - inquiry
-  - coaching
-  - evaluation
+- exchange
+- inquire
+- coaching
+- evaluation
 ---
 
 ## When to reach for this

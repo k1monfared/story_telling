@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Storytelling Skills</title>
+  <title>Skills from Books</title>
   <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/base.css">
   <script src="https://k1monfared.github.io/site_kit/js/theme.js"></script>
   <style>
@@ -86,6 +86,20 @@
       font-size: 0.95rem;
     }
 
+    /* ── Categories ── */
+    .category {
+      margin-top: 2rem;
+    }
+
+    .category-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0 0 0.6rem;
+    }
+
     /* ── Book cards ── */
     .cards {
       display: grid;
@@ -161,7 +175,7 @@
 <body>
   <header>
     <div class="container">
-      <a class="site-title" href="./">Storytelling Skills</a>
+      <a class="site-title" href="./">Skills from Books</a>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
         <svg class="moon-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
@@ -183,47 +197,70 @@
 
   <main>
     <div class="container">
-      <h1>Storytelling Skills</h1>
-      <p class="subtitle">Craft and communication skills extracted from close readings of three books.</p>
+      <h1>Skills from Books</h1>
+      <p class="subtitle">Concepts, moves, and reflection prompts distilled from close readings, organized by domain.</p>
 
-      <div class="cards">
-
-        <div class="book-card">
-          <div class="book-card-body">
-            <div class="book-title">A Swim in a Pond in the Rain</div>
-            <div class="book-authors">George Saunders</div>
-            <div class="book-desc">Craft skills for fiction writing, drawn from Saunders's close readings of Tolstoy, Chekhov, Turgenev, and Gogol.</div>
-          </div>
-          <div class="book-card-links">
-            <a href="saunders/log/">Reading Log</a>
-            <a href="saunders/">Skills</a>
+      <div class="category">
+        <div class="category-label">Literature</div>
+        <div class="cards">
+          <div class="book-card">
+            <div class="book-card-body">
+              <div class="book-title">A Swim in a Pond in the Rain</div>
+              <div class="book-authors">George Saunders</div>
+              <div class="book-desc">Craft skills for fiction writing, drawn from Saunders's close readings of Tolstoy, Chekhov, Turgenev, and Gogol.</div>
+            </div>
+            <div class="book-card-links">
+              <a href="saunders/log/">Reading Log</a>
+              <a href="saunders/">Skills</a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="book-card">
-          <div class="book-card-body">
-            <div class="book-title">Thanks for the Feedback</div>
-            <div class="book-authors">Douglas Stone &amp; Sheila Heen</div>
-            <div class="book-desc">Skills for receiving feedback skillfully — separating triggers, understanding the three conversation types, and growing from difficult input.</div>
+      <div class="category">
+        <div class="category-label">Communication</div>
+        <div class="cards">
+          <div class="book-card">
+            <div class="book-card-body">
+              <div class="book-title">Thanks for the Feedback</div>
+              <div class="book-authors">Douglas Stone &amp; Sheila Heen</div>
+              <div class="book-desc">Skills for receiving feedback skillfully — separating triggers, understanding the three conversation types, and growing from difficult input.</div>
+            </div>
+            <div class="book-card-links">
+              <a href="feedback/log/">Reading Log</a>
+              <a href="feedback/">Skills</a>
+            </div>
           </div>
-          <div class="book-card-links">
-            <a href="feedback/log/">Reading Log</a>
-            <a href="feedback/">Skills</a>
+
+          <div class="book-card">
+            <div class="book-card-body">
+              <div class="book-title">Difficult Conversations</div>
+              <div class="book-authors">Douglas Stone, Bruce Patton &amp; Sheila Heen</div>
+              <div class="book-desc">Skills for discussing what matters most — navigating the what-happened, feelings, and identity conversations with clarity and care.</div>
+            </div>
+            <div class="book-card-links">
+              <a href="difficult/log/">Reading Log</a>
+              <a href="difficult/">Skills</a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="book-card">
-          <div class="book-card-body">
-            <div class="book-title">Difficult Conversations</div>
-            <div class="book-authors">Douglas Stone, Bruce Patton &amp; Sheila Heen</div>
-            <div class="book-desc">Skills for discussing what matters most — navigating the what-happened, feelings, and identity conversations with clarity and care.</div>
-          </div>
-          <div class="book-card-links">
-            <a href="difficult/log/">Reading Log</a>
-            <a href="difficult/">Skills</a>
+      <div class="category">
+        <div class="category-label">Relationships</div>
+        <div class="cards">
+          <div class="book-card">
+            <div class="book-card-body">
+              <div class="book-title">Polysecure</div>
+              <div class="book-authors">Jessica Fern</div>
+              <div class="book-desc">Attachment, trauma, and the moves for becoming secure with self and partners. The HEARTS framework, the nested model of attachment, and the work of polysecurity.</div>
+            </div>
+            <div class="book-card-links">
+              <a href="polysecure/log/">Reading Log</a>
+              <a href="polysecure/">Skills</a>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
   </main>

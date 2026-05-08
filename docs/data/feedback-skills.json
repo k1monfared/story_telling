@@ -259,7 +259,8 @@
       "identity",
       "triggers",
       "distortion",
-      "reframe"
+      "reframe",
+      "point-of-view"
     ],
     "related": [],
     "sources": [
@@ -894,7 +895,8 @@
       "exchange",
       "listen",
       "identity",
-      "triggers"
+      "triggers",
+      "voice"
     ],
     "related": [],
     "sources": [

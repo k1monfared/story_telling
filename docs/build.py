@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).parent.parent  # story_telling/
 DOCS_DATA = Path(__file__).parent / "data"
 DOCS_DATA.mkdir(parents=True, exist_ok=True)
 
-BOOKS = ["saunders", "feedback", "difficult"]
+BOOKS = ["saunders", "feedback", "difficult", "polysecure"]
 
 SECTION_KEYS = {
     "When to reach for this": "when",
@@ -22,6 +22,7 @@ SECTION_KEYS = {
     "Probe before & after": "probe",
     "Failure mode this prevents": "failure",
     "Worked micro-example": "example",
+    "Reflection prompts": "reflection_prompts",
     "Source": "source",
     "Related skills": "related_skills",
 }

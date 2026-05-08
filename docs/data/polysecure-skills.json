@@ -1,0 +1,599 @@
+[
+  {
+    "slug": "attune-to-your-partner",
+    "name": "attune-to-your-partner",
+    "type": "atomic",
+    "description": "You realize you've been responding to what your partner presented (the words they said, the surface of their mood) but missing what was happening underneath. They had to escalate to get you to notice. You want to track them more accurately.",
+    "tags": [
+      "listen",
+      "diagnose",
+      "other",
+      "in-the-moment"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Eight",
+        "note": "The A of HEARTS: Attunement. Tracking the partner's inner experience as it shifts, not just the explicit content of what they're saying or doing."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>A partner finally tells you they've been struggling for weeks and you realize you didn't notice. They were less themselves, sleeping differently, quieter on calls — and you read each as a one-off rather than as a pattern. Reach for this whenever you find yourself surprised by news a partner gives that an attuned reader of them would have already known.</p>",
+      "move": "<ol>\n<li>Notice shifts. The partner who is normally chatty has been quiet at three meals in a row. The partner who usually texts in the evening hasn't this week. These are the data of attunement.</li>\n<li>Don't immediately interpret. The shifts mean something, but not necessarily what you'll first assume. Hold them as questions, not conclusions.</li>\n<li>Ask. \"I've noticed you've been quieter than usual. What's going on for you?\" The asking itself is part of attunement — it signals you saw something.</li>\n<li>Listen for what's underneath the answer. The first answer is usually a surface answer. The deeper state often emerges only when the surface is met with patience.</li>\n<li>Don't rush to fix. Attunement is the work of seeing accurately; problem-solving is downstream and only sometimes wanted. \"Tell me more\" is almost always more useful than \"have you tried...\"</li>\n<li>Track over time. Attunement isn't a single conversation; it's a practice of continuously updating your model of who this person is right now.</li>\n</ol>",
+      "signal": "<p>Your partner says some version of \"I feel really seen by you\" or \"you got me.\" When something difficult happens, you noticed before they had to escalate to tell you. The relationship has a quality of being known.</p>",
+      "failure": "<p>Without attunement, partners have to escalate to be seen. Distress becomes shouting; quiet becomes withdrawal; subtle requests become explicit demands. The partner exhausts themselves managing both their actual state and their performance of that state strongly enough for you to notice.</p>",
+      "example": "<p>Lila notices that her partner Reese has been less playful for about ten days — replies are shorter, jokes don't land, plans get rescheduled. Instead of waiting for Reese to bring it up, Lila says: \"You've been a little quieter than usual. I'm not sure if something's going on or if it's just a tired week, but I wanted to ask.\" Reese pauses, then says they've been struggling with their other partner and didn't know if it was appropriate to bring it up. Lila listens. The fact of the noticing is itself most of the work; the conversation deepens from there.</p>",
+      "reflection_prompts": "<ul>\n<li>How do you experience your partners as attuning to you?</li>\n<li>How do you know that your partners \"get\" you and care about your experience?</li>\n<li>In what ways do you already attune to your partners? Where does it come naturally?</li>\n<li>How could you better or differently attune to your partners to support them in feeling even more seen and understood?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. The \"Attunement\" letter, with reflection on tracking partners' inner experience and supporting them in feeling seen.</p>",
+      "related_skills": "<ul>\n<li>See also <code>be-here-with-each-partner</code> — attunement is downstream of presence.</li>\n<li>See also <code>turn-toward-after-rupture</code> — accurate attunement makes repair easier; missed attunement is often what creates rupture in the first place.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "attune-to-yourself",
+    "name": "attune-to-yourself",
+    "type": "atomic",
+    "description": "You react quickly to relational events — anger, withdrawal, sudden energy — and discover later that the reaction wasn't about what you thought it was about. You want to slow the gap between feeling and reacting so the actual signal can be read.",
+    "tags": [
+      "diagnose",
+      "self",
+      "in-the-moment",
+      "emotion"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Nine",
+        "note": "Fern names self-attunement as the first move of secure attachment with self — knowing what you actually feel before reacting, on a body level not just a cognitive one."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You snapped at your partner over the dishes and realized later it wasn't about the dishes. You went silent at dinner and couldn't say why. You agreed to plans you didn't want and then resented the plans. Reach for this whenever your reaction feels mismatched to the trigger — that mismatch usually means an inner state went unobserved long enough to come out sideways.</p>",
+      "move": "<ol>\n<li>Pause before responding. Even five seconds. The reaction wants to leave your body immediately; let it sit.</li>\n<li>Name what's happening physically. Where do you feel it? Throat, chest, stomach? Tight, hot, hollow? You're not interpreting yet — just describing the sensation.</li>\n<li>Distinguish what you feel from what you think about what you feel. \"I feel anxious\" is different from \"I'm being needy.\" The first is a state; the second is a judgment.</li>\n<li>Find the bundle of feelings, not just the loudest one. Underneath anger there's often hurt; underneath shutdown there's often fear; underneath busyness there's often loneliness. The dominant emotion crowds the others out.</li>\n<li>Ask what state is being signaled. Not \"what should I do about this?\" but \"what does my body think is happening here?\"</li>\n<li>Only after the state is read, choose a response. The response from a read state will be more accurate than the response from an unread state.</li>\n</ol>",
+      "signal": "<p>You can name your inner state in present tense before acting on it. The phrase \"I'm noticing I feel...\" becomes available to you instead of just the reaction itself. Over time, the gap between feeling and reacting widens, and the reaction becomes a choice.</p>",
+      "failure": "<p>Without self-attunement, you treat your reactions as accurate reports about external reality. You're convinced your partner did something wrong because you feel hurt — when actually you feel hurt because of an unrelated trigger that the partner happened to brush. The relationship absorbs the cost of your unread inner state.</p>",
+      "reflection_prompts": "<ul>\n<li>What does self-attunement look like for you in your strongest moments? In your weakest?</li>\n<li>What state are you most likely to overlook in yourself? Sadness? Anger? Need? Fear?</li>\n<li>When you notice a strong reaction starting, what's your typical pattern — push it down, act on it immediately, or pause and check in?</li>\n<li>Who in your life has modeled self-attunement well for you? Who has modeled its absence?</li>\n</ul>",
+      "source": "<p>Chapter Nine: The S in HEARTS — Secure Attachment with Self. Fern locates self-attunement as the foundation of secure self-relationship; without it, all the partner-facing moves carry weight that should be done internally.</p>",
+      "related_skills": "<ul>\n<li>See also <code>self-regulate-without-others</code> — attunement reads the state; self-regulation works with it instead of routing it through a partner.</li>\n<li>Compares to <code>cultivate-the-inner-nurturer</code> — attunement is the noticing; the inner nurturer is what responds to what was noticed.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "avoid-auto-regulation-via-others",
+    "name": "avoid-auto-regulation-via-others",
+    "type": "atomic",
+    "description": "When you're activated, you reach for a partner — text, call, vent — to bring you back to baseline. You want to notice the pattern, name it, and start choosing whether to use the partner this way instead of doing it on autopilot.",
+    "tags": [
+      "diagnose",
+      "self",
+      "relationship"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Nine",
+        "note": "Fern distinguishes auto-regulation (using others to do regulation work that needs to happen internally) from interdependent reaching out (which is healthy and welcome)."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You notice you've been calling a partner three times today not because anything urgent is happening but because the contact itself calms you. Or you can't sit with mild distress for ten minutes without reaching out. Reach for this when you suspect the partner is doing nervous-system work that you could be learning to do yourself.</p>",
+      "move": "<ol>\n<li>Notice the impulse to reach. Catch it before it becomes a text. The flag is usually: I'm activated AND the activation is mild AND I haven't tried to settle myself yet.</li>\n<li>Distinguish auto-regulation from clean reach. Clean reach: I want to share this. Auto-regulation: I need them to fix this. The first is connection; the second is using the partner as a thermostat.</li>\n<li>Try self-regulation first for low-grade activation. Three breaths. A walk. Sitting with the sensation for five minutes. Often the activation drops and the urgency to reach also drops.</li>\n<li>After self-regulating, notice if you still want to reach out. If yes, reach out — but from a more regulated state, with a clearer ask. The conversation will be different.</li>\n<li>For higher-grade activation, do reach out — that's what attachment is for. The work is to distinguish \"I genuinely need contact\" from \"I'm using contact to avoid feeling something.\"</li>\n<li>Tell your partners about the pattern. They probably already feel it. Naming it together lets them ask \"what kind of reach is this?\" without it being an accusation.</li>\n</ol>",
+      "signal": "<p>You can sit with low-grade activation for a few minutes without immediate contact. When you do reach out, you have a clearer sense of what for. Your partner experiences your reaching as connection rather than as nervous-system maintenance.</p>",
+      "failure": "<p>Without this distinction, your partner becomes responsible for managing your nervous system. They can't ever be unavailable without it being a small crisis; their bandwidth becomes shaped around your regulation. Over time, this depletes them and prevents you from developing the internal capacity that would actually solve the problem.</p>",
+      "reflection_prompts": "<ul>\n<li>In what ways do you autoregulate, or try to use others to regulate, so that you don't have to self-regulate?</li>\n<li>What does self-regulation look like for you? What would you like more of?</li>\n<li>Are there specific situations where the auto-regulation pattern is strongest? What's common about them?</li>\n<li>What is your relationship with your inner nurturer like? How could that part become more central?</li>\n</ul>",
+      "source": "<p>Chapter Nine: The S in HEARTS — Secure Attachment with Self. Fern frames auto-regulation as the most common pattern that prevents self-security from forming.</p>",
+      "related_skills": "<ul>\n<li>See also <code>self-regulate-without-others</code> — the active practice of doing the regulation work yourself.</li>\n<li>See also <code>attune-to-yourself</code> — you can't tell auto-regulation from clean reach without first reading your own state.</li>\n<li>See also <code>cultivate-the-inner-nurturer</code> — the part of you that meets distress with care so an external partner doesn't have to.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "be-here-with-each-partner",
+    "name": "be-here-with-each-partner",
+    "type": "atomic",
+    "description": "Time spent with a partner is split — half-attention on the phone, lingering thoughts of another partner, mental rehearsal of the next thing. You want to bring full presence so the time you do have actually counts as connection.",
+    "tags": [
+      "in-the-moment",
+      "other",
+      "relationship",
+      "assert"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Eight",
+        "note": "The H of HEARTS: Here, with each partner. Fern names presence as the foundation of all subsequent attachment moves; you cannot be available or responsive when you are absent."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You're with your partner but your mind is somewhere else — work, another partner, the phone, an upcoming logistics question. Reach for this whenever you notice the time together has become low-quality background even though the calendar says you're together. In nonmonogamous configurations, this matters extra: time per partner is finite, so each shared interval has to actually be present.</p>",
+      "move": "<ol>\n<li>Notice when you're not present. The flag is usually subtle — half-listening, looking at your phone, mental wandering. The first work is just to notice.</li>\n<li>Decide whether you can be present in this moment. Sometimes the answer is no: you're exhausted, distracted by something urgent, post-stress and not regulated. Naming this is honest. Pretending presence is worse than naming its absence.</li>\n<li>If yes: put the distractions away. Phone in another room, not just face-down. The visible phone is itself a signal of half-attention.</li>\n<li>Bring your body into the room. Eye contact, physical proximity, slow breath. Presence is a body state, not a mental decision.</li>\n<li>Ask one question and listen to the answer. Listen as if the answer mattered — because the listening is what produces presence as much as anything.</li>\n<li>When you return from another partner, fully arrive. The transition from one connection to another is its own work; don't show up half-residing in the place you came from.</li>\n</ol>",
+      "signal": "<p>The other person can tell you're there. They share something they wouldn't have shared if you'd been half-present. The interaction has the quality of \"we just spent meaningful time together\" rather than \"we were in the same room.\"</p>",
+      "failure": "<p>Without active presence, time with each partner accumulates as low-grade hours that don't deepen the relationship. The partner reads the half-attention as \"I'm not important enough for full presence\" and either protests, withdraws, or starts to disinvest. Nonmonogamy can amplify this: when each partner gets less time, low-quality time doesn't compensate.</p>",
+      "example": "<p>Tomas comes home after dinner with another partner and finds his nesting partner Erica reading. He sits down nearby and starts checking his email. Erica says nothing but the quality of her presence shifts. Tomas notices, sets the phone in another room, and asks her about the book. She tells him the part she just read; he listens; she puts the book down. Twenty minutes of full presence does what two hours of co-existing wouldn't.</p>",
+      "reflection_prompts": "<ul>\n<li>How do you show that you are here with your partners? How do you show when you're not?</li>\n<li>Are there ways you could be more present with your partners than you currently are?</li>\n<li>How do your partners signal that they are here with you? When that's missing, how do you experience it?</li>\n<li>What rituals around departures and arrivals would help you fully arrive when transitioning between partners?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. The \"Here\" letter, with reflection prompts on presence, availability, and responsiveness.</p>",
+      "related_skills": "<ul>\n<li>See also <code>attune-to-your-partner</code> — presence is the precondition for attunement; you can't track an inner state you're not paying attention to.</li>\n<li>See also <code>departure-and-return-rituals</code> — the moments of transition between partners are where presence is most often lost.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "build-relationship-rituals",
+    "name": "build-relationship-rituals",
+    "type": "atomic",
+    "description": "Your relationships work fine when you're in steady rhythms but lose coherence when life gets busy or partners go through hard periods. You want predictable practices that anchor the relationship to a felt sense of \"we are here\" regardless of circumstance.",
+    "tags": [
+      "preparation",
+      "relationship",
+      "other"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Eight",
+        "note": "The R of HEARTS: Rituals and Routines. Predictable practices that signal continuity to the nervous system; especially important in nonmonogamous configurations where time is split."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You realize you and a partner haven't done anything specifically with each other (not just co-existing) in weeks. Or transitions between partners feel jarring — there's no marker that says \"we're shifting from one configuration to another.\" Reach for this whenever the relationship needs more visible structure to feel reliable.</p>",
+      "move": "<ol>\n<li>Identify what's already a ritual without being named. Sunday morning coffee. The text-good-morning habit. The kiss before leaving. These are the existing practices; name them so they're conscious.</li>\n<li>Pick one or two new rituals you'd actually keep. Don't over-design. A weekly check-in dinner. A morning hug before phones come out. A monthly date that's protected from cancellation. A pre-departure or post-arrival ritual when one of you has been on a date with another partner.</li>\n<li>Make them small enough to survive busy weeks. Rituals fail when they're too elaborate; they thrive when they're tiny and reliable.</li>\n<li>Make them visible. Mark them on the calendar. Talk about them. The partner who reliably knows the next ritual is coming has a different felt sense than the partner trying to remember.</li>\n<li>Adjust together when life shifts. Rituals can change; what matters is that they remain shared and named, not that they remain identical forever.</li>\n<li>Especially in nonmonogamy: build rituals around departures and arrivals. A specific way you say goodbye before a date with another partner; a specific way you reconnect after.</li>\n</ol>",
+      "signal": "<p>Your partners can name two or three rituals that anchor the relationship. Hard weeks don't erode the relationship the way they used to because the rituals carry the felt sense of continuity even when energy is low. Transitions between partners feel less like ruptures.</p>",
+      "failure": "<p>Without rituals, the relationship's felt continuity depends on each partner's capacity to actively generate connection in the moment. When capacity drops — sickness, work crunch, mental health periods — the relationship feels uncertain. Rituals let the relationship's structure carry weight that the people can't always carry themselves.</p>",
+      "reflection_prompts": "<ul>\n<li>What routines do you and your partners already have that are meaningful to you and support feeling safe and secure together?</li>\n<li>What rituals or relationship rites of passage have you participated in that brought you closer?</li>\n<li>Are there daily or regular routines that would support you in feeling more secure with your partners?</li>\n<li>What do you and your partners each need to reconnect after being apart? What rituals would help?</li>\n<li>Are there ways of checking in or saying goodbye before a date with another partner that would create more security? How do you want to be approached after?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. The \"Rituals and Routines\" letter, with explicit reflection on transitions in nonmonogamous practice.</p>",
+      "related_skills": "<ul>\n<li>See also <code>departure-and-return-rituals</code> — a more focused application of the ritual move to the specific transitions of nonmonogamy.</li>\n<li>See also <code>develop-the-safe-haven</code> — rituals are infrastructure; the safe haven they create is the resulting felt sense.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "cultivate-the-inner-nurturer",
+    "name": "cultivate-the-inner-nurturer",
+    "type": "atomic",
+    "description": "When you fall short, your inner voice attacks you. You'd never speak to a friend the way you speak to yourself. You want a different inner relationship — not affirmations, but the steady, kind responsiveness that secure attachment offers, applied internally.",
+    "tags": [
+      "self",
+      "identity",
+      "growth"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Nine",
+        "note": "Fern names the inner nurturer as the attachment-figure-shaped part of the self, the internal voice that meets distress with care rather than judgment."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You make a mistake and immediately rehearse what's wrong with you. You feel sad and the inner response is \"stop being weak.\" You have a need and the inner response is \"you shouldn't need that.\" Reach for this whenever you notice the inner critic is the loudest voice — and it almost always is, until you build something else.</p>",
+      "move": "<ol>\n<li>Catch the inner critic mid-speech. Even partway. The words are usually some variant of \"you're stupid,\" \"you should know better,\" \"what's wrong with you,\" \"you're too much,\" \"you're not enough.\"</li>\n<li>Name what is actually happening underneath. The critic is responding to a real moment of vulnerability — a mistake, a need, a hurt. The critic's job, originally, was probably to keep you safe by motivating change before someone else punished you. It's not lying, but it's not nurturing.</li>\n<li>Ask: how would I respond to a friend in this moment? Not a fantasy friend — a specific real friend you love. What would you say to them about this same shortfall?</li>\n<li>Address yourself in that voice. Out loud if you can. \"Of course you're tired. That was a hard week. You don't have to be more than you are right now.\"</li>\n<li>Don't fight the inner critic; let it speak and respond with the nurturer. The critic doesn't have to be silenced, just outvoted by something steadier.</li>\n<li>Practice it deliberately when stakes are low so the voice is available when stakes are high.</li>\n</ol>",
+      "signal": "<p>When you mess up, you can locate at least one part of yourself that responds with kindness instead of attack. The critic still shows up, but it's no longer the only voice in the room. You start to use phrases internally that you would use with someone you love.</p>",
+      "failure": "<p>Without an inner nurturer, every shortfall is an attachment rupture with yourself. You become exhausting to be around because you're constantly trying to outrun your own internal punishment. Your partners can never love you enough to compensate; the work has to be inside.</p>",
+      "reflection_prompts": "<ul>\n<li>What does your inner critic typically say? Write down its three favorite phrases.</li>\n<li>Whose voice is the critic, originally? A parent? A teacher? A culture? A bully?</li>\n<li>What would the most loving friend you have say about the thing the critic is attacking right now?</li>\n<li>What does it feel like in your body when the inner nurturer speaks instead of the critic?</li>\n</ul>",
+      "source": "<p>Chapter Nine: The S in HEARTS — Secure Attachment with Self. Fern frames the inner nurturer as the internalized version of a secure attachment figure: not flattering, not lying, just consistently responsive to your actual experience with care.</p>",
+      "related_skills": "<ul>\n<li>See also <code>attune-to-yourself</code> — first you have to know what's happening; then the nurturer can respond to it.</li>\n<li>Contrasts <code>recognize-your-attachment-style</code> — the style describes what was learned; the inner nurturer is what you build to revise the learning.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "departure-and-return-rituals",
+    "name": "departure-and-return-rituals",
+    "type": "atomic",
+    "description": "Transitions between partners feel jarring — one of you leaves for a date with another partner without much marker, and the return is awkward. You want predictable practices around the going and the coming back so the nervous system has signals it can read.",
+    "tags": [
+      "preparation",
+      "relationship",
+      "other",
+      "in-the-moment"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Eight",
+        "note": "Fern's explicit nonmonogamy application of rituals: the moments of transition between partners are where attachment security is most often lost or built."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You're about to leave for a date with another partner and you can feel both you and your nesting partner tense up — but neither of you has named what would help. Or you just got home and you can feel the ambient awkwardness of \"now what?\" Reach for this whenever the transitions are doing damage by being unmarked.</p>",
+      "move": "<ol>\n<li>Identify what each of you needs at departure. The partner staying home: a specific affirmation, a hug, a reminder that they remain particular to you, a heads-up about expected return time. The partner going: maybe a moment to fully arrive at the door before stepping out, maybe a shared word about how long you'll be gone.</li>\n<li>Identify what each of you needs at return. The partner returning: time to land, to fully arrive in this relationship's space again, not to be quizzed immediately. The partner who stayed: some kind of reconnection — a hug, a kiss, eye contact, \"I missed you\" — before logistics.</li>\n<li>Make it small enough to keep. A fifteen-second hug at the door. A specific phrase you say when leaving (\"I'm going, I'll be back, I love you\"). A shared moment when you walk back in before phones come out.</li>\n<li>Don't over-disclose at the return unprompted. The returning partner doesn't owe a play-by-play of the date. The partner who stayed doesn't have to perform interest. What matters is the reconnection, not the report.</li>\n<li>Adjust as you learn. The ritual that works in month one might not work in month six. The point is the practice, not the specific form.</li>\n</ol>",
+      "signal": "<p>Departures and returns feel like small reliable events, not minor crises. The partner staying home knows what to expect; the partner returning knows how to come back. Both of you can describe the rituals you use without effort.</p>",
+      "failure": "<p>Without departure and return rituals, every transition is a small unmarked rupture. The partner staying home reads the ambient absence as displacement; the partner returning doesn't fully arrive. Over time, the relationship accumulates a quiet wear from these unmarked transitions that no specific event can be blamed for.</p>",
+      "reflection_prompts": "<ul>\n<li>What do you and your partners each need to reconnect with each other after being apart?</li>\n<li>Are there ways of checking in or saying goodbye before going on a date with another person that would create more safety and security?</li>\n<li>How do you want to connect or be approached when you return from time with another partner?</li>\n<li>What rituals have you tried that worked? What have you tried that didn't?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. Fern's explicit attention to nonmonogamous transitions as the place where the ritual move has its highest leverage.</p>",
+      "related_skills": "<ul>\n<li>See also <code>build-relationship-rituals</code> — the general move; this is the application to nonmonogamy's specific transitions.</li>\n<li>See also <code>be-here-with-each-partner</code> — full presence is what makes the ritual mean something.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "develop-the-safe-haven",
+    "name": "develop-the-safe-haven",
+    "type": "atomic",
+    "description": "Your partner is hurting and you respond by trying to fix it, defending against it, or offering optimism — and the partner ends up feeling more alone after the conversation, not less. You want to learn to be the side of attachment that can simply hold the hard moment without flinching.",
+    "tags": [
+      "listen",
+      "other",
+      "relationship",
+      "emotion"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Seven",
+        "note": "Fern names the safe haven as one of two key attachment functions: the partner you can return to when you are hurting, who can hold the hard moment without making it about them or rushing to repair it."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>A partner has come to you with something hard — fear, sadness, news of a hurt — and you notice your impulse is to do something about it: solve, reassure, defend, deflect. Reach for this whenever the partner needs to be held in the difficulty, not pulled out of it.</p>",
+      "move": "<ol>\n<li>Slow down. The first move is usually not the right move. Whatever you were about to say, hold it.</li>\n<li>Acknowledge before responding. \"That sounds really hard\" or simply \"I'm here.\" Skip if it'd feel performative; the silence and the body language do the work too.</li>\n<li>Don't try to fix unless they ask. Most safe-haven moments don't want a fix; they want a witness.</li>\n<li>Don't take it personally if the difficulty is about you. They can be telling you something hurt them and need you to hold it without flinching. The simultaneous practice: hold them AND don't collapse into shame.</li>\n<li>Stay with them long enough that the difficulty has room to be there. Not five minutes between other agenda items; long enough that it's actually held.</li>\n<li>Ask what they need. \"What would help right now?\" The answer might be \"just sit with me,\" might be \"tell me it'll be okay,\" might be \"help me think about what to do.\" Match their actual need.</li>\n</ol>",
+      "signal": "<p>After a hard conversation, the partner says some version of \"I feel less alone with this\" or simply seems more settled. They reach for you again the next time something is hard. The relationship has the felt quality of \"I can come here when I need to.\"</p>",
+      "failure": "<p>Without safe-haven function, partners learn that bringing hard things to you costs them more energy than it gives. They start managing your reactions instead of bringing the actual difficulty. The relationship becomes a place you can't bring your full weight to.</p>",
+      "reflection_prompts": "<ul>\n<li>How does each partner already act as a safe haven for you?</li>\n<li>In what ways do they show up for you that feel supportive and comforting?</li>\n<li>How could a partner help you feel even more safe with them, in general or in specific situations?</li>\n<li>In what ways can you show up more as a safe haven for each partner?</li>\n</ul>",
+      "source": "<p>Chapter Seven: The Foundations of Being Polysecure. Fern lists the safe haven reflection questions and frames the safe haven as one half of attachment-based partnership.</p>",
+      "related_skills": "<ul>\n<li>See also <code>develop-the-secure-base</code> — the other half of attachment function: the partner who supports your venturing out.</li>\n<li>Cross-references <code>difficult/acknowledge-feelings-before-problem-solving</code> — the same move from a different book; acknowledgment as a precondition to anything else.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "develop-the-secure-base",
+    "name": "develop-the-secure-base",
+    "type": "atomic",
+    "description": "Your partner has a project, ambition, or new connection forming, and your reaction is to subtly discourage, compete, or withhold support. You want to be the kind of presence that supports them venturing out — not a wall they have to climb to grow.",
+    "tags": [
+      "assert",
+      "other",
+      "relationship",
+      "growth"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Seven",
+        "note": "The secure base is the other half of attachment function: the partner who supports growth and exploration rather than only meeting distress. Especially relevant in nonmonogamy where a partner's other relationships are part of what they're 'venturing toward.'"
+      }
+    ],
+    "sections_html": {
+      "when": "<p>Your partner is talking about something they're growing toward — a new job, a creative project, a new partner, a course they want to take. You notice your impulse is to be careful, to introduce caveats, to remind them of the costs. Reach for this when the part of you that wants to stay close is overriding the part that wants to support their venturing.</p>",
+      "move": "<ol>\n<li>Notice the impulse to limit. Not to suppress it — just to see it. Often it's protective; sometimes it's possessive; often it's a mix.</li>\n<li>Distinguish concern from withholding. There's a difference between sharing a real concern (\"I'm worried about how tired you'll be\") and reflexively curbing them (\"are you sure that's a good idea?\"). The first comes from care; the second often comes from your own fear of change.</li>\n<li>Encourage. Not flattery — specific encouragement of the venture. \"I think you're well-suited for this.\" \"I want to see you do this.\" \"Tell me how I can support you.\"</li>\n<li>Don't make their venture about you. Their growth is theirs. Your reactions to it are yours. Mixing the two — making your discomfort their problem — is the failure mode.</li>\n<li>In nonmonogamy: their venture often includes another relationship. The work of secure-base function applies even when the venture pulls them toward another partner. This is harder; it's the same move.</li>\n<li>Bring your own concerns separately when needed. If their venture has real costs to you, those costs deserve naming — but in their own conversation, not as a wet-blanket on their ambition.</li>\n</ol>",
+      "signal": "<p>Your partner brings their growing edges to you because they expect to be supported, not curbed. They venture more, and they return to you with what they learned. The relationship has the quality of \"you make me bigger, not smaller.\"</p>",
+      "failure": "<p>Without secure-base function, partners learn to hide their growth from you because each ambition gets met with fear, resistance, or competition. They stop telling you about new ideas; they pursue them in private; they grow apart not because of any specific event but because the relationship couldn't hold their becoming.</p>",
+      "reflection_prompts": "<ul>\n<li>How is each partner already acting as a secure base for you?</li>\n<li>What does growth look like for you? Is it usually a shared or a personal experience, or both?</li>\n<li>How could partners support you in regard to your other relationships?</li>\n<li>How could you better support or encourage your partners' dreams or aspirations to grow and develop?</li>\n<li>How could you better show genuine interest or curiosity in things that are important to your partners?</li>\n</ul>",
+      "source": "<p>Chapter Seven: The Foundations of Being Polysecure. The secure base reflection questions, with explicit attention to the unique nonmonogamous case of supporting partners' other connections.</p>",
+      "related_skills": "<ul>\n<li>See also <code>develop-the-safe-haven</code> — the other half of attachment function.</li>\n<li>See also <code>express-particular-delight</code> — the secure base communicates specific belief in this person, not generic encouragement.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "distinguish-attachment-relationships",
+    "name": "distinguish-attachment-relationships",
+    "type": "atomic",
+    "description": "You have several connections of different shapes — romantic, sexual, intimate-friend, casual — and you're treating them with the same expectations even though they're not the same kind of relationship. You want to apply attachment work where it fits and let the other connections be what they are.",
+    "tags": [
+      "diagnose",
+      "preparation",
+      "relationship",
+      "separate"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Five",
+        "note": "Fern argues that not every romantic or sexual connection should be attachment-based, and that conflating them produces both over-investment in casual connections and under-investment in actual attachment partnerships."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You're confused about why a connection feels disappointing — they didn't show up the way you wanted, but you can't quite say why you wanted it. Or you're investing HEARTS-level work in a connection that the other person seems to be holding casually. Reach for this whenever the type of relationship hasn't been distinguished from the activity it currently involves.</p>",
+      "move": "<ol>\n<li>Sort your significant relationships into rough types: - <strong>Attachment-based partnership</strong>: we expect to show up for each other in ongoing, body-felt ways; we'd notice each other's absence; we're each other's safe haven and/or secure base - <strong>Friendly-sexual connection</strong>: real, valued, but without the expectation that we are each other's people in attachment terms - <strong>Close friendship that may be partially attachment-based</strong>: significant connection that meets some attachment functions - <strong>Casual or comet connection</strong>: occasional, valued, but not configured for daily presence or repair work</li>\n<li>Apply the right expectations to each type. The friendly-sexual connection's failure to text every morning isn't a failure — that wasn't the contract. The attachment partnership's failure to be available during a crisis IS a failure — that was the contract.</li>\n<li>Where the expectation and the type don't match, get curious about which to update. Sometimes the type is right and the expectation needs revising. Sometimes the type was misidentified and a real attachment is forming that you both should name.</li>\n<li>Don't downgrade or upgrade unilaterally. The type of a relationship is something both people hold. Re-categorizing it in your head without saying so produces the same drift you started with.</li>\n<li>Recognize that types can change over time — and changes deserve a conversation. The friend who became a partner. The partner who became a friend. The casual connection that deepened. Each shift is a real moment of renegotiation.</li>\n</ol>",
+      "signal": "<p>You can describe each of your significant relationships in terms of its type. Your expectations are calibrated to the type each one actually is. You stop being disappointed by casual connections for not being attachment partnerships, and you stop being relieved that attachment partnerships are \"low-maintenance\" because that's not actually what was wanted.</p>",
+      "failure": "<p>Without this distinction, two patterns recur: investing attachment-level energy in connections that aren't configured to receive it (and getting hurt when they don't reciprocate), and under-investing in actual attachment partnerships (because you're treating them like the casual ones).</p>",
+      "reflection_prompts": "<ul>\n<li>For each significant relationship in your life: what type is it from your perspective? From theirs?</li>\n<li>Are there relationships where you've been investing attachment-level work without it being explicit?</li>\n<li>Are there relationships you've been treating as casual that have actually become attachment-based?</li>\n<li>When you read this list of types, which one describes each of your current connections most accurately?</li>\n</ul>",
+      "source": "<p>Chapter Five: Attachment and Nonmonogamy. Fern's working distinction between attachment-based and other valuable forms of intimate connection.</p>",
+      "related_skills": "<ul>\n<li>See also <code>name-the-relationship-type</code> — the conversation move that turns this internal sorting into shared understanding.</li>\n<li>See also <code>develop-the-safe-haven</code> and <code>develop-the-secure-base</code> — the moves that apply specifically to attachment-based connections.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "express-particular-delight",
+    "name": "express-particular-delight",
+    "type": "atomic",
+    "description": "Your partners know you love them in the abstract but can't easily point to recent moments where you showed them they specifically — not just any partner — were precious to you. You want to make the delight visible and specific.",
+    "tags": [
+      "assert",
+      "other",
+      "relationship"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Eight",
+        "note": "The E of HEARTS: Expressed Delight. Fern emphasizes the particular over the generic — showing this specific person their unique value, especially in nonmonogamous configurations where partners can begin to feel interchangeable."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You realize it's been a while since you said anything specifically affectionate to a partner — not generic (\"I love you\"), but particular (\"the way you raise your eyebrow when you don't believe me makes me happy\"). Reach for this whenever the relationship has settled into competent co-management without the visible delight that marked it earlier. In nonmonogamy: reach for this especially before or after a date with another partner, when the partner not on the date most needs to know they remain irreplaceable.</p>",
+      "move": "<ol>\n<li>Notice particular things. Not types — particular instances. The specific way they laugh at a particular kind of joke. The way they sit when they're listening hard. The exact phrase they use when they're delighted.</li>\n<li>Tell them what you noticed. Out loud. With specificity. \"I love that you do that thing with your hands when you're explaining something\" lands very differently than \"you're so smart.\"</li>\n<li>Don't confuse delight with reassurance. Reassurance is a response to insecurity (\"you're great, don't worry\"). Delight is unprompted appreciation (\"I keep thinking about how you handled that conversation last week\").</li>\n<li>Calibrate to what they receive well. Some partners want it constantly; some find it overwhelming; many have a specific channel — words, touch, gifts, time, acts — that lands more than the others.</li>\n<li>Especially before or after a date with another partner, deliberately offer expressed delight. The body of the partner left at home (or returning) needs the explicit signal: you remain unique to me.</li>\n</ol>",
+      "signal": "<p>Partners can recall recent specific things you said about what you love about them. They feel particular to you, not interchangeable with hypothetical other partners. The relationship has texture beyond functioning.</p>",
+      "failure": "<p>Without explicit, particular delight, partners begin to feel like one of several functional connections. Nonmonogamy can accelerate this if delight becomes generic (\"I love you\" in identical wording to multiple partners). The remedy isn't restricting connection; it's particularizing the delight.</p>",
+      "reflection_prompts": "<ul>\n<li>How do you already show expressed delight for your partners?</li>\n<li>Would your partners like more or different expressed delight from you? How can you provide this?</li>\n<li>How do your partners let you know that you are unique, special, and precious to them?</li>\n<li>Are there moments (before or after a partner is on a date with someone else) when expressed delight is more or less supportive to you?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. The \"Expressed Delight\" letter, with explicit reflection on what particular delight looks like for both giver and receiver.</p>",
+      "related_skills": "<ul>\n<li>See also <code>be-here-with-each-partner</code> — you can't notice particular things without presence.</li>\n<li>See also <code>attune-to-your-partner</code> — particular delight is informed by what you've noticed about who they specifically are.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "name-the-relationship-type",
+    "name": "name-the-relationship-type",
+    "type": "atomic",
+    "description": "A relationship is sliding toward something the people in it haven't agreed to — one person treating it as attachment-based while the other treats it as casual, or two people unsure whether they're partners or close friends. You want to make the implicit type explicit before the mismatch produces hurt.",
+    "tags": [
+      "preparation",
+      "inquire",
+      "exchange",
+      "relationship"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Seven",
+        "note": "Fern argues that not every relationship should be attachment-based, and that naming the relationship type with each partner reduces ambiguity and prevents one party from over-investing in attachment work the other doesn't share."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You catch yourself uncertain whether to feel hurt that a connection didn't show up the way you expected — because you weren't sure they were supposed to. Or you notice you're investing more (planning, coordinating, emotionally) than the other person seems to be. Reach for this whenever the implicit type of the relationship hasn't been named, especially in nonmonogamous configurations where the defaults aren't shared.</p>",
+      "move": "<ol>\n<li>Distinguish the major options. Attachment-based partnership: I'm one of your people; we expect to show up for each other; we'd notice each other's absence. Friendly-sexual or casual: connection without the expectation that we're each other's safe haven. Close friendship: significant connection that may or may not include attachment dimensions. Comet, satellite, or seasonal: configurations specific to nonmonogamous practice.</li>\n<li>Bring it up with the actual person. Not with friends, not in your journal — with them.</li>\n<li>Ask, don't impose. \"I want to check in about what we're building. I've been treating this as attachment-based; I want to know how you're holding it.\" Leave room for them to disagree or want something different.</li>\n<li>Listen for the gap between what they say and what they do. Words can be aspirational; behavior tells you what they're actually capable of right now. If they say \"yes attachment-based\" but reliably can't show up, the named type and the lived type don't match.</li>\n<li>Renegotiate when needed. Relationships shift. The partner you were attachment-based with can become a close friend over time; a friendly connection can deepen. Naming the type is an ongoing practice, not a one-time conversation.</li>\n</ol>",
+      "signal": "<p>Each significant relationship in your life has a type you and the other person could each name aloud. There are no surprised feelings of \"wait, I thought we were...\" because the conversations have already happened.</p>",
+      "failure": "<p>Without naming, one partner over-invests and gets hurt; the other coasts on what felt like a casual connection and is shocked by the other's expectations. Both feel betrayed by the other's behavior, when actually they were operating from different unspoken templates the whole time.</p>",
+      "reflection_prompts": "<ul>\n<li>For each significant relationship in your life: what type do you think it is? What type does the other person think it is?</li>\n<li>Which relationships in your life would you like to be attachment-based that aren't currently?</li>\n<li>Which relationships have you been treating as attachment-based that the other person hasn't been treating that way?</li>\n<li>What does commitment mean to you, specifically? What aspects (structural, emotional, public) matter most?</li>\n</ul>",
+      "source": "<p>Chapter Seven: The Foundations of Being Polysecure in Your Relationships. Fern lists explicit reflection questions to take into each potentially-attachment-based relationship, including \"what does commitment mean to you?\" and \"do we have the time and availability to offer this level of involvement?\"</p>",
+      "related_skills": "<ul>\n<li>See also <code>develop-the-safe-haven</code> — once you've named that a relationship is attachment-based, the question is whether it's actually functioning as one.</li>\n<li>See also <code>develop-the-secure-base</code> — same partner, different facet of attachment.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "read-jealousy-as-information",
+    "name": "read-jealousy-as-information",
+    "type": "atomic",
+    "description": "Jealousy hits and you treat it as either a verdict (the relationship is wrong, the partner is doing something wrong) or a personal failure (I'm not evolved enough). You want to use it as data about an underlying need instead.",
+    "tags": [
+      "diagnose",
+      "self",
+      "emotion",
+      "in-the-moment"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Ten",
+        "note": "Fern reframes jealousy as a body-level signal that the attachment system has detected possible loss or displacement; the work is to read what specific need the signal is pointing to, not to suppress the signal."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>Jealousy fires — a partner mentions another partner, a date is happening, a connection seems intense — and you feel the whole-body activation: chest tight, mind spinning, urgency to do something. Reach for this before you act on the activation. The activation is information; what it points to is what you need to address.</p>",
+      "move": "<ol>\n<li>Treat the signal as accurate at the level of the body, not the level of interpretation. The body has detected something. That doesn't mean your interpretation of what it detected is right.</li>\n<li>Don't suppress and don't immediately act. The two failure modes are \"this jealousy is shameful, I have to hide it\" (suppression) and \"this jealousy means we have to change something now\" (acting on the spike). Neither reads the signal.</li>\n<li>Ask what the signal is pointing to. Common candidates: - An attunement gap: your partner has been less present lately and the new connection feels like further displacement - A self-security gap: your own internal scaffolding is thin and the absence of the partner exposes it - A history echo: something about this configuration matches an earlier experience that hurt - A real concern: there's something in the actual current situation that needs addressing (a broken agreement, a pace mismatch, an unmet need)</li>\n<li>Address the actual underlying thing. Don't make the partner's other relationship the target if the real signal is \"I haven't felt seen by you in a week.\"</li>\n<li>Tell your partner what you found, when you can. Not \"you're making me jealous\" but \"I noticed jealousy, here's what I think it's pointing to, here's what I need.\"</li>\n</ol>",
+      "signal": "<p>You can experience jealousy without immediately treating it as a relationship emergency. You can name what specifically the signal is pointing to (a need, a gap, an echo) and address that. The jealousy spike still happens, but it's data, not a verdict.</p>",
+      "failure": "<p>Without this read, jealousy spikes either get acted on (rules, restrictions, ultimatums that don't address the underlying need) or get suppressed (resentment that builds for months until something blows). Neither path resolves what the body is signaling.</p>",
+      "example": "<p>Carlos feels a sharp jealousy spike when his partner Min mentions buying a new piece of art with Min's other partner. His first interpretation: \"they're building a life together that excludes me.\" He pauses. Notices what's happening underneath: he and Min haven't done anything special together in two months. The signal isn't really about the art purchase — it's about a lapse in their own ritual of doing meaningful things together. Carlos tells Min: \"I noticed jealousy when you mentioned the art. I think it's actually pointing to us not having done anything special in a while. Could we plan something this weekend?\" The jealousy resolves; the underlying need gets named.</p>",
+      "reflection_prompts": "<ul>\n<li>When jealousy fires, what's the first interpretation your mind reaches for? Is that interpretation usually accurate?</li>\n<li>What kind of situations reliably trigger jealousy for you? What's common across them?</li>\n<li>Looking back at past jealousy episodes, what was the underlying need? Was it ever actually addressed?</li>\n<li>What does jealousy feel like in your body? How is it different from other forms of distress?</li>\n</ul>",
+      "source": "<p>Chapter Ten: Common Questions and Final Thoughts. Fern explicitly addresses jealousy as one of the most common questions in nonmonogamous practice, reframing it from \"moral failure to overcome\" to \"information about an unmet need to address.\"</p>",
+      "related_skills": "<ul>\n<li>See also <code>attune-to-yourself</code> — to read the signal you have to slow down and feel what's actually there.</li>\n<li>See also <code>develop-the-safe-haven</code> — partners who can hold jealousy without panic make it easier to address rather than suppress.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "become-polysecure-with-self",
+    "name": "become-polysecure-with-self",
+    "type": "composed",
+    "description": "A workflow for building secure attachment with yourself — the foundation that all partner-facing attachment work stands on. Combines self-attunement, self-regulation, the inner nurturer, self-rituals, and self-repair into a daily/weekly practice rather than a one-time intervention.",
+    "tags": [
+      "self",
+      "growth",
+      "identity"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Nine",
+        "note": "Fern's HEARTS framework applied to the relationship with self. The S in HEARTS gets its own chapter precisely because most insecure adults skip this work and try to do it through partners."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You've recognized that your relationships keep running into the same patterns regardless of who the partner is — and you suspect the through-line is your relationship with yourself. Or you've done a lot of partner-side work without stable improvement and notice the missing piece is internal. Reach for this when you want a coherent practice for self-security rather than scattered self-improvement attempts.</p>",
+      "move": "<ol>\n<li><strong>Diagnose your starting state.</strong> Use <code>recognize-your-attachment-style</code> to name the pattern your nervous system runs under stress. Use <code>spot-your-giving-pattern</code> to map the specific imbalance in how you give and receive.</li>\n<li><strong>Build self-attunement as the foundation.</strong> Practice <code>attune-to-yourself</code> daily for several weeks. The point is not perfection — it's developing the capacity to read your own state before reacting. Without this, every other move is built on sand.</li>\n<li><strong>Build self-regulation alongside.</strong> Practice <code>self-regulate-without-others</code> for low-grade activations. Notice the auto-regulation pattern (<code>avoid-auto-regulation-via-others</code>). The goal isn't to stop reaching out — it's to make reaching out a choice rather than a reflex.</li>\n<li><strong>Cultivate the inner nurturer.</strong> Practice <code>cultivate-the-inner-nurturer</code> deliberately. Catch the inner critic; respond with the kind voice. This takes months, not days. Don't expect immediate transformation; expect gradual revision.</li>\n<li><strong>Establish self-rituals.</strong> Build the daily and weekly practices that align you with the version of yourself you're trying to be — a morning practice, a body practice, a sleep practice. Write them down. Keep them small enough to sustain.</li>\n<li><strong>Practice turning toward yourself after rupture.</strong> When you let yourself down, practice the inner repair: notice, acknowledge, take responsibility without crushing yourself, recommit. The rupture-and-repair cycle applies internally.</li>\n<li><strong>Notice the boundary work alongside.</strong> Whether your skew is <code>tighten-porous-boundaries</code> or <code>soften-rigid-boundaries</code>, that work is part of the self-security practice — your boundaries are how you treat yourself in relation to others.</li>\n<li><strong>Track over months, not days.</strong> This is not a sprint. The goal is a different baseline state of self-relationship within six months to a year, not a different daily mood next week.</li>\n</ol>",
+      "signal": "<p>You can sit with mild distress for ten minutes without outsourcing. The inner critic still speaks but no longer dominates; another voice (steadier, kinder) is reliably available. Your partners notice that you reach less for regulation and more for connection. You experience yourself as a place you can come back to, not just a state you have to escape.</p>",
+      "failure": "<p>Without self-security work, every external relationship carries weight that internal relationship should hold. You exhaust partners with regulation needs they can't meet; you exhaust yourself by trying to outrun your own internal punishment; you make every relationship vulnerable to your own unmet self-attachment.</p>",
+      "reflection_prompts": "<ul>\n<li>What is your current relationship with yourself like? Would you want it as your relationship with a partner?</li>\n<li>Which of the four self-moves (attunement, regulation, inner nurturer, self-rituals) feels most underdeveloped?</li>\n<li>What practices have you tried that worked? What didn't?</li>\n<li>What would become possible in your relationships with others if your relationship with yourself were more secure?</li>\n</ul>",
+      "source": "<p>Chapter Nine: The S in HEARTS — Secure Attachment with Self. Fern frames this chapter as the most important in the book; without it, none of the partner-facing HEARTS moves fully land.</p>",
+      "related_skills": "<ul>\n<li>Composed of: <code>recognize-your-attachment-style</code>, <code>attune-to-yourself</code>, <code>self-regulate-without-others</code>, <code>cultivate-the-inner-nurturer</code>, <code>avoid-auto-regulation-via-others</code>, <code>spot-your-giving-pattern</code>, <code>tighten-porous-boundaries</code>, <code>soften-rigid-boundaries</code>.</li>\n<li>See also <code>build-attachment-based-partnership</code> — the partner-facing companion to this self-facing work.</li>\n</ul>"
+    },
+    "is_recipe": true
+  },
+  {
+    "slug": "build-attachment-based-partnership",
+    "name": "build-attachment-based-partnership",
+    "type": "composed",
+    "description": "A workflow for building secure attachment with a specific partner using the HEARTS framework — Here, Expressed delight, Attunement, Rituals, Turning toward, Secure self. Especially useful in nonmonogamy where the defaults of monogamous attachment don't apply automatically.",
+    "tags": [
+      "relationship",
+      "other",
+      "exchange"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Eight",
+        "note": "Fern's HEARTS framework as a worked sequence rather than a list — these moves build on each other and reinforce each other when practiced together."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You want a relationship to become attachment-based (or to become more securely attachment-based) and you want a structured way to do that work rather than hoping it happens. Reach for this whenever you and a partner have agreed to build attachment together and want shared moves to work on.</p>",
+      "move": "<ol>\n<li><strong>Name the relationship type explicitly.</strong> Use <code>name-the-relationship-type</code> and <code>distinguish-attachment-relationships</code> so both of you know what you're building. Don't skip this — implicit agreements about attachment produce hurt later.</li>\n<li><strong>Establish the foundations.</strong> With each partner you want attachment-based connection with, talk through the foundation questions: <code>develop-the-safe-haven</code> and <code>develop-the-secure-base</code>. Where is each of you already strong? Where would you each like more?</li>\n<li><strong>Practice H — Be here.</strong> Use <code>be-here-with-each-partner</code> deliberately. Put phones away. Fully arrive when you arrive. Notice when you're absent and bring yourself back. This is the foundation everything else rests on.</li>\n<li><strong>Practice E — Express particular delight.</strong> Use <code>express-particular-delight</code>. Notice specific things about this person and tell them. Especially: when transitioning between partners or after a date with someone else, deliberately offer expressed delight to the partner not on the date.</li>\n<li><strong>Practice A — Attune.</strong> Use <code>attune-to-your-partner</code>. Track shifts. Ask. Listen. Don't rush to interpret or fix. Update your model of who they are right now.</li>\n<li><strong>Practice R — Rituals.</strong> Use <code>build-relationship-rituals</code> and the more specific <code>departure-and-return-rituals</code> for nonmonogamous transitions. Pick small reliable practices and keep them.</li>\n<li><strong>Practice T — Turn toward after rupture.</strong> Use <code>turn-toward-after-rupture</code>. When ruptures happen — and they will — initiate the repair. Don't keep score on whose turn it is.</li>\n<li><strong>Don't skip the S — secure self.</strong> Run <code>become-polysecure-with-self</code> in parallel. The partner-facing work plateaus quickly without the self-facing work.</li>\n<li><strong>Read jealousy as information.</strong> When jealousy fires (and it will), use <code>read-jealousy-as-information</code> to find the underlying need rather than acting on the spike.</li>\n<li><strong>Watch boundaries.</strong> Pay attention to whether your boundaries skew porous or rigid in this specific relationship and apply <code>tighten-porous-boundaries</code> or <code>soften-rigid-boundaries</code> as needed.</li>\n</ol>",
+      "signal": "<p>The relationship has the felt sense of attachment without dependence — you can be apart without crisis and together without losing yourself. Both of you know specific moves you're working on; both of you can name what you're getting from each other; ruptures happen but repair too. The body recognizes this person as one of your people.</p>",
+      "failure": "<p>Without a structured practice, attachment-based partnership in nonmonogamy tends to drift toward either over-reliance (the partner becomes the regulator) or under-investment (the relationship coasts on logistics without depth). The HEARTS framework gives both partners specific, namable work to do.</p>",
+      "reflection_prompts": "<ul>\n<li>For each partner you want this with, which HEARTS letter is currently most underdeveloped?</li>\n<li>Which letter is currently strongest? What is it about this relationship that makes that letter work?</li>\n<li>What does success in this relationship look like over six months? Over two years?</li>\n<li>What conversations do you and your partner need to have that you've been avoiding?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. Fern presents the framework with chapter-by-chapter reflection prompts, designed to be used as ongoing practice.</p>",
+      "related_skills": "<ul>\n<li>Composed of: <code>name-the-relationship-type</code>, <code>distinguish-attachment-relationships</code>, <code>develop-the-safe-haven</code>, <code>develop-the-secure-base</code>, <code>be-here-with-each-partner</code>, <code>express-particular-delight</code>, <code>attune-to-your-partner</code>, <code>build-relationship-rituals</code>, <code>departure-and-return-rituals</code>, <code>turn-toward-after-rupture</code>, <code>read-jealousy-as-information</code>.</li>\n<li>Companion to <code>become-polysecure-with-self</code> — the self-facing work that makes the partner-facing work possible.</li>\n<li>Cross-references <code>difficult/begin-from-the-third-story</code> and <code>feedback/take-responsibility-first-then-introduce-the-system</code> — turning-toward and rupture-repair share moves with those books.</li>\n</ul>"
+    },
+    "is_recipe": true
+  },
+  {
+    "slug": "recognize-your-attachment-style",
+    "name": "recognize-your-attachment-style",
+    "type": "atomic",
+    "description": "You have a recurring pattern in close relationships — distance feels unsafe, or closeness does, or both — and you want to know what your nervous system is doing under the hood so you can stop attributing the pattern to your partner's behavior or your own character.",
+    "tags": [
+      "diagnose",
+      "self",
+      "identity",
+      "preparation"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter One",
+        "note": "Fern reframes the four attachment styles (secure, anxious/preoccupied, avoidant/dismissive, disorganized) not as personality types but as nervous-system strategies that formed under early caregiving conditions and now activate under relational threat."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You notice a recurring shape in your close relationships — you reliably escalate when a partner pulls away, or you reliably retreat when they ask for closeness, or you cycle between wanting them and pushing them off. Reach for this whenever you're tempted to explain the pattern by saying \"I'm just like that\" or \"they bring it out in me.\" The attachment-style frame gives you a more useful description than either.</p>",
+      "move": "<ol>\n<li>Notice when your body activates around closeness or distance. Pay attention to specific moments: a partner is late, a partner suggests more time together, a partner mentions another partner, a partner asks for vulnerability you're not ready for. What does your body do in those moments?</li>\n<li>Map the activation against the four templates. Anxious: hyper-vigilance, urgent need for reassurance, escalating protests when reassurance doesn't come. Avoidant: shutdown, irritation at proximity, sudden need for space. Disorganized: oscillation between wanting and pushing away, often within the same conversation. Secure: notice the discomfort, self-soothe, reach out without escalation, accept what comes.</li>\n<li>Treat the style as your nervous system's strategy, not your identity. The strategy was useful at some point — it kept you connected enough or protected enough given the conditions you grew up with. It is now mostly outdated, but it's not a moral failing.</li>\n<li>Notice that style is contextual. You may be secure with friends and avoidant in romance. You may be anxious with one partner and avoidant with another. The nervous system reads each relationship's specific signals.</li>\n<li>Use the diagnosis to choose interventions, not to label yourself. Anxious work is largely self-soothing and slowing the protest. Avoidant work is largely staying present through discomfort. Disorganized work is harder and often benefits from skilled help.</li>\n</ol>",
+      "signal": "<p>You can describe your activation pattern in nervous-system terms (\"I deactivate when she asks for more closeness\" or \"I escalate within ten minutes of him going quiet\") rather than character terms (\"I'm cold\" or \"I'm too needy\"). When the pattern fires, you can name it as it happens, which by itself reduces its grip.</p>",
+      "failure": "<p>Without this diagnosis, you spend years treating the pattern as either your partner's fault (they're triggering you) or your fixed personality (this is just how I am). Both framings prevent the work that would actually shift it: meeting the underlying nervous-system response with skill.</p>",
+      "example": "<p>Aria notices that every time her partner Devon mentions a date with someone else, she experiences a wave of cold, a tightness in her chest, and an urge to pick a fight about something unrelated. She used to call this \"him being inconsiderate\" or \"me being controlling.\" Now she names it: \"anxious attachment activating around perceived displacement.\" She tells Devon what she observed in herself, and asks for a five-minute physical reconnect when he gets home — not because Devon did anything wrong, but because her nervous system needs the contact to update.</p>",
+      "reflection_prompts": "<ul>\n<li>What is the shape of your activation when you sense distance from a partner? When you sense too much closeness?</li>\n<li>Which of the four styles' descriptions felt most familiar when you read them? Which felt unfamiliar?</li>\n<li>Are there relationships where you function more securely than in others? What's different about those relationships?</li>\n<li>When did this pattern first appear in your life? Who modeled the response?</li>\n</ul>",
+      "source": "<p>Chapter One: An Overview of Attachment Theory. Fern walks through the four styles, the Strange Situation research lineage, and the way styles get encoded in early caregiving and re-trigger under adult relational stress.</p>",
+      "related_skills": "<ul>\n<li>See also <code>attune-to-yourself</code> — once you've named the activation, the next step is staying with it long enough to learn its actual signals.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "self-regulate-without-others",
+    "name": "self-regulate-without-others",
+    "type": "atomic",
+    "description": "You're activated — anxious, hurt, lonely, restless — and your default move is to text a partner, scroll your phone, eat, drink, or otherwise outsource the regulation. You want to develop the capacity to bring yourself back to baseline using your own resources.",
+    "tags": [
+      "self",
+      "contain",
+      "emotion"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Nine",
+        "note": "Fern distinguishes auto-regulation (using others or substances to soothe) from self-regulation (bringing yourself back to baseline using your own internal and somatic resources)."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You feel a wave of activation — hurt, anxiety, restlessness — and your hand reaches for your phone, the fridge, a bottle, or a partner. Reach for this when the impulse is strong and the trigger is small. The size mismatch is the signal that you're using others/things to do regulation work that needs to happen internally.</p>",
+      "move": "<ol>\n<li>Notice the impulse to outsource. The hand toward the phone is the moment to notice; that's the activation you can work with.</li>\n<li>Slow down. Pause for thirty seconds without acting on the impulse. The activation will probably get more intense. That's expected.</li>\n<li>Bring attention back to the body. Name three sensations: feet on the floor, breath in the chest, tension in the jaw. The body comes online when the head is busy.</li>\n<li>Take three slow breaths, longer on the exhale than the inhale. The exhale activates the parasympathetic nervous system, which is what's actually doing the regulation.</li>\n<li>Stay with whatever feeling is there. Don't try to fix it. Five minutes is enough; it doesn't have to resolve, just be witnessed.</li>\n<li>After regulating, you may still want to reach out to a partner. That's fine. The difference is that you reach out from a more regulated state, with a clearer ask, rather than from full activation that the partner has to resolve.</li>\n</ol>",
+      "signal": "<p>You can sit with mild-to-moderate activation for a few minutes without immediately discharging it through outside contact or substances. You start to notice the difference between \"I want to share this\" (clean reach) and \"I need them to fix this\" (auto-regulation request).</p>",
+      "failure": "<p>Without this capacity, your partner becomes a thermostat for your nervous system. They have to pick up calls, respond quickly to texts, be available for crises that aren't really crises. The partnership starts to bend around your regulation needs in a way that exhausts the partner and prevents you from ever discovering you could do this yourself.</p>",
+      "example": "<p>Sam feels a wave of distress when their partner texts that the date will run late. The impulse is to text back asking what time exactly, when they'll be home, who they're with. Sam pauses. Notices the activation: tightness in the chest, slightly faster breath, urgency. Sets the phone down for ten minutes. Walks around the block. The activation drops by half. Sam then sends a single text: \"Okay, see you when you're home, take your time.\" The partnership absorbs the night more easily; Sam notices they survived ten minutes of feeling activated without resolution.</p>",
+      "reflection_prompts": "<ul>\n<li>What state are you most likely to outsource? Loneliness? Boredom? Anxiety? Anger?</li>\n<li>What's your typical auto-regulation tool? Phone, food, substance, partner, work?</li>\n<li>Are there moments when you've successfully self-regulated through difficulty? What made it possible?</li>\n<li>What might become available to you if you could sit with mild activation for ten minutes without outsourcing?</li>\n</ul>",
+      "source": "<p>Chapter Nine: The S in HEARTS — Secure Attachment with Self. Fern argues that self-regulation is the single skill most often missing in insecure adults; building it is the central work of self-security and unlocks better partner relationships as a side effect.</p>",
+      "related_skills": "<ul>\n<li>See also <code>attune-to-yourself</code> — attunement reads the state; this skill works with it.</li>\n<li>See also <code>cultivate-the-inner-nurturer</code> — the part of you that responds with steadiness instead of crisis.</li>\n<li>Contrasts <code>polysecure/avoid-auto-regulation-via-others</code> — same theme, different angle: noticing the pattern in your relationships so you can name it.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "soften-rigid-boundaries",
+    "name": "soften-rigid-boundaries",
+    "type": "atomic",
+    "description": "You handle distress alone, decline support that's offered, and keep emotional information at arm's length even from people you trust. Your boundaries protect you from being hurt — and also from being known. You want to soften where it would actually serve connection.",
+    "tags": [
+      "assert",
+      "self",
+      "boundaries",
+      "growth"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Seven",
+        "note": "The other failure mode of boundaries: rigid walls that block both harmful and nourishing input. Common in avoidant attachment patterns and in trauma adaptations."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You catch yourself declining help that was sincere, deflecting affection, or refusing to share a difficulty even with someone you trust. Reach for this when the boundary is doing more protecting than the situation actually warrants.</p>",
+      "move": "<ol>\n<li>Notice the reflex to wall off. Someone offers support and you say \"I'm fine\"; someone reaches for closeness and you create distance; someone wants to know how you're doing and you give a surface answer. Notice without judgment.</li>\n<li>Distinguish the protective function from the cost. The wall did real work once; it kept you safe in conditions that warranted it. The cost now is that it also blocks what you need.</li>\n<li>Pick low-stakes situations to practice. Don't start with the highest-stakes relationship. Practice receiving help with the friend who offers, accepting a compliment without deflecting, sharing a small worry instead of containing it.</li>\n<li>Stay with the discomfort of being seen. Receiving feels exposing if your nervous system is used to walling off. The discomfort isn't a signal to retreat; it's the sign that you're doing the new thing.</li>\n<li>Notice when you're under-giving in the output direction too. Rigid boundaries also block what you could offer to others — a vulnerability you could share, a compliment you held back, a request that would deepen the relationship.</li>\n<li>Build slowly. The wall can come down brick by brick. It doesn't need to come down all at once; it just needs to start.</li>\n</ol>",
+      "signal": "<p>You can let a partner help you when you're struggling without immediately deflecting. You share things you used to handle alone. People around you experience you as more reachable. The relationships have more two-way traffic.</p>",
+      "failure": "<p>Without softening, partners experience you as opaque — they can be near you for years without ever feeling they really know what you're carrying. They eventually conclude either that you don't trust them or that there isn't much there to know. Both are wrong, but both feel true to them, and both produce distance.</p>",
+      "reflection_prompts": "<ul>\n<li>In what ways do you experience your boundaries as rigid — blocking, restraining, or both?</li>\n<li>Where do you under-give in relationships — withholding what you could offer? What beliefs play into this?</li>\n<li>Where do you under-receive — refusing what's offered? What beliefs play into this?</li>\n<li>Do you need to focus more on softening the rigidity, whether on the input or output? How can you do this?</li>\n</ul>",
+      "source": "<p>Chapter Seven: The Foundations of Being Polysecure. The same section that addresses porous boundaries also addresses rigid ones, with parallel reflection questions.</p>",
+      "related_skills": "<ul>\n<li>Contrasts <code>tighten-porous-boundaries</code> — same theme, opposite skew.</li>\n<li>See also <code>develop-the-safe-haven</code> — softening enough to receive a safe haven from a partner is itself attachment work.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "spot-your-giving-pattern",
+    "name": "spot-your-giving-pattern",
+    "type": "atomic",
+    "description": "You're not sure why some relationships feel exhausting and others depleting in the opposite direction. You want to look at your specific pattern of giving and receiving — over-giving, under-giving, over-taking, under-taking — and locate where the imbalance actually lives.",
+    "tags": [
+      "diagnose",
+      "self",
+      "boundaries",
+      "relationship"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Seven",
+        "note": "Fern names four patterns of boundary failure organized along two axes: the input/output direction and the over/under amount."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You leave a relationship feeling drained without being able to say what specifically drained you. Or you finish a conversation aware you held back and don't know why. Reach for this whenever the felt sense is \"something's off in the give-and-receive\" but you can't name the specific shape.</p>",
+      "move": "<ol>\n<li>Map the four patterns onto your behavior: - <strong>Over-giving</strong>: providing more than you can sustainably offer; saying yes to things you should decline; performing care to earn worth - <strong>Under-giving</strong>: withholding what you could offer; declining to share, support, or commit even when capacity is there - <strong>Over-receiving / over-taking</strong>: pulling more from others than is fair; expecting time, attention, or labor that exceeds what the relationship can sustain - <strong>Under-receiving</strong>: refusing what's offered; deflecting compliments, declining help, treating offers as obligations</li>\n<li>Identify which pattern is most active for you in your most important relationships. Different relationships might surface different patterns — that's useful data.</li>\n<li>Identify the belief underneath. \"If I don't over-give, I won't be loved.\" \"If I receive, I'll owe something.\" \"If I take less, I'm not a burden.\" The belief is what makes the pattern feel necessary.</li>\n<li>Test the belief. Find one moment to behave outside the pattern — give less, receive more, decline a request, ask for support — and notice whether the catastrophe you expected actually arrived.</li>\n<li>Track over weeks. Patterns are stable; one experiment doesn't shift them. The work is repeated small moves against the gravity of the existing pattern.</li>\n</ol>",
+      "signal": "<p>You can name your dominant pattern in plain language. You can identify the belief underneath. You can describe specific situations where the pattern fires and what it costs you. You start catching the pattern in the moment instead of only noticing it in retrospect.</p>",
+      "failure": "<p>Without naming the pattern, you treat each instance of imbalance as one-off (this particular partner is needy, this particular friend doesn't reciprocate). You miss the through-line: your behavior is shaped by a consistent pattern that produces the same kind of imbalance across many relationships.</p>",
+      "reflection_prompts": "<ul>\n<li>How do you find yourself over-giving in relationships? What beliefs about yourself or others play into this?</li>\n<li>How do you find yourself under-giving? What beliefs play into this?</li>\n<li>In what ways do you over-receive or over-take? What beliefs play into this?</li>\n<li>In what ways do you under-receive? What beliefs play into this?</li>\n</ul>",
+      "source": "<p>Chapter Seven: The Foundations of Being Polysecure. The four-pattern frame and the explicit reflection prompts that ask you to locate yourself in each.</p>",
+      "related_skills": "<ul>\n<li>See also <code>tighten-porous-boundaries</code> — the remedy when the imbalance is in the absorbing direction.</li>\n<li>See also <code>soften-rigid-boundaries</code> — the remedy when the imbalance is in the walling-off direction.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "tighten-porous-boundaries",
+    "name": "tighten-porous-boundaries",
+    "type": "atomic",
+    "description": "You absorb other people's emotions until they feel like your own, take on responsibility for things that aren't yours, or find yourself agreeing to commitments you didn't actually want. You want to develop a firmer membrane between you and others without becoming walled off.",
+    "tags": [
+      "contain",
+      "self",
+      "boundaries"
+    ],
+    "related": [],
+    "sources": [
+      {
+        "chapter": "Chapter Seven",
+        "note": "Fern frames boundaries as a membrane that allows nourishing input/output and blocks harmful input/output. Porous boundaries fail in the open direction; rigid boundaries fail in the closed direction. Most people skew one way."
+      }
+    ],
+    "sections_html": {
+      "when": "<p>You catch yourself feeling responsible for a partner's mood, agreeing to plans you'd rather decline, or carrying emotional weight that originated elsewhere. Reach for this whenever the line between you and others is functioning as a sponge instead of a membrane.</p>",
+      "move": "<ol>\n<li>Notice the absorption. The first signal is usually somatic: heaviness after a conversation, a sense of having been drained, the feeling that someone else's distress has set up shop inside you.</li>\n<li>Distinguish your feelings from theirs. Compassion is real; absorption is different. Compassion: \"I see you're hurting and that matters to me.\" Absorption: \"I'm now hurting because you were hurting and I can't put it down.\"</li>\n<li>Ask: what did I just take on that wasn't mine to carry? Their mood. Their problem to solve. Their emotional regulation. Their expectation. The question \"is this mine?\" is the basic boundary practice.</li>\n<li>Practice the no. Small ones first. \"I don't have capacity for that today.\" \"I don't want to do that.\" \"That's not mine to handle.\" The small no makes the big no possible.</li>\n<li>Notice when you're being intrusive in the other direction. Porous boundaries can also mean taking up too much space — checking on others' feelings unprompted, offering opinions they didn't ask for, inserting yourself into their decisions. The membrane works both ways.</li>\n<li>Tighten gradually. Boundaries aren't built in a single conversation; they're a slow practice of recognizing and adjusting where the line currently is.</li>\n</ol>",
+      "signal": "<p>You can leave a conversation with someone difficult without carrying their state for hours afterward. You can decline a request without rehearsing the refusal for days first. People around you start handling more of their own state because you stopped doing it for them.</p>",
+      "failure": "<p>Without firmer boundaries, you become exhausted from carrying weight that wasn't yours. You also enable others to under-develop their own capacity because yours is always available. Relationships skew toward you absorbing everything and them under-functioning.</p>",
+      "reflection_prompts": "<ul>\n<li>In what ways do you experience your boundaries as porous — absorbing, intrusive, or both?</li>\n<li>Where do you over-give in relationships? What beliefs about yourself or about others play into this?</li>\n<li>Where do you over-receive or over-take? What beliefs play into this?</li>\n<li>Do you need to focus more on tightening your boundaries, whether on the input or output? How can you do this?</li>\n</ul>",
+      "source": "<p>Chapter Seven: The Foundations of Being Polysecure. Fern's section on boundaries lists the four failure patterns (over-giving, under-giving, over-receiving, under-receiving) and the porous-vs-rigid spectrum.</p>",
+      "related_skills": "<ul>\n<li>Contrasts <code>soften-rigid-boundaries</code> — same theme, opposite skew. Most people lean one way and need to work on that side first.</li>\n<li>See also <code>attune-to-yourself</code> — you can't tell what's yours to carry without first reading your own state accurately.</li>\n</ul>"
+    },
+    "is_recipe": false
+  },
+  {
+    "slug": "turn-toward-after-rupture",
+    "name": "turn-toward-after-rupture",
+    "type": "atomic",
+    "description": "",
+    "tags": [],
+    "related": [],
+    "sources": [],
+    "sections_html": {
+      "when": "<p>A rupture has happened in the last hour, day, or week, and the silence is starting to set. You can feel the partner is not okay, you are not okay, and the next move is unclear. Reach for this whenever the impulse is to ride it out without speaking. Avoidance is the path that erodes relationships over years; repair is what keeps them alive.</p>",
+      "move": "<ol>\n<li>Notice the rupture is there. Don't pretend it isn't. The partner already knows.</li>\n<li>Initiate. The willingness to be the one who turns back first is itself part of repair. Don't keep score on whose turn it is.</li>\n<li>Acknowledge impact, not just intent. \"I see that what I did landed in a way that hurt you, regardless of what I meant by it.\" Impact comes first; intent comes only if asked.</li>\n<li>Take responsibility for your part. Specifically. Not \"I'm sorry if you were upset\" (which puts the upset on them) but \"I'm sorry I dismissed your concern when you brought it up.\"</li>\n<li>Listen for what they need. Sometimes it's understanding; sometimes it's a behavior change; sometimes it's just to know you saw the rupture happen.</li>\n<li>Don't rush to resolution. The repair often takes more than one conversation. The first conversation might just be \"I see this is here, I want to come back to it, can we?\" The second is the work itself.</li>\n<li>Notice your own wound from the rupture too. Repair isn't only about offering — it's also about being open to receiving what the other person brings.</li>\n</ol>",
+      "signal": "<p>You and the partner can name what happened, what each of you contributed, and what you each need going forward. The rupture isn't erased; it's metabolized. The relationship feels more solid afterward, not less, because it now has evidence that ruptures can be repaired.</p>",
+      "failure": "<p>Without active repair, ruptures don't heal — they just move underground. The relationship feels increasingly distant without anyone able to point to a single decisive event. By the time someone notices, multiple unrepaired ruptures have stacked up and the work of repair becomes much heavier.</p>",
+      "example": "<p>Mar and Jess have a sharp argument about scheduling — Mar feels deprioritized; Jess feels micromanaged. They sleep on it badly. The next morning Mar opens: \"Last night went badly. I want to come back to it. I think I escalated when you said you couldn't move the date, and I see now that I was actually upset about something earlier in the week, not really about the calendar. Can we talk about the earlier thing?\" The repair takes the conversation back to the actual rupture instead of relitigating the calendar fight.</p>",
+      "reflection_prompts": "<ul>\n<li>Are there themes to the ruptures you have with your partners? Recurring shapes?</li>\n<li>When there's been a rupture, do you and your partners already repair well? How?</li>\n<li>How are you at offering repair? What comes easily? What feels difficult?</li>\n<li>How are you with receiving a repair from your partners?</li>\n<li>What could you do differently to repair better next time?</li>\n</ul>",
+      "source": "<p>Chapter Eight: The HEARTS of Being Polysecure. The \"Turning Toward After Conflict\" letter, with reflection on the offer-and-receive sides of repair.</p>",
+      "related_skills": "<ul>\n<li>Cross-references <code>feedback/take-responsibility-first-then-introduce-the-system</code> — the same shape applies: own your part before raising the system question.</li>\n<li>See also <code>attune-to-your-partner</code> — repair is easier when you accurately read what the rupture cost them.</li>\n</ul>"
+    },
+    "is_recipe": false
+  }
+]

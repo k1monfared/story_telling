@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Difficult Conversations — Reading Log</title>
+  <title>Polysecure — Skills</title>
   <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/base.css">
-  <link rel="stylesheet" href="../../shared/loglog-viewer.css?v=20260508d">
+  <link rel="stylesheet" href="../shared/skills-viewer.css?v=20260508d">
   <script src="https://k1monfared.github.io/site_kit/js/theme.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; }
@@ -20,10 +20,11 @@
       padding: 0;
     }
 
+    /* ── Page header ── */
     .page-header {
       position: sticky;
       top: 0;
-      z-index: 200;
+      z-index: 100;
       background: var(--header-bg);
       border-bottom: 1px solid var(--border);
       padding: 0;
@@ -33,9 +34,8 @@
     }
 
     .page-header-inner {
-      max-width: 900px;
       width: 100%;
-      margin: 0 auto;
+      margin: 0;
       padding: 0 1rem;
       display: flex;
       align-items: center;
@@ -85,21 +85,18 @@
       color: var(--link);
     }
 
+    /* ── App container: fluid full-width ── */
     #app {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    #hdr {
-      top: 56px !important;
+      width: 100%;
+      margin: 0;
     }
   </style>
 </head>
 <body>
   <header class="page-header">
     <div class="page-header-inner">
-      <a class="back-link" href="../../">&#8592; Skills Library</a>
-      <span class="page-header-title">Stone, Patton &amp; Heen — Difficult Conversations</span>
+      <a class="back-link" href="../">&#8592; Skills Library</a>
+      <span class="page-header-title">Fern — Polysecure</span>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
         <svg class="moon-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
@@ -121,13 +118,15 @@
 
   <div id="app"></div>
 
-  <script src="../../shared/loglog-viewer.js?v=20260508d"></script>
+  <script src="../shared/skills-viewer.js?v=20260508d"></script>
   <script>
-    createLoglogViewer(document.getElementById('app'), {
-      title: 'Stone, Patton & Heen — Difficult Conversations',
-      dataFile: '../../data/difficult.loglog',
+    createSkillsViewer(document.getElementById('app'), {
+      title: 'Fern — Polysecure',
+      dataFile: '../data/polysecure-skills.json',
+      bookSlug: 'polysecure',
     });
 
+    // Theme toggle wiring
     (function() {
       const btn = document.getElementById('theme-toggle');
       const moonIcon = btn.querySelector('.moon-icon');

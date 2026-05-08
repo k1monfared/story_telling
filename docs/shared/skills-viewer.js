@@ -20,7 +20,7 @@
 (function () {
   'use strict';
 
-  const SECTION_ORDER = ['when', 'move', 'signal', 'probe', 'failure', 'example', 'source', 'related_skills'];
+  const SECTION_ORDER = ['when', 'move', 'signal', 'probe', 'failure', 'example', 'reflection_prompts', 'source', 'related_skills'];
   const SECTION_LABELS = {
     when: 'When to reach for this',
     move: 'The move',
@@ -28,6 +28,7 @@
     probe: 'Probe before & after',
     failure: 'Failure mode this prevents',
     example: 'Worked micro-example',
+    reflection_prompts: 'Reflection prompts',
     source: 'Source',
     related_skills: 'Related skills',
   };

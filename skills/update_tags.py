@@ -214,7 +214,7 @@ def update_file(path: Path, dry_run=False):
 
 def main():
     dry_run = "--dry" in sys.argv
-    books = ["saunders", "feedback", "difficult"]
+    books = ["saunders", "feedback", "difficult", "polysecure"]
     total = 0
     changed = 0
     all_new_tags = set()

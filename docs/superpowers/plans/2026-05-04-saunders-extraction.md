@@ -51,7 +51,7 @@ Length target: 250-500 words. No long quotes. No invented examples.
 
 - [ ] **Step 3: Validate the file is well-formed markdown and commit**
 
-Run: `cd /home/k1/public/story_telling && python3 tools/validate_skills.py`
+Run: `cd /home/k1/public/marginalia && python3 tools/validate_skills.py`
 Expected: still `OK — 0 SKILL.md file(s) validated.` (No SKILL.md files yet; `_book.md` isn't validated by the script.)
 
 ```bash
@@ -213,7 +213,7 @@ g. **Update manifest.** In `chapter-manifest.log`, change the chapter's `status:
 
 h. **Run the validator.** New skills must pass validation before commit.
    ```bash
-   cd /home/k1/public/story_telling && python3 tools/validate_skills.py
+   cd /home/k1/public/marginalia && python3 tools/validate_skills.py
    ```
    Expected: `OK — N SKILL.md file(s) validated.` Fix any errors before commit.
 
@@ -256,7 +256,7 @@ After all chapters are saturated, walk the entire Saunders skill set and set `re
 - [ ] **Step 1: List all Saunders skills**
 
 ```bash
-cd /home/k1/public/story_telling
+cd /home/k1/public/marginalia
 ls skills/saunders/*/SKILL.md
 ```
 
@@ -451,7 +451,7 @@ Append to `skills/saunders/_process/refactor.log`:
 - [ ] **Step 2: Run the full validator one last time**
 
 ```bash
-cd /home/k1/public/story_telling
+cd /home/k1/public/marginalia
 python3 tools/validate_skills.py
 ```
 Expected: `OK — <count> SKILL.md file(s) validated.` with no errors.

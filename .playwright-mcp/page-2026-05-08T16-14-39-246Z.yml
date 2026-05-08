@@ -1,0 +1,331 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Skills Library" [ref=e4] [cursor=pointer]:
+        - /url: ../
+      - generic [ref=e5]: Fern — Polysecure
+      - button "Toggle filters sidebar" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Toggle search" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+      - button "Toggle theme" [ref=e12] [cursor=pointer]: ☼
+  - generic [ref=e15]:
+    - complementary [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Tag query
+        - generic [ref=e19]:
+          - textbox "e.g. emotion AND (identity OR triggers) NOT cut" [ref=e20]
+          - button "✕" [ref=e21] [cursor=pointer]
+      - generic [ref=e23]:
+        - generic [ref=e24]: Type
+        - generic [ref=e25]:
+          - button "atomic 19" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: atomic
+            - generic [ref=e28]: "19"
+          - button "recipe 2" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]: recipe
+            - generic [ref=e31]: "2"
+      - generic [ref=e32]:
+        - generic [ref=e33]: Phase
+        - generic [ref=e34]:
+          - button "preparation 5" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: preparation
+            - generic [ref=e37]: "5"
+          - button "in-the-moment 5" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: in-the-moment
+            - generic [ref=e40]: "5"
+      - generic [ref=e41]:
+        - generic [ref=e42]: Action
+        - generic [ref=e43]:
+          - button "diagnose 7" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: diagnose
+            - generic [ref=e46]: "7"
+          - button "inquire 1" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: inquire
+            - generic [ref=e49]: "1"
+          - button "listen 2" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: listen
+            - generic [ref=e52]: "2"
+          - button "assert 4" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: assert
+            - generic [ref=e55]: "4"
+          - button "separate 1" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]: separate
+            - generic [ref=e58]: "1"
+          - button "contain 2" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: contain
+            - generic [ref=e61]: "2"
+      - generic [ref=e62]:
+        - generic [ref=e63]: Focus
+        - generic [ref=e64]:
+          - button "self 10" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: self
+            - generic [ref=e67]: "10"
+          - button "other 8" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: other
+            - generic [ref=e70]: "8"
+          - button "exchange 2" [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: exchange
+            - generic [ref=e73]: "2"
+          - button "relationship 11" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: relationship
+            - generic [ref=e76]: "11"
+      - generic [ref=e77]:
+        - generic [ref=e78]: Topic
+        - generic [ref=e79]:
+          - button "emotion 4" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: emotion
+            - generic [ref=e82]: "4"
+          - button "identity 3" [ref=e83] [cursor=pointer]:
+            - generic [ref=e84]: identity
+            - generic [ref=e85]: "3"
+          - button "boundaries 3" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]: boundaries
+            - generic [ref=e88]: "3"
+      - generic [ref=e89]:
+        - generic [ref=e90]: Stance
+        - button "growth 4" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: growth
+          - generic [ref=e94]: "4"
+    - generic [ref=e95]:
+      - generic [ref=e97]:
+        - heading "Fern — Polysecure" [level=2] [ref=e98]
+        - generic [ref=e99]: 21 skills
+      - generic [ref=e100]:
+        - generic [ref=e102] [cursor=pointer]:
+          - generic [ref=e103]: ▶
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: Atomic
+              - generic [ref=e107]: Attune To Your Partner
+            - generic [ref=e108]: You realize you've been responding to what your partner presented (the words they said, the surface of their mood) but missing what was happening underneath. They had to escalate to get you to notice. You want to track them more accurately.
+            - generic [ref=e109]:
+              - button "listen" [ref=e110]
+              - button "diagnose" [ref=e111]
+              - button "other" [ref=e112]
+              - button "in-the-moment" [ref=e113]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e116]: ▶
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: Atomic
+              - generic [ref=e120]: Attune To Yourself
+            - generic [ref=e121]: You react quickly to relational events — anger, withdrawal, sudden energy — and discover later that the reaction wasn't about what you thought it was about. You want to slow the gap between feeling and reacting so the actual signal can be read.
+            - generic [ref=e122]:
+              - button "diagnose" [ref=e123]
+              - button "self" [ref=e124]
+              - button "in-the-moment" [ref=e125]
+              - button "emotion" [ref=e126]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]: ▶
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: Atomic
+              - generic [ref=e133]: Avoid Auto Regulation Via Others
+            - generic [ref=e134]: When you're activated, you reach for a partner — text, call, vent — to bring you back to baseline. You want to notice the pattern, name it, and start choosing whether to use the partner this way instead of doing it on autopilot.
+            - generic [ref=e135]:
+              - button "diagnose" [ref=e136]
+              - button "self" [ref=e137]
+              - button "relationship" [ref=e138]
+        - generic [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]: ▶
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]: Atomic
+              - generic [ref=e145]: Be Here With Each Partner
+            - generic [ref=e146]: Time spent with a partner is split — half-attention on the phone, lingering thoughts of another partner, mental rehearsal of the next thing. You want to bring full presence so the time you do have actually counts as connection.
+            - generic [ref=e147]:
+              - button "in-the-moment" [ref=e148]
+              - button "other" [ref=e149]
+              - button "relationship" [ref=e150]
+              - button "assert" [ref=e151]
+        - generic [ref=e153] [cursor=pointer]:
+          - generic [ref=e154]: ▶
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: Atomic
+              - generic [ref=e158]: Build Relationship Rituals
+            - generic [ref=e159]: Your relationships work fine when you're in steady rhythms but lose coherence when life gets busy or partners go through hard periods. You want predictable practices that anchor the relationship to a felt sense of "we are here" regardless of circumstance.
+            - generic [ref=e160]:
+              - button "preparation" [ref=e161]
+              - button "relationship" [ref=e162]
+              - button "other" [ref=e163]
+        - generic [ref=e165] [cursor=pointer]:
+          - generic [ref=e166]: ▶
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - generic [ref=e169]: Atomic
+              - generic [ref=e170]: Cultivate The Inner Nurturer
+            - generic [ref=e171]: When you fall short, your inner voice attacks you. You'd never speak to a friend the way you speak to yourself. You want a different inner relationship — not affirmations, but the steady, kind responsiveness that secure attachment offers, applied internally.
+            - generic [ref=e172]:
+              - button "self" [ref=e173]
+              - button "identity" [ref=e174]
+              - button "growth" [ref=e175]
+        - generic [ref=e177] [cursor=pointer]:
+          - generic [ref=e178]: ▶
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - generic [ref=e181]: Atomic
+              - generic [ref=e182]: Departure And Return Rituals
+            - generic [ref=e183]: Transitions between partners feel jarring — one of you leaves for a date with another partner without much marker, and the return is awkward. You want predictable practices around the going and the coming back so the nervous system has signals it can read.
+            - generic [ref=e184]:
+              - button "preparation" [ref=e185]
+              - button "relationship" [ref=e186]
+              - button "other" [ref=e187]
+              - button "in-the-moment" [ref=e188]
+        - generic [ref=e190] [cursor=pointer]:
+          - generic [ref=e191]: ▶
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: Atomic
+              - generic [ref=e195]: Develop The Safe Haven
+            - generic [ref=e196]: Your partner is hurting and you respond by trying to fix it, defending against it, or offering optimism — and the partner ends up feeling more alone after the conversation, not less. You want to learn to be the side of attachment that can simply hold the hard moment without flinching.
+            - generic [ref=e197]:
+              - button "listen" [ref=e198]
+              - button "other" [ref=e199]
+              - button "relationship" [ref=e200]
+              - button "emotion" [ref=e201]
+        - generic [ref=e203] [cursor=pointer]:
+          - generic [ref=e204]: ▶
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - generic [ref=e207]: Atomic
+              - generic [ref=e208]: Develop The Secure Base
+            - generic [ref=e209]: Your partner has a project, ambition, or new connection forming, and your reaction is to subtly discourage, compete, or withhold support. You want to be the kind of presence that supports them venturing out — not a wall they have to climb to grow.
+            - generic [ref=e210]:
+              - button "assert" [ref=e211]
+              - button "other" [ref=e212]
+              - button "relationship" [ref=e213]
+              - button "growth" [ref=e214]
+        - generic [ref=e216] [cursor=pointer]:
+          - generic [ref=e217]: ▶
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e220]: Atomic
+              - generic [ref=e221]: Distinguish Attachment Relationships
+            - generic [ref=e222]: You have several connections of different shapes — romantic, sexual, intimate-friend, casual — and you're treating them with the same expectations even though they're not the same kind of relationship. You want to apply attachment work where it fits and let the other connections be what they are.
+            - generic [ref=e223]:
+              - button "diagnose" [ref=e224]
+              - button "preparation" [ref=e225]
+              - button "relationship" [ref=e226]
+              - button "separate" [ref=e227]
+        - generic [ref=e229] [cursor=pointer]:
+          - generic [ref=e230]: ▶
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - generic [ref=e233]: Atomic
+              - generic [ref=e234]: Express Particular Delight
+            - generic [ref=e235]: Your partners know you love them in the abstract but can't easily point to recent moments where you showed them they specifically — not just any partner — were precious to you. You want to make the delight visible and specific.
+            - generic [ref=e236]:
+              - button "assert" [ref=e237]
+              - button "other" [ref=e238]
+              - button "relationship" [ref=e239]
+        - generic [ref=e241] [cursor=pointer]:
+          - generic [ref=e242]: ▶
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - generic [ref=e245]: Atomic
+              - generic [ref=e246]: Name The Relationship Type
+            - generic [ref=e247]: A relationship is sliding toward something the people in it haven't agreed to — one person treating it as attachment-based while the other treats it as casual, or two people unsure whether they're partners or close friends. You want to make the implicit type explicit before the mismatch produces hurt.
+            - generic [ref=e248]:
+              - button "preparation" [ref=e249]
+              - button "inquire" [ref=e250]
+              - button "exchange" [ref=e251]
+              - button "relationship" [ref=e252]
+        - generic [ref=e254] [cursor=pointer]:
+          - generic [ref=e255]: ▶
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - generic [ref=e258]: Atomic
+              - generic [ref=e259]: Read Jealousy As Information
+            - generic [ref=e260]: Jealousy hits and you treat it as either a verdict (the relationship is wrong, the partner is doing something wrong) or a personal failure (I'm not evolved enough). You want to use it as data about an underlying need instead.
+            - generic [ref=e261]:
+              - button "diagnose" [ref=e262]
+              - button "self" [ref=e263]
+              - button "emotion" [ref=e264]
+              - button "in-the-moment" [ref=e265]
+        - generic [ref=e267] [cursor=pointer]:
+          - generic [ref=e268]: ▶
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - generic [ref=e271]: Recipe
+              - generic [ref=e272]: Become Polysecure With Self
+            - generic [ref=e273]: A workflow for building secure attachment with yourself — the foundation that all partner-facing attachment work stands on. Combines self-attunement, self-regulation, the inner nurturer, self-rituals, and self-repair into a daily/weekly practice rather than a one-time intervention.
+            - generic [ref=e274]:
+              - button "self" [ref=e275]
+              - button "growth" [ref=e276]
+              - button "identity" [ref=e277]
+        - generic [ref=e279] [cursor=pointer]:
+          - generic [ref=e280]: ▶
+          - generic [ref=e281]:
+            - generic [ref=e282]:
+              - generic [ref=e283]: Recipe
+              - generic [ref=e284]: Build Attachment Based Partnership
+            - generic [ref=e285]: A workflow for building secure attachment with a specific partner using the HEARTS framework — Here, Expressed delight, Attunement, Rituals, Turning toward, Secure self. Especially useful in nonmonogamy where the defaults of monogamous attachment don't apply automatically.
+            - generic [ref=e286]:
+              - button "relationship" [ref=e287]
+              - button "other" [ref=e288]
+              - button "exchange" [ref=e289]
+        - generic [ref=e291] [cursor=pointer]:
+          - generic [ref=e292]: ▶
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - generic [ref=e295]: Atomic
+              - generic [ref=e296]: Recognize Your Attachment Style
+            - generic [ref=e297]: You have a recurring pattern in close relationships — distance feels unsafe, or closeness does, or both — and you want to know what your nervous system is doing under the hood so you can stop attributing the pattern to your partner's behavior or your own character.
+            - generic [ref=e298]:
+              - button "diagnose" [ref=e299]
+              - button "self" [ref=e300]
+              - button "identity" [ref=e301]
+              - button "preparation" [ref=e302]
+        - generic [ref=e304] [cursor=pointer]:
+          - generic [ref=e305]: ▶
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: Atomic
+              - generic [ref=e309]: Self Regulate Without Others
+            - generic [ref=e310]: You're activated — anxious, hurt, lonely, restless — and your default move is to text a partner, scroll your phone, eat, drink, or otherwise outsource the regulation. You want to develop the capacity to bring yourself back to baseline using your own resources.
+            - generic [ref=e311]:
+              - button "self" [ref=e312]
+              - button "contain" [ref=e313]
+              - button "emotion" [ref=e314]
+        - generic [ref=e316] [cursor=pointer]:
+          - generic [ref=e317]: ▶
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: Atomic
+              - generic [ref=e321]: Soften Rigid Boundaries
+            - generic [ref=e322]: You handle distress alone, decline support that's offered, and keep emotional information at arm's length even from people you trust. Your boundaries protect you from being hurt — and also from being known. You want to soften where it would actually serve connection.
+            - generic [ref=e323]:
+              - button "assert" [ref=e324]
+              - button "self" [ref=e325]
+              - button "boundaries" [ref=e326]
+              - button "growth" [ref=e327]
+        - generic [ref=e329] [cursor=pointer]:
+          - generic [ref=e330]: ▶
+          - generic [ref=e331]:
+            - generic [ref=e332]:
+              - generic [ref=e333]: Atomic
+              - generic [ref=e334]: Spot Your Giving Pattern
+            - generic [ref=e335]: You're not sure why some relationships feel exhausting and others depleting in the opposite direction. You want to look at your specific pattern of giving and receiving — over-giving, under-giving, over-taking, under-taking — and locate where the imbalance actually lives.
+            - generic [ref=e336]:
+              - button "diagnose" [ref=e337]
+              - button "self" [ref=e338]
+              - button "boundaries" [ref=e339]
+              - button "relationship" [ref=e340]
+        - generic [ref=e342] [cursor=pointer]:
+          - generic [ref=e343]: ▶
+          - generic [ref=e344]:
+            - generic [ref=e345]:
+              - generic [ref=e346]: Atomic
+              - generic [ref=e347]: Tighten Porous Boundaries
+            - generic [ref=e348]: You absorb other people's emotions until they feel like your own, take on responsibility for things that aren't yours, or find yourself agreeing to commitments you didn't actually want. You want to develop a firmer membrane between you and others without becoming walled off.
+            - generic [ref=e349]:
+              - button "contain" [ref=e350]
+              - button "self" [ref=e351]
+              - button "boundaries" [ref=e352]
+        - generic [ref=e354] [cursor=pointer]:
+          - generic [ref=e355]: ▶
+          - generic [ref=e357]:
+            - generic [ref=e358]: Atomic
+            - generic [ref=e359]: Turn Toward After Rupture

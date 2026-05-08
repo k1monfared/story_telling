@@ -1,0 +1,392 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Skills Library" [ref=e4] [cursor=pointer]:
+        - /url: ../../
+      - generic [ref=e5]: Stone & Heen — Thanks for the Feedback
+      - button "Toggle theme" [ref=e6] [cursor=pointer]: ☼
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "Stone & Heen — Thanks for the Feedback" [level=1] [ref=e10]
+        - button "Settings" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - textbox "Search… (use key:value for field search)" [ref=e17]
+    - generic [ref=e18]: 65 items
+    - generic [ref=e19]:
+      - generic [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: ▶
+        - generic [ref=e23]: Receiving feedback well is a learnable skill, not an inborn trait
+        - generic [ref=e25]: "11"
+      - generic [ref=e61]:
+        - generic [ref=e62] [cursor=pointer]:
+          - generic [ref=e64]: Three triggers that block feedback
+          - generic [ref=e65]: ▶
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - generic [ref=e189]: truth triggers
+            - generic [ref=e190]:
+              - text: the feedback seems wrong, unfair, or unhelpful
+              - text: The wrong-spotting instinct
+              - text: We listen with the question "what is wrong with this?" running in the background
+              - text: We scan for the part that is inaccurate and use it to dismiss the whole
+              - text: "The 2+2=5 error: one wrong part discredits the rest, even when the rest is right"
+              - text: "The different-planet error: we live in such different contexts that of course they see it wrong"
+              - text: "The used-to-be-right error: this was accurate before, but things have changed"
+              - text: "Paul: \"I don't listen to feedback to accept or reject it, but first to understand it\""
+              - text: "The upstream switch: catch the wrong-spotting instinct and shift to \"what might be right?\""
+              - text: "Feedback arrives as labels: spot the label"
+              - text: "\"Be more assertive,\" \"be more strategic,\" \"show more leadership\" — high definition in the giver's head, almost no content in transit"
+              - text: "Adrianna and Nicholas: he hears \"be more assertive at work\" and imagines one thing; she means something quite specific about particular situations"
+              - text: "\"Be more affectionate\" has eight possible meanings; filling in your own produces a conversation that never touches what they actually meant"
+              - text: Your auto-fill replaces their meaning with your own definition
+              - text: "The move: resist the auto-fill; ask what they actually observed and what different behavior would look like"
+              - text: Separate data from interpretation
+              - text: Feedback arrives packaged as a label or conclusion; the useful content is in the data and interpretation underneath
+              - text: "The coming-from move: what did they actually observe? What interpretation did they make of it?"
+              - text: "Push past second-order interpretations offered as data: \"you're never there for me\" is an interpretation, not an observation"
+              - text: "Nicholas pushing Adrianna: she needs to separate what he saw (she pushed her chair back when the client questioned her) from what he made of it (she seemed uncomfortable with confrontation)"
+              - text: "The two-step: what did you see? What do you make of it?"
+              - text: Clarify where the feedback is going
+              - text: "Coaching: if I wanted to follow this, would I know how? What specifically would be different?"
+              - text: "Evaluation: what are the consequences? What is still open? What do I need to do now?"
+              - text: "The rip-cord questions: what exactly are you recommending? What happens if nothing changes?"
+              - text: "The actionability test for coaching: could you make a movie of what \"doing it differently\" would look like?"
+              - text: "When you have understood and still disagree: difference-spot-not-wrong-spot"
+              - text: Shift from "who is right?" to "what is different about our data?" and "what is different about our interpretations?"
+              - text: Two common sources of interpretive difference
+              - text: "Different implicit rules: they think X is unprofessional; you think X is efficient"
+              - text: "Heroes-and-villains framing: same behavior, different moral lens applied to it"
+              - text: "Closing step: ask what's right — acknowledge what is valid before sitting with the disagreement"
+              - text: "The \"when-I-still-disagree\" stance: be transparent about your reactions while staying open and curious"
+              - text: "Blind spots: feedback that seems wrong but might be accurate"
+              - text: The gap between how we see ourselves and how others experience us
+              - text: Three amplifiers of the gap
+              - text: We judge ourselves by our intent; others judge us by our impact on them
+              - text: We explain our behavior by situation; others attribute it to character
+              - text: We focus on the feeling driving the behavior; others see only what leaks out
+              - text: "Behavioral blind spots: leaky face, leaky tone, leaky patterns"
+              - text: Your face communicates emotions you don't know you're having
+              - text: Your tone carries what you thought you hid; others can often detect when someone is distorting, manufacturing, or withholding an emotion
+              - text: Your patterns are invisible to you, obvious to people who interact with you regularly
+              - text: "Emotional math blind spots: we unconsciously add or subtract from others' emotional scores"
+              - text: "Situation-vs-character blind spots: we explain our own behavior by situation, attribute theirs to character"
+              - text: Use your own reaction as a blind spot signal
+              - text: "When the case you build against the giver is strong, ask: might the feedback be in my blind spot?"
+              - text: "\"Looking harder\" at feedback you think is wrong produces more of the same dismissal verdict; substituting the blind-spot question is the inversion"
+              - text: Ask how you're getting in your own way
+              - text: Replace "any feedback?" with "what's one thing you see me doing that gets in my own way?"
+              - text: This grants permission to be candid and narrows to behavior with observable impact
+              - text: Know which kind of mirror you need
+              - text: "Honest mirror: tell me what you actually observe, even if it's hard to hear"
+              - text: "Supportive mirror: help me feel okay about this situation"
+              - text: Name the kind out loud before asking; the default implicit ask is for a supportive mirror
+              - text: The problem is conflation, not choosing one type
+              - text: Look for pattern not counterexample
+              - text: Look for consistency across time and source, not the exception that dismisses
+              - text: Richard's three girlfriends all said he was emotionally distant; he started paying attention the third time
+              - text: "Me+Everybody patterns: when the same feedback recurs across relationships, changing yourself can improve multiple systems simultaneously"
+              - text: Separate impact from intent
+              - text: "The asymmetry: we project our own impact onto others as evidence of their intentions"
+              - text: "Three amplifiers that widen the intent-impact gap: emotional math, situation vs. character, impact vs. intent itself"
+              - text: "Inside-out change: if the underlying feeling doesn't change, the surface behavior change leaks"
+            - generic [ref=e191]: relationship triggers
+            - generic [ref=e192]:
+              - text: the who and how trip you regardless of the what
+              - text: The six trigger families
+              - text: "Skill/judgment: you have no standing to raise this; you did it wrong (timing, tone, place)"
+              - text: "Credibility: you don't know what you're talking about on this subject"
+              - text: "Trust: your motives are suspect; this isn't for my benefit"
+              - text: "Appreciation: after all I've done, this is what I get back?"
+              - text: "Autonomy: this is mine to decide; you don't get to weigh in here"
+              - text: "Acceptance: you're asking me to be a fundamentally different person, not adjust a behavior"
+              - text: "The switchtrack: the conversation quietly splits into two topics"
+              - text: You and the giver are each on a different topic while using the same words
+              - text: "Louie and Kim: she gives him feedback about the roses she doesn't like (her topic: does he listen to her?); he hears a critique of his effort (his topic: does she appreciate him?)"
+              - text: "The trap: your second topic may be at least as important as the first; but staying on only your track means the original feedback goes nowhere; each of you ends up giving feedback neither of you is receiving"
+              - text: Both topics can be true simultaneously; both deserve attention
+              - text: "Silent switchtrack: you address the feedback on the surface; in your head you've already switched to your topic; you never raise it; you triangulate to a third party instead"
+              - text: Signpost and track each topic
+              - text: Step outside the conversation; name both topics out loud
+              - text: "Ella and her mother: \"Mom, I hear that you're saying I didn't get you a thank-you gift after the vacation. I want to talk about that. I also want to talk about something I've been sitting on — feeling like I can never get anything right with you. Can we do both?\""
+              - text: "Propose a sequence: default to the giver's topic first unless your trigger is too loud to hear past; the two-factor rule"
+              - text: Listen for the issue beneath the coaching
+              - text: "Inverse case: the giver has packaged a relationship concern as coaching"
+              - text: The surface topic (the advice) is not the real one (the relationship concern)
+              - text: "The mother who gives her daughter advice about her marriage: the coaching is packaging for a worry that she's losing connection with her daughter"
+              - text: "Four \"might mean\" diagnostic pairs: \"you should call more often\" might mean \"I miss you\"; \"you should be more decisive\" might mean \"I feel anxious when things are uncertain\""
+              - text: "The check-question: \"Are we on the same track? What is the real topic here?\""
+              - text: "\"What are you worried about?\" as the probe that surfaces the actual concern"
+              - text: "The relationship system: see the system, not just the individual"
+              - text: Feedback in a relationship is rarely about you alone; it is about the dynamic between you
+              - text: "One step back: you+me intersections"
+              - text: What is the specific you-and-me combination of tendencies that produces the spiral?
+              - text: Sandy's comfort-spending and Gil's monitoring-panic each amplify the other's coping
+              - text: Neither is wrong alone; together they generate the problem
+              - text: "The snoring husband and the sensitive wife: each sees the other's contribution clearly and not their own; both are required to produce the problem"
+              - text: "Systems Insight 1: each of us is part of the problem; Systems Insight 2: each of us sees only the other's contribution"
+              - text: "We don't see our own system patterns, though people outside can spot them easily: the father-in-law who sees that the children have learned Mom doesn't \"mean it\" until she yells"
+              - text: "Two steps back: role clashes and accidental adversaries"
+              - text: "Some roles create structural conflict regardless of personality: compliance and trading, Sales and Legal, surgeons and anesthesiologists, HR and everyone"
+              - text: "\"Accidental adversaries\": each attributes the problem to the other's character; the true culprit is the structure of their roles"
+              - text: "Three steps back: the big picture"
+              - text: Other players, physical environment, timing and decision-making, policies, coping strategies
+              - text: "The Benny/Alice/Vince/board chain: Benny's late delivery is the presenting problem; the board's habit of changing requirements, Alice's failure to pass those changes on, and the absence of honest accounting of how changes affect timelines are the structural contributors"
+              - text: "\"Fixes that fail\": solutions aimed at one component of the system that generate new problems elsewhere"
+              - text: Use the system to support change, not thwart it
+              - text: "Once you see the system's contours, make changes that don't require personality change: shift roles, change processes, change the environment"
+              - text: "Me+Everybody patterns: when one person changes, multiple systems improve simultaneously"
+              - text: "Shifting and absorbing: two dysfunctional accountability patterns"
+              - text: "Absorbers: accept all responsibility quickly; cut conversations short; don't explore the system; let others off the hook; resentment builds privately"
+              - text: "In abusive relationships: the feedback the abuser gives (\"you provoked me\") may accurately describe the absorber's contribution while completely omitting the harm being done"
+              - text: "Shifters: deflect all blame to external causes; victim stance; feedback bounces off; feel perpetually victimized and powerless"
+              - text: If I contribute to my own problems, there are things I have the power to change; the shifter's stance removes that power
+              - text: "Interrupt the pattern: once named, it can be challenged"
+              - text: Take responsibility first, then introduce the system
+              - text: "Two messages: \"I take responsibility for my part\" AND \"we are both contributing\""
+              - text: Message one must be settled before message two is raised
+              - text: If message two arrives before message one is settled, the giver reads it as sophisticated deflection
+              - text: Avoid the phrase "relationship system" altogether — it signals theory rather than honesty
+              - text: "Gauge readiness: if the giver is still visibly angry or has not registered message one, message two should wait"
+              - text: Ask what would help you change
+              - text: "When the giver is stuck in \"this is all about you\" and can't hear the system: describe what they could do differently that would help you change"
+              - text: Frame it as serving your change, not as critique of them — and it must be genuine
+              - text: "Gil's script to Sandy: \"I have the strongest reaction to being surprised, because it makes me panic about where else you might be spending. I know I'm overreacting sometimes and I'm working on that. It would help me if you would be willing to be upfront with me about the Grape-Nuts and the mochaccino mini-vacations, and we can budget for them together.\""
+            - generic [ref=e193]: identity triggers
+            - generic [ref=e194]:
+              - text: what this feedback says about who I am
+              - text: "Wiring: why people metabolize feedback so differently"
+              - text: Three variables that differ enormously across individuals
+              - text: Baseline
+              - text: The default level of well-being you return to after positive and negative events
+              - text: Happiness is one of the most heritable aspects of personality; about 50% of variance is genetic
+              - text: People with lower baselines get less boost from positive feedback and are hit harder by negative
+              - text: "Krista has a high baseline: criticism doesn't stick; Alita has a lower baseline: the critical comments land hard and persist"
+              - text: Lottery winners return to approximately their prior happiness level within a year
+              - text: "Swing: how far up or down you move from baseline"
+              - text: Some people swing wide in response to even minor inputs; others remain in a narrow band
+              - text: High-reactive infants grow into high-reactive adults; differences appear to be present from birth
+              - text: Eliza is frantic from the same client message that Jeron reads as "a bit more work"
+              - text: "Brain imaging: high-reactive infants showed greater thickness in right ventromedial prefrontal cortex as adults"
+              - text: "Sustain and recovery: how long you ride the boost and how quickly you return"
+              - text: Recovery time differs by up to 3,000 percent across individuals
+              - text: The left side of the prefrontal cortex exerts a calming influence on the amygdala; "cortical lefties" recover faster
+              - text: People with more connections between the left prefrontal cortex and the amygdala effectively have a superhighway for delivering reassuring signals
+              - text: "Alita: positive feedback evaporates in minutes; negative comments land like a sledgehammer and stick"
+              - text: "Krista: fast recovery; negative feedback doesn't adequately catch her attention — a different challenge"
+              - text: You can extend positive sustain by deliberately recalling positive feedback
+              - text: "Bad is stronger than good: the amygdala has a direct connection to the panic system for threats, but no equivalent green alert for opportunities"
+              - text: "Jonathan Haidt: responses to threats are faster, stronger, and harder to inhibit than responses to opportunities"
+              - text: One criticism buried in four hundred compliments is what lingers; the brain has no equivalent "green alert"
+              - text: "The liberation: wiring is not destiny, not judgment-worthy, not fixed"
+              - text: Like your naturally curly hair or flat feet, your wiring is not more blame-worthy than whether your second toe is longer than the first
+              - text: Practices like meditation, serving others, and exercise can raise your baseline over time
+              - text: "The 50-40-10 formula: about 50% of happiness is wired in; 40% is how you interpret and respond to events; 10% is circumstances"
+              - text: The 40% is the zone you can actually work on
+              - text: How emotions distort our stories about feedback
+              - text: Our stories are made of thoughts and feelings simultaneously — like a movie and its soundtrack
+              - text: When we're absorbed in a good movie, we don't notice the music; when things go wrong, we need to slow down and observe the effect our emotions are having on how we tell the story
+              - text: "Two directions of causality: feelings color stories AND stories generate feelings"
+              - text: "The Google bias: when you feel bad, you effectively search for \"things that are wrong with me\""
+              - text: Returns 8.4 million examples; you can't recall a single thing you've ever done right
+              - text: "Marc: \"The feedback could be small, but if I'm feeling vulnerable, it's as if I fall through the floor, plunged into the basement where all the things I've ever regretted are collected. When I'm not in the basement I literally don't think about it. But when I'm there, it's the only reality.\""
+              - text: "Flooding: feedback on one specific thing floods your general self-image"
+              - text: "\"I sing off key\" becomes \"I can't do anything right\"; \"my colleague has a concern\" becomes \"everybody on the team hates me\""
+              - text: Flooding also drowns any positive attributes that might provide balance
+              - text: "Forever bias and snowballing: bad feelings projected forward as permanent; a chain of imagined disasters"
+              - text: "\"I feel precisely this humiliated up to the moment of my death\""
+              - text: "\"I had mayonnaise on my cheek during the date\" becomes \"I will die alone\""
+              - text: What's amazing about these distortions is how real they appear from inside them
+              - text: "Dismantling distortions: five strategies"
+              - text: "Strategy 1: know your feedback footprint; be prepared and mindful"
+              - text: "Your footprint: Bryan blames others; Claire switchtracks; Anu cries; Alfie apologizes; Mick chatters; Hester goes silent; Fergie agrees while quietly resolving never to change; Reynolds lawyers up emotionally; Jody becomes awkwardly friendly"
+              - text: Know your footprint so you can name your reaction to yourself in the moment
+              - text: "Seth working to improve: \"Once I think 'yep, this is the part where I have my overreactions,' I actually start to calm down.\" Self-observation activates the left prefrontal cortex."
+              - text: "Inoculation: before a high-stakes conversation, imagine the worst outcome; try it on emotionally; reason through what you would do if it arrived"
+              - text: "Benefits: acts as inoculation (familiar threat is less shocking); gives you a chance to reason through possible consequences and actions while still balanced"
+              - text: "Strategy 2: separate the strands — feeling / story / feedback"
+              - text: Three questions, answered in sequence before moving to the next
+              - text: What do I feel? Name the emotion; describe it physically — nausea, a jolt of adrenaline, something that feels like an electric shock, slightly faint
+              - text: What's the story I'm telling? And inside the story, what is the threat?
+              - text: The threat could be about a bad thing that might happen, or about what this means for how others see you or how you see yourself
+              - text: "Seth's story: \"my boss disapproves of me; I'll lose this job; I mess up everything; I can't stand it; I'll just be unhappy all the time\""
+              - text: What was the actual feedback? The exact words, without the story added
+              - text: Seth's boss made one offhand comment about "everyone" being disorganized, including Seth; that is all
+              - text: Everything else was Seth's own addition
+              - text: Our stories shadowbox with the past
+              - text: "The \"last straw\" dynamic: each prior comment was weightless; this one is suddenly more than you can bear"
+              - text: The neighbor complains about lawn maintenance; you snap; you've been told your whole life that you're slightly oblivious to social norms
+              - text: "Open wounds: a colleague suggests speaking with more authority; you were bullied as a child, dismissed from the soccer team, broke up with by someone who said you never had opinions"
+              - text: The current feedback is not the whole of what you're reacting to; that's okay and doesn't mean you're overreacting to the current feedback — it means the older material also needs attention
+              - text: "Strategy 3: contain the story"
+              - text: Three laws of physics for stories that strong feelings cause us to violate
+              - text: "Time: the present does not change the past; the present influences but does not determine the future"
+              - text: "Specificity: being lousy at one thing does not make you lousy at unrelated things"
+              - text: "People: one person's view does not equal everyone's view; even they probably like some things about you; views can change over time"
+              - text: "Feedback Containment Chart: two columns"
+              - text: "Left: what IS this feedback about?"
+              - text: "Right: what is it NOT about?"
+              - text: "Example: not getting your dream job is about whether you have the specific qualifications they were looking for; it is NOT about whether you will ever work in your chosen field or whether your future is determined by this outcome"
+              - text: Writing the right column makes the trespass material visible and shrinks the feedback to its actual size
+              - text: "Balancing Picture: visual representation of proportions"
+              - text: "When you know logically you're over-weighting one negative comment in a set of positive feedback, but can't feel the proportion: draw it"
+              - text: Alita draws the ratio of positive to negative patient feedback; she is shocked at how different the balance looks when rendered
+              - text: "\"Your drawing is not some final truth about the feedback. But seeing it in front of you, looking so different from how it feels, helps you loosen up your story.\""
+              - text: Right-size the future consequences
+              - text: Distinguish between consequences that will happen and those that merely might
+              - text: In the grip of upsetting feedback, we process might-happen consequences as if they were will-happen
+              - text: Your boss confirmed you're not getting a raise. That your spouse will leave you because of the missing raise is only something that might happen.
+              - text: "Underestimating resilience: the arthritis diagnosis that rules out swimming; you picture a gaping hole; but something will fill it — ten years ago the same thing happened with tennis, which led to swimming"
+              - text: "Daniel Gilbert: people consistently overestimate how awful they'll feel and how long they'll feel awful"
+              - text: "Strategy 4: change your vantage point"
+              - text: "Imagine you're an observer: give yourself the advice you'd give your sister in the same situation"
+              - text: "If Mom made that comment to your sister: \"That one stupid comment is still bugging you? Why are you worrying about that? It meant nothing. That's how she is now, and anyway, you're an adult!\""
+              - text: You have access to the same perspective — it requires deliberately stepping into it
+              - text: "Look back from the future: in ten or twenty or forty years, how significant will today's events look?"
+              - text: You may still find the feedback challenging from that future vantage, but the forever bias becomes visibly false; the future-you has lived through this and continued
+              - text: "Cast the comedy: humor taps the left prefrontal cortex where amusement lives, disrupting the alarm signals"
+              - text: The ability to laugh at yourself requires loosening your grip on your identity; aligning yourself with the world instead of trying to align the world to you
+              - text: "Juliet, putting down her wine glass: \"So boy meets girl. Boy deceives, betrays, and dumps girl. Girl will never date another bad boy because she has finally learned her lesson. Wait, who's that super-hot drummer over there?\""
+              - text: "Strategy 5: accept that you can't control how others see you"
+              - text: Their views may be incomplete, outdated, unfair, or based on nothing
+              - text: You can discuss, offer evidence, bring notarized statements from your therapist or the pope; you cannot make someone think differently about you
+              - text: "The football case: you love football for the chesslike strategy; your coworker insists it's adolescent compensation for insecure masculinity; you cannot make her think something different"
+              - text: Most people are too obsessed with themselves to be obsessed with you; your ex-spouse is probably watching Luke on America's Got Talent, not thinking about you
+              - text: "Others' views of you are input, not imprint: don't dismiss them unseen, but don't accept them wholesale either"
+              - text: "Have compassion for them: remind yourself what their own history must look like; the wounds they are operating from; the patterns they learned before you appeared"
+              - text: Cultivating a growth identity
+              - text: All-or-nothing identity as the structural vulnerability
+              - text: "Simple labels: \"I'm competent,\" \"I'm a good person,\" \"I'm worthy of love\" — all-or-nothing"
+              - text: Any feedback that suggests we are not "all" is heard as "nothing"
+              - text: "Two failure modes: deny the feedback to preserve the identity; or take it in with crippling exaggeration"
+              - text: "Toggling between them: \"If I accept this it means I'm a bad person. But that can't be right. I'm going to reject it. But why would they say it if it weren't true? On the other hand...\" — flipping like a fish on the deck of a boat"
+              - text: "The headline in The Daily Me: \"Hardworking Academic\" becomes \"Fool Who Wasted Years Chasing Tenure\"; \"Good Son\" becomes \"Heartless Child Fails Mother\""
+              - text: Three things to accept about yourself
+              - text: "You will make mistakes: accepting this takes pressure off; mistakes happen to even brilliant, generous people; every given mistake can still shock and dismay you without being evidence of fundamental incompetence"
+              - text: "Your intentions are complex: mixed in with your positive intentions are less noble ones; self-interest is a requirement of being alive; occasionally it will conflict with others' interests and occasionally that will be pointed out to you"
+              - text: "You have contributed to the problem: the \"I-don't-have-to-take-feedback-from-you-because-you-did-something-wrong-too club\" just closes down the chance to learn and address the problem"
+              - text: "Shift 1: give up simple labels and cultivate complexity"
+              - text: "The narrator who placed their mother in a full-time care facility: not \"good son\" or \"bad son\" but someone who cares deeply about being a good son, has thousands of examples of living up to it, and some of falling short"
+              - text: "\"There are some things about how you handled the situation that you're proud of. And there are some things you are less proud of.\""
+              - text: Rita's feedback ("this was selfish") can now be examined from a complex identity without destroying the whole self-story
+              - text: "\"As your story of the situation and yourself becomes more nuanced, you wonder whether there is something to learn in Rita's view.\""
+              - text: "Shift 2: move from fixed mindset to growth mindset (Carol Dweck)"
+              - text: "Fixed: traits and abilities are carved in stone; feedback is a verdict; every situation is a referendum on whether you have the smarts or ability you think you have"
+              - text: "Growth: traits can develop; effort matters; feedback is information about where you are on a learning curve"
+              - text: "Dweck's puzzles: some kids became more energized as the puzzles got harder; one boy licked his lips saying \"I was hoping this would be informative!\""
+              - text: "The kids who gave up thought: \"The first puzzles showed I was smart; these new ones make me look dumb\""
+              - text: "The kids who persisted thought: \"These harder puzzles are helping me get better at doing puzzles. This is fun!\""
+              - text: "The Testing Room vs. the Learning Room: which room would you rather live your life in?"
+              - text: "EEG study at Columbia: fixed-mindset students paid close attention to whether they got it right or wrong, but lost interest when told what the right answer was; growth-mindset students listened closely to the right answers and outperformed on retesting"
+              - text: "The fifth-graders study: praising effort (\"you worked hard\") produces willingness to take on challenges; praising intelligence (\"you're so smart\") produces risk avoidance"
+              - text: Even among the half who had fixed-mindset assumptions, praising effort produced willingness to take on the next challenge; "working hard" is a trait they felt confident they could replicate
+              - text: "Practice 1: sort toward coaching"
+              - text: When feedback arrives, default to hearing it as coaching rather than evaluation
+              - text: Identity is easily triggered by evaluation; it is far less threatened by coaching — almost like a free pass
+              - text: "Elsbeth at the presentation break: heard as evaluation = \"am I boring? Am I not up to an audience this senior?\"; heard as coaching = \"I should have more coffee and make this next segment more interactive\""
+              - text: "Sorting exercise: think of a real piece of feedback you received; first hear it as evaluation (what verdict?); then hear it as coaching (what could you learn?)"
+              - text: "Three discoveries from the exercise: you can usually hear most feedback either way with effort; the identity reaction is diminished or gone in the coaching frame; you'll notice your own oversort patterns"
+              - text: When coaching and evaluation are tangled, find the coaching at the core
+              - text: Lisa telling Margaret "when I was eight and Dad left, I felt like you had abandoned me too"
+              - text: "Margaret hears \"you were a bad mother\" (evaluation); Lisa wants three things: to be understood, to receive acknowledgment that her mother's choices contributed to her pain, and to have a better current relationship (coaching)"
+              - text: What would be most satisfying to Lisa? Not "okay, maybe I was a bad mother." But "I never realized how I was affecting you during that time. I'm so sorry."
+              - text: "Practice 2: unpack judgment from the evaluation suitcase"
+              - text: Break evaluation into three constituent parts
+              - text: "Assessment: where do I stand? (The measurement itself — the mile time, the ranking)"
+              - text: "Consequences: what happens as a result? (Certain vs. speculative; immediate vs. long-term)"
+              - text: "Judgment: what story does the evaluator tell about the assessment and its consequences?"
+              - text: Identity is most triggered by judgment, not by assessment or consequences
+              - text: "Track meet: the assessment (5:19, fourth place in the age group) is acceptable; the consequences (regionals yes, nationals no) are manageable; the coach's disappointment is what hooks identity"
+              - text: Accurate assessment is valuable; consequences are important to understand; others' judgments are one interpretation, and you have your own
+              - text: "Practice 3: give yourself a second score"
+              - text: After any first score, earn a second score for how you handle it
+              - text: The first score is for the situation itself; the second score is for what you do with it
+              - text: You can receive an F for the situation and an A+ for the handling
+              - text: "Mel and Melinda: both got a thumbs-down on their first YouTube video"
+              - text: "Mel: angrily accused the world of being too stupid, withdrew"
+              - text: "Melinda: wondered what they could learn; weeks later noticed the jump cuts were too jumpy, the lyrics hard to make out; studied film editing; posted new videos; eventually reworked the original to a mostly positive reception"
+              - text: "Make the second score part of your identity: \"I don't always succeed, but I take an honest shot at figuring out what there is to learn from the failure. I'm actually pretty good at that.\""
+              - text: "Handling it well does not mean denying pain or emerging unscathed: Heather, whose longtime girlfriend left her: \"All I had control over was my reaction, and I got up every morning and went to work. I treated everyone around me respectfully. Actually, working to 'handle it well' gave me something to focus on and to feel good about.\""
+          - generic [ref=e195]:
+            - generic [ref=e196]: Every difficult feedback reaction traces to one of three triggers
+            - generic [ref=e197]: Identifying which trigger is firing — before applying any remedy — is the first move
+            - generic [ref=e198]: Triggers can fire in combination; some feedback trips all three simultaneously
+            - generic [ref=e199]: The trigger is not evidence about the feedback's content; it is a report about your nervous system and history
+      - generic [ref=e66]:
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: ▶
+          - generic [ref=e69]: Three kinds of feedback and their mismatches
+          - generic [ref=e71]: "9"
+        - generic [ref=e72]:
+          - generic [ref=e74] [cursor=pointer]:
+            - generic [ref=e76]: "Appreciation: you matter, your work matters, your effort is seen"
+            - generic [ref=e77]: ▶
+          - generic [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]: "Coaching: here is how to improve or change"
+            - generic [ref=e82]: ▶
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e86]: "Evaluation: here is where you stand"
+            - generic [ref=e87]: ▶
+          - generic [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: ▶
+            - generic [ref=e91]: Three mismatches that cause feedback to fail
+            - generic [ref=e93]: "4"
+          - generic [ref=e95] [cursor=pointer]:
+            - generic [ref=e97]: "Sort the kind: name which kind is in play"
+            - generic [ref=e98]: ▶
+          - generic [ref=e100] [cursor=pointer]:
+            - generic [ref=e102]: Settle evaluation first
+            - generic [ref=e103]: ▶
+      - generic [ref=e104]:
+        - generic [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]: ▶
+          - generic [ref=e107]: Setting limits on feedback
+          - generic [ref=e109]: "20"
+        - generic [ref=e110]:
+          - generic [ref=e114]: Being able to say no is right at the heart of receiving feedback well; if you can't say no, your yeses are not freely chosen
+          - generic [ref=e118]: "Your emotional acre: Anne Lamott's image — you get one; as long as you don't hurt anyone, you get to do with it as you please; there's a fence around it with a gate; if people keep sliming it, you get to ask them to leave"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: ▶
+            - generic [ref=e122]: Three kinds of boundaries
+            - generic [ref=e124]: "3"
+          - generic [ref=e126] [cursor=pointer]:
+            - generic [ref=e127]: ▶
+            - generic [ref=e128]: Six diagnostic questions for when a boundary is needed
+            - generic [ref=e130]: "7"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: "Henry and Isabella: the renovation relationship"
+            - generic [ref=e135]: ▶
+          - generic [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: ▶
+            - generic [ref=e139]: Setting the boundary clearly
+            - generic [ref=e141]: "6"
+          - generic [ref=e143] [cursor=pointer]:
+            - generic [ref=e145]: Duty to mitigate when you decide not to change
+            - generic [ref=e146]: ▶
+      - generic [ref=e147]:
+        - generic [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]: ▶
+          - generic [ref=e150]: "Getting going: acting on feedback"
+          - generic [ref=e152]: "23"
+        - generic [ref=e153]:
+          - generic [ref=e155] [cursor=pointer]:
+            - generic [ref=e156]: ▶
+            - generic [ref=e157]: Name one thing
+            - generic [ref=e159]: "7"
+          - generic [ref=e161] [cursor=pointer]:
+            - generic [ref=e162]: ▶
+            - generic [ref=e163]: Try small experiments
+            - generic [ref=e165]: "7"
+          - generic [ref=e167] [cursor=pointer]:
+            - generic [ref=e168]: ▶
+            - generic [ref=e169]: Ride out the J curve
+            - generic [ref=e171]: "7"
+          - generic [ref=e173] [cursor=pointer]:
+            - generic [ref=e175]: Coach your coach
+            - generic [ref=e176]: ▶
+          - generic [ref=e178] [cursor=pointer]:
+            - generic [ref=e180]: Invite them in
+            - generic [ref=e181]: ▶
+      - generic [ref=e183] [cursor=pointer]:
+        - generic [ref=e185]: The feedback conversation itself
+        - generic [ref=e186]: ▶

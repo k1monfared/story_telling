@@ -1,10 +1,10 @@
 # Process — adding a book to the library
 
 This is the canonical, end-to-end guide for taking a book and turning it into a
-fully-integrated entry in the Skills from Books library. It covers both the
-content side (extracting skills, writing the loglog) and the infrastructure
-side (building JSON, registering the book on the parent index, wiring up the
-viewer pages). Every decision the existing books locked in is documented here.
+fully-integrated entry in Marginalia. It covers both the content side
+(extracting skills, writing the loglog) and the infrastructure side (building
+JSON, registering the book on the parent index, wiring up the viewer pages).
+Every decision the existing books locked in is documented here.
 
 If you only want a one-off skill from a short article or conversation, write
 the `SKILL.md` directly using the format in section 4 below — you can skip the
@@ -593,7 +593,7 @@ When you think you're done:
 ## 13. File map (where everything lives)
 
 ```
-story_telling/
+marginalia/
 ├── PROCESS.md                              # this file
 ├── README.md
 ├── CLAUDE.md                               # project-level instructions

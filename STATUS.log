@@ -1,8 +1,9 @@
 - Project Status
-    - Last Updated: 2026-05-05
+    - Project Name: Marginalia
+    - Last Updated: 2026-05-08
     - Development Mode: Claude Code
     - Stage: Beta
-    - Next Milestone: Write cross-book recipes; then convert books to loglog format
+    - Next Milestone: Add the next book; consider cross-book recipes
 
 - Development Stages
     - [x] Initial Setup
@@ -14,7 +15,7 @@
         - Completed: 2026-05-04
         - Goal: Validate the library design with scaffolding, methodology, and validator
         - Success criteria:
-            - [x] Skills library directory structure created
+            - [x] Skills directory structure created
             - [x] Book-agnostic PROCESS.md written
             - [x] SKILL.md validator with full test coverage
             - [x] All three initial books converted to plain text

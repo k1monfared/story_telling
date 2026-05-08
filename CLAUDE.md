@@ -1,7 +1,7 @@
 # Claude Instructions
 
 ## Project Overview
-<!-- What this project does and its purpose -->
+Marginalia — a personal library of skills extracted from books. See `README.md` and `PROCESS.md` for the full context.
 
 ## Project Stage Definitions
 

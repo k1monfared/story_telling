@@ -1,5 +1,5 @@
 /**
- * skills-viewer.js — Interactive skills viewer for story_telling skills JSON.
+ * skills-viewer.js — Interactive skills viewer for Marginalia skill JSON.
  *
  * Usage:
  *   createSkillsViewer(document.getElementById('app'), {

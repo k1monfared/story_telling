@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Storytelling Skills" [ref=e4] [cursor=pointer]:
+        - /url: ./
+      - button "Toggle theme" [ref=e5] [cursor=pointer]: ☼
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - heading "Storytelling Skills" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Craft and communication skills extracted from close readings of three books.
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]: A Swim in a Pond in the Rain
+            - generic [ref=e14]: George Saunders
+            - generic [ref=e15]: Craft skills for fiction writing, drawn from Saunders's close readings of Tolstoy, Chekhov, Turgenev, and Gogol.
+          - generic [ref=e16]:
+            - link "Reading Log" [ref=e17] [cursor=pointer]:
+              - /url: saunders/log/
+            - link "Skills" [ref=e18] [cursor=pointer]:
+              - /url: saunders/
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Thanks for the Feedback
+            - generic [ref=e22]: Douglas Stone & Sheila Heen
+            - generic [ref=e23]: Skills for receiving feedback skillfully — separating triggers, understanding the three conversation types, and growing from difficult input.
+          - generic [ref=e24]:
+            - link "Reading Log" [ref=e25] [cursor=pointer]:
+              - /url: feedback/log/
+            - link "Skills" [ref=e26] [cursor=pointer]:
+              - /url: feedback/
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Difficult Conversations
+            - generic [ref=e30]: Douglas Stone, Bruce Patton & Sheila Heen
+            - generic [ref=e31]: Skills for discussing what matters most — navigating the what-happened, feelings, and identity conversations with clarity and care.
+          - generic [ref=e32]:
+            - link "Reading Log" [ref=e33] [cursor=pointer]:
+              - /url: difficult/log/
+            - link "Skills" [ref=e34] [cursor=pointer]:
+              - /url: difficult/

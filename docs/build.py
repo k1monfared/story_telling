@@ -9,7 +9,7 @@ import json
 import yaml
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent.parent  # story_telling/
+BASE_DIR = Path(__file__).parent.parent  # marginalia/
 DOCS_DATA = Path(__file__).parent / "data"
 DOCS_DATA.mkdir(parents=True, exist_ok=True)
 

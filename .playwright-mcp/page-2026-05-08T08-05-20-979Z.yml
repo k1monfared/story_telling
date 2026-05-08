@@ -1,0 +1,768 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Skills Library" [ref=e4] [cursor=pointer]:
+        - /url: ../
+      - generic [ref=e5]: Stone & Heen — Thanks for the Feedback
+      - button "Toggle filters sidebar" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Toggle search" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+      - button "Toggle theme" [ref=e12] [cursor=pointer]: ☼
+  - generic [ref=e15]:
+    - complementary [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Tag query
+        - generic [ref=e19]:
+          - textbox "e.g. emotion AND (identity OR triggers) NOT cut" [ref=e20]
+          - button "✕" [ref=e21] [cursor=pointer]
+      - generic [ref=e23]:
+        - generic [ref=e24]: Type
+        - generic [ref=e25]:
+          - button "atomic 51" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: atomic
+            - generic [ref=e28]: "51"
+          - button "recipe 3" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]: recipe
+            - generic [ref=e31]: "3"
+      - generic [ref=e32]:
+        - generic [ref=e33]: Phase
+        - generic [ref=e34]:
+          - button "preparation 4" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: preparation
+            - generic [ref=e37]: "4"
+          - button "closing 3" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: closing
+            - generic [ref=e40]: "3"
+      - generic [ref=e41]:
+        - generic [ref=e42]: Action
+        - generic [ref=e43]:
+          - button "diagnose 20" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: diagnose
+            - generic [ref=e46]: "20"
+          - button "inquire 10" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: inquire
+            - generic [ref=e49]: "10"
+          - button "listen 2" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: listen
+            - generic [ref=e52]: "2"
+          - button "reframe 3" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: reframe
+            - generic [ref=e55]: "3"
+          - button "assert 1" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]: assert
+            - generic [ref=e58]: "1"
+          - button "separate 3" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: separate
+            - generic [ref=e61]: "3"
+          - button "sort 2" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]: sort
+            - generic [ref=e64]: "2"
+          - button "contain 1" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: contain
+            - generic [ref=e67]: "1"
+          - button "experiment 1" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]: experiment
+            - generic [ref=e70]: "1"
+      - generic [ref=e71]:
+        - generic [ref=e72]: Focus
+        - generic [ref=e73]:
+          - button "self 2" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: self
+            - generic [ref=e76]: "2"
+          - button "exchange 54" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: exchange
+            - generic [ref=e79]: "54"
+          - button "relationship 13" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]: relationship
+            - generic [ref=e82]: "13"
+      - generic [ref=e83]:
+        - generic [ref=e84]: Topic
+        - generic [ref=e85]:
+          - button "emotion 4" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]: emotion
+            - generic [ref=e88]: "4"
+          - button "identity 18" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: identity
+            - generic [ref=e91]: "18"
+          - button "intent-impact 6" [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]: intent-impact
+            - generic [ref=e94]: "6"
+          - button "triggers 32" [ref=e95] [cursor=pointer]:
+            - generic [ref=e96]: triggers
+            - generic [ref=e97]: "32"
+          - button "purpose 1" [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: purpose
+            - generic [ref=e100]: "1"
+          - button "distortion 7" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: distortion
+            - generic [ref=e103]: "7"
+          - button "coaching 4" [ref=e104] [cursor=pointer]:
+            - generic [ref=e105]: coaching
+            - generic [ref=e106]: "4"
+          - button "evaluation 3" [ref=e107] [cursor=pointer]:
+            - generic [ref=e108]: evaluation
+            - generic [ref=e109]: "3"
+          - button "blind-spot 5" [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: blind-spot
+            - generic [ref=e112]: "5"
+          - button "boundaries 4" [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]: boundaries
+            - generic [ref=e115]: "4"
+          - button "accountability 5" [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]: accountability
+            - generic [ref=e118]: "5"
+      - generic [ref=e119]:
+        - generic [ref=e120]: Stance
+        - button "growth 7" [ref=e122] [cursor=pointer]:
+          - generic [ref=e123]: growth
+          - generic [ref=e124]: "7"
+    - generic [ref=e125]:
+      - generic [ref=e127]:
+        - heading "Stone & Heen — Thanks for the Feedback" [level=2] [ref=e128]
+        - generic [ref=e129]: 54 skills
+      - generic [ref=e130]:
+        - generic [ref=e132] [cursor=pointer]:
+          - generic [ref=e133]: ▶
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: Atomic
+              - generic [ref=e137]: Accept Feedback As Input Not Imprint
+            - generic [ref=e138]: You received feedback that feels unfair, incomplete, or based on a fundamental misreading of you, and you find yourself investing energy in changing how the other person sees you, rehearsing arguments, or feeling that the verdict is final. The chapter prescribes accepting what you cannot control and framing others' views as input rather than imprint.
+            - generic [ref=e139]:
+              - button "exchange" [ref=e140]
+              - button "identity" [ref=e141]
+              - button "triggers" [ref=e142]
+              - button "distortion" [ref=e143]
+              - button "growth" [ref=e144]
+        - generic [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]: ▶
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]: Atomic
+              - generic [ref=e151]: Adopt Growth Mindset For Feedback
+            - generic [ref=e152]: Feedback feels like a verdict on a fixed trait rather than information about where you are on a learning curve. The chapter draws on Dweck's research to show how holding traits as growable versus fixed changes how you hear feedback and what you do with it.
+            - generic [ref=e153]:
+              - button "exchange" [ref=e154]
+              - button "identity" [ref=e155]
+              - button "triggers" [ref=e156]
+              - button "growth" [ref=e157]
+              - button "preparation" [ref=e158]
+        - generic [ref=e160] [cursor=pointer]:
+          - generic [ref=e161]: ▶
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e164]: Atomic
+              - generic [ref=e165]: Align On Conversation Purpose
+            - generic [ref=e166]: A feedback conversation is about to begin (or has already started without any framing), and you are not certain what kind of feedback is being offered, who makes the final call, or whether the outcome is still open to influence. The chapter prescribes getting aligned on these three questions before engaging with content.
+            - generic [ref=e167]:
+              - button "exchange" [ref=e168]
+              - button "preparation" [ref=e169]
+              - button "purpose" [ref=e170]
+        - generic [ref=e172] [cursor=pointer]:
+          - generic [ref=e173]: ▶
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: Atomic
+              - generic [ref=e177]: Ask For One Thing And Find The Theme
+            - generic [ref=e178]: You want feedback but the question "any feedback for me?" produces nothing useful, or you are overwhelmed by too many things at once. The chapter offers three techniques for soliciting focused, actionable feedback rather than a general assessment.
+            - generic [ref=e179]:
+              - button "exchange" [ref=e180]
+              - button "inquire" [ref=e181]
+        - generic [ref=e183] [cursor=pointer]:
+          - generic [ref=e184]: ▶
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]: Atomic
+              - generic [ref=e188]: Ask How Am I Getting In My Own Way
+            - generic [ref=e189]: You want to learn how you come across, ahead of an event or in an ongoing relationship, and you are about to ask "how am I doing?" or "any feedback for me?" The chapter says these questions return either nothing useful or appreciation, because they do not name what you actually want and they do not narrow the topic to anything answerable.
+            - generic [ref=e190]:
+              - button "exchange" [ref=e191]
+              - button "inquire" [ref=e192]
+              - button "blind-spot" [ref=e193]
+        - generic [ref=e195] [cursor=pointer]:
+          - generic [ref=e196]: ▶
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: Atomic
+              - generic [ref=e200]: Ask What Would Help You Change
+            - generic [ref=e201]: The giver of feedback will not or cannot acknowledge their contribution to the dynamic, and raising the systems view directly reads as deflection. The chapter offers a move that names what the giver could do differently while framing it as being in service of the receiver's own change.
+            - generic [ref=e202]:
+              - button "exchange" [ref=e203]
+              - button "accountability" [ref=e204]
+              - button "relationship" [ref=e205]
+              - button "triggers" [ref=e206]
+              - button "inquire" [ref=e207]
+        - generic [ref=e209] [cursor=pointer]:
+          - generic [ref=e210]: ▶
+          - generic [ref=e211]:
+            - generic [ref=e212]:
+              - generic [ref=e213]: Atomic
+              - generic [ref=e214]: Assert As Left Out
+            - generic [ref=e215]: You are in a feedback conversation and you have something to say, but every version you try either comes out as an attack or as passive acceptance. The chapter prescribes a reframe from "I'm right" to "here's what's left out" that lets you advocate strongly without making the conversation a truth-fight.
+            - generic [ref=e216]:
+              - button "exchange" [ref=e217]
+              - button "assert" [ref=e218]
+        - generic [ref=e220] [cursor=pointer]:
+          - generic [ref=e221]: ▶
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - generic [ref=e224]: Atomic
+              - generic [ref=e225]: Catch The Wrong Spotting
+            - generic [ref=e226]: Feedback has just arrived and you can feel yourself building a list of objections, exceptions, or factual errors as you listen. Your goal in the conversation has quietly become to win the dismissal, not to understand what is actually being said. You are about to nod, file the mental refutation, and move on.
+            - generic [ref=e227]:
+              - button "exchange" [ref=e228]
+              - button "diagnose" [ref=e229]
+              - button "growth" [ref=e230]
+              - button "triggers" [ref=e231]
+              - button "intent-impact" [ref=e232]
+              - button "distortion" [ref=e233]
+        - generic [ref=e235] [cursor=pointer]:
+          - generic [ref=e236]: ▶
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - generic [ref=e239]: Atomic
+              - generic [ref=e240]: Change Your Vantage Point
+            - generic [ref=e241]: You are in the grip of a distorted story about feedback and you cannot think your way out of it from your current vantage point. The chapter offers three moves that change the perspective you are seeing the situation from rather than trying to fix the story by arguing with it directly.
+            - generic [ref=e242]:
+              - button "exchange" [ref=e243]
+              - button "identity" [ref=e244]
+              - button "triggers" [ref=e245]
+              - button "distortion" [ref=e246]
+              - button "reframe" [ref=e247]
+        - generic [ref=e249] [cursor=pointer]:
+          - generic [ref=e250]: ▶
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - generic [ref=e253]: Atomic
+              - generic [ref=e254]: Clarify Where Its Going
+            - generic [ref=e255]: Someone has just given you forward-looking feedback (advice, a rating, a verdict, a piece of news) and you are about to walk away with the headline (the label, the score) without having asked what to do with it. You will replay the conversation later and find a list of questions you wish you had asked.
+            - generic [ref=e256]:
+              - button "exchange" [ref=e257]
+              - button "inquire" [ref=e258]
+              - button "coaching" [ref=e259]
+              - button "evaluation" [ref=e260]
+        - generic [ref=e262] [cursor=pointer]:
+          - generic [ref=e263]: ▶
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - generic [ref=e266]: Atomic
+              - generic [ref=e267]: Close With Commitment
+            - generic [ref=e268]: A feedback conversation is winding down and you are about to part ways. The chapter prescribes making one final explicit move before the conversation ends to ensure both parties know what was agreed and what comes next.
+            - generic [ref=e269]:
+              - button "exchange" [ref=e270]
+              - button "closing" [ref=e271]
+        - generic [ref=e273] [cursor=pointer]:
+          - generic [ref=e274]: ▶
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - generic [ref=e277]: Atomic
+              - generic [ref=e278]: Coach Your Coach
+            - generic [ref=e279]: You are getting feedback from someone, and either the feedback isn't getting through or the way it is being delivered is creating interference. The chapter prescribes talking explicitly to the feedback giver about how they can work with you more effectively.
+            - generic [ref=e280]:
+              - button "exchange" [ref=e281]
+              - button "inquire" [ref=e282]
+              - button "relationship" [ref=e283]
+              - button "triggers" [ref=e284]
+              - button "coaching" [ref=e285]
+        - generic [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]: ▶
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - generic [ref=e291]: Atomic
+              - generic [ref=e292]: Contain The Story
+            - generic [ref=e293]: The story about the feedback has spread beyond the domain of the feedback itself, and you can see the distortion. The chapter prescribes restoring the containment boundaries that strong feelings caused you to forget, and offers three tools for doing so.
+            - generic [ref=e294]:
+              - button "exchange" [ref=e295]
+              - button "identity" [ref=e296]
+              - button "triggers" [ref=e297]
+              - button "distortion" [ref=e298]
+              - button "contain" [ref=e299]
+        - generic [ref=e301] [cursor=pointer]:
+          - generic [ref=e302]: ▶
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - generic [ref=e305]: Atomic
+              - generic [ref=e306]: Diagnose And Name The Boundary
+            - generic [ref=e307]: You are feeling agitated, overwhelmed, or like you can never do anything right in a relationship, and you wonder whether the feedback dynamic is unhealthy enough to warrant an explicit limit. The chapter offers six diagnostic questions for telling the difference between difficult-but-legitimate feedback and a genuinely problematic pattern, and a three-type taxonomy for naming the boundary that is needed.
+            - generic [ref=e308]:
+              - button "exchange" [ref=e309]
+              - button "boundaries" [ref=e310]
+              - button "diagnose" [ref=e311]
+              - button "relationship" [ref=e312]
+              - button "triggers" [ref=e313]
+        - generic [ref=e315] [cursor=pointer]:
+          - generic [ref=e316]: ▶
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - generic [ref=e319]: Atomic
+              - generic [ref=e320]: Diagnose The Cross Transaction
+            - generic [ref=e321]: A feedback exchange has just gone wrong despite everyone meaning well, and you are dismayed, deflated, or more anxious than before. The content is not obviously bad, yet it did not address what you came for. You are about to argue the content or suppress the dismay, when the actual diagnosis is that the kind of feedback you wanted and the kind you got were different.
+            - generic [ref=e322]:
+              - button "exchange" [ref=e323]
+              - button "diagnose" [ref=e324]
+              - button "relationship" [ref=e325]
+        - generic [ref=e327] [cursor=pointer]:
+          - generic [ref=e328]: ▶
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - generic [ref=e331]: Atomic
+              - generic [ref=e332]: Difference Spot Not Wrong Spot
+            - generic [ref=e333]: You have understood the feedback well enough (you spotted the label, separated data from interpretation, asked where it is going), and you and the giver still see the situation differently. You are about to conclude they are wrong, or to swallow the difference and pretend you agree, when the actual move is to surface what is different about your data and your interpretations.
+            - generic [ref=e334]:
+              - button "exchange" [ref=e335]
+              - button "inquire" [ref=e336]
+              - button "reframe" [ref=e337]
+              - button "triggers" [ref=e338]
+              - button "intent-impact" [ref=e339]
+        - generic [ref=e341] [cursor=pointer]:
+          - generic [ref=e342]: ▶
+          - generic [ref=e343]:
+            - generic [ref=e344]:
+              - generic [ref=e345]: Atomic
+              - generic [ref=e346]: Dig For Interests Then Generate Options
+            - generic [ref=e347]: A feedback conversation has reached an impasse over what should change. The chapter prescribes moving from position-fighting to interests-and-options, a problem-solving move drawn from Fisher and Ury's Getting to Yes applied specifically to feedback conversations.
+            - button "exchange" [ref=e349]
+        - generic [ref=e351] [cursor=pointer]:
+          - generic [ref=e352]: ▶
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - generic [ref=e355]: Atomic
+              - generic [ref=e356]: Embrace Identity Nuance
+            - generic [ref=e357]: Feedback has contradicted a core identity label and you find yourself either exaggerating the feedback (it means I am fundamentally bad) or deflecting it (it cannot be true because I am good). The chapter locates the problem in the all-or-nothing structure of the label and prescribes replacing it with a complex, realistic self-description.
+            - generic [ref=e358]:
+              - button "exchange" [ref=e359]
+              - button "identity" [ref=e360]
+              - button "triggers" [ref=e361]
+              - button "growth" [ref=e362]
+        - generic [ref=e364] [cursor=pointer]:
+          - generic [ref=e365]: ▶
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - generic [ref=e368]: Atomic
+              - generic [ref=e369]: Engaging Is Not Accepting
+            - generic [ref=e370]: You are receiving feedback you suspect is wrong or unfair, and you feel forced to choose between taking it (to avoid being defensive) or rejecting it (to protect your judgment). The binary is making you either swallow feedback you do not believe or shut out a conversation you have not actually had.
+            - generic [ref=e371]:
+              - button "exchange" [ref=e372]
+              - button "closing" [ref=e373]
+              - button "boundaries" [ref=e374]
+        - generic [ref=e376] [cursor=pointer]:
+          - generic [ref=e377]: ▶
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - generic [ref=e380]: Atomic
+              - generic [ref=e381]: Give Yourself A Second Score
+            - generic [ref=e382]: You received a negative evaluation. The first score is in and it is not what you wanted. The chapter's third growth-identity practice is to earn a second score, for how you handle the first, and to make the second score part of your identity.
+            - generic [ref=e383]:
+              - button "exchange" [ref=e384]
+              - button "identity" [ref=e385]
+              - button "triggers" [ref=e386]
+              - button "growth" [ref=e387]
+        - generic [ref=e389] [cursor=pointer]:
+          - generic [ref=e390]: ▶
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e393]: Atomic
+              - generic [ref=e394]: Identify Which Trigger Is Firing
+            - generic [ref=e395]: You are reacting strongly to feedback (defending, attacking, withdrawing, or quietly going numb) and you are about to either suppress the reaction and "stay professional" or act on it without diagnosis. The reaction itself contains information you have not yet read.
+            - generic [ref=e396]:
+              - button "exchange" [ref=e397]
+              - button "diagnose" [ref=e398]
+              - button "emotion" [ref=e399]
+              - button "triggers" [ref=e400]
+        - generic [ref=e402] [cursor=pointer]:
+          - generic [ref=e403]: ▶
+          - generic [ref=e404]:
+            - generic [ref=e405]:
+              - generic [ref=e406]: Atomic
+              - generic [ref=e407]: Know Your Feedback Footprint
+            - generic [ref=e408]: You are about to receive difficult feedback, or you have just received it and found yourself reacting in a way that felt automatic and hard to stop. The chapter names your predictable reactive pattern as your feedback footprint and prescribes three moves for working with it before, during, and after the conversation.
+            - generic [ref=e409]:
+              - button "exchange" [ref=e410]
+              - button "identity" [ref=e411]
+              - button "triggers" [ref=e412]
+              - button "preparation" [ref=e413]
+              - button "self" [ref=e414]
+        - generic [ref=e416] [cursor=pointer]:
+          - generic [ref=e417]: ▶
+          - generic [ref=e418]:
+            - generic [ref=e419]:
+              - generic [ref=e420]: Atomic
+              - generic [ref=e421]: Listen For The Issue Beneath The Coaching
+            - generic [ref=e422]: Someone close has just given you advice ("you should be more responsive," "you'd be happier if you didn't think about work so much," "you're drinking too much, it's not good for you"). The advice has emotional weight on their side that does not match the surface request. The chapter says the surface coaching may be a relationship concern in disguise, and you are about to address the wrong topic.
+            - generic [ref=e423]:
+              - button "exchange" [ref=e424]
+              - button "diagnose" [ref=e425]
+              - button "relationship" [ref=e426]
+              - button "triggers" [ref=e427]
+              - button "coaching" [ref=e428]
+              - button "listen" [ref=e429]
+        - generic [ref=e431] [cursor=pointer]:
+          - generic [ref=e432]: ▶
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - generic [ref=e435]: Atomic
+              - generic [ref=e436]: Look For Pattern Not Counterexample
+            - generic [ref=e437]: Feedback has just stung, and you can feel yourself reaching for contradictory evidence to file it as an outlier ("but X said the opposite," "but I won that award," "but I'm not like that with Z"). Reach for this before the contradiction lands. The chapter inverts the reflex, asking you to look for consistent feedback rather than contradictory.
+            - generic [ref=e438]:
+              - button "exchange" [ref=e439]
+              - button "diagnose" [ref=e440]
+              - button "blind-spot" [ref=e441]
+        - generic [ref=e443] [cursor=pointer]:
+          - generic [ref=e444]: ▶
+          - generic [ref=e445]:
+            - generic [ref=e446]:
+              - generic [ref=e447]: Atomic
+              - generic [ref=e448]: Make A Process Move
+            - generic [ref=e449]: A feedback conversation has gotten stuck, is escalating, or is cycling without progress. The chapter prescribes stepping outside the content of the conversation to diagnose what is stuck, describe it explicitly, and propose a correction.
+            - button "exchange" [ref=e451]
+        - generic [ref=e453] [cursor=pointer]:
+          - generic [ref=e454]: ▶
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - generic [ref=e457]: Atomic
+              - generic [ref=e458]: Mitigate When Not Changing
+            - generic [ref=e459]: You have decided not to change in response to feedback. The chapter argues that you still have a duty to reduce the cost of your decision on others, and offers three moves for doing so.
+            - generic [ref=e460]:
+              - button "exchange" [ref=e461]
+              - button "boundaries" [ref=e462]
+              - button "accountability" [ref=e463]
+              - button "relationship" [ref=e464]
+        - generic [ref=e466] [cursor=pointer]:
+          - generic [ref=e467]: ▶
+          - generic [ref=e468]:
+            - generic [ref=e469]:
+              - generic [ref=e470]: Atomic
+              - generic [ref=e471]: Name Both Needs
+            - generic [ref=e472]: You are reacting more strongly to a piece of feedback than the content seems to warrant, or you are suppressing a reaction that you suspect will surface later. The disproportion is a sign that two different needs are colliding under one conversation, and the conversation cannot resolve until both are named.
+            - generic [ref=e473]:
+              - button "exchange" [ref=e474]
+              - button "identity" [ref=e475]
+              - button "emotion" [ref=e476]
+              - button "diagnose" [ref=e477]
+        - generic [ref=e479] [cursor=pointer]:
+          - generic [ref=e480]: ▶
+          - generic [ref=e481]:
+            - generic [ref=e482]:
+              - generic [ref=e483]: Atomic
+              - generic [ref=e484]: Name Which Mirror You Need
+            - generic [ref=e485]: You have received unwelcome feedback and you are about to take it to a friend, partner, or trusted colleague for a second opinion. Your phrasing is forming as "this can't be true, can it?" or "he's overreacting, right?" The chapter says this is the implicit ask of a supportive mirror, and you may not actually want what you are about to ask for.
+            - generic [ref=e486]:
+              - button "exchange" [ref=e487]
+              - button "inquire" [ref=e488]
+              - button "relationship" [ref=e489]
+              - button "blind-spot" [ref=e490]
+        - generic [ref=e492] [cursor=pointer]:
+          - generic [ref=e493]: ▶
+          - generic [ref=e494]:
+            - generic [ref=e495]:
+              - generic [ref=e496]: Atomic
+              - generic [ref=e497]: Negotiate Which Kind You Need
+            - generic [ref=e498]: You are about to enter (or are inside) a feedback conversation where you suspect you and the giver are on different tracks about what kind of feedback this is, and you are about to leave the misalignment unspoken and walk out frustrated. The fix is to name the kind you need explicitly and negotiate when the giver has another in mind.
+            - generic [ref=e499]:
+              - button "exchange" [ref=e500]
+              - button "inquire" [ref=e501]
+              - button "preparation" [ref=e502]
+        - generic [ref=e504] [cursor=pointer]:
+          - generic [ref=e505]: ▶
+          - generic [ref=e506]:
+            - generic [ref=e507]:
+              - generic [ref=e508]: Atomic
+              - generic [ref=e509]: Negotiate Your Internal Voice
+            - generic [ref=e510]: You are about to receive difficult feedback, or you are in the middle of a feedback conversation and you cannot listen because your internal voice is running a defense. The chapter prescribes a specific move for working with your internal voice rather than against it, turning it from a bodyguard into a source of curiosity.
+            - generic [ref=e511]:
+              - button "exchange" [ref=e512]
+              - button "listen" [ref=e513]
+              - button "identity" [ref=e514]
+              - button "triggers" [ref=e515]
+        - generic [ref=e517] [cursor=pointer]:
+          - generic [ref=e518]: ▶
+          - generic [ref=e519]:
+            - generic [ref=e520]:
+              - generic [ref=e521]: Atomic
+              - generic [ref=e522]: Notice The Distortion Type
+            - generic [ref=e523]: You received feedback and your story about what it means feels outsized or catastrophic. The chapter names three predictable patterns by which strong emotion distorts the stories we tell about feedback, and the diagnostic step is to name which one is running before attempting to correct it.
+            - generic [ref=e524]:
+              - button "exchange" [ref=e525]
+              - button "identity" [ref=e526]
+              - button "triggers" [ref=e527]
+              - button "diagnose" [ref=e528]
+              - button "distortion" [ref=e529]
+        - generic [ref=e531] [cursor=pointer]:
+          - generic [ref=e532]: ▶
+          - generic [ref=e533]:
+            - generic [ref=e534]:
+              - generic [ref=e535]: Atomic
+              - generic [ref=e536]: Precommit To Riding The J Curve
+            - generic [ref=e537]: You have started to implement feedback-driven change and things are getting worse, not better. The chapter names this the J curve pattern and prescribes two categories of precommitment strategies to prevent your future self from abandoning the change before you have given it a fair test.
+            - generic [ref=e538]:
+              - button "exchange" [ref=e539]
+              - button "closing" [ref=e540]
+        - generic [ref=e542] [cursor=pointer]:
+          - generic [ref=e543]: ▶
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - generic [ref=e546]: Atomic
+              - generic [ref=e547]: Pull Not Push Reroute
+            - generic [ref=e548]: You are receiving feedback that is poorly delivered, ill-timed, or from someone whose qualifications you doubt, and you find your attention drifting into a private catalogue of the giver's inadequacies. The internal drift feels justified but is leaving you with nothing usable.
+            - generic [ref=e549]:
+              - button "exchange" [ref=e550]
+              - button "reframe" [ref=e551]
+              - button "self" [ref=e552]
+        - generic [ref=e554] [cursor=pointer]:
+          - generic [ref=e555]: ▶
+          - generic [ref=e556]:
+            - generic [ref=e557]:
+              - generic [ref=e558]: Recipe
+              - generic [ref=e559]: Dismantle A Distorted Story
+            - generic [ref=e560]: You received feedback and your emotional reaction is larger than the feedback's content warrants, or your story about what the feedback means has expanded far beyond what was said. You cannot assess the feedback fairly while the distortion is running. The four-step chain restores accurate perception before you decide what to do with the feedback.
+            - generic [ref=e561]:
+              - button "exchange" [ref=e562]
+              - button "identity" [ref=e563]
+              - button "triggers" [ref=e564]
+              - button "distortion" [ref=e565]
+        - generic [ref=e567] [cursor=pointer]:
+          - generic [ref=e568]: ▶
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - generic [ref=e571]: Recipe
+              - generic [ref=e572]: Navigate A Feedback Conversation
+            - generic [ref=e573]: A feedback conversation is about to happen or is already underway, and you want to maximize what you learn from it without either shutting down or capitulating to everything the giver says. The four-step chain runs the conversation's arc (open, listen, assert, close) with an emergency rescue move for when it gets stuck.
+            - button "exchange" [ref=e575]
+        - generic [ref=e577] [cursor=pointer]:
+          - generic [ref=e578]: ▶
+          - generic [ref=e579]:
+            - generic [ref=e580]:
+              - generic [ref=e581]: Recipe
+              - generic [ref=e582]: Respond To Feedback In A Relationship System
+            - generic [ref=e583]: You received feedback and both you and the giver are pointing at each other as the cause of the problem. The blame loop is stuck. The three-step chain breaks the loop by first seeing the larger system producing the problem, then introducing your own accountability in a sequence the giver can hear, then describing what the giver could do differently in terms that serve your change.
+            - generic [ref=e584]:
+              - button "exchange" [ref=e585]
+              - button "relationship" [ref=e586]
+              - button "triggers" [ref=e587]
+              - button "accountability" [ref=e588]
+        - generic [ref=e590] [cursor=pointer]:
+          - generic [ref=e591]: ▶
+          - generic [ref=e592]:
+            - generic [ref=e593]:
+              - generic [ref=e594]: Atomic
+              - generic [ref=e595]: Separate Data From Interpretation
+            - generic [ref=e596]: Feedback has been delivered as a judgment ("you are not a team player," "your report was confusing," "you barked at the kids"), and you are about to either argue the judgment on its terms or accept it on its terms. You have not asked what the giver actually saw or heard underneath their conclusion.
+            - generic [ref=e597]:
+              - button "exchange" [ref=e598]
+              - button "diagnose" [ref=e599]
+              - button "inquire" [ref=e600]
+              - button "triggers" [ref=e601]
+              - button "intent-impact" [ref=e602]
+              - button "separate" [ref=e603]
+        - generic [ref=e605] [cursor=pointer]:
+          - generic [ref=e606]: ▶
+          - generic [ref=e607]:
+            - generic [ref=e608]:
+              - generic [ref=e609]: Atomic
+              - generic [ref=e610]: Separate Feeling Story Feedback
+            - generic [ref=e611]: You received feedback and your reaction to it is larger than the feedback seems to warrant, or you find yourself unable to assess what the feedback actually says because your emotions and your story about the feedback are running together. The chapter prescribes a three-question move to pull apart feeling, story, and feedback into separate strands.
+            - generic [ref=e612]:
+              - button "exchange" [ref=e613]
+              - button "identity" [ref=e614]
+              - button "triggers" [ref=e615]
+              - button "distortion" [ref=e616]
+              - button "diagnose" [ref=e617]
+              - button "separate" [ref=e618]
+              - button "emotion" [ref=e619]
+        - generic [ref=e621] [cursor=pointer]:
+          - generic [ref=e622]: ▶
+          - generic [ref=e623]:
+            - generic [ref=e624]:
+              - generic [ref=e625]: Atomic
+              - generic [ref=e626]: Separate Impact From Intent
+            - generic [ref=e627]: You have received feedback about how you came across, and it does not match what you were trying to do. You are about to either reject the feedback ("but I had good intentions, the impact must not have been real or must not be my fault") or accept it and abandon your sense of your own intentions ("I guess I really am that bad"). The chapter says hold the layers separately.
+            - generic [ref=e628]:
+              - button "exchange" [ref=e629]
+              - button "diagnose" [ref=e630]
+              - button "identity" [ref=e631]
+              - button "triggers" [ref=e632]
+              - button "intent-impact" [ref=e633]
+              - button "blind-spot" [ref=e634]
+              - button "separate" [ref=e635]
+        - generic [ref=e637] [cursor=pointer]:
+          - generic [ref=e638]: ▶
+          - generic [ref=e639]:
+            - generic [ref=e640]:
+              - generic [ref=e641]: Atomic
+              - generic [ref=e642]: Set The Boundary Clearly
+            - generic [ref=e643]: You have decided that a boundary is needed and you know which type. Now you need to have the conversation. The chapter prescribes a sequence of moves for turning away feedback gracefully while keeping the relationship intact.
+            - generic [ref=e644]:
+              - button "exchange" [ref=e645]
+              - button "boundaries" [ref=e646]
+              - button "relationship" [ref=e647]
+              - button "triggers" [ref=e648]
+        - generic [ref=e650] [cursor=pointer]:
+          - generic [ref=e651]: ▶
+          - generic [ref=e652]:
+            - generic [ref=e653]:
+              - generic [ref=e654]: Atomic
+              - generic [ref=e655]: Settle Evaluation First
+            - generic [ref=e656]: You are trying to take in coaching or appreciation while a where-do-I-stand question is unanswered, and the coaching is not landing because the loud unresolved evaluation is drowning it out. You are about to attribute the failure to the coaching's content (or to your own inability to absorb it) when the actual issue is sequencing.
+            - generic [ref=e657]:
+              - button "exchange" [ref=e658]
+              - button "evaluation" [ref=e659]
+              - button "emotion" [ref=e660]
+        - generic [ref=e662] [cursor=pointer]:
+          - generic [ref=e663]: ▶
+          - generic [ref=e664]:
+            - generic [ref=e665]:
+              - generic [ref=e666]: Atomic
+              - generic [ref=e667]: Shift To Honest Mirror
+            - generic [ref=e668]: You have vented to a friend or colleague about feedback you received, and they have been supportive. Now you want to see if there is something to learn, but you are not sure how to make that shift or how to structure the conversation so that you hear both the valid and invalid parts of the feedback.
+            - generic [ref=e669]:
+              - button "exchange" [ref=e670]
+              - button "inquire" [ref=e671]
+              - button "diagnose" [ref=e672]
+        - generic [ref=e674] [cursor=pointer]:
+          - generic [ref=e675]: ▶
+          - generic [ref=e676]:
+            - generic [ref=e677]:
+              - generic [ref=e678]: Atomic
+              - generic [ref=e679]: Signpost And Track Each Topic
+            - generic [ref=e680]: You have realized a feedback conversation contains two tangled topics (the original feedback and a relationship concern that hooked you). You are about to either keep going while tangled, hoping it sorts itself out, or pull onto your own topic without saying so. The chapter says make the split explicit, propose a sequence, and put both of you on the same topic at the same time.
+            - generic [ref=e681]:
+              - button "exchange" [ref=e682]
+              - button "relationship" [ref=e683]
+              - button "triggers" [ref=e684]
+        - generic [ref=e686] [cursor=pointer]:
+          - generic [ref=e687]: ▶
+          - generic [ref=e688]:
+            - generic [ref=e689]:
+              - generic [ref=e690]: Atomic
+              - generic [ref=e691]: Sort The Kind
+            - generic [ref=e692]: You are about to receive, ask for, or react to "feedback" as one undifferentiated category, when in fact what is on the table is one of three distinct kinds (appreciation, coaching, or evaluation), each with a different purpose and a different receiver-side need.
+            - generic [ref=e693]:
+              - button "exchange" [ref=e694]
+              - button "diagnose" [ref=e695]
+              - button "sort" [ref=e696]
+        - generic [ref=e698] [cursor=pointer]:
+          - generic [ref=e699]: ▶
+          - generic [ref=e700]:
+            - generic [ref=e701]:
+              - generic [ref=e702]: Atomic
+              - generic [ref=e703]: Sort Toward Coaching
+            - generic [ref=e704]: Feedback has arrived and your identity has been triggered. The chapter's first practice for cultivating a growth identity is to sort the feedback into the coaching bin rather than the evaluation bin, which reduces the identity reaction and makes the feedback learnable.
+            - generic [ref=e705]:
+              - button "exchange" [ref=e706]
+              - button "identity" [ref=e707]
+              - button "triggers" [ref=e708]
+              - button "growth" [ref=e709]
+              - button "sort" [ref=e710]
+              - button "coaching" [ref=e711]
+        - generic [ref=e713] [cursor=pointer]:
+          - generic [ref=e714]: ▶
+          - generic [ref=e715]:
+            - generic [ref=e716]:
+              - generic [ref=e717]: Atomic
+              - generic [ref=e718]: Spot The Label
+            - generic [ref=e719]: Someone has just told you to "be more X" or "stop being so Y" or "you are too Z," and the meaning is already crystallizing in your head before any clarification has happened. The label arrived as a few vague words, but you have automatically attached your own high-definition movie to it and are about to act on or reject your interpretation rather than theirs.
+            - generic [ref=e720]:
+              - button "exchange" [ref=e721]
+              - button "diagnose" [ref=e722]
+              - button "triggers" [ref=e723]
+              - button "intent-impact" [ref=e724]
+        - generic [ref=e726] [cursor=pointer]:
+          - generic [ref=e727]: ▶
+          - generic [ref=e728]:
+            - generic [ref=e729]:
+              - generic [ref=e730]: Atomic
+              - generic [ref=e731]: Spot The Shifter Or Absorber Pattern
+            - generic [ref=e732]: A feedback conversation about accountability is stuck, or the receiver finds themselves consistently either deflecting all blame or accepting all of it. The chapter names two dysfunctional patterns, shifter and absorber, that distort accountability and block learning, and describes what each looks like so it can be spotted from the inside.
+            - generic [ref=e733]:
+              - button "exchange" [ref=e734]
+              - button "diagnose" [ref=e735]
+              - button "identity" [ref=e736]
+              - button "triggers" [ref=e737]
+              - button "accountability" [ref=e738]
+        - generic [ref=e740] [cursor=pointer]:
+          - generic [ref=e741]: ▶
+          - generic [ref=e742]:
+            - generic [ref=e743]:
+              - generic [ref=e744]: Atomic
+              - generic [ref=e745]: Spot The Switchtrack
+            - generic [ref=e746]: A feedback exchange is escalating rather than resolving, you and the giver appear to be discussing the same subject (the roses, the sales numbers, the bath time, the crosswalk), and you are each using the other's words back at them while heading in opposite directions. The chapter says the conversation has quietly split into two topics and the first move is to see the split.
+            - generic [ref=e747]:
+              - button "exchange" [ref=e748]
+              - button "diagnose" [ref=e749]
+              - button "relationship" [ref=e750]
+              - button "triggers" [ref=e751]
+        - generic [ref=e753] [cursor=pointer]:
+          - generic [ref=e754]: ▶
+          - generic [ref=e755]:
+            - generic [ref=e756]:
+              - generic [ref=e757]: Atomic
+              - generic [ref=e758]: Take Responsibility First Then Introduce The System
+            - generic [ref=e759]: "The receiver wants to name the larger system contributing to the problem but every time they try, the giver hears it as excuse-making. The chapter prescribes a sequencing rule: settle your own accountability first, then raise your observations about the broader system."
+            - generic [ref=e760]:
+              - button "exchange" [ref=e761]
+              - button "accountability" [ref=e762]
+              - button "relationship" [ref=e763]
+              - button "triggers" [ref=e764]
+        - generic [ref=e766] [cursor=pointer]:
+          - generic [ref=e767]: ▶
+          - generic [ref=e768]:
+            - generic [ref=e769]:
+              - generic [ref=e770]: Atomic
+              - generic [ref=e771]: Take Three Steps Back
+            - generic [ref=e772]: Feedback feels unfair or only partly accurate, and the receiver's instinct is to argue about who is really at fault. The chapter says the problem is rarely in one person; it lives in the relationship system between them, and seeing that system requires stepping back to three vantage points.
+            - generic [ref=e773]:
+              - button "exchange" [ref=e774]
+              - button "diagnose" [ref=e775]
+              - button "relationship" [ref=e776]
+              - button "triggers" [ref=e777]
+        - generic [ref=e779] [cursor=pointer]:
+          - generic [ref=e780]: ▶
+          - generic [ref=e781]:
+            - generic [ref=e782]:
+              - generic [ref=e783]: Atomic
+              - generic [ref=e784]: Try Small Experiments
+            - generic [ref=e785]: You have received feedback that you are unsure about, or you are stuck between the status quo and a change that seems too large and final to risk. The chapter prescribes treating the feedback as an experiment rather than a decision, which breaks the paralysis.
+            - generic [ref=e786]:
+              - button "exchange" [ref=e787]
+              - button "growth" [ref=e788]
+              - button "experiment" [ref=e789]
+        - generic [ref=e791] [cursor=pointer]:
+          - generic [ref=e792]: ▶
+          - generic [ref=e793]:
+            - generic [ref=e794]:
+              - generic [ref=e795]: Atomic
+              - generic [ref=e796]: Understand Your Wiring Profile
+            - generic [ref=e797]: You received feedback and your emotional reaction is stronger than the content seems to warrant, or you notice that feedback that would unsettle others bounces off you entirely. The chapter explains that these differences are built in and names three variables that describe your profile.
+            - generic [ref=e798]:
+              - button "exchange" [ref=e799]
+              - button "identity" [ref=e800]
+              - button "triggers" [ref=e801]
+              - button "diagnose" [ref=e802]
+        - generic [ref=e804] [cursor=pointer]:
+          - generic [ref=e805]: ▶
+          - generic [ref=e806]:
+            - generic [ref=e807]:
+              - generic [ref=e808]: Atomic
+              - generic [ref=e809]: Unpack Judgment From Evaluation
+            - generic [ref=e810]: You received evaluation feedback that cannot be sorted as coaching, and your identity has been triggered. The chapter's second practice is to break the evaluation into its three constituent parts (assessment, consequences, judgment) so you can identify which part is actually triggering you and handle each appropriately.
+            - generic [ref=e811]:
+              - button "exchange" [ref=e812]
+              - button "identity" [ref=e813]
+              - button "triggers" [ref=e814]
+              - button "evaluation" [ref=e815]
+              - button "diagnose" [ref=e816]
+        - generic [ref=e818] [cursor=pointer]:
+          - generic [ref=e819]: ▶
+          - generic [ref=e820]:
+            - generic [ref=e821]:
+              - generic [ref=e822]: Atomic
+              - generic [ref=e823]: Use Your Reaction As Blind Spot Alert
+            - generic [ref=e824]: You have just received feedback that does not match how you see yourself, and your mind has started building a case against the giver. You are working out their agenda, their hidden motives, their projection, their personality issue, the office politics they must be playing. You are about to use the case-against-the-giver to file the feedback as wrong.
+            - generic [ref=e825]:
+              - button "exchange" [ref=e826]
+              - button "diagnose" [ref=e827]
+              - button "identity" [ref=e828]
+              - button "triggers" [ref=e829]
+              - button "intent-impact" [ref=e830]
+              - button "blind-spot" [ref=e831]

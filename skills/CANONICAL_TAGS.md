@@ -1,6 +1,6 @@
 # Canonical Tag Vocabulary
 
-The skills library uses a faceted tag set so users can compose queries like
+Marginalia uses a faceted tag set so users can compose queries like
 `emotion AND (identity OR triggers) NOT cut`.
 
 Tags are flat strings (no `facet:tag` syntax), but the UI groups them by facet

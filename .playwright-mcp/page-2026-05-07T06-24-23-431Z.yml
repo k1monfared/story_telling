@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "← Skills Library" [ref=e4] [cursor=pointer]:
+        - /url: ../../
+      - generic [ref=e5]: Stone & Heen — Thanks for the Feedback
+      - button "Toggle theme" [ref=e6] [cursor=pointer]: ☼
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - heading "Stone & Heen — Thanks for the Feedback" [level=1] [ref=e10]
+        - button "Settings" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - textbox "Search… (use key:value for field search)" [ref=e17]
+    - generic [ref=e18]: 65 items
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: ▶
+          - generic [ref=e23]: Receiving feedback well is a learnable skill, not an inborn trait
+          - generic [ref=e25]: "11"
+        - generic [ref=e26]:
+          - generic [ref=e30]: The field has spent decades teaching givers how to push more skillfully, ignoring the receiver
+          - generic [ref=e34]: Yet the receiver controls what they let in, how they make sense of it, and whether they change
+          - generic [ref=e38]: Pushing harder rarely opens the door to genuine learning; the leverage is on the receiving side
+          - generic [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]: ▶
+            - generic [ref=e42]: Receiving well doesn't mean always taking the feedback
+            - generic [ref=e44]: "2"
+          - generic [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]: ▶
+            - generic [ref=e48]: The tension between learning and being accepted runs through every feedback conversation
+            - generic [ref=e50]: "4"
+          - generic [ref=e52] [cursor=pointer]:
+            - generic [ref=e54]: The benefits of receiving well extend beyond the individual
+            - generic [ref=e55]: ▶
+          - generic [ref=e57] [cursor=pointer]:
+            - generic [ref=e59]: Feedback is any information you get about yourself
+            - generic [ref=e60]: ▶
+      - generic [ref=e62] [cursor=pointer]:
+        - generic [ref=e64]: Three triggers that block feedback
+        - generic [ref=e65]: ▶
+      - generic [ref=e66]:
+        - generic [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: ▶
+          - generic [ref=e69]: Three kinds of feedback and their mismatches
+          - generic [ref=e71]: "9"
+        - generic [ref=e72]:
+          - generic [ref=e74] [cursor=pointer]:
+            - generic [ref=e76]: "Appreciation: you matter, your work matters, your effort is seen"
+            - generic [ref=e77]: ▶
+          - generic [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]: "Coaching: here is how to improve or change"
+            - generic [ref=e82]: ▶
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e86]: "Evaluation: here is where you stand"
+            - generic [ref=e87]: ▶
+          - generic [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: ▶
+            - generic [ref=e91]: Three mismatches that cause feedback to fail
+            - generic [ref=e93]: "4"
+          - generic [ref=e95] [cursor=pointer]:
+            - generic [ref=e97]: "Sort the kind: name which kind is in play"
+            - generic [ref=e98]: ▶
+          - generic [ref=e100] [cursor=pointer]:
+            - generic [ref=e102]: Settle evaluation first
+            - generic [ref=e103]: ▶
+      - generic [ref=e104]:
+        - generic [ref=e105] [cursor=pointer]:
+          - generic [ref=e106]: ▶
+          - generic [ref=e107]: Setting limits on feedback
+          - generic [ref=e109]: "20"
+        - generic [ref=e110]:
+          - generic [ref=e114]: Being able to say no is right at the heart of receiving feedback well; if you can't say no, your yeses are not freely chosen
+          - generic [ref=e118]: "Your emotional acre: Anne Lamott's image — you get one; as long as you don't hurt anyone, you get to do with it as you please; there's a fence around it with a gate; if people keep sliming it, you get to ask them to leave"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: ▶
+            - generic [ref=e122]: Three kinds of boundaries
+            - generic [ref=e124]: "3"
+          - generic [ref=e126] [cursor=pointer]:
+            - generic [ref=e127]: ▶
+            - generic [ref=e128]: Six diagnostic questions for when a boundary is needed
+            - generic [ref=e130]: "7"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: "Henry and Isabella: the renovation relationship"
+            - generic [ref=e135]: ▶
+          - generic [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: ▶
+            - generic [ref=e139]: Setting the boundary clearly
+            - generic [ref=e141]: "6"
+          - generic [ref=e143] [cursor=pointer]:
+            - generic [ref=e145]: Duty to mitigate when you decide not to change
+            - generic [ref=e146]: ▶
+      - generic [ref=e147]:
+        - generic [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]: ▶
+          - generic [ref=e150]: "Getting going: acting on feedback"
+          - generic [ref=e152]: "23"
+        - generic [ref=e153]:
+          - generic [ref=e155] [cursor=pointer]:
+            - generic [ref=e156]: ▶
+            - generic [ref=e157]: Name one thing
+            - generic [ref=e159]: "7"
+          - generic [ref=e161] [cursor=pointer]:
+            - generic [ref=e162]: ▶
+            - generic [ref=e163]: Try small experiments
+            - generic [ref=e165]: "7"
+          - generic [ref=e167] [cursor=pointer]:
+            - generic [ref=e168]: ▶
+            - generic [ref=e169]: Ride out the J curve
+            - generic [ref=e171]: "7"
+          - generic [ref=e173] [cursor=pointer]:
+            - generic [ref=e175]: Coach your coach
+            - generic [ref=e176]: ▶
+          - generic [ref=e178] [cursor=pointer]:
+            - generic [ref=e180]: Invite them in
+            - generic [ref=e181]: ▶
+      - generic [ref=e183] [cursor=pointer]:
+        - generic [ref=e185]: The feedback conversation itself
+        - generic [ref=e186]: ▶

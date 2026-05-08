@@ -1,4 +1,4 @@
-"""Validator for SKILL.md files in the storytelling skills library."""
+"""Validator for SKILL.md files in the Marginalia library."""
 from __future__ import annotations
 
 import re

@@ -26,7 +26,7 @@
 - [ ] **Step 1: Create directories with .gitkeep placeholders**
 
 ```bash
-cd /home/k1/public/story_telling
+cd /home/k1/public/marginalia
 mkdir -p skills/saunders/_process skills/saunders/recipes
 mkdir -p skills/feedback/_process skills/feedback/recipes
 mkdir -p skills/difficult/_process skills/difficult/recipes
@@ -442,7 +442,7 @@ def test_load_skill_raises_on_missing_frontmatter():
 
 - [ ] **Step 4: Run the test, verify it fails**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: FAIL with `ImportError` or `ModuleNotFoundError` (validator has no symbols yet).
 
 - [ ] **Step 5: Implement minimal `load_skill`**
@@ -492,7 +492,7 @@ def load_skill(path: Path) -> Skill:
 
 - [ ] **Step 6: Run the test, verify it passes**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 2 passed.
 
 - [ ] **Step 7: Commit**
@@ -580,7 +580,7 @@ def test_validate_frontmatter_rejects_invalid_type():
 
 - [ ] **Step 3: Run the tests, verify they fail**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 3 new tests fail with `ImportError: cannot import name 'validate_frontmatter'`.
 
 - [ ] **Step 4: Implement `validate_frontmatter`**
@@ -616,7 +616,7 @@ def validate_frontmatter(skill: Skill) -> None:
 
 - [ ] **Step 5: Run the tests, verify they pass**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 5 passed.
 
 - [ ] **Step 6: Commit**
@@ -699,7 +699,7 @@ def test_validate_body_rejects_missing_section():
 
 - [ ] **Step 3: Run the tests, verify they fail**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 2 new tests fail with `ImportError: cannot import name 'validate_body'`.
 
 - [ ] **Step 4: Implement `validate_body`**
@@ -732,7 +732,7 @@ def validate_body(skill: Skill) -> None:
 
 - [ ] **Step 5: Run the tests, verify they pass**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 7 passed.
 
 - [ ] **Step 6: Commit**
@@ -804,7 +804,7 @@ def test_validate_book_matches_parent_allows_cross_book_in_recipes():
 
 - [ ] **Step 2: Run, verify failures**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 3 new tests fail with `ImportError`.
 
 - [ ] **Step 3: Implement `validate_book_matches_parent`**
@@ -838,7 +838,7 @@ def validate_book_matches_parent(skill: Skill) -> None:
 
 - [ ] **Step 4: Run, verify pass**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 10 passed.
 
 - [ ] **Step 5: Commit**
@@ -895,7 +895,7 @@ def test_validate_related_references_rejects_missing_target():
 
 - [ ] **Step 2: Run, verify failures**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 2 new tests fail with `ImportError`.
 
 - [ ] **Step 3: Implement `validate_related_references`**
@@ -935,7 +935,7 @@ def validate_related_references(skill: Skill, all_skill_slugs: set[str]) -> None
 
 - [ ] **Step 4: Run, verify pass**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 12 passed.
 
 - [ ] **Step 5: Commit**
@@ -978,7 +978,7 @@ def test_validate_tree_reports_errors_per_file(tmp_path):
 
 - [ ] **Step 2: Run, verify failures**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 2 new tests fail with `ImportError`.
 
 - [ ] **Step 3: Implement `validate_tree` and `__main__` block**
@@ -1046,12 +1046,12 @@ if __name__ == "__main__":
 
 - [ ] **Step 4: Run pytest, verify all pass**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/test_validate_skills.py -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/test_validate_skills.py -v`
 Expected: 14 passed.
 
 - [ ] **Step 5: Run validator on the actual library**
 
-Run: `cd /home/k1/public/story_telling && python3 tools/validate_skills.py`
+Run: `cd /home/k1/public/marginalia && python3 tools/validate_skills.py`
 Expected: `OK — 0 SKILL.md file(s) validated.`
 
 - [ ] **Step 6: Commit**
@@ -1229,12 +1229,12 @@ git commit -m "Update STATUS.log: foundation complete, POC stage achieved"
 
 - [ ] **Step 1: Run validator**
 
-Run: `cd /home/k1/public/story_telling && python3 tools/validate_skills.py`
+Run: `cd /home/k1/public/marginalia && python3 tools/validate_skills.py`
 Expected: `OK — 0 SKILL.md file(s) validated.`
 
 - [ ] **Step 2: Run all tests**
 
-Run: `cd /home/k1/public/story_telling && python3 -m pytest tools/ -v`
+Run: `cd /home/k1/public/marginalia && python3 -m pytest tools/ -v`
 Expected: 14 passed.
 
 - [ ] **Step 3: Verify git is clean**

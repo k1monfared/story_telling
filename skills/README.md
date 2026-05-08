@@ -1,6 +1,6 @@
-# Skills Library
+# Marginalia — Skills
 
-A library of distilled, actionable skills extracted from book-length sources, organized by domain (literature, communication, relationships) and made browsable through a web viewer.
+A personal library of skills extracted from book-length sources, organized by domain (literature, communication, relationships) and made browsable through a web viewer.
 
 ## How to use this library
 

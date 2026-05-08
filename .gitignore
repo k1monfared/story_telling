@@ -7,6 +7,12 @@ node_modules/
 .mcp/logs/
 *.claude-session
 
+# Playwright MCP cache (browser sessions, console logs, snapshots)
+.playwright-mcp/
+
+# Dev screenshots taken during interactive UI work
+*.png
+
 # Python
 __pycache__/
 *.pyc

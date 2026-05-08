@@ -11,7 +11,6 @@ tags:
 - listen
 - identity
 - triggers
-- voice
 ---
 
 ## When to reach for this

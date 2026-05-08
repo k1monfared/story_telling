@@ -223,14 +223,17 @@
     const sectionsHtml = SECTION_ORDER
       .filter(k => skill.sections_html && skill.sections_html[k])
       .map(k => `
-        <div class="sv-section">
-          <div class="sv-section-label">${esc(SECTION_LABELS[k])}</div>
+        <div class="sv-section" data-section="${esc(k)}">
+          <div class="sv-section-hdr">
+            <span class="sv-section-arrow">&#9654;</span>
+            <span class="sv-section-label">${esc(SECTION_LABELS[k])}</span>
+          </div>
           <div class="sv-section-content">${skill.sections_html[k]}</div>
         </div>`)
       .join('');
 
     return `
-      <div class="sv-card" data-slug="${esc(skill.slug)}" data-type="${esc(typeLabel)}">
+      <div class="sv-card" id="skill-${esc(skill.slug)}" data-slug="${esc(skill.slug)}" data-type="${esc(typeLabel)}">
         <div class="sv-card-hdr">
           <span class="sv-card-arrow">&#9654;</span>
           <div class="sv-card-hdr-left">
@@ -301,6 +304,16 @@
       <div class="sv-sidebar-overlay" id="sv-overlay"></div>
       <div class="sv-wrap">
         <aside class="sv-sidebar" id="sv-sidebar">
+          <div class="sv-sidebar-section sv-sidebar-query">
+            <div class="sv-sidebar-label">Tag query</div>
+            <div class="sv-query-row">
+              <input class="sv-query" id="sv-query" type="text"
+                     placeholder='e.g. emotion AND (identity OR triggers) NOT cut'
+                     autocomplete="off" spellcheck="false">
+              <button class="sv-query-clear" id="sv-query-clear" title="Clear query">&#10005;</button>
+            </div>
+            <div class="sv-query-status" id="sv-query-status"></div>
+          </div>
           <div class="sv-sidebar-section">
             <div class="sv-sidebar-label">Type</div>
             <div class="sv-pill-list" id="sv-type-pills"></div>
@@ -319,13 +332,6 @@
               <span class="sv-count" id="sv-count"></span>
               <button class="sv-filter-btn" id="sv-filter-btn">Filter</button>
             </div>
-            <div class="sv-query-row">
-              <input class="sv-query" id="sv-query" type="text"
-                     placeholder='Query: e.g. emotion AND (identity OR triggers) NOT cut'
-                     autocomplete="off" spellcheck="false">
-              <button class="sv-query-clear" id="sv-query-clear" title="Clear query">&#10005;</button>
-            </div>
-            <div class="sv-query-status" id="sv-query-status"></div>
             <div class="sv-search-row">
               <input class="sv-search" id="sv-search" type="text"
                      placeholder="Free-text search inside skills…" autocomplete="off">
@@ -427,12 +433,34 @@
         modifyQuery(tagBtn.dataset.tag, 'and');
         return;
       }
-      const hdr = e.target.closest('.sv-card-hdr');
-      if (hdr) {
-        const card = hdr.closest('.sv-card');
-        if (card) card.classList.toggle('open');
+      const sectionHdr = e.target.closest('.sv-section-hdr');
+      if (sectionHdr) {
+        e.stopPropagation();
+        const section = sectionHdr.closest('.sv-section');
+        toggleWithScrollAnchor(sectionHdr, () => section.classList.toggle('open'));
+        return;
+      }
+      const cardHdr = e.target.closest('.sv-card-hdr');
+      if (cardHdr) {
+        const card = cardHdr.closest('.sv-card');
+        if (card) {
+          toggleWithScrollAnchor(cardHdr, () => card.classList.toggle('open'));
+        }
       }
     });
+
+    // Preserve the clicked element's viewport position across a layout change.
+    // Without this, collapsing a tall section near the bottom of the page makes
+    // the scroll jump up because the document just got shorter.
+    function toggleWithScrollAnchor(anchorEl, action) {
+      const before = anchorEl.getBoundingClientRect().top;
+      action();
+      const after = anchorEl.getBoundingClientRect().top;
+      const delta = after - before;
+      if (Math.abs(delta) > 0.5) {
+        window.scrollBy({ top: delta, behavior: 'instant' });
+      }
+    }
 
     // ── Helpers used by event handlers ──────────────────────────────────────
 
@@ -528,6 +556,141 @@
           if (compiled.words.has(t.dataset.tag)) t.classList.add('active');
         });
       }
+
+      linkifySkillReferences(listEl, knownSlugs);
+    }
+
+    // Build set of slugs once so linkify can verify references resolve.
+    const knownSlugs = new Set(allSkills.map(s => s.slug));
+
+    // Convert any <code>known-slug</code> inside the Related skills section
+    // (and also the When/Failure/Source sections, which sometimes reference
+    // sibling skills) into clickable deep-links to the target card.
+    function linkifySkillReferences(root, slugs) {
+      root.querySelectorAll('.sv-section .sv-section-content code').forEach(codeEl => {
+        const text = codeEl.textContent.trim();
+        if (!slugs.has(text)) return;
+        const a = document.createElement('a');
+        a.className = 'sv-skill-link';
+        a.href = `#skill-${text}`;
+        a.dataset.targetSlug = text;
+        a.textContent = text;
+        codeEl.replaceWith(a);
+      });
+    }
+
+    // Click on a skill-link → scroll to and open the target card.
+    listEl.addEventListener('click', e => {
+      const link = e.target.closest('a.sv-skill-link');
+      if (!link) return;
+      e.preventDefault();
+      e.stopPropagation();
+      navigateToSkill(link.dataset.targetSlug);
+    });
+
+    function navigateToSkill(slug) {
+      let target = document.getElementById(`skill-${slug}`);
+      if (!target) {
+        // Target is filtered out by current query: clear filters so it shows.
+        queryEl.value = '';
+        queryText = '';
+        searchEl.value = '';
+        searchQuery = '';
+        render();
+        target = document.getElementById(`skill-${slug}`);
+      }
+      if (!target) return;
+      target.classList.add('open');
+      // Wait one frame so the layout reflects the now-open card before we
+      // ask the browser where to scroll to. Otherwise smooth-scroll picks a
+      // stale destination and we overshoot.
+      requestAnimationFrame(() => {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      target.classList.remove('sv-card-flash');
+      void target.offsetWidth;
+      target.classList.add('sv-card-flash');
+      if (history.replaceState) {
+        history.replaceState(null, '', `#skill-${slug}`);
+      }
+    }
+
+    // Honor #skill-... in the URL on initial load.
+    if (window.location.hash.startsWith('#skill-')) {
+      const slug = window.location.hash.slice('#skill-'.length);
+      // wait one frame so the cards are in the DOM
+      requestAnimationFrame(() => navigateToSkill(slug));
+    }
+
+    // ── Page-header buttons: sidebar toggle + magnifying-glass search ────
+    // The sidebar is open by default; users can collapse it. The free-text
+    // search row inside .sv-hdr is hidden by default; the magnifying-glass
+    // icon opens it (click-outside or Escape closes it). The search-input
+    // value persists across hide/show because the DOM element is just hidden.
+    const pageHeaderInner = document.querySelector('.page-header-inner');
+    const searchRow = root.querySelector('.sv-search-row');
+    const wrap = root.querySelector('.sv-wrap');
+
+    if (pageHeaderInner && wrap && !pageHeaderInner.querySelector('.page-sidebar-toggle')) {
+      const sbBtn = document.createElement('button');
+      sbBtn.className = 'page-sidebar-toggle active';
+      sbBtn.title = 'Toggle filters sidebar';
+      sbBtn.setAttribute('aria-label', 'Toggle filters sidebar');
+      sbBtn.innerHTML = `
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3"  y1="6"  x2="21" y2="6"/>
+          <line x1="3"  y1="12" x2="21" y2="12"/>
+          <line x1="3"  y1="18" x2="21" y2="18"/>
+        </svg>`;
+      const themeToggle = pageHeaderInner.querySelector('.theme-toggle');
+      if (themeToggle) pageHeaderInner.insertBefore(sbBtn, themeToggle);
+      else pageHeaderInner.appendChild(sbBtn);
+      sbBtn.addEventListener('click', () => {
+        const collapsed = wrap.classList.toggle('sv-collapsed-sidebar');
+        sbBtn.classList.toggle('active', !collapsed);
+      });
+    }
+
+    if (pageHeaderInner && searchRow && !pageHeaderInner.querySelector('.page-search-toggle')) {
+      const btn = document.createElement('button');
+      btn.className = 'page-search-toggle';
+      btn.title = 'Search inside skills';
+      btn.setAttribute('aria-label', 'Toggle search');
+      btn.innerHTML = `
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>`;
+      const themeToggle = pageHeaderInner.querySelector('.theme-toggle');
+      if (themeToggle) pageHeaderInner.insertBefore(btn, themeToggle);
+      else pageHeaderInner.appendChild(btn);
+
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const opened = searchRow.classList.toggle('sv-search-row-open');
+        btn.classList.toggle('active', opened);
+        if (opened) searchEl.focus();
+      });
+
+      // Click anywhere outside the search row or the toggle hides the bar.
+      document.addEventListener('click', e => {
+        if (!searchRow.classList.contains('sv-search-row-open')) return;
+        if (e.target.closest('.sv-search-row') || e.target.closest('.page-search-toggle')) return;
+        searchRow.classList.remove('sv-search-row-open');
+        btn.classList.remove('active');
+      });
+
+      // Escape also closes.
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && searchRow.classList.contains('sv-search-row-open')) {
+          searchRow.classList.remove('sv-search-row-open');
+          btn.classList.remove('active');
+        }
+      });
     }
 
     render();

@@ -259,8 +259,7 @@
       "identity",
       "triggers",
       "distortion",
-      "reframe",
-      "point-of-view"
+      "reframe"
     ],
     "related": [],
     "sources": [
@@ -895,8 +894,7 @@
       "exchange",
       "listen",
       "identity",
-      "triggers",
-      "voice"
+      "triggers"
     ],
     "related": [],
     "sources": [
@@ -1275,7 +1273,6 @@
     "description": "You are trying to take in coaching or appreciation while a where-do-I-stand question is unanswered, and the coaching is not landing because the loud unresolved evaluation is drowning it out. You are about to attribute the failure to the coaching's content (or to your own inability to absorb it) when the actual issue is sequencing.",
     "tags": [
       "exchange",
-      "structure",
       "evaluation",
       "emotion"
     ],
@@ -1363,7 +1360,6 @@
     "tags": [
       "exchange",
       "diagnose",
-      "voice",
       "sort"
     ],
     "related": [],
@@ -1429,7 +1425,6 @@
     "tags": [
       "exchange",
       "diagnose",
-      "voice",
       "triggers",
       "intent-impact"
     ],

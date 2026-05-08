@@ -12,7 +12,6 @@ tags:
 - triggers
 - distortion
 - reframe
-- point-of-view
 ---
 
 ## When to reach for this

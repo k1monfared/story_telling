@@ -167,18 +167,37 @@
   cursor: pointer;
 }
 
+/* Free-text search row: floating popup anchored to the page-header
+   magnifying-glass toggle. Hidden by default. State persists across hide/
+   show because we only toggle display. */
 .sv-search-row {
-  display: flex;
+  display: none;
+  position: fixed;
+  top: 64px;
+  right: 14px;
+  z-index: 90;
   gap: 8px;
   align-items: center;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  max-width: calc(100vw - 28px);
+}
+
+.sv-search-row.sv-search-row-open {
+  display: flex;
 }
 
 .sv-search {
   flex: 1;
+  min-width: 0;
   padding: 7px 12px;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid var(--border);
-  background: var(--bg);
+  background: var(--header-bg);
   color: var(--text);
   font-size: 14px;
 }
@@ -188,22 +207,65 @@
   border-color: var(--link);
 }
 
-/* ── Query row ── */
+/* Icon buttons injected into the page header next to the theme toggle. */
+.page-search-toggle,
+.page-sidebar-toggle {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 6px;
+}
+
+.page-search-toggle:hover,
+.page-sidebar-toggle:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.page-search-toggle.active,
+.page-sidebar-toggle.active {
+  border-color: var(--link);
+  color: var(--link);
+  background: var(--header-bg);
+}
+
+/* Collapse the desktop sidebar when toggled off. Mobile sidebar uses its
+   own slide-in mechanism via .open and is unaffected. */
+.sv-wrap.sv-collapsed-sidebar > .sv-sidebar {
+  display: none;
+}
+
+/* ── Tag query (in sidebar) ── */
+.sv-sidebar-query {
+  padding: 0 10px;
+}
+
+.sv-sidebar-query .sv-sidebar-label {
+  padding: 0 0 6px;
+}
+
 .sv-query-row {
   display: flex;
-  gap: 6px;
+  gap: 4px;
   align-items: center;
   margin-bottom: 4px;
 }
 
 .sv-query {
   flex: 1;
-  padding: 7px 12px;
-  border-radius: 8px;
+  min-width: 0;
+  padding: 6px 9px;
+  border-radius: 6px;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--text);
-  font-size: 14px;
+  font-size: 12px;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
@@ -216,11 +278,12 @@
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-muted);
-  padding: 5px 9px;
-  border-radius: 6px;
+  padding: 4px 7px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1;
+  flex-shrink: 0;
 }
 
 .sv-query-clear:hover {
@@ -232,8 +295,7 @@
   font-size: 11px;
   color: var(--text-muted);
   min-height: 14px;
-  margin-bottom: 6px;
-  padding: 0 2px;
+  word-break: break-word;
 }
 
 .sv-query-status.sv-query-error {
@@ -242,14 +304,18 @@
 
 /* ── Card list ── */
 .sv-list {
-  padding: 0;
+  padding: 0 0 60vh; /* bottom breathing room so collapsing the last card never makes the document shorter than the viewport */
   margin: 0;
   list-style: none;
+  overflow-anchor: auto;
 }
 
 /* ── Individual skill card ── */
 .sv-card {
   border-bottom: 1px solid var(--border);
+  /* Leave room for the sticky page header (56px) + viewer header when a
+     deep-link scrolls a card to the top. */
+  scroll-margin-top: 110px;
 }
 
 .sv-card-hdr {
@@ -314,10 +380,12 @@
   transform: rotate(90deg);
 }
 
-/* Card body (hidden by default) */
+/* Card body (hidden by default).
+   Left padding indents the sections under the skill arrow column so the
+   nesting is visually obvious. */
 .sv-body {
   display: none;
-  padding: 0 16px 16px 16px;
+  padding: 0 16px 14px 36px;
   background: var(--header-bg);
   border-top: 1px solid var(--border);
 }
@@ -326,13 +394,39 @@
   display: block;
 }
 
-/* ── Section inside card body ── */
+/* ── Section inside card body (foldable) ── */
 .sv-section {
-  margin-top: 14px;
+  border-top: 1px solid var(--border);
 }
 
 .sv-section:first-child {
-  margin-top: 12px;
+  border-top: none;
+}
+
+.sv-section-hdr {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sv-section-hdr:hover .sv-section-label {
+  color: var(--link);
+}
+
+.sv-section-arrow {
+  color: var(--text-muted);
+  font-size: 10px;
+  width: 12px;
+  text-align: center;
+  margin-right: 6px;
+  flex-shrink: 0;
+  transition: transform 0.18s;
+}
+
+.sv-section.open .sv-section-arrow {
+  transform: rotate(90deg);
 }
 
 .sv-section-label {
@@ -341,13 +435,19 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--text-muted);
-  margin-bottom: 5px;
+  transition: color 0.12s;
 }
 
 .sv-section-content {
+  display: none;
+  padding: 0 0 10px 20px;
   font-size: 14px;
   line-height: 1.65;
   color: var(--text);
+}
+
+.sv-section.open .sv-section-content {
+  display: block;
 }
 
 .sv-section-content p {
@@ -391,6 +491,35 @@
   padding: 1px 4px;
   border-radius: 3px;
   color: var(--link);
+}
+
+/* Clickable deep-link to another skill (replaces <code>slug</code> when slug
+   resolves). Same look as <code> but underlines on hover. */
+.sv-skill-link {
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  background: var(--border);
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: var(--link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sv-skill-link:hover {
+  text-decoration: underline;
+  background: var(--link);
+  color: var(--bg);
+}
+
+/* Flash highlight for a card when it's the target of a deep-link click. */
+.sv-card-flash {
+  animation: sv-card-flash 1.4s ease-out;
+}
+
+@keyframes sv-card-flash {
+  0%   { background-color: rgba(88, 166, 255, 0.22); }
+  100% { background-color: transparent; }
 }
 
 /* ── Tags and badges ── */

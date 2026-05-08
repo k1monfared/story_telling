@@ -8,7 +8,6 @@ sources:
   lines: 907-918, 1058-1069
 tags:
 - exchange
-- structure
 - evaluation
 - emotion
 ---

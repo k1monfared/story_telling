@@ -9,7 +9,6 @@ sources:
 tags:
 - exchange
 - diagnose
-- voice
 - triggers
 - intent-impact
 ---

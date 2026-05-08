@@ -451,6 +451,53 @@
   display: block;
 }
 
+/* Foldable steps inside lists (e.g. "The move"): the first sentence is the
+   visible heading; the rest folds underneath. Default closed. */
+.sv-li-foldable {
+  list-style: none;
+  margin-left: -16px; /* offset the lost <li> bullet so the arrow column lines up */
+}
+
+.sv-li-foldable .sv-li-hdr {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  padding: 2px 0;
+}
+
+.sv-li-foldable .sv-li-hdr:hover .sv-li-head {
+  color: var(--link);
+}
+
+.sv-li-arrow {
+  color: var(--text-muted);
+  font-size: 10px;
+  width: 12px;
+  text-align: center;
+  margin-right: 6px;
+  margin-top: 5px;
+  flex-shrink: 0;
+  transition: transform 0.18s;
+}
+
+.sv-li-foldable.open .sv-li-arrow {
+  transform: rotate(90deg);
+}
+
+.sv-li-head {
+  flex: 1;
+  min-width: 0;
+}
+
+.sv-li-body {
+  display: none;
+  padding: 4px 0 6px 18px; /* indent body under the heading text */
+}
+
+.sv-li-foldable.open .sv-li-body {
+  display: block;
+}
+
 .sv-section-content p {
   margin: 0 0 8px;
 }

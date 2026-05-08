@@ -440,6 +440,13 @@
         toggleWithScrollAnchor(sectionHdr, () => section.classList.toggle('open'));
         return;
       }
+      const liHdr = e.target.closest('.sv-li-foldable .sv-li-hdr');
+      if (liHdr) {
+        e.stopPropagation();
+        const li = liHdr.closest('.sv-li-foldable');
+        toggleWithScrollAnchor(liHdr, () => li.classList.toggle('open'));
+        return;
+      }
       const cardHdr = e.target.closest('.sv-card-hdr');
       if (cardHdr) {
         const card = cardHdr.closest('.sv-card');
@@ -559,25 +566,65 @@
       }
 
       linkifySkillReferences(listEl, knownSlugs);
+      foldifyMoveSteps(listEl);
     }
 
     // Build set of slugs once so linkify can verify references resolve.
     const knownSlugs = new Set(allSkills.map(s => s.slug));
 
-    // Convert any <code>known-slug</code> inside the Related skills section
-    // (and also the When/Failure/Source sections, which sometimes reference
-    // sibling skills) into clickable deep-links to the target card.
+    // Convert any <code>known-slug</code> (or <code>book/slug</code>) inside
+    // the Related skills section (and also the When/Failure/Source sections,
+    // which sometimes reference sibling skills) into clickable deep-links to
+    // the target card.
     function linkifySkillReferences(root, slugs) {
       root.querySelectorAll('.sv-section .sv-section-content code').forEach(codeEl => {
-        const text = codeEl.textContent.trim();
-        if (!slugs.has(text)) return;
+        const raw = codeEl.textContent.trim();
+        // Strip an optional `book/` prefix (e.g. `difficult/foo`) since slugs
+        // in our data are bare. Refs to skills in *other* books just won't match.
+        const slug = raw.includes('/') ? raw.split('/').pop() : raw;
+        if (!slugs.has(slug)) return;
         const a = document.createElement('a');
         a.className = 'sv-skill-link';
-        a.href = `#skill-${text}`;
-        a.dataset.targetSlug = text;
-        a.textContent = text;
+        a.href = `#skill-${slug}`;
+        a.dataset.targetSlug = slug;
+        a.textContent = slug;
         codeEl.replaceWith(a);
       });
+    }
+
+    // Make each step in The Move foldable. Handles two source patterns:
+    // - <li>First sentence. Rest of the step.</li> — split at first .:!?
+    // - <p><strong>Bold heading.</strong> Rest of the step.</p>
+    // The first part becomes the always-visible heading; the rest folds
+    // underneath. Default closed.
+    function foldifyMoveSteps(root) {
+      const sec = '.sv-section[data-section="move"] .sv-section-content';
+      // List-item form
+      root.querySelectorAll(sec + ' li').forEach(li => {
+        if (li.classList.contains('sv-li-foldable')) return;
+        const html = li.innerHTML.trim();
+        const m = html.match(/^([\s\S]*?[.:!?])\s+([\s\S]+)$/);
+        if (!m) return;
+        applyFoldStructure(li, m[1], m[2]);
+      });
+      // Paragraph-with-bold-prefix form
+      root.querySelectorAll(sec + ' p').forEach(p => {
+        if (p.classList.contains('sv-li-foldable')) return;
+        const html = p.innerHTML.trim();
+        const m = html.match(/^(<strong>[\s\S]*?<\/strong>)\s+([\s\S]+)$/);
+        if (!m) return;
+        applyFoldStructure(p, m[1], m[2]);
+      });
+    }
+
+    function applyFoldStructure(el, head, body) {
+      el.classList.add('sv-li-foldable');
+      el.innerHTML =
+        '<div class="sv-li-hdr">' +
+        '<span class="sv-li-arrow">&#9654;</span>' +
+        '<span class="sv-li-head">' + head + '</span>' +
+        '</div>' +
+        '<div class="sv-li-body">' + body + '</div>';
     }
 
     // Click on a skill-link → scroll to and open the target card.

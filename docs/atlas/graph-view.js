@@ -280,15 +280,22 @@
     let isLongPress = false;
     let pressX = 0, pressY = 0;
 
+    const setHoverClass = (on) => {
+      if (on) g.classList.add('is-hover');
+      else g.classList.remove('is-hover');
+    };
+
     const onPointerDown = (e) => {
       if (e.pointerType === 'touch' || e.pointerType === 'pen') {
         pressX = e.clientX; pressY = e.clientY;
         isLongPress = false;
         pressTimer = setTimeout(() => {
           isLongPress = true;
+          setHoverClass(true);
           controller.setHover(feeling.id);
         }, 380);
       } else {
+        setHoverClass(true);
         controller.setHover(feeling.id);
       }
     };
@@ -303,6 +310,7 @@
     };
     const onPointerLeave = () => {
       if (pressTimer) { clearTimeout(pressTimer); pressTimer = null; }
+      setHoverClass(false);
       controller.setHover(null);
     };
     const onClick = (e) => {

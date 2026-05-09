@@ -145,8 +145,17 @@
           if (selectedSet.has(f.id)) this.controller.removeFromTray(f.id);
           else this.controller.addToTray(f.id);
         });
-        g.addEventListener('mouseenter', () => this.controller.setHover(f.id));
-        g.addEventListener('mouseleave', () => this.controller.setHover(null));
+        // Hover styling is applied locally so we don't need to re-render the
+        // whole view on every mouse move (re-render would detach this very
+        // element mid-click).
+        g.addEventListener('mouseenter', () => {
+          g.classList.add('is-hover');
+          this.controller.setHover(f.id);
+        });
+        g.addEventListener('mouseleave', () => {
+          g.classList.remove('is-hover');
+          this.controller.setHover(null);
+        });
         this.svg.appendChild(g);
       });
     },

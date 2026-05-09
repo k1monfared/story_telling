@@ -352,10 +352,13 @@
   // ─── Public actions (the controller) ────────────────────
   const controller = {
     setHover(id) {
+      // Hover updates the definition panel but does NOT trigger a view
+      // re-render. Re-rendering during mouse movement detaches the
+      // elements that an in-flight click is targeting, swallowing clicks.
+      // Views handle their own hover styling locally on existing nodes.
       if (id && !state.byId.has(id)) id = null;
       state.hover = id;
       renderDefinitionPanel();
-      notifyView();
     },
     setPrimary(id) {
       if (id && !state.byId.has(id)) return;

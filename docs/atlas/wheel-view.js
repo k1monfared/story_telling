@@ -111,26 +111,22 @@
         });
         this.svg.appendChild(band);
 
-        // Place label, curved along the band's mid-radius. Flip arc when the
-        // wedge sits in the bottom half so the label stays upright.
-        const labelArcId = 'wv-arc-' + pi;
-        const arcMidR = (rInnerPlate + rPlace) / 2 + 2;
-        const flipBand = Math.sin(aMid) > 0;  // bottom half
-        const arcA = flipBand ? a1 - wedgeAngle * 0.06 : a0 + wedgeAngle * 0.06;
-        const arcB = flipBand ? a0 + wedgeAngle * 0.06 : a1 - wedgeAngle * 0.06;
-        this.svg.appendChild(svg('path', {
-          id: labelArcId,
-          d: arcPathOnly(cx, cy, arcMidR, arcA, arcB),
-          fill: 'none', stroke: 'none',
-        }));
-        const labelText = svg('text', { class: 'wv-place-label' });
-        const tp = document.createElementNS(NS, 'textPath');
-        tp.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '#' + labelArcId);
-        tp.setAttribute('href', '#' + labelArcId);
-        tp.setAttribute('startOffset', '50%');
-        tp.setAttribute('text-anchor', 'middle');
-        tp.textContent = SHORT_PLACE_LABELS[place] || place;
-        labelText.appendChild(tp);
+        // Place label: straight text rotated along the radial midline of the
+        // wedge, centered in the band. Same flip rule as petals so letters
+        // stay upright on both halves of the wheel.
+        const bandMidR = (rInnerPlate + rPlace) / 2;
+        const blx = cx + bandMidR * Math.cos(aMid);
+        const bly = cy + bandMidR * Math.sin(aMid);
+        const flipBand = Math.cos(aMid) < 0;
+        const bandRotDeg = aMid * 180 / Math.PI + (flipBand ? 180 : 0);
+        const labelText = svg('text', {
+          class: 'wv-place-label',
+          transform: `translate(${blx.toFixed(2)},${bly.toFixed(2)}) rotate(${bandRotDeg.toFixed(1)})`,
+          'text-anchor': 'middle',
+          'dominant-baseline': 'middle',
+        });
+        labelText.textContent = SHORT_PLACE_LABELS[place] || place;
+        labelText.style.pointerEvents = 'none';
         this.svg.appendChild(labelText);
 
         // Petals

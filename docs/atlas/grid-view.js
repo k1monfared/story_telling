@@ -13,7 +13,9 @@
       this.controller = controller;
       this.svg = svg('svg', { width: '100%', height: '100%', xmlns: NS });
       this.svg.style.userSelect = 'none';
-      this.svg.style.touchAction = 'none';
+      // pan-y lets the page scroll vertically when the user drags a finger
+      // up/down across the grid. Horizontal drags become lasso selections.
+      this.svg.style.touchAction = 'pan-y';
       root.appendChild(this.svg);
       this._ro = new ResizeObserver(() => { if (this.state) this._render(); });
       this._ro.observe(this.root);

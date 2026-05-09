@@ -89,11 +89,11 @@ body {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1rem 1.25rem;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 56px);
-  height: calc(100dvh - 56px);
+  /* No fixed height — let the page scroll naturally. The canvas claims a
+     reasonable share of the viewport via min-height instead. */
 }
 
 .toolbar {
@@ -190,11 +190,13 @@ body {
 
 /* ── Canvas + side panel ── */
 .canvas-wrap {
-  flex: 1;
   display: grid;
   grid-template-columns: 1fr 280px;
   gap: 0.85rem;
   min-height: 0;
+  /* Take roughly two-thirds of the viewport, then let the page scroll
+     past the tray naturally on smaller screens. */
+  min-height: 70vh;
 }
 .canvas {
   position: relative;
@@ -202,7 +204,10 @@ body {
   border-radius: 12px;
   background: var(--header-bg);
   overflow: hidden;
-  touch-action: none;
+  /* Allow vertical page scroll on touch devices when the user pans up/down
+     across the canvas. Individual views opt back into touch-capture for drag
+     gestures (the grid view's lasso, for example). */
+  touch-action: pan-y;
 }
 .canvas svg {
   width: 100%;
@@ -510,16 +515,18 @@ body {
 
 /* ── Responsive: narrow / phone ── */
 @media (max-width: 760px) {
-  #app { padding: 0 0.6rem; height: calc(100dvh - 56px); }
+  #app { padding: 0 0.6rem 1rem; }
   .toolbar { gap: 0.4rem; }
   .view-tab { padding: 0.4rem 0.65rem; font-size: 0.8rem; }
   .canvas-wrap {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: auto auto;
     gap: 0.6rem;
+    min-height: auto;
   }
+  .canvas { min-height: 65vh; }
   .definition-panel {
-    max-height: 32vh;
+    max-height: none;
     padding: 0.85rem;
   }
   .gv-node text { font-size: 11px; }

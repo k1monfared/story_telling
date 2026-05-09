@@ -1,0 +1,2547 @@
+{
+  "places": [
+    "When Things Are Uncertain or Too Much",
+    "When We Compare",
+    "When Things Don't Go as Planned",
+    "When It's Beyond Us",
+    "When Things Aren't What They Seem",
+    "When We're Hurting",
+    "With Others",
+    "When We Fall Short",
+    "When We Search for Connection",
+    "When the Heart Is Open",
+    "When Life Is Good",
+    "When We Feel Wronged",
+    "To Self-Assess"
+  ],
+  "feelings": [
+    {
+      "id": "stress",
+      "name": "Stress",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "The feeling of being pressured by demands we believe exceed what we can manage. Tied to a specific load that has to be handled now.",
+      "examples": [
+        "A tight deadline stacked on three other deadlines",
+        "a sick kid the night before a presentation",
+        "a difficult conversation we keep dreading."
+      ],
+      "valence": -0.55,
+      "energy": 0.7,
+      "umap": [
+        -5.3,
+        4.55
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "dread",
+        "excitement"
+      ],
+      "complementaries": [
+        "overwhelm",
+        "anxiety",
+        "frustration"
+      ]
+    },
+    {
+      "id": "overwhelm",
+      "name": "Overwhelm",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "An extreme level of stress that has tipped the system into shutdown — we cannot sort, prioritize, or take a next step. The mind blanks.",
+      "examples": [
+        "Standing in the middle of a kitchen full of dishes, paralyzed",
+        "staring at a project plan you can no longer see",
+        "a grief that flattens scheduling."
+      ],
+      "valence": -0.65,
+      "energy": 0.55,
+      "umap": [
+        -6.1,
+        3.35
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "dread",
+        "excitement"
+      ],
+      "complementaries": [
+        "stress",
+        "despair"
+      ]
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "An emotion characterized by a sense of uncertainty about the future and the inability to control or predict outcomes. Felt in the body before the mind.",
+      "examples": [
+        "Pacing while waiting for a test result",
+        "a tight chest before a meeting that has not started yet",
+        "running scenarios at 3 a.m."
+      ],
+      "valence": -0.55,
+      "energy": 0.65,
+      "umap": [
+        -5.3,
+        4.15
+      ],
+      "variations": [
+        "avoidance",
+        "dread",
+        "excitement",
+        "fear"
+      ],
+      "complementaries": [
+        "worry",
+        "dread",
+        "fear",
+        "vulnerability",
+        "avoidance"
+      ]
+    },
+    {
+      "id": "worry",
+      "name": "Worry",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "A chain of repeated, often catastrophic thoughts about a possible threat. The cognitive partner of anxiety; we worry to feel like we're doing something.",
+      "examples": [
+        "Replaying a conversation looking for damage",
+        "mentally cataloguing what could go wrong on a trip",
+        "rehearsing a child's worst-case future."
+      ],
+      "valence": -0.5,
+      "energy": 0.45,
+      "umap": [
+        -4.9,
+        2.55
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "dread",
+        "excitement"
+      ],
+      "complementaries": [
+        "anxiety",
+        "fear",
+        "dread"
+      ]
+    },
+    {
+      "id": "avoidance",
+      "name": "Avoidance",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "A coping move where we deny, ignore, or pull away from a stressor. Not a feeling per se but a behavior fueled by feeling — usually to keep anxiety down.",
+      "examples": [
+        "Refusing to open the bill",
+        "canceling the doctor's appointment again",
+        "suddenly cleaning the kitchen instead of writing the email."
+      ],
+      "valence": -0.3,
+      "energy": -0.1,
+      "umap": [
+        -3.3,
+        -1.85
+      ],
+      "variations": [
+        "anxiety",
+        "dread",
+        "excitement",
+        "fear"
+      ],
+      "complementaries": [
+        "anxiety",
+        "dread",
+        "shame",
+        "relief",
+        "guilt"
+      ]
+    },
+    {
+      "id": "excitement",
+      "name": "Excitement",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "An energized anticipation of something good. Closely related to anxiety in the body; meaning is what tells them apart.",
+      "examples": [
+        "The morning of a long-awaited trip",
+        "a job interview you actually want",
+        "a first date you chose."
+      ],
+      "valence": 0.75,
+      "energy": 0.8,
+      "umap": [
+        5.1,
+        5.35
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "dread",
+        "fear"
+      ],
+      "complementaries": [
+        "anxiety",
+        "joy",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "dread",
+      "name": "Dread",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "A heavy, anticipatory fear of a negative event whose arrival feels inevitable. Time runs differently inside it.",
+      "examples": [
+        "The Sunday-night feeling about Monday morning",
+        "the week before a hard medical test",
+        "the drive to a hard goodbye."
+      ],
+      "valence": -0.65,
+      "energy": 0.3,
+      "umap": [
+        -6.1,
+        1.35
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "excitement",
+        "fear"
+      ],
+      "complementaries": [
+        "anxiety",
+        "fear",
+        "sadness",
+        "foreboding-joy",
+        "avoidance"
+      ]
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "A primal response to a present threat that mobilizes the body to fight, flee, or freeze. Often confused with anxiety, which is about the future.",
+      "examples": [
+        "Brakes failing on a hill",
+        "a footstep behind you in a parking lot",
+        "your child stepping into the street."
+      ],
+      "valence": -0.7,
+      "energy": 0.75,
+      "umap": [
+        -6.5,
+        4.95
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "dread",
+        "excitement"
+      ],
+      "complementaries": [
+        "anxiety",
+        "dread",
+        "vulnerability",
+        "anger"
+      ]
+    },
+    {
+      "id": "vulnerability",
+      "name": "Vulnerability",
+      "place": "When Things Are Uncertain or Too Much",
+      "definition": "The emotion we experience during times of uncertainty, risk, and emotional exposure. Brown's signature: the birthplace of love, belonging, joy, courage, empathy, and creativity.",
+      "examples": [
+        "Sharing a draft",
+        "saying \"I love you\" first",
+        "raising a hand to disagree."
+      ],
+      "valence": -0.05,
+      "energy": 0.3,
+      "umap": [
+        -1.3,
+        1.35
+      ],
+      "variations": [
+        "anxiety",
+        "avoidance",
+        "dread",
+        "excitement"
+      ],
+      "complementaries": [
+        "fear",
+        "anxiety",
+        "shame"
+      ]
+    },
+    {
+      "id": "comparison",
+      "name": "Comparison",
+      "place": "When We Compare",
+      "definition": "The crush of conformity from one side and competition from the other. We measure ourselves against others on the wrong axes.",
+      "examples": [
+        "Scrolling someone's promotion announcement and feeling smaller",
+        "eyeing a friend's parenting at a party",
+        "ranking yourself by salary."
+      ],
+      "valence": -0.4,
+      "energy": 0.15,
+      "umap": [
+        -3.85,
+        0.9
+      ],
+      "variations": [
+        "admiration",
+        "envy",
+        "freudenfreude",
+        "jealousy"
+      ],
+      "complementaries": [
+        "envy",
+        "jealousy",
+        "shame",
+        "insecurity",
+        "resentment"
+      ]
+    },
+    {
+      "id": "admiration",
+      "name": "Admiration",
+      "place": "When We Compare",
+      "definition": "A response to seeing something or someone that exceeds standards in a way we want to emulate. Pulls us up rather than pushing us down.",
+      "examples": [
+        "Watching a teacher work a room",
+        "reading a paragraph that lifts the whole book",
+        "seeing a friend handle hard news with grace."
+      ],
+      "valence": 0.55,
+      "energy": 0.2,
+      "umap": [
+        3.75,
+        1.3
+      ],
+      "variations": [
+        "comparison",
+        "envy",
+        "freudenfreude",
+        "jealousy"
+      ],
+      "complementaries": [
+        "reverence",
+        "awe",
+        "freudenfreude",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "reverence",
+      "name": "Reverence",
+      "place": "When We Compare",
+      "definition": "A deeper form of admiration mixed with awe and wonder; reserved for what feels sacred or beyond the ordinary.",
+      "examples": [
+        "A cathedral",
+        "a child's birth",
+        "a piece of music you cannot reduce to language."
+      ],
+      "valence": 0.65,
+      "energy": 0.1,
+      "umap": [
+        4.55,
+        0.5
+      ],
+      "variations": [
+        "admiration",
+        "comparison",
+        "envy",
+        "freudenfreude"
+      ],
+      "complementaries": [
+        "awe",
+        "wonder",
+        "gratitude",
+        "humility",
+        "love"
+      ]
+    },
+    {
+      "id": "envy",
+      "name": "Envy",
+      "place": "When We Compare",
+      "definition": "Wanting what another person has and feeling the lack as a burn. About possession or quality, not the relationship.",
+      "examples": [
+        "Wanting the ease your colleague seems to have",
+        "wishing you had your friend's marriage",
+        "coveting a house you visited."
+      ],
+      "valence": -0.4,
+      "energy": 0.3,
+      "umap": [
+        -3.85,
+        2.1
+      ],
+      "variations": [
+        "admiration",
+        "comparison",
+        "freudenfreude",
+        "jealousy"
+      ],
+      "complementaries": [
+        "comparison",
+        "resentment",
+        "shame"
+      ]
+    },
+    {
+      "id": "jealousy",
+      "name": "Jealousy",
+      "place": "When We Compare",
+      "definition": "Fear of losing a relationship or its quality to a rival. Always involves three: you, the loved one, and the threat.",
+      "examples": [
+        "A partner laughing easily with someone else",
+        "a best friend's new closeness with a coworker",
+        "a child's bond with a grandparent."
+      ],
+      "valence": -0.55,
+      "energy": 0.55,
+      "umap": [
+        -5.05,
+        4.1
+      ],
+      "variations": [
+        "admiration",
+        "comparison",
+        "envy",
+        "freudenfreude"
+      ],
+      "complementaries": [
+        "insecurity",
+        "fear",
+        "anger",
+        "betrayal",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Resentment",
+      "place": "When We Compare",
+      "definition": "A close cousin of envy: the feeling that someone is getting away with something we earned, or that what we want is being unfairly given to someone else.",
+      "examples": [
+        "A peer promoted past you",
+        "a sibling's lighter workload at home",
+        "a partner who never has to ask for time off."
+      ],
+      "valence": -0.55,
+      "energy": 0.1,
+      "umap": [
+        -5.05,
+        0.5
+      ],
+      "variations": [
+        "admiration",
+        "comparison",
+        "envy",
+        "freudenfreude"
+      ],
+      "complementaries": [
+        "envy",
+        "anger",
+        "comparison",
+        "contempt"
+      ]
+    },
+    {
+      "id": "schadenfreude",
+      "name": "Schadenfreude",
+      "place": "When We Compare",
+      "definition": "Pleasure at someone else's misfortune. Often mild and quick; sharper if it lands on someone who lorded over us.",
+      "examples": [
+        "A reckless driver who passed you getting a ticket up the road",
+        "a smug colleague's pitch falling flat",
+        "a public figure's downfall."
+      ],
+      "valence": 0.1,
+      "energy": 0.2,
+      "umap": [
+        0.15,
+        1.3
+      ],
+      "variations": [
+        "admiration",
+        "comparison",
+        "envy",
+        "freudenfreude"
+      ],
+      "complementaries": [
+        "contempt",
+        "envy",
+        "anger",
+        "embarrassment"
+      ]
+    },
+    {
+      "id": "freudenfreude",
+      "name": "Freudenfreude",
+      "place": "When We Compare",
+      "definition": "Joy at another's success — the warm twin of schadenfreude. The capacity to fully celebrate good things happening to other people.",
+      "examples": [
+        "A friend's book deal lighting you up",
+        "a teammate's win you cheered all night",
+        "a partner's promotion you feel in your own chest."
+      ],
+      "valence": 0.7,
+      "energy": 0.3,
+      "umap": [
+        4.95,
+        2.1
+      ],
+      "variations": [
+        "admiration",
+        "comparison",
+        "envy",
+        "jealousy"
+      ],
+      "complementaries": [
+        "joy",
+        "admiration",
+        "gratitude",
+        "love"
+      ]
+    },
+    {
+      "id": "boredom",
+      "name": "Boredom",
+      "place": "When Things Don't Go as Planned",
+      "definition": "An emotional state of low arousal, low engagement, and dissatisfaction — wanting to do something but unable to find anything that feels worth doing.",
+      "examples": [
+        "Sunday afternoon stretched too long",
+        "the third day of a vacation you didn't choose",
+        "minute thirty of a meeting that should have been an email."
+      ],
+      "valence": -0.3,
+      "energy": -0.5,
+      "umap": [
+        -2.8,
+        -3.55
+      ],
+      "variations": [
+        "disappointment",
+        "discouragement",
+        "expectations",
+        "frustration"
+      ],
+      "complementaries": [
+        "sadness",
+        "disconnection",
+        "avoidance"
+      ]
+    },
+    {
+      "id": "disappointment",
+      "name": "Disappointment",
+      "place": "When Things Don't Go as Planned",
+      "definition": "The sadness of unmet expectation. Bigger than frustration; quieter than grief.",
+      "examples": [
+        "A job offer that didn't come",
+        "a friend who forgot your birthday",
+        "a holiday that didn't feel like the holiday."
+      ],
+      "valence": -0.45,
+      "energy": -0.1,
+      "umap": [
+        -4.0,
+        -0.35
+      ],
+      "variations": [
+        "boredom",
+        "discouragement",
+        "expectations",
+        "frustration"
+      ],
+      "complementaries": [
+        "sadness",
+        "regret",
+        "frustration",
+        "hurt",
+        "resignation"
+      ]
+    },
+    {
+      "id": "expectations",
+      "name": "Expectations",
+      "place": "When Things Don't Go as Planned",
+      "definition": "Unspoken pictures of how something will go. Not a feeling, but the soil in which disappointment, frustration, and resentment grow.",
+      "examples": [
+        "Planning a perfect dinner in your head",
+        "assuming a partner will know what you need",
+        "building the wedding before the relationship."
+      ],
+      "valence": -0.416,
+      "energy": 0.15,
+      "umap": [
+        -3.728,
+        1.65
+      ],
+      "variations": [
+        "boredom",
+        "disappointment",
+        "discouragement",
+        "frustration"
+      ],
+      "complementaries": [
+        "disappointment",
+        "resentment",
+        "hurt",
+        "anxiety"
+      ]
+    },
+    {
+      "id": "regret",
+      "name": "Regret",
+      "place": "When Things Don't Go as Planned",
+      "definition": "A backward-looking sadness over a choice we wish we had made differently. Brown frames it as a teacher when held with self-compassion.",
+      "examples": [
+        "The job you turned down",
+        "the words you said in anger",
+        "the year you let pass without calling."
+      ],
+      "valence": -0.4,
+      "energy": -0.15,
+      "umap": [
+        -3.6,
+        -0.75
+      ],
+      "variations": [
+        "boredom",
+        "disappointment",
+        "discouragement",
+        "expectations"
+      ],
+      "complementaries": [
+        "sadness",
+        "shame",
+        "guilt",
+        "self-compassion"
+      ]
+    },
+    {
+      "id": "discouragement",
+      "name": "Discouragement",
+      "place": "When Things Don't Go as Planned",
+      "definition": "Loss of motivation after repeated obstacles. Heart-leaving-the-work.",
+      "examples": [
+        "The fourth rejection on a manuscript",
+        "a child's school slipping back again",
+        "the same conversation with a partner with no movement."
+      ],
+      "valence": -0.5,
+      "energy": -0.2,
+      "umap": [
+        -4.4,
+        -1.15
+      ],
+      "variations": [
+        "boredom",
+        "disappointment",
+        "expectations",
+        "frustration"
+      ],
+      "complementaries": [
+        "resignation",
+        "sadness",
+        "frustration",
+        "hopelessness"
+      ]
+    },
+    {
+      "id": "resignation",
+      "name": "Resignation",
+      "place": "When Things Don't Go as Planned",
+      "definition": "A flat acceptance after we've concluded our effort won't matter. The handle release.",
+      "examples": [
+        "Closing a project you stopped believing in",
+        "a marriage that's gone quiet",
+        "an institution you've stopped writing to."
+      ],
+      "valence": -0.4,
+      "energy": -0.45,
+      "umap": [
+        -3.6,
+        -3.15
+      ],
+      "variations": [
+        "boredom",
+        "disappointment",
+        "discouragement",
+        "expectations"
+      ],
+      "complementaries": [
+        "discouragement",
+        "sadness",
+        "hopelessness"
+      ]
+    },
+    {
+      "id": "frustration",
+      "name": "Frustration",
+      "place": "When Things Don't Go as Planned",
+      "definition": "The rough heat that comes when something we want is being blocked or going slower than it should.",
+      "examples": [
+        "A wifi that won't connect",
+        "a kid not putting on shoes",
+        "an answer no one seems to have."
+      ],
+      "valence": -0.55,
+      "energy": 0.45,
+      "umap": [
+        -4.8,
+        4.05
+      ],
+      "variations": [
+        "boredom",
+        "disappointment",
+        "discouragement",
+        "expectations"
+      ],
+      "complementaries": [
+        "anger",
+        "stress",
+        "disappointment"
+      ]
+    },
+    {
+      "id": "awe",
+      "name": "Awe",
+      "place": "When It's Beyond Us",
+      "definition": "The feeling of being in the presence of something vast that transcends our understanding of the world. Smaller in self, larger in being.",
+      "examples": [
+        "A clear night under the Milky Way",
+        "a great speech that quiets a room",
+        "a child's first steps."
+      ],
+      "valence": 0.65,
+      "energy": 0.3,
+      "umap": [
+        5.05,
+        1.8
+      ],
+      "variations": [
+        "confusion",
+        "curiosity",
+        "interest",
+        "surprise"
+      ],
+      "complementaries": [
+        "wonder",
+        "reverence",
+        "humility",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "wonder",
+      "name": "Wonder",
+      "place": "When It's Beyond Us",
+      "definition": "The pull to keep exploring something we don't fully understand. The cousin of awe that wants to know more rather than only stand still.",
+      "examples": [
+        "An octopus opening a jar",
+        "the first frost on grass",
+        "a child's question about death."
+      ],
+      "valence": 0.65,
+      "energy": 0.35,
+      "umap": [
+        5.05,
+        2.2
+      ],
+      "variations": [
+        "awe",
+        "confusion",
+        "curiosity",
+        "interest"
+      ],
+      "complementaries": [
+        "awe",
+        "curiosity",
+        "interest",
+        "humility",
+        "surprise"
+      ]
+    },
+    {
+      "id": "confusion",
+      "name": "Confusion",
+      "place": "When It's Beyond Us",
+      "definition": "The state of being unable to make sense of competing or insufficient information. Often a precursor to learning.",
+      "examples": [
+        "A diagnosis with too many possibilities",
+        "a partner's unexpected reaction",
+        "a math problem that won't resolve."
+      ],
+      "valence": -0.1,
+      "energy": 0.1,
+      "umap": [
+        -0.95,
+        0.2
+      ],
+      "variations": [
+        "awe",
+        "curiosity",
+        "interest",
+        "surprise"
+      ],
+      "complementaries": [
+        "curiosity",
+        "frustration",
+        "vulnerability",
+        "anxiety"
+      ]
+    },
+    {
+      "id": "curiosity",
+      "name": "Curiosity",
+      "place": "When It's Beyond Us",
+      "definition": "An interest in learning something more, with a willingness to be wrong. Brown emphasizes that curiosity requires acknowledging a gap in our knowledge.",
+      "examples": [
+        "A new field you keep reading about",
+        "a question you can't shake",
+        "a person whose worldview you want to understand."
+      ],
+      "valence": 0.55,
+      "energy": 0.3,
+      "umap": [
+        4.25,
+        1.8
+      ],
+      "variations": [
+        "awe",
+        "confusion",
+        "interest",
+        "surprise"
+      ],
+      "complementaries": [
+        "interest",
+        "wonder",
+        "humility",
+        "surprise"
+      ]
+    },
+    {
+      "id": "interest",
+      "name": "Interest",
+      "place": "When It's Beyond Us",
+      "definition": "A milder, sustained engagement with something. The everyday energy that becomes curiosity when it deepens.",
+      "examples": [
+        "A book you keep picking up",
+        "a podcast you finish",
+        "a co-worker's project you ask about each week."
+      ],
+      "valence": 0.45,
+      "energy": 0.15,
+      "umap": [
+        3.45,
+        0.6
+      ],
+      "variations": [
+        "awe",
+        "confusion",
+        "curiosity",
+        "surprise"
+      ],
+      "complementaries": [
+        "curiosity",
+        "wonder",
+        "calm"
+      ]
+    },
+    {
+      "id": "surprise",
+      "name": "Surprise",
+      "place": "When It's Beyond Us",
+      "definition": "The brief jolt that follows the unexpected. Pure surprise lasts seconds; what we feel after is a different emotion (delight, fear, etc.).",
+      "examples": [
+        "A friend showing up unannounced",
+        "a deer in the yard",
+        "a decision that landed differently than predicted."
+      ],
+      "valence": 0.2,
+      "energy": 0.55,
+      "umap": [
+        1.45,
+        3.8
+      ],
+      "variations": [
+        "awe",
+        "confusion",
+        "curiosity",
+        "interest"
+      ],
+      "complementaries": [
+        "fear",
+        "awe",
+        "joy",
+        "confusion"
+      ]
+    },
+    {
+      "id": "amusement",
+      "name": "Amusement",
+      "place": "When Things Aren't What They Seem",
+      "definition": "A pleasurable, often light response to incongruity — when something is unexpected in a benign way. Different from happiness.",
+      "examples": [
+        "A child's mispronunciation",
+        "a small absurdity in a serious meeting",
+        "a joke at the right moment."
+      ],
+      "valence": 0.65,
+      "energy": 0.3,
+      "umap": [
+        5.3,
+        2.55
+      ],
+      "variations": [
+        "bittersweetness",
+        "cognitive-dissonance",
+        "irony",
+        "nostalgia"
+      ],
+      "complementaries": [
+        "joy",
+        "happiness",
+        "surprise",
+        "connection",
+        "relief"
+      ]
+    },
+    {
+      "id": "bittersweetness",
+      "name": "Bittersweetness",
+      "place": "When Things Aren't What They Seem",
+      "definition": "A poignant mix of sadness and joy held at the same time. Brown links it to transitions and the bone-deep awareness of impermanence.",
+      "examples": [
+        "A child's last day of elementary school",
+        "a parent's wedding speech",
+        "the last visit to a house you're selling."
+      ],
+      "valence": 0.1,
+      "energy": -0.1,
+      "umap": [
+        0.9,
+        -0.65
+      ],
+      "variations": [
+        "amusement",
+        "cognitive-dissonance",
+        "irony",
+        "nostalgia"
+      ],
+      "complementaries": [
+        "nostalgia",
+        "gratitude",
+        "sadness",
+        "love"
+      ]
+    },
+    {
+      "id": "nostalgia",
+      "name": "Nostalgia",
+      "place": "When Things Aren't What They Seem",
+      "definition": "A wistful affection for the past, often more sweet than the past actually was. A sentimental longing.",
+      "examples": [
+        "A song that returns you to college",
+        "a smell from your grandmother's kitchen",
+        "a photograph from a summer you remember more fondly each year."
+      ],
+      "valence": 0.2,
+      "energy": -0.2,
+      "umap": [
+        1.7,
+        -1.45
+      ],
+      "variations": [
+        "amusement",
+        "bittersweetness",
+        "cognitive-dissonance",
+        "irony"
+      ],
+      "complementaries": [
+        "bittersweetness",
+        "sadness",
+        "gratitude",
+        "love"
+      ]
+    },
+    {
+      "id": "cognitive-dissonance",
+      "name": "Cognitive Dissonance",
+      "place": "When Things Aren't What They Seem",
+      "definition": "The discomfort of holding two beliefs that contradict, or of acting against what we say we believe. The pressure to resolve it can be as strong as a feeling.",
+      "examples": [
+        "Buying from a company whose ethics you criticize",
+        "voting for someone whose temperament you dislike",
+        "a kindness from a person you've decided is cruel."
+      ],
+      "valence": -0.25,
+      "energy": 0.3,
+      "umap": [
+        -1.9,
+        2.55
+      ],
+      "variations": [
+        "amusement",
+        "bittersweetness",
+        "irony",
+        "nostalgia"
+      ],
+      "complementaries": [
+        "confusion",
+        "shame",
+        "anxiety",
+        "anger",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "paradox",
+      "name": "Paradox",
+      "place": "When Things Aren't What They Seem",
+      "definition": "The recognition that two seemingly opposite things can be true at once. Brown notes the felt experience of paradox carries its own emotional charge.",
+      "examples": [
+        "Loving someone you can't be with",
+        "needing solitude and connection in the same hour",
+        "mourning a relief."
+      ],
+      "valence": 0.1,
+      "energy": 0.1,
+      "umap": [
+        0.9,
+        0.95
+      ],
+      "variations": [
+        "amusement",
+        "bittersweetness",
+        "cognitive-dissonance",
+        "irony"
+      ],
+      "complementaries": [
+        "bittersweetness",
+        "awe",
+        "humility",
+        "confusion"
+      ]
+    },
+    {
+      "id": "irony",
+      "name": "Irony",
+      "place": "When Things Aren't What They Seem",
+      "definition": "The mismatch between expectation and reality, said or noticed in a way that highlights the gap.",
+      "examples": [
+        "The surgeon afraid of needles",
+        "the fire station that burns down",
+        "the love letter that arrived after the breakup."
+      ],
+      "valence": 0.05,
+      "energy": 0.05,
+      "umap": [
+        0.5,
+        0.55
+      ],
+      "variations": [
+        "amusement",
+        "bittersweetness",
+        "cognitive-dissonance",
+        "nostalgia"
+      ],
+      "complementaries": [
+        "amusement",
+        "sadness",
+        "surprise",
+        "bittersweetness",
+        "contempt"
+      ]
+    },
+    {
+      "id": "sarcasm",
+      "name": "Sarcasm",
+      "place": "When Things Aren't What They Seem",
+      "definition": "A sharp form of irony aimed at a target. Often a vehicle for unexpressed anger or contempt; less often a clear bid for connection.",
+      "examples": [
+        "\"Oh, perfect timing\"",
+        "\"What a great idea\"",
+        "\"No, please, take all day.\""
+      ],
+      "valence": -0.3,
+      "energy": 0.2,
+      "umap": [
+        -2.3,
+        1.75
+      ],
+      "variations": [
+        "amusement",
+        "bittersweetness",
+        "cognitive-dissonance",
+        "irony"
+      ],
+      "complementaries": [
+        "anger",
+        "contempt",
+        "hurt",
+        "disconnection",
+        "embarrassment"
+      ]
+    },
+    {
+      "id": "anguish",
+      "name": "Anguish",
+      "place": "When We're Hurting",
+      "definition": "An almost unbearable, acute pain that overwhelms the body and the language for it. Not the steady ache of grief but the sharp intake.",
+      "examples": [
+        "The phone call that someone has died",
+        "finding out a partner's affair",
+        "a child diagnosed with something terrible."
+      ],
+      "valence": -0.9,
+      "energy": 0.1,
+      "umap": [
+        -7.6,
+        1.7
+      ],
+      "variations": [
+        "despair",
+        "grief",
+        "hopelessness",
+        "sadness"
+      ],
+      "complementaries": [
+        "grief",
+        "despair",
+        "hopelessness"
+      ]
+    },
+    {
+      "id": "hopelessness",
+      "name": "Hopelessness",
+      "place": "When We're Hurting",
+      "definition": "The belief that nothing we do will change a bad situation. Brown links it to a learned pattern, not a personality trait.",
+      "examples": [
+        "The fifth job rejection in a row",
+        "a chronic illness that won't budge",
+        "an institution that won't move."
+      ],
+      "valence": -0.8,
+      "energy": -0.35,
+      "umap": [
+        -6.8,
+        -1.9
+      ],
+      "variations": [
+        "anguish",
+        "despair",
+        "grief",
+        "sadness"
+      ],
+      "complementaries": [
+        "despair",
+        "sadness",
+        "resignation"
+      ]
+    },
+    {
+      "id": "despair",
+      "name": "Despair",
+      "place": "When We're Hurting",
+      "definition": "A profound hopelessness of long duration; a loss of light. More structural than situational.",
+      "examples": [
+        "A long depression",
+        "the dark middle of a chronic illness",
+        "the end of something you cannot rebuild."
+      ],
+      "valence": -0.85,
+      "energy": -0.55,
+      "umap": [
+        -7.2,
+        -3.5
+      ],
+      "variations": [
+        "anguish",
+        "grief",
+        "hopelessness",
+        "sadness"
+      ],
+      "complementaries": [
+        "hopelessness",
+        "sadness",
+        "anguish",
+        "loneliness"
+      ]
+    },
+    {
+      "id": "sadness",
+      "name": "Sadness",
+      "place": "When We're Hurting",
+      "definition": "A heavy, slow emotion in response to loss or disappointment. Sadness wants company; trying to skip past it is what often goes wrong.",
+      "examples": [
+        "A friend moving away",
+        "the end of a season of life",
+        "a piece of music that finds the soft place."
+      ],
+      "valence": -0.65,
+      "energy": -0.3,
+      "umap": [
+        -5.6,
+        -1.5
+      ],
+      "variations": [
+        "anguish",
+        "despair",
+        "grief",
+        "hopelessness"
+      ],
+      "complementaries": [
+        "grief",
+        "disappointment",
+        "love",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "grief",
+      "name": "Grief",
+      "place": "When We're Hurting",
+      "definition": "The experience of loss. Brown describes three foundational elements: loss, longing, and feeling lost. Not a stage but a long process.",
+      "examples": [
+        "A parent's death",
+        "the end of a marriage",
+        "the version of yourself you can't return to."
+      ],
+      "valence": -0.8,
+      "energy": -0.2,
+      "umap": [
+        -6.8,
+        -0.7
+      ],
+      "variations": [
+        "anguish",
+        "despair",
+        "hopelessness",
+        "sadness"
+      ],
+      "complementaries": [
+        "sadness",
+        "anguish",
+        "love",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "compassion",
+      "name": "Compassion",
+      "place": "With Others",
+      "definition": "The recognition of another's suffering with the wish for them to be relieved of it. Brown distinguishes it from empathy: empathy is the door, compassion is the way of standing.",
+      "examples": [
+        "Sitting with a friend in a hospital",
+        "a kind word to a stranger having a hard day",
+        "tenderness toward your own struggling self."
+      ],
+      "valence": 0.45,
+      "energy": 0.05,
+      "umap": [
+        3.45,
+        0.25
+      ],
+      "variations": [
+        "boundaries",
+        "comparative-suffering",
+        "empathy",
+        "pity"
+      ],
+      "complementaries": [
+        "empathy",
+        "love",
+        "sadness",
+        "humility"
+      ]
+    },
+    {
+      "id": "pity",
+      "name": "Pity",
+      "place": "With Others",
+      "definition": "A response to suffering from above — feeling sorry for someone, often with a felt distance. Closer to contempt than to compassion.",
+      "examples": [
+        "Looking at someone's trouble and being relieved it isn't yours",
+        "charity that congratulates the giver",
+        "a \"how sad\" that ends the conversation."
+      ],
+      "valence": -0.2,
+      "energy": -0.1,
+      "umap": [
+        -1.75,
+        -0.95
+      ],
+      "variations": [
+        "boundaries",
+        "comparative-suffering",
+        "compassion",
+        "empathy"
+      ],
+      "complementaries": [
+        "contempt",
+        "embarrassment"
+      ]
+    },
+    {
+      "id": "empathy",
+      "name": "Empathy",
+      "place": "With Others",
+      "definition": "An emotional skill set: perspective-taking, staying out of judgment, recognizing emotion, communicating it. Brown insists empathy is *not* a feeling — it is a practice.",
+      "examples": [
+        "Pausing your own story to find the feeling under your friend's words",
+        "saying \"that sounds really hard\" without trying to fix",
+        "staying."
+      ],
+      "valence": 0.3,
+      "energy": 0.1,
+      "umap": [
+        2.25,
+        0.65
+      ],
+      "variations": [
+        "boundaries",
+        "comparative-suffering",
+        "compassion",
+        "pity"
+      ],
+      "complementaries": [
+        "compassion",
+        "vulnerability",
+        "sadness",
+        "connection",
+        "love"
+      ]
+    },
+    {
+      "id": "sympathy",
+      "name": "Sympathy",
+      "place": "With Others",
+      "definition": "A response that acknowledges suffering from a distance, often by offering condolence. Less risky than empathy and less connecting.",
+      "examples": [
+        "A \"thinking of you\" card",
+        "\"I'm sorry for your loss\" said and moved past",
+        "a flower delivery to a hospital you won't visit."
+      ],
+      "valence": 0.1,
+      "energy": -0.1,
+      "umap": [
+        0.65,
+        -0.95
+      ],
+      "variations": [
+        "boundaries",
+        "comparative-suffering",
+        "compassion",
+        "empathy"
+      ],
+      "complementaries": [
+        "pity",
+        "sadness"
+      ]
+    },
+    {
+      "id": "boundaries",
+      "name": "Boundaries",
+      "place": "With Others",
+      "definition": "Knowing what's okay and not okay with us, and clearly communicating it. Not a feeling but inseparable from feelings; their absence shows up as resentment, exhaustion, and contempt.",
+      "examples": [
+        "\"I can't take this call right now\"",
+        "\"I won't talk to you when you speak to me that way\"",
+        "\"Yes to dinner",
+        "no to staying over.\""
+      ],
+      "valence": 0.2,
+      "energy": 0.1,
+      "umap": [
+        1.45,
+        0.65
+      ],
+      "variations": [
+        "comparative-suffering",
+        "compassion",
+        "empathy",
+        "pity"
+      ],
+      "complementaries": [
+        "anxiety",
+        "relief",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "comparative-suffering",
+      "name": "Comparative Suffering",
+      "place": "With Others",
+      "definition": "The trap of ranking pain — telling ourselves our suffering doesn't count because someone else has it worse. Brown warns it shrinks empathy in both directions.",
+      "examples": [
+        "\"I shouldn't complain when others have cancer\"",
+        "\"Who am I to be tired with my privilege?\"",
+        "\"It's not as bad as her divorce.\""
+      ],
+      "valence": -0.4,
+      "energy": -0.1,
+      "umap": [
+        -3.35,
+        -0.95
+      ],
+      "variations": [
+        "boundaries",
+        "compassion",
+        "empathy",
+        "pity"
+      ],
+      "complementaries": [
+        "shame",
+        "guilt",
+        "disconnection"
+      ]
+    },
+    {
+      "id": "shame",
+      "name": "Shame",
+      "place": "When We Fall Short",
+      "definition": "The intensely painful feeling that we are flawed and unworthy of love and belonging. About *who we are*, not what we did.",
+      "examples": [
+        "A failure that makes you want to disappear",
+        "a memory you cannot tell anyone",
+        "a small public mistake that loops in your head for days."
+      ],
+      "valence": -0.8,
+      "energy": -0.1,
+      "umap": [
+        -6.3,
+        -1.25
+      ],
+      "variations": [
+        "embarrassment",
+        "guilt",
+        "humiliation",
+        "perfectionism"
+      ],
+      "complementaries": [
+        "humiliation",
+        "guilt",
+        "embarrassment",
+        "perfectionism",
+        "disconnection"
+      ]
+    },
+    {
+      "id": "self-compassion",
+      "name": "Self-Compassion",
+      "place": "When We Fall Short",
+      "definition": "Treating yourself the way you'd treat a friend in pain. Brown draws on Kristin Neff: self-kindness, common humanity, mindfulness.",
+      "examples": [
+        "Speaking gently to yourself after a mistake",
+        "remembering \"this is hard for everyone, not just me\"",
+        "pausing the inner critic."
+      ],
+      "valence": 0.45,
+      "energy": -0.1,
+      "umap": [
+        3.7,
+        -1.25
+      ],
+      "variations": [
+        "embarrassment",
+        "guilt",
+        "humiliation",
+        "perfectionism"
+      ],
+      "complementaries": [
+        "vulnerability",
+        "calm",
+        "humility"
+      ]
+    },
+    {
+      "id": "perfectionism",
+      "name": "Perfectionism",
+      "place": "When We Fall Short",
+      "definition": "A defensive move dressed as a virtue: trying to earn approval and avoid shame by being flawless. A twenty-ton shield, in Brown's words.",
+      "examples": [
+        "Reworking a memo for the seventh time",
+        "not posting because it isn't good enough",
+        "refusing to start what you can't finish perfectly."
+      ],
+      "valence": -0.4,
+      "energy": 0.35,
+      "umap": [
+        -3.1,
+        2.35
+      ],
+      "variations": [
+        "embarrassment",
+        "guilt",
+        "humiliation",
+        "self-compassion"
+      ],
+      "complementaries": [
+        "shame",
+        "anxiety",
+        "avoidance"
+      ]
+    },
+    {
+      "id": "guilt",
+      "name": "Guilt",
+      "place": "When We Fall Short",
+      "definition": "A useful feeling about an action: \"I did something bad.\" Brown contrasts it with shame (\"I am bad\"). Guilt motivates repair.",
+      "examples": [
+        "Snapping at your partner and feeling the urge to apologize",
+        "missing a friend's important day",
+        "sending a clumsy email and wanting to fix it."
+      ],
+      "valence": -0.55,
+      "energy": 0.05,
+      "umap": [
+        -4.3,
+        -0.05
+      ],
+      "variations": [
+        "embarrassment",
+        "humiliation",
+        "perfectionism",
+        "self-compassion"
+      ],
+      "complementaries": [
+        "shame",
+        "regret",
+        "anxiety"
+      ]
+    },
+    {
+      "id": "humiliation",
+      "name": "Humiliation",
+      "place": "When We Fall Short",
+      "definition": "Feeling we have been unjustly degraded by another. Different from shame in that we don't agree we deserve it. Combustible.",
+      "examples": [
+        "A boss tearing into you in front of the team",
+        "a public callout that wasn't fair",
+        "a rejection delivered cruelly."
+      ],
+      "valence": -0.75,
+      "energy": 0.3,
+      "umap": [
+        -5.9,
+        1.95
+      ],
+      "variations": [
+        "embarrassment",
+        "guilt",
+        "perfectionism",
+        "self-compassion"
+      ],
+      "complementaries": [
+        "shame",
+        "anger",
+        "contempt",
+        "hurt",
+        "embarrassment"
+      ]
+    },
+    {
+      "id": "embarrassment",
+      "name": "Embarrassment",
+      "place": "When We Fall Short",
+      "definition": "The mild, fleeting feeling of having a small social misstep witnessed. Blushes more than burns. Connects rather than isolates.",
+      "examples": [
+        "Tripping on a stage step",
+        "calling someone the wrong name",
+        "spinach in your teeth at lunch."
+      ],
+      "valence": -0.2,
+      "energy": 0.2,
+      "umap": [
+        -1.5,
+        1.15
+      ],
+      "variations": [
+        "guilt",
+        "humiliation",
+        "perfectionism",
+        "self-compassion"
+      ],
+      "complementaries": [
+        "amusement",
+        "shame",
+        "vulnerability",
+        "relief"
+      ]
+    },
+    {
+      "id": "belonging",
+      "name": "Belonging",
+      "place": "When We Search for Connection",
+      "definition": "The feeling of being accepted *as you are* — not for being like everyone else. Brown's distinction: belonging never asks you to change to fit.",
+      "examples": [
+        "A long table where you don't perform",
+        "a group that makes room for your weird",
+        "a partner who knows the unedited you."
+      ],
+      "valence": 0.75,
+      "energy": 0.1,
+      "umap": [
+        6.35,
+        1.1
+      ],
+      "variations": [
+        "connection",
+        "disconnection",
+        "fitting-in",
+        "insecurity"
+      ],
+      "complementaries": [
+        "connection",
+        "love",
+        "vulnerability",
+        "gratitude",
+        "joy"
+      ]
+    },
+    {
+      "id": "fitting-in",
+      "name": "Fitting In",
+      "place": "When We Search for Connection",
+      "definition": "The shadow of belonging: assessing what others want and adjusting to be accepted. Costs us the truth of who we are.",
+      "examples": [
+        "Laughing at jokes you don't find funny",
+        "staying quiet about your beliefs in the room",
+        "performing the version that gets approved."
+      ],
+      "valence": -0.3,
+      "energy": 0.1,
+      "umap": [
+        -2.05,
+        1.1
+      ],
+      "variations": [
+        "belonging",
+        "connection",
+        "disconnection",
+        "insecurity"
+      ],
+      "complementaries": [
+        "shame",
+        "loneliness",
+        "anxiety",
+        "disconnection"
+      ]
+    },
+    {
+      "id": "connection",
+      "name": "Connection",
+      "place": "When We Search for Connection",
+      "definition": "The energy that exists between people when they feel seen, heard, and valued. The exchange that nourishes both sides.",
+      "examples": [
+        "A conversation that changes your week",
+        "a long hug at the right moment",
+        "a meeting that ends with everyone lifted."
+      ],
+      "valence": 0.7,
+      "energy": 0.2,
+      "umap": [
+        5.95,
+        1.9
+      ],
+      "variations": [
+        "belonging",
+        "disconnection",
+        "fitting-in",
+        "insecurity"
+      ],
+      "complementaries": [
+        "belonging",
+        "love",
+        "joy",
+        "vulnerability",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "disconnection",
+      "name": "Disconnection",
+      "place": "When We Search for Connection",
+      "definition": "The felt absence of connection. Often quiet — a slow draining rather than an event.",
+      "examples": [
+        "Sitting next to a partner and feeling alone",
+        "a workplace where no one knows you",
+        "a family meal without conversation."
+      ],
+      "valence": -0.55,
+      "energy": -0.3,
+      "umap": [
+        -4.05,
+        -2.1
+      ],
+      "variations": [
+        "belonging",
+        "connection",
+        "fitting-in",
+        "insecurity"
+      ],
+      "complementaries": [
+        "loneliness",
+        "sadness",
+        "invisibility",
+        "hurt"
+      ]
+    },
+    {
+      "id": "insecurity",
+      "name": "Insecurity",
+      "place": "When We Search for Connection",
+      "definition": "The chronic feeling of not being enough. Differs from situational self-doubt; insecurity follows you between contexts.",
+      "examples": [
+        "Always scanning a room for who is judging you",
+        "reading neutral messages as cold",
+        "needing repeated reassurance."
+      ],
+      "valence": -0.5,
+      "energy": 0.1,
+      "umap": [
+        -3.65,
+        1.1
+      ],
+      "variations": [
+        "belonging",
+        "connection",
+        "disconnection",
+        "fitting-in"
+      ],
+      "complementaries": [
+        "shame",
+        "comparison",
+        "anxiety",
+        "jealousy",
+        "fitting-in"
+      ]
+    },
+    {
+      "id": "invisibility",
+      "name": "Invisibility",
+      "place": "When We Search for Connection",
+      "definition": "Feeling unseen in a way that erodes our sense of mattering. Linked by Brown to dehumanization at the social scale.",
+      "examples": [
+        "A child whose teacher never calls on them",
+        "an aging parent whose questions get answered by others",
+        "a junior colleague whose ideas are repeated by someone louder."
+      ],
+      "valence": -0.55,
+      "energy": -0.2,
+      "umap": [
+        -4.05,
+        -1.3
+      ],
+      "variations": [
+        "belonging",
+        "connection",
+        "disconnection",
+        "fitting-in"
+      ],
+      "complementaries": [
+        "loneliness",
+        "sadness",
+        "disconnection",
+        "anger",
+        "shame"
+      ]
+    },
+    {
+      "id": "loneliness",
+      "name": "Loneliness",
+      "place": "When We Search for Connection",
+      "definition": "The distress of perceived social isolation. Not the same as being alone; you can be lonely in a crowd and content in solitude.",
+      "examples": [
+        "A holiday without anyone who knows you well",
+        "a marriage where you've stopped talking",
+        "a group chat where you don't quite fit."
+      ],
+      "valence": -0.7,
+      "energy": -0.3,
+      "umap": [
+        -5.25,
+        -2.1
+      ],
+      "variations": [
+        "belonging",
+        "connection",
+        "disconnection",
+        "fitting-in"
+      ],
+      "complementaries": [
+        "sadness",
+        "disconnection",
+        "despair",
+        "invisibility"
+      ]
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "place": "When the Heart Is Open",
+      "definition": "Brown's working definition: we cultivate love when we allow our most vulnerable and powerful selves to be deeply seen and known. A practice, not only a feeling.",
+      "examples": [
+        "Telling someone the hard true thing",
+        "tending a long marriage",
+        "choosing a difficult honesty."
+      ],
+      "valence": 0.8,
+      "energy": 0.3,
+      "umap": [
+        7.0,
+        1.65
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "flooding",
+        "heartbreak"
+      ],
+      "complementaries": [
+        "vulnerability",
+        "connection",
+        "joy",
+        "gratitude",
+        "fear"
+      ]
+    },
+    {
+      "id": "lovelessness",
+      "name": "Lovelessness",
+      "place": "When the Heart Is Open",
+      "definition": "A bell hooks-rooted concept Brown adopts: a culture or self that has accepted love's absence as normal. The slow ache of an unfed heart.",
+      "examples": [
+        "A relationship where care has become transactional",
+        "a family that calls control love",
+        "a self that has stopped expecting tenderness."
+      ],
+      "valence": -0.75,
+      "energy": -0.3,
+      "umap": [
+        -5.4,
+        -3.15
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "flooding",
+        "heartbreak"
+      ],
+      "complementaries": [
+        "loneliness",
+        "despair",
+        "hopelessness",
+        "sadness",
+        "disconnection"
+      ]
+    },
+    {
+      "id": "heartbreak",
+      "name": "Heartbreak",
+      "place": "When the Heart Is Open",
+      "definition": "The grief specific to lost love or betrayed love. A whole-body event. Brown distinguishes it from disappointment by its depth and duration.",
+      "examples": [
+        "A breakup",
+        "a friendship that died",
+        "a child's estrangement."
+      ],
+      "valence": -0.85,
+      "energy": -0.1,
+      "umap": [
+        -6.2,
+        -1.55
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "flooding",
+        "hurt"
+      ],
+      "complementaries": [
+        "grief",
+        "anguish",
+        "sadness",
+        "betrayal"
+      ]
+    },
+    {
+      "id": "trust",
+      "name": "Trust",
+      "place": "When the Heart Is Open",
+      "definition": "Choosing to make something important to you vulnerable to the actions of someone else. Brown teaches BRAVING (boundaries, reliability, accountability, vault, integrity, non-judgment, generosity) as its anatomy.",
+      "examples": [
+        "Telling a friend a secret",
+        "depending on a partner for childcare",
+        "counting on a colleague's report."
+      ],
+      "valence": 0.55,
+      "energy": 0.0,
+      "umap": [
+        5.0,
+        -0.75
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "flooding",
+        "heartbreak"
+      ],
+      "complementaries": [
+        "vulnerability",
+        "connection",
+        "love"
+      ]
+    },
+    {
+      "id": "self-trust",
+      "name": "Self-Trust",
+      "place": "When the Heart Is Open",
+      "definition": "The same BRAVING qualities applied inwardly: keeping promises to ourselves, owning what's ours, not abandoning ourselves to please others.",
+      "examples": [
+        "Following through on a thirty-minute walk you committed to",
+        "not over-explaining a \"no\"",
+        "trusting your read of a situation."
+      ],
+      "valence": 0.55,
+      "energy": 0.05,
+      "umap": [
+        5.0,
+        -0.35
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "flooding",
+        "heartbreak"
+      ],
+      "complementaries": [
+        "calm",
+        "self-compassion",
+        "boundaries"
+      ]
+    },
+    {
+      "id": "betrayal",
+      "name": "Betrayal",
+      "place": "When the Heart Is Open",
+      "definition": "The breach of trust that wounds the relational fabric. Brown highlights *disengagement* — slow, quiet betrayal — as more painful than dramatic acts.",
+      "examples": [
+        "A partner's affair",
+        "a friend who shared what you told them",
+        "a slow drift in which someone stopped showing up."
+      ],
+      "valence": -0.8,
+      "energy": 0.3,
+      "umap": [
+        -5.8,
+        1.65
+      ],
+      "variations": [
+        "defensiveness",
+        "flooding",
+        "heartbreak",
+        "hurt"
+      ],
+      "complementaries": [
+        "hurt",
+        "anger",
+        "grief",
+        "heartbreak"
+      ]
+    },
+    {
+      "id": "defensiveness",
+      "name": "Defensiveness",
+      "place": "When the Heart Is Open",
+      "definition": "A protective posture against perceived attack. Often kicks in before we know we're hurt. Closes the door we wanted to keep open.",
+      "examples": [
+        "Cutting off a partner mid-feedback",
+        "explaining instead of listening",
+        "turning a question into an interrogation."
+      ],
+      "valence": -0.4,
+      "energy": 0.35,
+      "umap": [
+        -2.6,
+        2.05
+      ],
+      "variations": [
+        "betrayal",
+        "flooding",
+        "heartbreak",
+        "hurt"
+      ],
+      "complementaries": [
+        "shame",
+        "anger",
+        "fear",
+        "hurt",
+        "flooding"
+      ]
+    },
+    {
+      "id": "flooding",
+      "name": "Flooding",
+      "place": "When the Heart Is Open",
+      "definition": "Gottman's term that Brown carries forward: a physiological tidal wave during conflict that takes us offline. Heart racing, ears ringing, language gone.",
+      "examples": [
+        "Mid-fight, suddenly unable to track what your partner said",
+        "tears that won't let words through",
+        "the urge to leave the room or shut down."
+      ],
+      "valence": -0.55,
+      "energy": 0.65,
+      "umap": [
+        -3.8,
+        4.45
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "heartbreak",
+        "hurt"
+      ],
+      "complementaries": [
+        "defensiveness",
+        "anger",
+        "fear",
+        "shame"
+      ]
+    },
+    {
+      "id": "hurt",
+      "name": "Hurt",
+      "place": "When the Heart Is Open",
+      "definition": "The quieter relational pain underneath anger and defensiveness. The thing we're often actually feeling when we look angry.",
+      "examples": [
+        "A partner's offhand jab that lands",
+        "being left out of a plan",
+        "a friend's silence after good news."
+      ],
+      "valence": -0.55,
+      "energy": -0.05,
+      "umap": [
+        -3.8,
+        -1.15
+      ],
+      "variations": [
+        "betrayal",
+        "defensiveness",
+        "flooding",
+        "heartbreak"
+      ],
+      "complementaries": [
+        "sadness",
+        "anger",
+        "betrayal",
+        "defensiveness",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "joy",
+      "name": "Joy",
+      "place": "When Life Is Good",
+      "definition": "An intense, often unbidden feeling of delight; lifts the body. Brown links joy to gratitude as an inseparable practice.",
+      "examples": [
+        "A baby's belly laugh",
+        "a sudden snowfall on a quiet morning",
+        "a shared look across a room of people you love."
+      ],
+      "valence": 0.85,
+      "energy": 0.65,
+      "umap": [
+        6.9,
+        5.2
+      ],
+      "variations": [
+        "calm",
+        "contentment",
+        "foreboding-joy",
+        "gratitude"
+      ],
+      "complementaries": [
+        "gratitude",
+        "happiness",
+        "foreboding-joy",
+        "love",
+        "awe"
+      ]
+    },
+    {
+      "id": "happiness",
+      "name": "Happiness",
+      "place": "When Life Is Good",
+      "definition": "A more stable, evaluative satisfaction with how life is going. Slower than joy, less dependent on the moment.",
+      "examples": [
+        "A good year reviewed at New Year's",
+        "a season of work that's flowing",
+        "the quiet of a Sunday that didn't go wrong."
+      ],
+      "valence": 0.8,
+      "energy": 0.3,
+      "umap": [
+        6.5,
+        2.4
+      ],
+      "variations": [
+        "calm",
+        "contentment",
+        "foreboding-joy",
+        "gratitude"
+      ],
+      "complementaries": [
+        "contentment",
+        "gratitude",
+        "calm",
+        "joy",
+        "love"
+      ]
+    },
+    {
+      "id": "calm",
+      "name": "Calm",
+      "place": "When Life Is Good",
+      "definition": "A grounded, low-arousal stability that creates perspective and de-escalates urgency. Brown calls calm a chosen response, not an absence of feeling.",
+      "examples": [
+        "The breath you take before a hard conversation",
+        "a long walk after a hard week",
+        "the silence of a clear desk."
+      ],
+      "valence": 0.65,
+      "energy": -0.45,
+      "umap": [
+        5.3,
+        -3.6
+      ],
+      "variations": [
+        "contentment",
+        "foreboding-joy",
+        "gratitude",
+        "happiness"
+      ],
+      "complementaries": [
+        "tranquility",
+        "contentment",
+        "relief",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "contentment",
+      "name": "Contentment",
+      "place": "When Life Is Good",
+      "definition": "The quiet satisfaction of \"this is enough.\" Not maximal joy; sufficient peace.",
+      "examples": [
+        "A simple meal eaten slowly",
+        "a Friday night in",
+        "a long-running friendship that asks nothing."
+      ],
+      "valence": 0.7,
+      "energy": -0.15,
+      "umap": [
+        5.7,
+        -1.2
+      ],
+      "variations": [
+        "calm",
+        "foreboding-joy",
+        "gratitude",
+        "happiness"
+      ],
+      "complementaries": [
+        "gratitude",
+        "calm",
+        "happiness",
+        "tranquility",
+        "love"
+      ]
+    },
+    {
+      "id": "gratitude",
+      "name": "Gratitude",
+      "place": "When Life Is Good",
+      "definition": "An active practice of noticing and naming what we're glad for. Brown couples gratitude with joy: people who experience deep joy practice gratitude.",
+      "examples": [
+        "Naming three things at dinner",
+        "a thank-you note for a small kindness",
+        "a pause to appreciate the body that carried you through the day."
+      ],
+      "valence": 0.75,
+      "energy": 0.1,
+      "umap": [
+        6.1,
+        0.8
+      ],
+      "variations": [
+        "calm",
+        "contentment",
+        "foreboding-joy",
+        "happiness"
+      ],
+      "complementaries": [
+        "joy",
+        "contentment",
+        "awe",
+        "love",
+        "humility"
+      ]
+    },
+    {
+      "id": "foreboding-joy",
+      "name": "Foreboding Joy",
+      "place": "When Life Is Good",
+      "definition": "The dress rehearsal of disaster mid-joy: the moment of happiness clipped by the fear of losing it. Brown's antidote is gratitude.",
+      "examples": [
+        "Looking at a sleeping child and bracing for tragedy",
+        "a great date hitting \"this can't last\"",
+        "checking flights for accidents during a vacation."
+      ],
+      "valence": 0.3,
+      "energy": 0.35,
+      "umap": [
+        2.5,
+        2.8
+      ],
+      "variations": [
+        "calm",
+        "contentment",
+        "gratitude",
+        "happiness"
+      ],
+      "complementaries": [
+        "joy",
+        "anxiety",
+        "vulnerability",
+        "dread",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "relief",
+      "name": "Relief",
+      "place": "When Life Is Good",
+      "definition": "The release that follows the lifting of a stressor. Often mistaken for happiness; relief usually flags what was hard before it.",
+      "examples": [
+        "Test results coming back clear",
+        "a flight landed safely",
+        "a deadline shipped."
+      ],
+      "valence": 0.55,
+      "energy": -0.05,
+      "umap": [
+        4.5,
+        -0.4
+      ],
+      "variations": [
+        "calm",
+        "contentment",
+        "foreboding-joy",
+        "gratitude"
+      ],
+      "complementaries": [
+        "gratitude",
+        "calm",
+        "vulnerability",
+        "joy"
+      ]
+    },
+    {
+      "id": "tranquility",
+      "name": "Tranquility",
+      "place": "When Life Is Good",
+      "definition": "A still, serene calm; deeper than ordinary calm; something close to what meditators call equanimity.",
+      "examples": [
+        "An early-morning lake before anyone else is up",
+        "a long bath",
+        "a moment in which nothing wants anything from you."
+      ],
+      "valence": 0.7,
+      "energy": -0.55,
+      "umap": [
+        5.7,
+        -4.4
+      ],
+      "variations": [
+        "calm",
+        "contentment",
+        "foreboding-joy",
+        "gratitude"
+      ],
+      "complementaries": [
+        "calm",
+        "contentment",
+        "awe",
+        "gratitude"
+      ]
+    },
+    {
+      "id": "anger",
+      "name": "Anger",
+      "place": "When We Feel Wronged",
+      "definition": "A response to perceived violation, injustice, or threat. Brown calls anger a \"catalyst feeling\" — useful when held with curiosity, dangerous when used to mask hurt.",
+      "examples": [
+        "Someone cutting in line at airport security",
+        "a child mistreated by a teacher",
+        "a system that failed someone you love."
+      ],
+      "valence": -0.7,
+      "energy": 0.8,
+      "umap": [
+        -5.25,
+        7.15
+      ],
+      "variations": [
+        "contempt",
+        "dehumanization",
+        "disgust",
+        "hate"
+      ],
+      "complementaries": [
+        "hurt",
+        "frustration",
+        "contempt",
+        "fear"
+      ]
+    },
+    {
+      "id": "contempt",
+      "name": "Contempt",
+      "place": "When We Feel Wronged",
+      "definition": "The view that another is beneath us. Gottman names it the strongest predictor of divorce. The sneer at the back of the throat.",
+      "examples": [
+        "An eye roll at a partner",
+        "mocking a colleague to your team",
+        "a tone that talks down."
+      ],
+      "valence": -0.6,
+      "energy": 0.2,
+      "umap": [
+        -4.45,
+        2.35
+      ],
+      "variations": [
+        "anger",
+        "dehumanization",
+        "disgust",
+        "hate"
+      ],
+      "complementaries": [
+        "anger",
+        "disgust",
+        "dehumanization",
+        "disconnection",
+        "shame"
+      ]
+    },
+    {
+      "id": "disgust",
+      "name": "Disgust",
+      "place": "When We Feel Wronged",
+      "definition": "A gut-level rejection — originally evolved for food safety, now also wired to moral and social judgments.",
+      "examples": [
+        "A smell turning your stomach",
+        "a story of cruelty",
+        "a behavior you call \"gross.\""
+      ],
+      "valence": -0.65,
+      "energy": 0.3,
+      "umap": [
+        -4.85,
+        3.15
+      ],
+      "variations": [
+        "anger",
+        "contempt",
+        "dehumanization",
+        "hate"
+      ],
+      "complementaries": [
+        "contempt",
+        "anger",
+        "hate",
+        "dehumanization",
+        "fear"
+      ]
+    },
+    {
+      "id": "dehumanization",
+      "name": "Dehumanization",
+      "place": "When We Feel Wronged",
+      "definition": "The act of denying another person their full humanity. Brown calls it the gateway to atrocity. Begins quietly, in language and category.",
+      "examples": [
+        "Calling a group \"animals\"",
+        "a slur slipped into a joke",
+        "treating an employee as a function rather than a person."
+      ],
+      "valence": -0.85,
+      "energy": 0.45,
+      "umap": [
+        -6.45,
+        4.35
+      ],
+      "variations": [
+        "anger",
+        "contempt",
+        "disgust",
+        "hate"
+      ],
+      "complementaries": [
+        "contempt",
+        "hate",
+        "disgust",
+        "fear",
+        "anger"
+      ]
+    },
+    {
+      "id": "hate",
+      "name": "Hate",
+      "place": "When We Feel Wronged",
+      "definition": "A long, organized hostility toward a person or group. Different from anger by its duration and dehumanizing quality.",
+      "examples": [
+        "A grudge that has organized your last decade",
+        "an enemy you no longer remember meeting",
+        "a politics that names a class of people enemies."
+      ],
+      "valence": -0.85,
+      "energy": 0.55,
+      "umap": [
+        -6.45,
+        5.15
+      ],
+      "variations": [
+        "anger",
+        "contempt",
+        "dehumanization",
+        "disgust"
+      ],
+      "complementaries": [
+        "contempt",
+        "anger",
+        "dehumanization",
+        "fear",
+        "grief"
+      ]
+    },
+    {
+      "id": "self-righteousness",
+      "name": "Self-Righteousness",
+      "place": "When We Feel Wronged",
+      "definition": "The certainty that we are morally superior to those we disagree with. Closes inquiry; protects against shame.",
+      "examples": [
+        "A debate you stop trying to learn from",
+        "a parenting choice that makes others wrong",
+        "a politics that requires no humility."
+      ],
+      "valence": -0.3,
+      "energy": 0.4,
+      "umap": [
+        -2.05,
+        3.95
+      ],
+      "variations": [
+        "anger",
+        "contempt",
+        "dehumanization",
+        "disgust"
+      ],
+      "complementaries": [
+        "contempt",
+        "anger",
+        "shame",
+        "defensiveness",
+        "disconnection"
+      ]
+    },
+    {
+      "id": "pride",
+      "name": "Pride",
+      "place": "To Self-Assess",
+      "definition": "A pleasurable feeling of self-respect tied to an accomplishment. Brown distinguishes it from hubris by its connection to effort and humility.",
+      "examples": [
+        "A child finishing a hard exam",
+        "a difficult conversation handled well",
+        "a long project shipped."
+      ],
+      "valence": 0.65,
+      "energy": 0.3,
+      "umap": [
+        5.8,
+        2.1
+      ],
+      "variations": [
+        "hubris",
+        "humility"
+      ],
+      "complementaries": [
+        "joy",
+        "gratitude",
+        "humility",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "hubris",
+      "name": "Hubris",
+      "place": "To Self-Assess",
+      "definition": "Excessive pride disconnected from reality. Brown's frame: an inflated self that rejects feedback. Often masks shame underneath.",
+      "examples": [
+        "A leader certain they need no one's input",
+        "a colleague invulnerable to feedback",
+        "a partner who never thinks they're wrong."
+      ],
+      "valence": 0.05,
+      "energy": 0.4,
+      "umap": [
+        1.0,
+        2.9
+      ],
+      "variations": [
+        "humility",
+        "pride"
+      ],
+      "complementaries": [
+        "contempt",
+        "shame",
+        "defensiveness",
+        "disconnection",
+        "fear"
+      ]
+    },
+    {
+      "id": "humility",
+      "name": "Humility",
+      "place": "To Self-Assess",
+      "definition": "A grounded, accurate sense of self — knowing one's worth and one's limits. Different from humiliation; humility is chosen.",
+      "examples": [
+        "Saying \"I don't know\" in a meeting",
+        "thanking someone whose help you needed",
+        "pausing before judging."
+      ],
+      "valence": 0.45,
+      "energy": -0.1,
+      "umap": [
+        4.2,
+        -1.1
+      ],
+      "variations": [
+        "hubris",
+        "pride"
+      ],
+      "complementaries": [
+        "gratitude",
+        "curiosity",
+        "calm",
+        "self-compassion"
+      ]
+    }
+  ]
+}

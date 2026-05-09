@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Atlas of Feelings — Marginalia</title>
+  <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/base.css">
+  <link rel="stylesheet" href="styles.css?v=20260508b">
+  <script src="https://k1monfared.github.io/site_kit/js/theme.js"></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header-inner">
+      <a class="back-link" href="../">&#8592; Marginalia</a>
+      <span class="page-header-title">Atlas of Feelings</span>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="moon-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="sun-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="app">
+    <div class="toolbar">
+      <div class="view-tabs" role="tablist" aria-label="View">
+        <button class="view-tab" data-view="graph" role="tab" aria-selected="true">Graph</button>
+        <button class="view-tab" data-view="wheel" role="tab" aria-selected="false">Wheel</button>
+        <button class="view-tab" data-view="grid"  role="tab" aria-selected="false">Grid</button>
+      </div>
+      <div class="search-wrap">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input id="search-input" type="search" placeholder="Find a feeling…" autocomplete="off" />
+      </div>
+      <button id="done-btn" class="primary-btn" disabled>Done <span aria-hidden="true">&rarr;</span></button>
+    </div>
+
+    <div class="canvas-wrap">
+      <div id="canvas" class="canvas" aria-live="polite"></div>
+      <aside id="definition-panel" class="definition-panel" aria-label="Feeling details">
+        <div class="def-empty">Hover or tap a feeling to read its definition.</div>
+      </aside>
+    </div>
+
+    <div class="tray-wrap">
+      <div class="tray-label">
+        <span>Constellation</span>
+        <button id="clear-btn" class="text-btn" type="button">clear</button>
+      </div>
+      <div id="tray" class="tray"></div>
+    </div>
+  </main>
+
+  <dialog id="constellation-dialog" class="constellation-dialog">
+    <div class="dialog-header">
+      <h2 id="constellation-title">Your constellation</h2>
+      <button class="icon-btn" id="dialog-close" aria-label="Close">&times;</button>
+    </div>
+    <div id="constellation-canvas" class="constellation-canvas"></div>
+    <div class="dialog-actions">
+      <button id="copy-text-btn" class="primary-btn">Copy text</button>
+      <button id="copy-link-btn" class="primary-btn">Copy link</button>
+      <button id="download-png-btn" class="primary-btn">Download PNG</button>
+    </div>
+    <div id="dialog-status" class="dialog-status" aria-live="polite"></div>
+  </dialog>
+
+  <script src="graph-view.js?v=20260508b"></script>
+  <script src="wheel-view.js?v=20260508b"></script>
+  <script src="grid-view.js?v=20260508b"></script>
+  <script src="constellation.js?v=20260508b"></script>
+  <script src="selector.js?v=20260508b"></script>
+  <script>
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      const moonIcon = btn.querySelector('.moon-icon');
+      const sunIcon = btn.querySelector('.sun-icon');
+      function updateIcons() {
+        const isDark = document.documentElement.getAttribute('data-theme') !== 'light';
+        moonIcon.style.display = isDark ? 'block' : 'none';
+        sunIcon.style.display  = isDark ? 'none'  : 'block';
+      }
+      btn.addEventListener('click', () => {
+        const cur = document.documentElement.getAttribute('data-theme');
+        if (cur === 'light') {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+        }
+        updateIcons();
+      });
+      updateIcons();
+    })();
+  </script>
+</body>
+</html>

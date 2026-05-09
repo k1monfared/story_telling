@@ -467,7 +467,7 @@ body {
 .wv-petal-text {
   fill: var(--text);
   font-family: system-ui, sans-serif;
-  font-size: 10.5px;
+  font-size: 13px;
   pointer-events: none;
 }
 .wv-place-label {

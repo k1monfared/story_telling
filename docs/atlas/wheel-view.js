@@ -97,18 +97,15 @@
         const aMid = (a0 + a1) / 2;
         const colorVar = placeColor.get(place);
 
-        // Place band
+        // Place band — decorative only. Clicking does nothing; petals are
+        // the click targets, the band is just a labelled context strip.
         const band = svg('path', {
           d: ringSectorPath(cx, cy, rInnerPlate + 4, rPlace, a0, a1),
           fill: colorVar,
           opacity: 0.85,
-          class: 'wv-wedge',
           'data-place': place,
         });
-        band.addEventListener('click', () => {
-          const items = byPlace.get(place);
-          if (items && items[0]) view.controller.addToTray(items[0].id);
-        });
+        band.style.pointerEvents = 'none';
         this.svg.appendChild(band);
 
         // Place label: straight text rotated along the radial midline of the

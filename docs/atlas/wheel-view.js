@@ -1,11 +1,36 @@
 /* Atlas of Feelings — wheel view.
  * 13 Place wedges arranged radially. Each petal is one feeling in that Place.
- * Tap petal → toggles tray membership. Tap place label → focuses first feeling there.
+ * Tap petal → toggles tray membership. Tap a place band → adds the first
+ * feeling in that place to the tray.
+ *
+ * Place labels: curved text along the inner band. Arcs are flipped in the
+ * bottom half of the wheel so labels stay upright.
+ * Petal labels: straight text rotated to run along the radial midline.
+ * Letters always right-side-up; reading direction goes toward the rim on the
+ * right half and toward the center on the left half (the standard wheel
+ * convention).
  */
 
 (function () {
   'use strict';
   const NS = 'http://www.w3.org/2000/svg';
+
+  // Short labels for the inner band. Each ≤ 8 chars to fit the wedge arc length.
+  const SHORT_PLACE_LABELS = {
+    "When Things Are Uncertain or Too Much": 'TOO MUCH',
+    "When We Compare":                        'COMPARE',
+    "When Things Don't Go as Planned":        'OFF PLAN',
+    "When It's Beyond Us":                    'BEYOND',
+    "When Things Aren't What They Seem":      'PARADOX',
+    "When We're Hurting":                     'HURTING',
+    "With Others":                             'OTHERS',
+    "When We Fall Short":                      'FALLING',
+    "When We Search for Connection":          'CONNECT',
+    "When the Heart Is Open":                  'OPEN',
+    "When Life Is Good":                       'LIFE',
+    "When We Feel Wronged":                    'WRONGED',
+    "To Self-Assess":                          'ASSESS',
+  };
 
   const view = {
     mount(root, controller) {
@@ -35,11 +60,12 @@
       const cx = W / 2;
       const cy = H / 2;
       const rOuter = Math.min(W, H) / 2 - 12;
-      const rInnerPlate = Math.max(36, rOuter * 0.18);
-      const rPlace = rOuter * 0.34;
+      const rInnerPlate = Math.max(48, rOuter * 0.14);
+      const rPlace = rOuter * 0.62;
 
-      // Group feelings by place, ordered by Brown's chapter sequence
-      const places = Array.from(placeIndex.entries()).sort((a, b) => a[1] - b[1]).map(([p]) => p);
+      const places = Array.from(placeIndex.entries())
+        .sort((a, b) => a[1] - b[1])
+        .map(([p]) => p);
       const byPlace = new Map(places.map((p) => [p, []]));
       feelings.forEach((f) => {
         if (byPlace.has(f.place)) byPlace.get(f.place).push(f);
@@ -51,9 +77,11 @@
         ? new Set(feelings.filter((f) => matchSearch(f, search)).map((f) => f.id))
         : null;
 
-      // Center plate (decorative)
-      const plate = svg('circle', { cx, cy, r: rInnerPlate, fill: 'var(--bg)', stroke: 'var(--border)' });
-      this.svg.appendChild(plate);
+      // ─── Center plate (decorative) ─────────────────────────
+      this.svg.appendChild(svg('circle', {
+        cx, cy, r: rInnerPlate,
+        fill: 'var(--bg)', stroke: 'var(--border)',
+      }));
       const plateText = svg('text', {
         x: cx, y: cy + 4, 'text-anchor': 'middle',
         fill: 'var(--text-muted)', 'font-size': 11, 'font-weight': 600,
@@ -62,13 +90,14 @@
       plateText.textContent = '87 FEELINGS';
       this.svg.appendChild(plateText);
 
-      // Place wedges (inner colored band) + outer petals (per feeling)
+      // ─── Wedges + petals ───────────────────────────────────
       places.forEach((place, pi) => {
         const a0 = -Math.PI / 2 + pi * wedgeAngle;
         const a1 = a0 + wedgeAngle;
+        const aMid = (a0 + a1) / 2;
         const colorVar = placeColor.get(place);
 
-        // Place band (inner ring, used for label background)
+        // Place band
         const band = svg('path', {
           d: ringSectorPath(cx, cy, rInnerPlate + 4, rPlace, a0, a1),
           fill: colorVar,
@@ -82,27 +111,29 @@
         });
         this.svg.appendChild(band);
 
-        // Place label arc (curved text)
+        // Place label, curved along the band's mid-radius. Flip arc when the
+        // wedge sits in the bottom half so the label stays upright.
         const labelArcId = 'wv-arc-' + pi;
-        const arcMidR = (rInnerPlate + rPlace) / 2;
-        const arcPath = svg('path', {
+        const arcMidR = (rInnerPlate + rPlace) / 2 + 2;
+        const flipBand = Math.sin(aMid) > 0;  // bottom half
+        const arcA = flipBand ? a1 - wedgeAngle * 0.06 : a0 + wedgeAngle * 0.06;
+        const arcB = flipBand ? a0 + wedgeAngle * 0.06 : a1 - wedgeAngle * 0.06;
+        this.svg.appendChild(svg('path', {
           id: labelArcId,
-          d: arcPathOnly(cx, cy, arcMidR, a0 + wedgeAngle * 0.06, a1 - wedgeAngle * 0.06),
-          fill: 'none',
-          stroke: 'none',
-        });
-        this.svg.appendChild(arcPath);
+          d: arcPathOnly(cx, cy, arcMidR, arcA, arcB),
+          fill: 'none', stroke: 'none',
+        }));
         const labelText = svg('text', { class: 'wv-place-label' });
         const tp = document.createElementNS(NS, 'textPath');
         tp.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '#' + labelArcId);
         tp.setAttribute('href', '#' + labelArcId);
         tp.setAttribute('startOffset', '50%');
         tp.setAttribute('text-anchor', 'middle');
-        tp.textContent = shortPlaceLabel(place);
+        tp.textContent = SHORT_PLACE_LABELS[place] || place;
         labelText.appendChild(tp);
         this.svg.appendChild(labelText);
 
-        // Petals (one per feeling in place), arranged in two rows if many
+        // Petals
         const items = byPlace.get(place) || [];
         if (!items.length) return;
         const petalCount = items.length;
@@ -111,6 +142,7 @@
         items.forEach((f, i) => {
           const pa0 = a0 + i * subAngle;
           const pa1 = a0 + (i + 1) * subAngle;
+          const paMid = (pa0 + pa1) / 2;
           const isSel = selectedSet.has(f.id);
           const isMatch = matchingSearch ? matchingSearch.has(f.id) : null;
           const cls = ['wv-wedge'];
@@ -137,28 +169,26 @@
           petal.addEventListener('mouseleave', () => view.controller.setHover(null));
           this.svg.appendChild(petal);
 
-          // Petal label - curved text along the outer middle of the petal
-          const labelId = `wv-petal-${pi}-${i}`;
-          const labelR = (rPlace + rOuter) / 2;
-          const aMid = (pa0 + pa1) / 2;
-          // pick a direction so the text reads outward
-          const flip = aMid > 0 && aMid < Math.PI;
-          const arc = svg('path', {
-            id: labelId,
-            d: flip
-              ? arcPathOnly(cx, cy, labelR, pa1, pa0)
-              : arcPathOnly(cx, cy, labelR, pa0, pa1),
-            fill: 'none', stroke: 'none',
+          // Petal label: anchor at the OUTER rim of the petal, text extends
+          // inward only as far as the name needs. Lets us spend the saved
+          // inner space on a bigger place band.
+          // For petals on the right half (cos > 0), text reads outward and we
+          // anchor to its END (so the last letter sits at the rim). On the left
+          // half we rotate 180° to keep letters upright; that flips reading
+          // direction, so we anchor to its START instead.
+          const labelR = rOuter - 6;
+          const lx = cx + labelR * Math.cos(paMid);
+          const ly = cy + labelR * Math.sin(paMid);
+          const flipPetal = Math.cos(paMid) < 0;
+          const rotDeg = paMid * 180 / Math.PI + (flipPetal ? 180 : 0);
+          const txt = svg('text', {
+            class: 'wv-petal-text',
+            transform: `translate(${lx.toFixed(2)},${ly.toFixed(2)}) rotate(${rotDeg.toFixed(1)})`,
+            'text-anchor': flipPetal ? 'start' : 'end',
+            'dominant-baseline': 'middle',
           });
-          this.svg.appendChild(arc);
-          const txt = svg('text', { class: 'wv-petal-text' });
-          const tp2 = document.createElementNS(NS, 'textPath');
-          tp2.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '#' + labelId);
-          tp2.setAttribute('href', '#' + labelId);
-          tp2.setAttribute('startOffset', '50%');
-          tp2.setAttribute('text-anchor', 'middle');
-          tp2.textContent = f.name;
-          txt.appendChild(tp2);
+          txt.textContent = f.name;
+          txt.style.pointerEvents = 'none';
           this.svg.appendChild(txt);
         });
       });
@@ -170,11 +200,9 @@
     if (attrs) for (const k in attrs) el.setAttribute(k, attrs[k]);
     return el;
   }
-
   function pt(cx, cy, r, a) {
     return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
   }
-
   function ringSectorPath(cx, cy, r0, r1, a0, a1) {
     const largeArc = (a1 - a0) > Math.PI ? 1 : 0;
     const [x0a, y0a] = pt(cx, cy, r1, a0);
@@ -183,7 +211,6 @@
     const [x0b, y0b] = pt(cx, cy, r0, a0);
     return `M ${x0a},${y0a} A ${r1},${r1} 0 ${largeArc} 1 ${x1a},${y1a} L ${x1b},${y1b} A ${r0},${r0} 0 ${largeArc} 0 ${x0b},${y0b} Z`;
   }
-
   function arcPathOnly(cx, cy, r, a0, a1) {
     const sweep = a1 > a0 ? 1 : 0;
     const largeArc = Math.abs(a1 - a0) > Math.PI ? 1 : 0;
@@ -191,13 +218,6 @@
     const [x1, y1] = pt(cx, cy, r, a1);
     return `M ${x0},${y0} A ${r},${r} 0 ${largeArc} ${sweep} ${x1},${y1}`;
   }
-
-  function shortPlaceLabel(place) {
-    return place
-      .replace(/^When (We're|We Feel|We Compare|We Search for Connection|We Fall Short|It's Beyond Us|Things|Life Is Good|the Heart Is Open) /i, (m, p1) => `${p1.toUpperCase()}: `)
-      .toUpperCase();
-  }
-
   function matchSearch(f, q) {
     const ql = q.toLowerCase();
     return (
